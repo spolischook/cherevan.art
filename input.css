@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link-tree-button {
+  @apply border border-slate-700 flex space-x-2 justify-center items-center rounded-md py-2 px-8 text-center hover:bg-slate-700 hover:text-white duration-300;
+}
