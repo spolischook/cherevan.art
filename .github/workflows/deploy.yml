@@ -24,6 +24,23 @@ jobs:
     - name: Build Tailwind CSS
       run: npm run build
 
+    # it dosn't work with media queries, probably it needs to be base64 encoded
+    # - name: Embed CSS into HTML
+    #   run: |
+    #     # Read the CSS file
+    #     CSS=$(cat css/style.css)
+
+    #     # Replace the line containing the <link> tag with the <style> tag
+    #     awk -v css="$CSS" '{
+    #       if ($0 ~ "<link rel=\"stylesheet\" href=\"css/style.css\">") {
+    #         print "<style>" css "</style>"
+    #       } else {
+    #         print
+    #       }
+    #     }' index.html > index_with_embedded_css.html
+
+    #     # Replace the original HTML file with the new one
+    #     mv index_with_embedded_css.html index.html
 
     - name: Deploy to S3
       uses: jakejarvis/s3-sync-action@master
