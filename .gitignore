@@ -19,3 +19,7 @@ css/style.css
 # Ignore OS-specific files
 .DS_Store
 Thumbs.db
+
+# Ignore build files
+.hugo_build.lock
+public/
