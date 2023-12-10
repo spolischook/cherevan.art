@@ -2,7 +2,7 @@
 node_modules/
 
 # Ignore built css
-css/
+css/style.css
 
 # Ignore environment-specific files
 .env
