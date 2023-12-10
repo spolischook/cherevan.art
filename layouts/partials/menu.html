@@ -1,0 +1,82 @@
+{{- $page := .page }}
+{{- $menuID := .menuID }}
+
+{{- with index site.Menus $menuID }}
+<div class="hidden">
+    <ul class="flex-row justify-evenly space-x-4 mb-0 list-none hidden sm:flex">
+        {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" . "isRoot" true) }}
+    </ul>
+    <!-- Hamburger Menu -->
+    <div class="sm:hidden">
+        <button id="menu-btn" type="button" class="z-40 block hamburger-menu md:hidden focus:outline-none" aria-label="Mobile menu">
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+        </button>
+    </div>
+</div>
+<!-- Mobile Menu -->
+<div id="mobile-nav" class="absolute hidden p-6 rounded-lg bg-darkViolet left-6 right-6 top-20 z-100 bg-white opacity-90">
+    <div class="flex flex-col items-start justify-start w-full space-y-6 font-bold rounded-sm hover:no-underline ">
+        {{- partial "inline/menu/mobile_walk.html" (dict "page" $page "menuEntries" . "pl" 0) }}
+    </div>
+</div>
+
+{{- end }}
+
+{{- define "partials/inline/menu/mobile_walk.html" }}
+    {{- $page := .page }}
+    {{- $pl := .pl }}
+    {{- range .menuEntries }}
+        <a href="{{ .URL }}" class="w-full text-left hover:no-underline pl-{{ $pl }} hover:text-">
+            {{- if ne $pl 0 }}
+                > 
+            {{- end }}
+            {{ .Name }}
+        </a>
+        {{- with .Children }}
+                {{- partial "inline/menu/mobile_walk.html" (dict "page" $page "menuEntries" . "pl" (add $pl 4)) }}
+        {{- end }}
+    {{- end }}
+{{- end }}
+
+{{- define "partials/inline/menu/walk.html" }}
+    {{- $page := .page }}
+    {{- $isRoot := .isRoot }}
+    {{- range .menuEntries }}
+        {{- $attrs := dict "href" .URL }}
+        {{- if $page.IsMenuCurrent .Menu . }}
+            {{- $attrs = merge $attrs (dict "class" "active" "aria-current" "page") }}
+        {{- else if $page.HasMenuCurrent .Menu .}}
+            {{- $attrs = merge $attrs (dict "class" "ancestor" "aria-current" "true") }}
+        {{- end }}
+        {{- $name := .Name }}
+        {{- with .Identifier }}
+            {{- with T . }}
+                {{- $name = . }}
+            {{- end }}
+        {{- end }}
+        <li class="group relative">
+            <a class="flex group flex-col px-2 pt-1"
+                {{- range $k, $v :=$attrs }} {{- with $v }} {{- printf " %s=%q" $k $v | safeHTMLAttr }} {{- end }} {{- end -}}>
+                <div class="flex items-center justify-start py-1">
+                    {{ $name }}
+                    {{- if len .Children }}
+                    <svg class="w-5 h-5 mx-1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 15.713L18.01 9.70299L16.597 8.28799L12 12.888L7.40399 8.28799L5.98999 9.70199L12 15.713Z"
+                            fill="currentColor"></path>
+                    </svg>
+                    {{- end }}
+                </div>
+                <div class="border-b-2 border-white group-hover:border-zinc-800 duration-500 border-opacity-0 mx-2"></div>
+
+            </a>
+            {{- with .Children }}
+                <ul
+                    class="absolute hidden group-hover:block right-0 top-10 z-20 w-56 py-2 px-4 overflow-hidden bg-white rounded-md shadow-xl list-none mb-0">
+                    {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" . "isRoot" false) }}
+                </ul>
+            {{- end }}
+        </li>
+    {{- end }}
+{{- end }}

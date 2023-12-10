@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tetiana Cherevan | Ukrainian painter</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="title" content="Tetiana Cherevan">
+    <meta name="description" content="Explore the captivating world of Tetiana Cherevan, a visionary painter hailing from Ukraine. Immerse yourself in her evocative artistry, where vivid colors and profound emotions converge on canvas. Discover the essence of Ukrainian culture and personal expression through Tetiana's unique perspective. Uncover the beauty that unfolds in each brushstroke, as this talented artist invites you to experience the soulful depths of her creations.
+">
+    <meta name="author" content="Tetiana Cherevan">
+    <meta name="copyright" content="Tetiana Cherevan">
+    <meta name="og:image" content="/static/images/profile-picture.jpg">
+    <meta name="og:image:width" content="150">
+    <meta name="og:image:height" content="150">
+    <meta name="og:image:type" content="image/jpg">
+    <meta name="og:image:alt" content="Tetiana Cherevan profile picture">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" as="style"
+        onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet"
+            type="text/css" />
+    </noscript>
+    <!-- Google Fonts -->
+    <script src="/js/script.js" defer></script>
+</head>
+
+<body class="bg-slate-50">
+    <div class="flex flex-col max-w-4xl px-10 mx-auto min-h-screen bg-white shadow-lg">
+        {{ $t := "Jan 02, 2006 3:04 PM Z07:00" }}
+
+        <header class="py-6">
+            <nav class="flex justify-between">
+                <a href="/" class="flex items-center justify-center">
+                    <!-- <img src="favicon.ico" alt="icon"> -->
+                    <div class="text-md uppercase">cherevan.art</div>
+                </a>
+                {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+            </nav>
+        </header>
+
+        <main class="px-4 py-5 mb-auto">
+            {{ block "main" . }}{{ end }}
+        </main>
+
+        <footer class="py-4 text-xs">Copyright © 1995 - {{ now.Year }} Tetiana Cherevan</footer>
+    </div>
+</body>
+
+</html>

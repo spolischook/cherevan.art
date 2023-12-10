@@ -1,0 +1,8 @@
+baseURL: https://www.cherevan.art
+languageCode: en-us
+title: Tetiana Cherevan | Ukrainian artist
+menu:
+  main:
+    - name: Shibari
+      pageRef: /shibari
+      weight: 20
