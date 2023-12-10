@@ -24,33 +24,24 @@ jobs:
     - name: Build Tailwind CSS
       run: npm run build
 
-    # it dosn't work with media queries, probably it needs to be base64 encoded
-    # - name: Embed CSS into HTML
-    #   run: |
-    #     # Read the CSS file
-    #     CSS=$(cat css/style.css)
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.118.2'  # Use the version of Hugo you are using
 
-    #     # Replace the line containing the <link> tag with the <style> tag
-    #     awk -v css="$CSS" '{
-    #       if ($0 ~ "<link rel=\"stylesheet\" href=\"css/style.css\">") {
-    #         print "<style>" css "</style>"
-    #       } else {
-    #         print
-    #       }
-    #     }' index.html > index_with_embedded_css.html
-
-    #     # Replace the original HTML file with the new one
-    #     mv index_with_embedded_css.html index.html
+    - name: Build Hugo
+      run: hugo --minify --baseURL="https://www.kotoblog.pp.ua"
 
     - name: Deploy to S3
       uses: jakejarvis/s3-sync-action@master
       with:
-        args: --acl public-read --follow-symlinks --delete --exclude 'node_modules/*' --exclude 'package-lock.json' --exclude 'package.json' --exclude 'tailwind.config.js' --exclude 'input.css' --exclude '.git/*' --exclude '.github/*' --exclude '.gitignore'
+        args: --acl public-read --follow-symlinks --delete
       env:
         AWS_S3_BUCKET: cherevan-art-website
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_REGION: 'eu-central-1'
+        SOURCE_DIR: 'public'
 
     - name: Invalidate CloudFront distribution
       run: |
