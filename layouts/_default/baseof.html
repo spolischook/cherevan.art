@@ -41,13 +41,13 @@
             <nav class="flex justify-between">
                 <a href="/" class="flex items-center justify-center">
                     <!-- <img src="favicon.ico" alt="icon"> -->
-                    <div class="text-md uppercase">cherevan.art</div>
+                    <div class="text-md uppercase text-gold-400">cherevan.art</div>
                 </a>
                 {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
             </nav>
         </header>
 
-        <main class="px-4 py-5 mb-auto">
+        <main class="mb-auto">
             {{ block "main" . }}{{ end }}
         </main>
 
