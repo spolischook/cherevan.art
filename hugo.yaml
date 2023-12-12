@@ -1,8 +1,13 @@
 baseURL: https://www.cherevan.art
 languageCode: en-us
 title: Tetiana Cherevan | Ukrainian artist
+theme: ["hugo-shortcode-gallery"]
 menu:
   main:
-    - name: Shibari
+    # - name: Shibari
+    - name: Dragon Party
       pageRef: /shibari
       weight: 20
+    - name: About Me
+      pageRef: /about-me
+      weight: 30
