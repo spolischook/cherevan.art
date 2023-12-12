@@ -1,0 +1,12 @@
+{{ define "main" }}
+<article class="prose lg:prose-xl">
+    {{ if eq (len .Pages) 1 }}
+        <meta http-equiv="refresh" content="0; url={{ (index .Pages 0).Permalink }}" />
+    {{ else }}
+        {{ range .Pages }}
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        {{ end }}
+    {{ end }}
+</article>
+
+{{ end }}
