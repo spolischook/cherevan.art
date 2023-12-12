@@ -2,7 +2,7 @@
 {{- $menuID := .menuID }}
 
 {{- with index site.Menus $menuID }}
-<div class="hidden">
+<div class="flex">
     <ul class="flex-row justify-evenly space-x-4 mb-0 list-none hidden sm:flex">
         {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" . "isRoot" true) }}
     </ul>
