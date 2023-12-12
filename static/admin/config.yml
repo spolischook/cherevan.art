@@ -3,3 +3,16 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "About Me"
+        name: "about-me"
+        file: "content/about-me/index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Date", name: "date", widget: "datetime"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "about_me"}
+          - {label: "Slug", name: "slug", widget: "hidden", default: "about-me"}
+          - {label: "Body", name: "body", widget: "markdown"}
