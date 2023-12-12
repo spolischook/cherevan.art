@@ -30,7 +30,7 @@ jobs:
         hugo-version: '0.118.2'  # Use the version of Hugo you are using
 
     - name: Build Hugo
-      run: hugo --minify --baseURL="https://www.kotoblog.pp.ua"
+      run: hugo --minify --baseURL="https://www.cherevan.art"
 
     - name: Deploy to S3
       uses: jakejarvis/s3-sync-action@master
