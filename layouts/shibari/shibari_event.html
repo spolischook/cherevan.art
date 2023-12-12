@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+<article class="prose lg:prose-xl">
+    <picture class="hidden sm:block">
+        {{/*
+        <source type="image/avif" srcset="/images/profile-picture.avif">
+        <source type="image/webp" srcset="/images/profile-picture.webp"> */}}
+        <img class="float-left pr-5 pb-5" alt="Tetiana Cherevan profile picture" src="{{.Params.afishaDesktop}}">
+    </picture>
+    <picture class="sm:hidden">
+        {{/*
+        <source type="image/avif" srcset="/images/profile-picture.avif">
+        <source type="image/webp" srcset="/images/profile-picture.webp"> */}}
+        <img class="float-left pr-5 pb-5" alt="Tetiana Cherevan profile picture" src="{{.Params.afishaMobile}}">
+    </picture>
+    <h1 class="not-prose text-xl sm:text-3xl font-bold pb-3">{{ .Title }}</h1>
+    <section class="not-prose grid grid-cols-2 grid-rows-2 pb-5">
+        {{ range .Params.hilights }}
+        <div class="flex flex-col items-center justify-center">
+            <span class="text-2xl font-bold text-firebrick-500">{{ index . 0 }}</span>
+            <span class="text-center capitalize font-bold">{{ index . 1 }}</span>
+        </div>
+        {{ end }}
+    </section>
+    <section class="not-prose">
+        {{ .Params.shortDescription }}
+    </section>
+    <section>
+        <h3>Here’s the Lowdown:</h3>
+        <p>📆 <span class="font-bold">Date:</span> {{ .Params.eventDate }}</p>
+        <p>🕖 <span class="font-bold">Time:</span> {{ .Params.eventTime }}</p>
+        <p>📍 <span class="font-bold">Where:</span> {{ .Params.location }}</p>
+    </section>
+    {{.Content}}
+</article>
+{{ end }}
