@@ -23,3 +23,9 @@ Thumbs.db
 # Ignore build files
 .hugo_build.lock
 public/
+
+# webp and avif images are generated from jpg and png
+# Ignore the generated images
+*.webp
+*.avif
+
