@@ -17,12 +17,6 @@ layout: "shibari_event"
 shortDescription: "Guess what? You’re invited to the Shibari Dragon Party Exhibition on December 15th! Get ready for a wild ride into the enchanting world of Shibari, curated by yours truly, Tetiana Cherevan."
 ---
 
-### Here's the Lowdown:
-
-- 📆 **Date:** Friday, December 15th  
-- 🕖 **Time:** 19:00 - 20:00  
-- 📍 **Where:** El Farró neighborhood of Barcelona, at espaikink Photostudio
-
 ### What's on the Menu:
 
 - 🎨 **Arty Extravaganza:** Over 20 jaw-dropping Shibari-inspired artworks, ranging from massive 1x1 meter canvases to cool 21x30 cm graphics. It's like a Shibari wonderland, seriously!
