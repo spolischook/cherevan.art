@@ -2,7 +2,6 @@
 This is shibari index page:  <br><br>
 
 <ul class="postlist">
-    <pre>{{ jsonify (dict "indent" "  ") . }}</pre>
     {{ range .Site.RegularPages }}
     <li>
         <a href="{{ .Permalink }}">{{ .Title }}</a>
