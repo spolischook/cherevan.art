@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "hugo -v --config=./hugo.yaml"
+  command = "bash ./build.sh"
 
   [build.environment]
     HUGO_VERSION = "0.118.2"
