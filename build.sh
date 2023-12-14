@@ -2,6 +2,9 @@
 
 set -euo pipefail
 
+# Install the npm dependencies
+npm install
+
 # Run the build command
 npm run build
 
