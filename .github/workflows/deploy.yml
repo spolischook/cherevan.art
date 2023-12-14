@@ -30,7 +30,7 @@ jobs:
         hugo-version: '0.118.2'  # Use the version of Hugo you are using
 
     - name: Process images
-      run: node image_process.js
+      run: node ./images_process.js
 
     - name: Build Hugo
       run: hugo --minify --baseURL="https://www.cherevan.art"
