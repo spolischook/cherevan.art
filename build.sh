@@ -12,4 +12,4 @@ ls -l
 node images_process.js
 
 # Run Hugo with the specified config file
-hugo --config=./hugo.yaml
+hugo -v --config=./hugo.yaml
