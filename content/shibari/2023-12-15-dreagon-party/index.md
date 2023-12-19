@@ -34,3 +34,5 @@ At 8 PM, get ready to be wowed by a trio performance by Vik, Gala, and Cath. I h
 Wanna snag a ticket? Slide into the [@espaikink](https://www.instagram.com/espaikink/) Instagram account DMs and hit them up with your deets. They'll sort you out with all the details for this Shibari shindig.
 
 Can't wait to see you on December 15th! Let’s make it a night of Shibari, art, and good vibes. 🚀✨ #ShibariDragonParty #TetianaCherevanArt
+
+{{< gallery match="opening/*" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
