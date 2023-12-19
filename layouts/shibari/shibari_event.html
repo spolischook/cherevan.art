@@ -3,13 +3,13 @@
 <article class="prose lg:prose-xl">
     <picture class="hidden sm:block">
         <source type="image/avif" srcset="{{ .Params.afishaDesktop | replaceRE "(?i)(jpg|jpeg|png|gif|bmp|tiff)" "avif" }}">
-    <source type="image/webp" srcset="{{ .Params.afishaDesktop | replaceRE "(?i)(jpg|jpeg|png|gif|bmp|tiff)" "webp" }}">
-        <img class="float-left pr-5 pb-5" alt="Tetiana Cherevan profile picture" src="{{.Params.afishaDesktop}}">
+        <source type="image/webp" srcset="{{ .Params.afishaDesktop | replaceRE "(?i)(jpg|jpeg|png|gif|bmp|tiff)" "webp" }}">
+        <img class="float-left pr-5 pb-5" alt="Tetiana Cherevan profile picture" src="{{.Params.afishaDesktop}}" loading="lazy">
     </picture>
     <picture class="sm:hidden">
         <source type="image/avif" srcset="{{ .Params.afishaMobile | replaceRE "(?i)(jpg|jpeg|png|gif|bmp|tiff)" "avif" }}">
-    <source type="image/webp" srcset="{{ .Params.afishaMobile | replaceRE "(?i)(jpg|jpeg|png|gif|bmp|tiff)" "webp" }}">
-        <img class="float-left pr-5 pb-5" alt="Tetiana Cherevan profile picture" src="{{.Params.afishaMobile}}">
+        <source type="image/webp" srcset="{{ .Params.afishaMobile | replaceRE "(?i)(jpg|jpeg|png|gif|bmp|tiff)" "webp" }}">
+        <img class="float-left pr-5 pb-5" alt="Tetiana Cherevan profile picture" src="{{.Params.afishaMobile}}" loading="lazy">
     </picture>
     <h1 class="not-prose text-xl sm:text-3xl font-bold pb-3">{{ .Title }}</h1>
     <section class="not-prose grid grid-cols-2 grid-rows-2 pb-5">
