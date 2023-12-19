@@ -35,4 +35,4 @@ Wanna snag a ticket? Slide into the [@espaikink](https://www.instagram.com/espai
 
 Can't wait to see you on December 15th! Let’s make it a night of Shibari, art, and good vibes. 🚀✨ #ShibariDragonParty #TetianaCherevanArt
 
-{{< gallery match="opening/*" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
+{{< gallery match="opening/*" sortOrder="asc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
