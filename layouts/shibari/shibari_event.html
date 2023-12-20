@@ -1,12 +1,14 @@
 {{ define "main" }}
 
 <article class="prose lg:prose-xl">
-    <picture class="hidden sm:block">
+    {{ $image := .Resources.GetMatch .Params.afishaDesktop }}
+    <picture class="hidden sm:block w-full" style="aspect-ratio: {{$image.Width}}/{{$image.Height}};">
         <source type="image/avif" srcset="{{ .Params.afishaDesktop | replaceRE "(?i)(jpg|jpeg|png|gif|bmp|tiff)" "avif" }}">
         <source type="image/webp" srcset="{{ .Params.afishaDesktop | replaceRE "(?i)(jpg|jpeg|png|gif|bmp|tiff)" "webp" }}">
         <img class="float-left pr-5 pb-5" alt="Tetiana Cherevan profile picture" src="{{.Params.afishaDesktop}}">
     </picture>
-    <picture class="sm:hidden">
+    {{ $image := .Resources.GetMatch .Params.afishaMobile }}
+    <picture class="sm:hidden w-full" style="aspect-ratio: {{$image.Width}}/{{$image.Height}};">
         <source type="image/avif" srcset="{{ .Params.afishaMobile | replaceRE "(?i)(jpg|jpeg|png|gif|bmp|tiff)" "avif" }}">
         <source type="image/webp" srcset="{{ .Params.afishaMobile | replaceRE "(?i)(jpg|jpeg|png|gif|bmp|tiff)" "webp" }}">
         <img class="float-left pr-5 pb-5" alt="Tetiana Cherevan profile picture" src="{{.Params.afishaMobile}}">
