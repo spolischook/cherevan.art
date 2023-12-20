@@ -10,7 +10,7 @@ hilights:
   - ["1", "Shibari performance"]
   - ["20", "Tickets"]
   - ["4h", "Fiesta and fun"]
-afishaDesktop: "afisha.jpg"
+afishaDesktop: "afisha_desktop.jpg"
 afishaMobile: "afisha_mobile.jpg"
 rating: 5
 layout: "shibari_event"
