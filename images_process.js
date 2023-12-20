@@ -24,6 +24,8 @@ function processDirectory(directory) {
                     image
                     .toFormat('avif')
                     .toFile(path.join(directory, path.basename(file, path.extname(file)) + '.avif'));
+
+                    console.log('Processed: ' + absolutePath);
                 }
             }
         });
