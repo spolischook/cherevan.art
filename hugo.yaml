@@ -4,10 +4,25 @@ title: Tetiana Cherevan | Ukrainian artist
 theme: ["hugo-shortcode-gallery"]
 menu:
   main:
-    # - name: Shibari
-    - name: Dragon Party
-      pageRef: /shibari
-      weight: 20
+    - name: Exhibitions
+      pageRef: /exhibitions
+      weight: 25
+    - name: Press
+      pageRef: /press
+      weight: 27
+    - name: Side Projects
+      pageRef: /tags/side-project
+      weight: 28
     - name: About Me
       pageRef: /about-me
       weight: 30
+    # - name: Archive
+    #   pageRef: /archive
+    #   weight: 40
+params:
+  supportedImageThumbnails:
+    - jpeg
+    - png
+    - tiff
+    - bmp
+    - gif
