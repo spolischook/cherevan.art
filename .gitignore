@@ -29,4 +29,8 @@ public/
 *.webp
 *.avif
 
+/cherry-t-art.com/
+/content/archive/
+/facebook/
+/graphics/
 _gen
