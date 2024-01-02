@@ -5,13 +5,13 @@
     <picture class="hidden sm:block w-full" style="aspect-ratio: {{$image.Width}}/{{$image.Height}};">
         <source type="image/avif" srcset="{{ .Params.afishaDesktop | replaceRE "(?i)(jpg|jpeg|png|gif|bmp|tiff)" "avif" }}">
         <source type="image/webp" srcset="{{ .Params.afishaDesktop | replaceRE "(?i)(jpg|jpeg|png|gif|bmp|tiff)" "webp" }}">
-        <img class="float-left pr-5 pb-5" alt="Tetiana Cherevan profile picture" src="{{.Params.afishaDesktop}}">
+        <img class="float-left pr-5 pb-5" alt="Dragon party" src="{{.Params.afishaDesktop}}">
     </picture>
     {{ $image := .Resources.GetMatch .Params.afishaMobile }}
     <picture class="sm:hidden w-full" style="aspect-ratio: {{$image.Width}}/{{$image.Height}};">
         <source type="image/avif" srcset="{{ .Params.afishaMobile | replaceRE "(?i)(jpg|jpeg|png|gif|bmp|tiff)" "avif" }}">
         <source type="image/webp" srcset="{{ .Params.afishaMobile | replaceRE "(?i)(jpg|jpeg|png|gif|bmp|tiff)" "webp" }}">
-        <img class="float-left pr-5 pb-5" alt="Tetiana Cherevan profile picture" src="{{.Params.afishaMobile}}">
+        <img class="float-left pr-5 pb-5" alt="Dragon party" src="{{.Params.afishaMobile}}">
     </picture>
     <h1 class="not-prose text-xl sm:text-3xl font-bold pb-3">{{ .Title }}</h1>
     <section class="not-prose grid grid-cols-2 grid-rows-2 pb-5">
