@@ -24,11 +24,6 @@ Thumbs.db
 .hugo_build.lock
 public/
 
-# webp and avif images are generated from jpg and png
-# Ignore the generated images
-*.webp
-*.avif
-
 /cherry-t-art.com/
 /content/archive/
 /facebook/
