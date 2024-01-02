@@ -35,7 +35,7 @@ function processDirectory(directory) {
                             console.log('Processed: ' + avifPath);
                         }
                     } catch (err) {
-                        console.error(`Error processing file ${absolutePath}: ${err}`);
+                        console.error(`Error processing file ${absolutePath}: ${err.message}`);
                     }
                 }
             }
