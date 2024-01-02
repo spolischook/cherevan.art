@@ -2,6 +2,7 @@ baseURL: https://www.cherevan.art
 languageCode: en-us
 title: Tetiana Cherevan | Ukrainian artist
 theme: ["hugo-shortcode-gallery"]
+timeout: 200000  # This sets the timeout to 200 seconds
 menu:
   main:
     - name: Exhibitions
