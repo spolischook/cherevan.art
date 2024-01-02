@@ -16,22 +16,26 @@ function processDirectory(directory) {
             } else {
                 const ext = path.extname(file).toLowerCase();
                 if (ext === ".jpg" || ext === ".png" || ext === ".jpeg") {
-                    const image = sharp(absolutePath);
-                    const webpPath = path.join(directory, path.basename(file, path.extname(file)) + '.webp');
-                    const avifPath = path.join(directory, path.basename(file, path.extname(file)) + '.avif');
+                    try {
+                        const image = sharp(absolutePath);
+                        const webpPath = path.join(directory, path.basename(file, path.extname(file)) + '.webp');
+                        const avifPath = path.join(directory, path.basename(file, path.extname(file)) + '.avif');
 
-                    if (!fs.existsSync(webpPath)) {
-                        image
-                            .toFormat('webp')
-                            .toFile(webpPath);
-                        console.log('Processed: ' + webpPath);
-                    }
+                        if (!fs.existsSync(webpPath)) {
+                            image
+                                .toFormat('webp')
+                                .toFile(webpPath);
+                            console.log('Processed: ' + webpPath);
+                        }
 
-                    if (!fs.existsSync(avifPath)) {
-                        image
-                            .toFormat('avif')
-                            .toFile(avifPath);
-                        console.log('Processed: ' + avifPath);
+                        if (!fs.existsSync(avifPath)) {
+                            image
+                                .toFormat('avif')
+                                .toFile(avifPath);
+                            console.log('Processed: ' + avifPath);
+                        }
+                    } catch (err) {
+                        console.error(`Error processing file ${absolutePath}: ${err}`);
                     }
                 }
             }
