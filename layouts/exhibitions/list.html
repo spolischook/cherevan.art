@@ -19,7 +19,7 @@
                         <picture class="">
                             <source type="image/avif" srcset="{{ $image.RelPermalink | replaceRE "(?i)(jpg|jpeg|png|gif|bmp|tiff)" "avif" }}">
                             <source type="image/webp" srcset="{{ $image.RelPermalink | replaceRE "(?i)(jpg|jpeg|png|gif|bmp|tiff)" "webp" }}">
-                            <img class="object-cover w-full h-full" alt="Afisha {{ .Title }}" src="{{$image.RelPermalink}}">
+                            <img class="object-cover w-full h-full" alt="Afisha {{ .Title }}" src="{{$image.RelPermalink}}" loading="lazy">
                         </picture>
                     </div>
                 {{ else }}
