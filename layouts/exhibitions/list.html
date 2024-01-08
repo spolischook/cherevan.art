@@ -1,20 +1,26 @@
 {{ define "main" }}
 
 {{ $pages := slice }}
-    {{ range .Site.RegularPages }}
-        {{ if (in .Params.tags "exhibition") }}
-            {{ $pages = $pages | append . }}
-        {{ end }}
+{{ range .Site.RegularPages }}
+    {{ if (in .Params.tags "exhibition") }}
+        {{ $pages = $pages | append . }}
     {{ end }}
+{{ end }}
 
 <section class="">
+    <div id="filterButtons" class="flex space-x-2 mb-2">
+        <button class="filterButton" data-tag="solo exhibition">Solo Exhibition</button>
+        <button class="filterButton" data-tag="group exhibition">Group Exhibition</button>
+        <button class="filterButton" data-tag="essential">Essential</button>
+        <!-- Add more buttons as needed -->
+    </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
         {{ range $index, $page := $pages }}
-            <div class="flex flex-col bg-blue-100 m-0 p-0">
+            <div class="flex flex-col bg-blue-100 m-0 p-0" data-tags='{{ $page.Params.tags | jsonify }}'>
                 {{ if $page.Params.afisha }}
                     {{ $imagePath := print "/" $page.File.Dir $page.Params.afisha }}
                     {{ $image := $page.Resources.GetMatch $page.Params.afisha }}
-                    {{/*  Image Block  */}}
+                    {{/* Image Block */}}
                     <div class="aspect-[5/8] w-full flex items-center justify-center bg-red-100 overflow-hidden">
                         <picture class="">
                             <source type="image/avif" srcset="{{ $image.RelPermalink | replaceRE "(?i)(jpg|jpeg|png|gif|bmp|tiff)" "avif" }}">
@@ -27,33 +33,112 @@
                         <div>404 - no image</div>
                     </div>
                 {{ end }}
-                    
-                    {{/*  Description Block  */}}
-                    <div class="flex flex-col py-3 px-2">
-                        <h2 class="text-xl mb-2 flex items-start space-x-3">
-                            <a href="{{ $page.Permalink }}">{{ $page.Title }}</a>
-                            {{ if $page.Draft }}
-                                <span class="rounded-full text-xs font-bold px-3 py-1 bg-tiger-600 text-white">Draft</span>
-                            {{ end }}
-                            </h2>
 
-                        {{/*  Date  */}}
-                        <h3 class="text-sm flex space-x-2">
-                            <svg fill="#000000" width="64px" height="64px" viewBox="-3 0 19 19" xmlns="http://www.w3.org/2000/svg" class="cf-icon-svg h-5 w-5"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M11.882 3.187a.476.476 0 0 1 .475.475v11.063a.476.476 0 0 1-.475.475H1.118a.476.476 0 0 1-.475-.475V3.662a.476.476 0 0 1 .475-.475h1.328v.721a1.425 1.425 0 0 0 2.85 0v-.72H7.71v.72a1.425 1.425 0 0 0 2.85 0v-.72zm-.634 3.37H1.752v7.535h9.496zm-7.384.821H2.621V8.67h1.243zm0 2.292H2.621v1.292h1.243zm0 2.292H2.621v1.291h1.243zm.561-8.054V2.475a.554.554 0 1 0-1.108 0v1.433a.554.554 0 1 0 1.108 0zm1.613 3.47H4.794V8.67h1.244zm0 2.292H4.794v1.292h1.244zm0 2.292H4.794v1.291h1.244zm2.174-4.584H6.968V8.67h1.244zm0 2.292H6.968v1.292h1.244zm0 2.292H6.968v1.291h1.244zm1.477-8.054V2.475a.554.554 0 0 0-1.108 0v1.433a.554.554 0 0 0 1.108 0zm.696 3.47H9.142V8.67h1.243zm0 2.292H9.142v1.292h1.243zm0 2.292H9.142v1.291h1.243z"></path></g></svg>
-                            <span>{{ (time $page.Params.eventDate).Format "2006 January" }}</span>
-                        </h3>
-                        {{/*  Date  */}}
+                {{/* Description Block */}}
+                <div class="flex flex-col py-3 px-2">
+                    <h2 class="text-xl mb-2 flex items-start space-x-3">
+                        <a href="{{ $page.Permalink }}">{{ $page.Title }}</a>
+                        {{ if $page.Draft }}
+                        <span class="rounded-full text-xs font-bold px-3 py-1 bg-tiger-600 text-white">Draft</span>
+                        {{ end }}
+                    </h2>
 
-                        {{/*  Location  */}}
-                        <h3 class="text-sm flex space-x-2 mt-1">
-                            <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5 9.5C5 6.09371 8.00993 3 12 3C15.9901 3 19 6.09371 19 9.5C19 11.6449 17.6877 14.0406 15.9606 16.2611C14.5957 18.016 13.0773 19.5329 12 20.5944C10.9227 19.5329 9.40427 18.016 8.03935 16.2611C6.31229 14.0406 5 11.6449 5 9.5ZM12 1C6.99007 1 3 4.90629 3 9.5C3 12.3551 4.68771 15.2094 6.46065 17.4889C7.99487 19.4615 9.7194 21.1574 10.7973 22.2173C10.9831 22.4001 11.1498 22.564 11.2929 22.7071C11.4804 22.8946 11.7348 23 12 23C12.2652 23 12.5196 22.8946 12.7071 22.7071C12.8502 22.564 13.0169 22.4001 13.2027 22.2174L13.2028 22.2173C14.2806 21.1573 16.0051 19.4615 17.5394 17.4889C19.3123 15.2094 21 12.3551 21 9.5C21 4.90629 17.0099 1 12 1ZM12 12.5C13.3807 12.5 14.5 11.3807 14.5 10C14.5 8.61929 13.3807 7.5 12 7.5C10.6193 7.5 9.5 8.61929 9.5 10C9.5 11.3807 10.6193 12.5 12 12.5Z" fill="#000000"></path> </g></svg>
-                            <span>{{ $page.Params.location }}</span>
-                        </h3>
-                        {{/*  Location  */}}
-                    </div>
+                    {{/* Date */}}
+                    <h3 class="text-sm flex space-x-2">
+                        <svg fill="#000000" width="64px" height="64px" viewBox="-3 0 19 19"
+                            xmlns="http://www.w3.org/2000/svg" class="cf-icon-svg h-5 w-5">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M11.882 3.187a.476.476 0 0 1 .475.475v11.063a.476.476 0 0 1-.475.475H1.118a.476.476 0 0 1-.475-.475V3.662a.476.476 0 0 1 .475-.475h1.328v.721a1.425 1.425 0 0 0 2.85 0v-.72H7.71v.72a1.425 1.425 0 0 0 2.85 0v-.72zm-.634 3.37H1.752v7.535h9.496zm-7.384.821H2.621V8.67h1.243zm0 2.292H2.621v1.292h1.243zm0 2.292H2.621v1.291h1.243zm.561-8.054V2.475a.554.554 0 1 0-1.108 0v1.433a.554.554 0 1 0 1.108 0zm1.613 3.47H4.794V8.67h1.244zm0 2.292H4.794v1.292h1.244zm0 2.292H4.794v1.291h1.244zm2.174-4.584H6.968V8.67h1.244zm0 2.292H6.968v1.292h1.244zm0 2.292H6.968v1.291h1.244zm1.477-8.054V2.475a.554.554 0 0 0-1.108 0v1.433a.554.554 0 0 0 1.108 0zm.696 3.47H9.142V8.67h1.243zm0 2.292H9.142v1.292h1.243zm0 2.292H9.142v1.291h1.243z">
+                                </path>
+                            </g>
+                        </svg>
+                        <span>{{ (time $page.Params.eventDate).Format "2006 January" }}</span>
+                    </h3>
+                    {{/* Date */}}
+
+                    {{/* Location */}}
+                    <h3 class="text-sm flex space-x-2 mt-1">
+                        <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="h-5 w-5">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M5 9.5C5 6.09371 8.00993 3 12 3C15.9901 3 19 6.09371 19 9.5C19 11.6449 17.6877 14.0406 15.9606 16.2611C14.5957 18.016 13.0773 19.5329 12 20.5944C10.9227 19.5329 9.40427 18.016 8.03935 16.2611C6.31229 14.0406 5 11.6449 5 9.5ZM12 1C6.99007 1 3 4.90629 3 9.5C3 12.3551 4.68771 15.2094 6.46065 17.4889C7.99487 19.4615 9.7194 21.1574 10.7973 22.2173C10.9831 22.4001 11.1498 22.564 11.2929 22.7071C11.4804 22.8946 11.7348 23 12 23C12.2652 23 12.5196 22.8946 12.7071 22.7071C12.8502 22.564 13.0169 22.4001 13.2027 22.2174L13.2028 22.2173C14.2806 21.1573 16.0051 19.4615 17.5394 17.4889C19.3123 15.2094 21 12.3551 21 9.5C21 4.90629 17.0099 1 12 1ZM12 12.5C13.3807 12.5 14.5 11.3807 14.5 10C14.5 8.61929 13.3807 7.5 12 7.5C10.6193 7.5 9.5 8.61929 9.5 10C9.5 11.3807 10.6193 12.5 12 12.5Z"
+                                    fill="#000000"></path>
+                            </g>
+                        </svg>
+                        <span>{{ $page.Params.location }}</span>
+                    </h3>
+                    {{/* Location */}}
+                </div>
             </div>
         {{ end }}
     </div>
 </section>
+<script>
+    // Get the filter buttons and the page elements
+    var filterButtons = document.querySelectorAll('.filterButton');
+    var pages = document.querySelectorAll('.flex.flex-col.bg-blue-100.m-0.p-0');
 
+    // Function to filter the pages based on the selected tag
+    function filterPages(selectedTag) {
+        pages.forEach(function(page) {
+            var tags = JSON.parse(page.getAttribute('data-tags'));
+            if (tags.includes(selectedTag)) {
+                page.style.display = 'block';
+            } else {
+                page.style.display = 'none';
+            }
+        });
+
+        // Update the URL with the selected tag
+        var url = new URL(window.location);
+        if (selectedTag) {
+            url.searchParams.set('tag', selectedTag);
+        } else {
+            url.searchParams.delete('tag');
+        }
+        window.history.pushState({}, '', url);
+    }
+
+    // Add event listeners to the filter buttons
+    filterButtons.forEach(function(button) {
+        button.addEventListener('click', function() {
+            var selectedTag = button.getAttribute('data-tag');
+            if (button.classList.contains('selected')) {
+                // If the button is already selected, deselect it and show all pages
+                button.classList.remove('selected');
+                pages.forEach(function(page) {
+                    page.style.display = 'block';
+                });
+                // Update the URL to remove the tag
+                var url = new URL(window.location);
+                url.searchParams.delete('tag');
+                window.history.pushState({}, '', url);
+            } else {
+                // If the button is not selected, deselect all other buttons and select this one
+                filterButtons.forEach(function(otherButton) {
+                    otherButton.classList.remove('selected');
+                });
+                button.classList.add('selected');
+                filterPages(selectedTag);
+            }
+        });
+    });
+
+    // On page load, read the query param and select the corresponding filter button
+    var url = new URL(window.location);
+    var tag = url.searchParams.get('tag');
+    if (tag) {
+        var button = document.querySelector(`.filterButton[data-tag="${tag}"]`);
+        if (button) {
+            button.classList.add('selected');
+            filterPages(tag);
+        }
+    }
+    </script>
 {{ end }}
