@@ -1,17 +1,29 @@
 {{ define "main" }}
 
 {{ $pages := slice }}
+{{ $groupN := 0 }}
+{{ $soloN := 0 }}
+{{ $esentialN := 0 }}
 {{ range .Site.RegularPages }}
     {{ if (in .Params.tags "exhibition") }}
         {{ $pages = $pages | append . }}
+    {{ end }}
+    {{ if (in .Params.tags "group exhibition") }}
+        {{ $groupN = add $groupN 1 }}
+    {{ end }}
+    {{ if (in .Params.tags "solo exhibition") }}
+        {{ $soloN = add $soloN 1 }}
+    {{ end }}
+    {{ if (in .Params.tags "essential") }}
+        {{ $esentialN = add $esentialN 1 }}
     {{ end }}
 {{ end }}
 
 <section class="">
     <div id="filterButtons" class="flex space-x-2 mb-2">
-        <button class="filterButton" data-tag="solo exhibition">Solo Exhibition</button>
-        <button class="filterButton" data-tag="group exhibition">Group Exhibition</button>
-        <button class="filterButton" data-tag="essential">Essential</button>
+        <button class="filterButton" aria-label="solo exhibitions filter" data-tag="solo exhibition">Solo Exhibition ({{ $soloN }})</button>
+        <button class="filterButton" aria-label="group exhibitions filter" data-tag="group exhibition">Group Exhibition ({{ $groupN  }})</button>
+        <button class="filterButton" aria-label="essential exhibitions filter" data-tag="essential">Essential ({{ $esentialN }})</button>
         <!-- Add more buttons as needed -->
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">

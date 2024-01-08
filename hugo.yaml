@@ -6,7 +6,9 @@ timeout: 200000  # This sets the timeout to 200 seconds
 menu:
   main:
     - name: Exhibitions
-      pageRef: /exhibitions
+      url: "/exhibitions"
+      params:
+        queryParams: "tag=essential"
       weight: 25
     - name: Press
       pageRef: /press
