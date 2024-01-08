@@ -7,7 +7,7 @@ location: "Museum of Kobzar, Cherkasy"
 locationLink: "https://maps.app.goo.gl/A5Vc28bPkkQM2ZPM6"
 eventDate: 2014-12-03 18:00:00
 afisha: "2014-12-03-zhinka-berehinia-cherkasy-afisha.jpg"
-tags: ["exhibition", "personal exhibition"]
+tags: ["exhibition", "solo exhibition"]
 ---
 
 Виставка жіночих портретів від художниці Тетяни Черевань.

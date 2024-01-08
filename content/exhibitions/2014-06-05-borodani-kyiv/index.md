@@ -7,7 +7,7 @@ location: "Museum Ivana Kavaleridze, Kyiv"
 locationLink: "https://maps.app.goo.gl/Sv2TDCPRpf8XVwHE6"
 eventDate: 2014-06-05 18:00:00
 afisha: "2014-06-05-borodani-kyiv-afisha.jpg"
-tags: ["exhibition", "personal exhibition"]
+tags: ["exhibition", "solo exhibition"]
 ---
 
 5 червня в Музей-майстерні Івана Кавалерідзе відкривається екстравагантна виставка "Бородані".

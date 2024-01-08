@@ -7,7 +7,7 @@ location: "Art Museum, Cherkasy"
 locationLink: "https://maps.app.goo.gl/gLDuB68uUijPLQoN8"
 eventDate: 2014-05-06 18:00:00
 afisha: "2014-05-06-borodani-afisha.jpg"
-tags: ["exhibition", "personal exhibition"]
+tags: ["exhibition", "solo exhibition"]
 ---
 
 Понад пів року я працювала над серією робіт з бораданями. Я зустрічала їх скрізь. Навіть за три дні до відкриття виставки до мене завітав саксофоніст Богдан. Він мав надзвичано гарну бороду та закручені вуса!)))

@@ -8,7 +8,7 @@ locationLink: "https://maps.app.goo.gl/MeEwvWJ3PCTwmrDG7"
 fb_event: "https://www.facebook.com/events/189392937888836/"
 eventDate: 2013-07-04 19:00:00
 afisha: "2013-07-04-iam-a-woman-afisha.jpg"
-tags: ["exhibition", "personal exhibition"]
+tags: ["exhibition", "solo exhibition"]
 ---
 
 З 4 липня о 19:00 до 25 липня о 19:00
