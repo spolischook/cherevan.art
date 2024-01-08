@@ -8,7 +8,7 @@ locationLink: "https://maps.app.goo.gl/F8uuFFcSCBxEKgqw6"
 fb_event: ~
 eventDate: 2013-05-31 18:00:00
 afisha: "2013-05-31-fanaberia-afisha.jpg"
-tags: ["exhibition", "group exhibition"]
+tags: ["exhibition", "group exhibition", "essential"]
 ---
 
 Фанаберія - довготривалий мистецький проект по створенню у Черкасах вільного простору для мистецьких дивацтв.

@@ -6,8 +6,8 @@ draft: false
 location: "Architect's house, Cherkasy"
 locationLink: "https://maps.app.goo.gl/DPJZ1YN72NoifdeXA"
 eventDate: 2010-10-16 19:30:00
-afisha: ~
-tags: ["exhibition", "solo exhibition"]
+afisha: "2010-10-16-edges-of-allowness-afisha.jpg"
+tags: ["exhibition", "solo exhibition", "essential"]
 ---
 
 ### Fotos from opening

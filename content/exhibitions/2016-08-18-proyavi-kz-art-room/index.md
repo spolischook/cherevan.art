@@ -7,7 +7,7 @@ eventDate: 2016-08-18 19:00:00
 slug: proyavi-galereya-kz-art-room
 afisha: "2016-08-18-proyavi-kz-art-room-afisha.jpg"
 draft: false
-tags: ["exhibition"]
+tags: ["exhibition", "solo exhibition", "essential"]
 ---
 
 {{< rawhtml >}}

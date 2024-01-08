@@ -7,7 +7,7 @@ location: "M17 - Center of Contemporary Art"
 locationLink: ""
 eventDate: 2014-08-22 18:00:00
 afisha: "2014-08-22-marts-unframed-2014-afisha.jpg"
-tags: ["exhibition", "goup exhibition"]
+tags: ["exhibition", "goup exhibition", "essential"]
 ---
 
 Центр сучасного мистецтва M17 (Київ, вул. Горького 102-104)

@@ -16,7 +16,7 @@ afisha: "afisha.jpg"
 rating: 5
 layout: "shibari_event"
 shortDescription: "Guess what? You’re invited to the Shibari Dragon Party Exhibition on December 15th! Get ready for a wild ride into the enchanting world of Shibari, curated by yours truly, Tetiana Cherevan."
-tags: ["shibari", "exhibition"]
+tags: ["shibari", "exhibition", "essential"]
 ---
 
 ### What's on the Menu:

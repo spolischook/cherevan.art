@@ -7,7 +7,7 @@ location: "Galerie Art' et Miss"
 locationLink: "https://maps.app.goo.gl/gnvQMCnm7Qk2z4Bb6"
 eventDate: 2019-08-28 18:00:00
 afisha: '2019-08-28-paris-afisha.jpg'
-tags: ["exhibition", "group exhibition"]
+tags: ["exhibition", "group exhibition", "essential"]
 ---
 
 

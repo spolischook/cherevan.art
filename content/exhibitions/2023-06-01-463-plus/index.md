@@ -7,7 +7,7 @@ location: "Sant Lluc, Barcelona"
 locationLink: "https://maps.app.goo.gl/BfPhHgvNorBD2WdU6"
 eventDate: 2023-06-01 19:00:00
 afisha: "463-plus-afisha.jpg"
-tags: ["exhibition", "group exhibition"]
+tags: ["exhibition", "group exhibition", "essential"]
 ---
 
 Дякую митцю та куратору Mykola Kornilov за організацію.  

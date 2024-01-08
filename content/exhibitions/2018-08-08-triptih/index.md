@@ -7,7 +7,7 @@ location: "Triptych Art, Kyiv, Andriivskyi Descent"
 locationLink: "https://maps.app.goo.gl/APyPRUtb3mo5Bo3DA"
 eventDate: 2018-08-08 19:00:00
 afisha: '2018-08-08-triptih-poster2.jpg'
-tags: ["exhibition", "solo exhibition"]
+tags: ["exhibition", "solo exhibition", "essential"]
 ---
 
 Роботи зібрани та відправлені до Києва. 💘8.08 Opening of my personal exhibition in the gallery of Kiev.  

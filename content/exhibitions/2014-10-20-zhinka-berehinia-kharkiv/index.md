@@ -7,7 +7,7 @@ location: "Gallery Kosturinskiy provulok, Kharkiv"
 locationLink: ""
 eventDate: 2014-10-28 17:00:00
 afisha: "2014-10-28-zhinka-berehinia-kharkiv-afisha.jpg"
-tags: ["exhibition", "solo exhibition"]
+tags: ["exhibition", "solo exhibition", "essential"]
 ---
 
 Відкриття 28 жовтня о 17.00

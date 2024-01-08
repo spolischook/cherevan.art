@@ -7,7 +7,7 @@ location: "Gallery Maisternia, Kyiv"
 locationLink: ""
 eventDate: 2015-01-16 18:00:00
 afisha: "2015-01-16-zhinka-berehinia-kyiv-afisha.jpg"
-tags: ["exhibition", "solo exhibition"]
+tags: ["exhibition", "solo exhibition", "essential"]
 ---
 
 {{< rawhtml >}}

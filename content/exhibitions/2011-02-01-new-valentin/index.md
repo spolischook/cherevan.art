@@ -7,7 +7,7 @@ location: "Art Museum, Cherkasy"
 locationLink: "https://maps.app.goo.gl/gLDuB68uUijPLQoN8"
 eventDate: 2011-02-01 18:00:00
 afisha: "2011-02-01-new-valentin-afisha.jpg"
-tags: ["exhibition", "group exhibition"]
+tags: ["exhibition", "group exhibition", "essential"]
 ---
 
 1 лютого о 16:00 у Художньому музеї м. Черкаси відбудеться відкриття виставки, присвяченої Дню святого Валентина.

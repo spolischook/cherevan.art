@@ -7,7 +7,7 @@ location: "Gallery of folk art, Cherkasy"
 locationLink: "https://maps.app.goo.gl/vWACKAerK5PsvGDy5"
 eventDate: 2017-06-01 17:00:00
 afisha: '2017-06-01-enso-cherkasy-poster.jpg'
-tags: ["exhibition", "solo exhibition"]
+tags: ["exhibition", "solo exhibition", "essential"]
 ---
 
 ### Fotos from opening

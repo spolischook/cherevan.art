@@ -7,7 +7,7 @@ location: "82 Mercer St, New York"
 locationLink: "https://maps.app.goo.gl/wTrgPSkFP3jNGQvu9"
 eventDate: 2012-08-03 18:00:00
 afisha: "2012-08-03-parallax-new-york-poster.jpg"
-tags: ["exhibition", "group exhibition"]
+tags: ["exhibition", "group exhibition", "essential"]
 ---
 
 In August, the Parallax Art Fair NYC exhibition of contemporary art will take place in New York.

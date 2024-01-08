@@ -8,7 +8,7 @@ locationLink: "https://maps.app.goo.gl/NAP3jw9cJwjKMMZU7"
 fb_event: ~
 eventDate: 2013-02-18 18:00:00
 afisha: "2013-02-18-los-angeles.jpg"
-tags: ["exhibition", "group exhibition"]
+tags: ["exhibition", "group exhibition", "essential"]
 ---
 
 There was a competition on the social network (SNAC) in which more than 300 Ukrainian artists took part.

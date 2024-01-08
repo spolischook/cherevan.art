@@ -6,7 +6,7 @@ date: 2015-10-15 13:32:07
 eventDate: 2015-10-15 18:00:00
 slug: personalna-vistavka-qdaleko-vd-domuq-m-cherkasi
 draft: false
-tags: ["exhibition"]
+tags: ["exhibition", "solo exhibition", "essential"]
 afisha: "2015-09-15-daleko-vid-domu-afisha.jpg"
 ---
 

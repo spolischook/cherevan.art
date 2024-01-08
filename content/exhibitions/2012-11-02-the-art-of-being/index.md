@@ -8,7 +8,7 @@ locationLink: "https://maps.app.goo.gl/gLDuB68uUijPLQoN8"
 fb_event: ~
 eventDate: 2012-11-02 18:00:00
 afisha: "2012-11-02-the-art-of-being-poster.jpg"
-tags: ["exhibition", "solo exhibition"]
+tags: ["exhibition", "solo exhibition", "essential"]
 ---
 
 I invite you to the opening of my personal exhibition on November 2 at 16.00

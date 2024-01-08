@@ -7,7 +7,7 @@ location: "Art Museum, Cherkasy"
 locationLink: "https://maps.app.goo.gl/gLDuB68uUijPLQoN8"
 eventDate: 2008-07-08 18:00:00
 afisha: ~
-tags: ["exhibition", "solo exhibition"]
+tags: ["exhibition", "solo exhibition", "essential"]
 ---
 
 Female images occupy one of the main places in the artist’s work.  

@@ -7,7 +7,7 @@ location: "Architect's house, Cherkasy"
 locationLink: "https://maps.app.goo.gl/DPJZ1YN72NoifdeXA"
 eventDate: 2010-11-07 18:00:00
 afisha: "2010-11-07-med-komissia-afisha.jpg"
-tags: ["exhibition", "group exhibition"]
+tags: ["exhibition", "group exhibition", "essential"]
 ---
 м. Черкаси, будинок Архітектора, Хрещатик 200
 
