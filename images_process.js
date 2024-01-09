@@ -2,7 +2,9 @@ const sharp = require('sharp');
 const fs = require('fs');
 const path = require('path');
 
-const directoryPath = path.join(__dirname, 'content');
+processDirectory(path.join(__dirname, 'content'));
+processDirectory(path.join(__dirname, 'static'));
+console.log('Done');
 
 function processDirectory(directory) {
     fs.readdir(directory, function (err, files) {
@@ -42,6 +44,3 @@ function processDirectory(directory) {
         });
     });
 }
-
-processDirectory(directoryPath);
-console.log('Done');
