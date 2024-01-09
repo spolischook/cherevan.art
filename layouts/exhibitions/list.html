@@ -37,7 +37,7 @@
                         <picture class="">
                             <source type="image/avif" srcset="{{ $image.RelPermalink | replaceRE "(?i)(jpg|jpeg|png|gif|bmp|tiff)" "avif" }}">
                             <source type="image/webp" srcset="{{ $image.RelPermalink | replaceRE "(?i)(jpg|jpeg|png|gif|bmp|tiff)" "webp" }}">
-                            <img class="object-cover w-full h-full" alt="Afisha {{ $page.Title }}" src="{{$image.RelPermalink}}?nf_resize=fit&w=550&h=900" {{ if ge $index 3 }}loading="lazy"{{ end }}>
+                            <img class="object-cover w-full h-full" alt="Afisha {{ $page.Title }}" src="{{$image.RelPermalink}}" {{ if ge $index 3 }}loading="lazy"{{ end }}>
                         </picture>
                     </div>
                 {{ else }}
