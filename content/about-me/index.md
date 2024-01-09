@@ -1,5 +1,5 @@
 ---
-title: "Dragon Party - my first Shibari exhibition in Barcelona"
+title: "About me"
 date: 2023-12-10 11:59:59 -
 layout: "about_me"
 slug: "about-me"
