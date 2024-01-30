@@ -1,0 +1,205 @@
+{{ define "meta" }}
+    <meta property="og:type"               content="article" />
+    <meta property="og:title"              content="{{.Params.metaTitle}}" />
+    <meta property="og:description"        content="{{.Description}}" />
+    <meta property="og:image"              content="{{.Params.Image}}" />
+{{ end }}
+
+{{ define "main" }}
+
+    {{ $pages := slice }}
+
+    {{ range $index, $page := sort (where (where .Site.Pages "Type" "art-works") ".IsSection" false) "Params.date" "desc" }}
+        {{ $pages = $pages | append $page }}
+    {{ end }}
+
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+    <div id="filterButtons" class="flex space-x-0 mb-2 md:flex-row flex-col md:space-x-2">
+        <button class="filterButton selected" aria-label="solo exhibitions" data-filter="all">All (<span>0</span>)</button>
+        <button class="filterButton" aria-label="solo exhibitions" data-filter="graphics">Graphics (<span>0</span>)</button>
+        <button class="filterButton" aria-label="group exhibitions" data-filter="paintings">Paintings (<span>0</span>)</button>
+        <div class="border-l-1 border-w-1 border border-slate-300 hidden sm:block"></div>
+        <div class="border-l-1 border-w-1 border border-slate-300 hidden sm:block"></div>
+        <button class="filterButton" aria-label="group exhibitions" data-filter="shibari">Shibari (<span>0</span>)</button>
+        <button class="filterButton selected" aria-label="essential" data-filter="essential">Essential (<span>0</span>)</button>
+        <button class="filterButton selected" aria-label="essential" data-filter="in_stock">In Stock (<span>0</span>)</button>
+        <!-- Add more buttons as needed -->
+    </div>
+    <div class="grid">
+        <!-- width of .grid-sizer used for columnWidth -->
+        <div class="grid-sizer"></div>
+        {{ range $index, $page := $pages }}
+            {{ $mainImage := .Params.mainImage }}
+            {{ with .Resources.GetMatch $mainImage }}
+                <div class="grid-item
+                    {{if or (ne $page.Params.IsVisible true) (ne $page.Params.InStock true) }}hidden{{end}}
+                    {{if ge $page.Params.Width 140 }}grid-item--width3
+                    {{else if ge $page.Params.Width 59 }}grid-item--width2{{end}}"
+                     data-params="{{jsonify $page.Params}}">
+                    {{ partial "art-works/picture.html" (dict "image" . "title" $page.Title "inStock" $page.Params.inStock "index" $index) }}
+
+                    <h3 class="font-bold">
+                        {{ $page.Title }} <span class="text-xs text-gray-500">{{$page.Params.Width}}X{{$page.Params.Height}}cm&nbsp{{dateFormat "2006" $page.Params.date}}</span>
+                    </h3>
+                    <div class="mt-1 border-b mb-3 mr-8"></div>
+
+                </div>
+            {{ end }}
+        {{ end }}
+    </div>
+    <style>
+        .grid-sizer,
+        .grid-item { width: 32%; }
+        /* 2 columns */
+        .grid-item--width2 { width: 66%; }
+        .grid-item--width3 { width: 99%; }
+
+        @media screen and (max-width: 768px) {
+            .grid-sizer,
+            .grid-item,
+            .grid-item--width2,
+            .grid-item--width3 {
+                width: 100%;
+            }
+        }
+    </style>
+    <script>
+        var grid = document.querySelector('.grid');
+        var msnry = new Masonry( grid, {
+            itemSelector: '.grid-item',
+            columnWidth: '.grid-sizer',
+            percentPosition: true,
+            gutter: 10,
+        });
+        class Filter {
+            constructor(element, filterFn) {
+                this.element = element;
+                this.counter = this.element.querySelector('span');
+                this.filterFn = filterFn;
+            }
+            isActive() {
+                return this.element.classList.contains('selected');
+            }
+            toggle() {
+                this.element.classList.toggle('selected');
+                const event = new CustomEvent('filterToggled', { detail: this });
+                this.element.dispatchEvent(event);
+            }
+            name() {
+                return this.element.dataset.filter;
+            }
+            deactivate() {
+                this.element.classList.remove('selected');
+            }
+            activate() {
+                this.element.classList.add('selected');
+            }
+            setCounterFromItems(items) {
+                this.counter.innerText = items.filter(this.filterFn).length;
+            }
+            setCounter(value) {
+                this.counter.innerText = value;
+            }
+            incrementCounter() {
+                this.counter.innerText = parseInt(this.counter.innerText) + 1;
+            }
+        }
+        class Item {
+            constructor(el) {
+                this.el = el;
+                this.params = JSON.parse(el.dataset.params);
+            }
+        }
+        class Filters {
+            constructor(filters) {
+                this.mutuallyExclusiveFilters = ['all', 'paintings', 'graphics'];
+                this.filters = filters;
+                this.filters.forEach(filter => {
+                    filter.element.addEventListener('click', () => {
+                        filter.toggle();
+                    });
+                    filter.element.addEventListener('filterToggled', (event) => {
+                        this.filterItems(event.detail, items);
+                    });
+                });
+            }
+            getActiveFilters() {
+                return this.filters.filter(filter => filter.isActive());
+            }
+            filterItems(filter, items) {
+                console.log(filter.name())
+                if (this.mutuallyExclusiveFilters.includes(filter.name())) {
+                    this.filters.forEach(filter => {
+                        if (this.mutuallyExclusiveFilters.includes(filter.name())) {
+                            filter.deactivate();
+                        }
+                    });
+                    filter.activate()
+                }
+                const activeFilters = this.getActiveFilters();
+                if (activeFilters.length === 0) {
+                    items.forEach(item => item.el.classList.remove('hidden'));
+                    msnry.layout();
+                    return;
+                }
+                items.forEach(item => {
+                    const shouldBeHidden = activeFilters.some(filter => !filter.filterFn(item));
+                    if (shouldBeHidden) {
+                        item.el.classList.add('hidden');
+                    } else {
+                        item.el.classList.remove('hidden');
+                    }
+                });
+                msnry.layout();
+            }
+        }
+
+        const elements = document.querySelectorAll('.grid-item');
+        const items = Array.from(elements).map(el => new Item(el));
+
+        const allFilter = new Filter(
+            document.querySelector('.filterButton[data-filter="all"]'),
+            item => true
+        );
+        const shibariFilter = new Filter(
+            document.querySelector('.filterButton[data-filter="shibari"]'),
+            item => item.params.categories.includes('shibari')
+        );
+        const paintingsFilter = new Filter(
+            document.querySelector('.filterButton[data-filter="paintings"]'),
+            item => item.params.categories.includes('painting')
+        );
+        const graphicsFilter = new Filter(
+            document.querySelector('.filterButton[data-filter="graphics"]'),
+            item => item.params.categories.includes('graphics')
+        );
+        const essentialFilter = new Filter(
+            document.querySelector('.filterButton[data-filter="essential"]'),
+            item => item.params.isvisible
+        );
+        const inStockFilter = new Filter(
+            document.querySelector('.filterButton[data-filter="in_stock"]'),
+            item => item.params.instock
+        );
+
+        allFilter.setCounterFromItems(items);
+        shibariFilter.setCounterFromItems(items);
+        paintingsFilter.setCounterFromItems(items);
+        graphicsFilter.setCounterFromItems(items);
+        essentialFilter.setCounterFromItems(items);
+        inStockFilter.setCounterFromItems(items);
+
+        const filters = new Filters([
+            allFilter,
+            shibariFilter,
+            paintingsFilter,
+            graphicsFilter,
+            essentialFilter,
+            inStockFilter,
+        ]);
+
+        var url = new URL(window.location);
+        var tag = url.searchParams.get('tag');
+    </script>
+{{ end }}
