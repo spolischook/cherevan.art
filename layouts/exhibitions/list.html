@@ -1,23 +1,22 @@
 {{ define "main" }}
-
-{{ $pages := slice }}
-{{ $groupN := 0 }}
-{{ $soloN := 0 }}
-{{ $esentialN := 0 }}
-{{ range .Site.RegularPages }}
-    {{ if (in .Params.tags "exhibition") }}
-        {{ $pages = $pages | append . }}
+    {{ $pages := slice }}
+    {{ $groupN := 0 }}
+    {{ $soloN := 0 }}
+    {{ $esentialN := 0 }}
+    {{ range .Site.RegularPages }}
+        {{ if (in .Params.tags "exhibition") }}
+            {{ $pages = $pages | append . }}
+        {{ end }}
+        {{ if (in .Params.tags "group exhibition") }}
+            {{ $groupN = add $groupN 1 }}
+        {{ end }}
+        {{ if (in .Params.tags "solo exhibition") }}
+            {{ $soloN = add $soloN 1 }}
+        {{ end }}
+        {{ if (in .Params.tags "essential") }}
+            {{ $esentialN = add $esentialN 1 }}
+        {{ end }}
     {{ end }}
-    {{ if (in .Params.tags "group exhibition") }}
-        {{ $groupN = add $groupN 1 }}
-    {{ end }}
-    {{ if (in .Params.tags "solo exhibition") }}
-        {{ $soloN = add $soloN 1 }}
-    {{ end }}
-    {{ if (in .Params.tags "essential") }}
-        {{ $esentialN = add $esentialN 1 }}
-    {{ end }}
-{{ end }}
 
 <section class="">
     <div id="filterButtons" class="flex space-x-2 mb-2">
@@ -30,7 +29,6 @@
         {{ range $index, $page := $pages }}
             <div class="flex flex-col bg-blue-100 m-0 p-0" data-tags='{{ $page.Params.tags | jsonify }}'>
                 {{ if $page.Params.afisha }}
-                    {{ $imagePath := print "/" $page.File.Dir $page.Params.afisha }}
                     {{ $image := $page.Resources.GetMatch $page.Params.afisha }}
                     {{/* Image Block */}}
                     <div class="aspect-[5/8] w-full flex items-center justify-center bg-red-100 overflow-hidden">

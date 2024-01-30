@@ -1,10 +1,17 @@
 baseURL: https://www.cherevan.art
 languageCode: en-us
 title: Tetiana Cherevan | Ukrainian artist
-theme: ["hugo-shortcode-gallery"]
+theme: 
+  - "hugo-shortcode-gallery"
+  - "hugo-etsy-products"
 timeout: 200000  # This sets the timeout to 200 seconds
 menu:
   main:
+    - name: Art Works
+      pageRef: /art-works
+      weight: 20
+      params:
+        queryParams: "tag=essential&inStock=true&all=true"
     - name: Exhibitions
       url: "/exhibitions"
       params:
@@ -19,6 +26,7 @@ menu:
     - name: About Me
       pageRef: /about-me
       weight: 30
+
     # - name: Archive
     #   pageRef: /archive
     #   weight: 40

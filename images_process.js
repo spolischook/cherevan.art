@@ -2,7 +2,11 @@ const sharp = require('sharp');
 const fs = require('fs');
 const path = require('path');
 
-processDirectory(path.join(__dirname, 'content'));
+processDirectory(path.join(__dirname, 'content/calendar'));
+processDirectory(path.join(__dirname, 'content/exhibitions'));
+processDirectory(path.join(__dirname, 'content/press'));
+processDirectory(path.join(__dirname, 'content/side-projects'));
+processDirectory(path.join(__dirname, 'content/art-works'));
 processDirectory(path.join(__dirname, 'static'));
 console.log('Done');
 
@@ -16,26 +20,25 @@ function processDirectory(directory) {
             if (fs.statSync(absolutePath).isDirectory()) {
                 processDirectory(absolutePath);
             } else {
-                const ext = path.extname(file).toLowerCase();
-                if (ext === ".jpg" || ext === ".png" || ext === ".jpeg") {
+                if (isImage(file)) {
                     try {
                         const image = sharp(absolutePath);
-                        const webpPath = path.join(directory, path.basename(file, path.extname(file)) + '.webp');
-                        const avifPath = path.join(directory, path.basename(file, path.extname(file)) + '.avif');
+                        const formats = ['webp', 'avif'];
+                        const sizes = [360, 375, 768];
 
-                        if (!fs.existsSync(webpPath)) {
-                            image
-                                .toFormat('webp')
-                                .toFile(webpPath);
-                            console.log('Processed: ' + webpPath);
-                        }
+                        formats.forEach(format => {
+                            sizes.forEach(size => {
+                                const resizedImagePath = path.join(directory, path.basename(file, path.extname(file)) + `_${size}.${format}`);
+                                if (!fs.existsSync(resizedImagePath)) {
+                                    image
+                                        .resize(size)
+                                        .toFormat(format)
+                                        .toFile(resizedImagePath);
+                                    console.log('Processed: ' + resizedImagePath);
+                                }
+                            });
+                        });
 
-                        if (!fs.existsSync(avifPath)) {
-                            image
-                                .toFormat('avif')
-                                .toFile(avifPath);
-                            console.log('Processed: ' + avifPath);
-                        }
                     } catch (err) {
                         console.error(`Error processing file ${absolutePath}: ${err.message}`);
                     }
@@ -43,4 +46,8 @@ function processDirectory(directory) {
             }
         });
     });
+}
+function isImage(file) {
+    const ext = path.extname(file).toLowerCase();
+    return ext === ".jpg" || ext === ".png" || ext === ".jpeg";
 }
