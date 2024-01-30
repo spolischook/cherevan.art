@@ -3,8 +3,8 @@ title: "In pastel colors"
 date: 2013-02-07 21:05:56
 slug: 2013-in-pastel-colors
 draft: false
-location: "Artist's House, Kyiv"
-locationLink: "https://maps.app.goo.gl/JgjhFDe3hLGRU8uYA"
+location: "Restaurant Tarantella, Cherkasy"
+locationLink: "https://maps.app.goo.gl/D2n1WQwaseHbnmpN9"
 fb_event: ~
 eventDate: 2013-02-07 18:00:00
 afisha: "2013-02-07-tarantela.jpg"
