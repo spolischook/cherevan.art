@@ -7,7 +7,7 @@ tags: ["press", "newspaper"]
 
 {{< rawhtml >}}
 
-    <picture class="hidden sm:block w-full">
+    <picture class="w-full">
         <source type="image/avif" srcset="2014-02-28-svoboda-newspaper.avif">
         <source type="image/webp" srcset="2014-02-28-svoboda-newspaper.webp">
         <img class="float-left pr-5 pb-5" alt="The Art of Being helps children fight cancer" src="2014-02-28-svoboda-newspaper.png">
