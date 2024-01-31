@@ -24,6 +24,6 @@
          sizes="(max-width: 360px) 360px, (max-width: 375px) 375px, 768px"
          {{ if ge .index 5 }}loading="lazy"{{ end }}>
     {{ if not .inStock }}
+        <div class="absolute w-8 h-8 bg-red-500 bottom-5 right-5 rounded-full shadow-xl" title="out of stock"></div>
     {{ end }}
-    <div class="absolute w-8 h-8 bg-red-500 bottom-5 right-5 rounded-full shadow-xl" title="out of stock"></div>
 </picture>
