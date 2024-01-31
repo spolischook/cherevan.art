@@ -1,3 +1,11 @@
+{{ define "meta" }}
+    <meta property="og:type"               content="article" />
+    <meta property="og:title"              content="{{.Params.metaTitle}}" />
+    <meta property="og:description"        content="{{.Description}}" />
+    <meta property="og:image"              content="{{.Params.Image}}" />
+    <meta name="description" content="{{.Description}}">
+{{ end }}
+
 {{ define "main" }}
     {{ $pages := slice }}
     {{ $groupN := 0 }}
