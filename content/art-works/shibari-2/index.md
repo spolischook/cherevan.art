@@ -4,7 +4,7 @@ categories:
 - painting
 date: "2017-12-31T23:59:52Z"
 height: 120
-inStock: false
+inStock: true
 isVisible: true
 mainImage: shibari_2_with_line.jpg
 materials:
