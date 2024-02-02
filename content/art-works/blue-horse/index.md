@@ -4,7 +4,7 @@ categories:
 - painting
 date: "2020-12-31T23:58:48Z"
 height: 120
-inStock: true
+inStock: false
 isVisible: true
 mainImage: ""
 materials:
