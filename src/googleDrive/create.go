@@ -52,6 +52,7 @@ func getClient(config *oauth2.Config) *http.Client {
 		tok = getTokenFromWeb(config)
 		saveToken(tokFile, tok)
 	} else if tok.Expiry.Before(time.Now()) {
+		glg.Warn("Token is expired")
 		// If the token is expired, get a new one from the web
 		tok = getTokenFromWeb(config)
 		saveToken(tokFile, tok)
