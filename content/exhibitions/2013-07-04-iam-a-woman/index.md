@@ -18,7 +18,7 @@ tags: ["exhibition", "solo exhibition", "essential"]
  
 Повітряна тераса Pauz Cafe в самому серці столиці, яка розташувалася в затишному дворику запрошує насолодитися внутрішнім світом Жінки, через полотна відомої української художниці Тетяни Черевань. На час відпочити від міської суєти за келихом улюбленого вина.
 
-### Fotos from opening
+### Photos from opening
 
 {{< gallery match="opening/*" sortOrder="asc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
 

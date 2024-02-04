@@ -33,7 +33,7 @@ MARTS UNFRAMED відкриває експозицію напередодні в
 Офіційний сайт MARTS www.marts.org.ua
 Офіційний сайт M17 www.m17.com.ua
 
-### Fotos from opening
+### Photos from opening
 
 {{< gallery match="opening/*" sortOrder="asc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
 

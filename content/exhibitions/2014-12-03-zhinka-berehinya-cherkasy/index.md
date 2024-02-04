@@ -21,6 +21,6 @@ tags: ["exhibition", "solo exhibition"]
 
 Художниця вдало поєднала у своїх роботах олівець -- як інструмент строгої документальності, та сучасні кольорові засоби -- як засіб надати портретам романтизму та декоративності, які і перетворюють конкретну жінку на загальний історичний символ.
 
-### Fotos from opening
+### Photos from opening
 
 {{< gallery match="opening/*" sortOrder="asc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}

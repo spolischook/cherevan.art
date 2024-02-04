@@ -28,6 +28,6 @@ Parallax AF, or P(AF), will make its NYC debut at the esteemed event venue, 82 M
 
 This is the first art fair with such a democratic nature and its NYC appearance will be the franchise’s fifth edition. The event attracts around 200 artists from all over the world, presenting 2,000 to 3,000 pieces. The loose “mosaic” approach to curating P(AF) befits its irreverence for the stiffness of traditional exhibitions and is conceptually in line with the event’s spirited accessibility. The art spans the spectrum in content, style, and abilities due to the level playing field of P(AF)’s universal acceptance, ensuring established and emerging artists are equally represented.
 
-### Fotos from opening
+### Photos from opening
 
 {{< gallery match="opening/*" sortOrder="asc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}

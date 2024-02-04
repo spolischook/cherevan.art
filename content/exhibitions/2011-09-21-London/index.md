@@ -22,6 +22,6 @@ Address: 237 Kentish Town Road, Kentish Town, London NW5 2JT, 020 7267 5323
 
 Exhibition curator Anastasia Kokhan
 
-### Fotos from opening
+### Photos from opening
 
 {{< gallery match="opening/*" sortOrder="asc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
