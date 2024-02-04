@@ -28,6 +28,6 @@ tags: ["exhibition", "solo exhibition", "essential"]
 5 червня о 18.00 ви побачите проект "Бородані" у Києві, на Андріївському узвозі, 21
 квартира-музей Кавалерідзе
 
-### Fotos from opening
+### Photos from opening
 
 {{< gallery match="opening/*" sortOrder="asc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}

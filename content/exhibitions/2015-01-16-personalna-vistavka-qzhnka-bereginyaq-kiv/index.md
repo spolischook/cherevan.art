@@ -18,6 +18,6 @@ tags: ["exhibition", "solo exhibition", "essential"]
 <p>Адреса: Київ, вул. Артема 1-5, БУдинок Художника, 2й поверх</p>
 <p>Виставка діє з 16.01.2015 - 6.02.2015</p>fulltext{{< /rawhtml >}}
 
-### Fotos from opening
+### Photos from opening
 
 {{< gallery match="opening/*" sortOrder="asc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}

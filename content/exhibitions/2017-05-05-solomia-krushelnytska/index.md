@@ -10,6 +10,6 @@ tags: ["exhibition", "solo exhibition"]
 afisha: "2017-05-05-solomia-krushelnytska-poster.jpg"
 ---
 
-### Fotos from opening
+### Photos from opening
 
 {{< gallery match="opening/*" sortOrder="asc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
