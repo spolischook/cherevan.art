@@ -7,6 +7,7 @@ processDirectory(path.join(__dirname, 'content/exhibitions'));
 processDirectory(path.join(__dirname, 'content/press'));
 processDirectory(path.join(__dirname, 'content/side-projects'));
 processDirectory(path.join(__dirname, 'content/art-works'));
+processDirectory(path.join(__dirname, 'content/tags'));
 processDirectory(path.join(__dirname, 'static'));
 console.log('Done');
 

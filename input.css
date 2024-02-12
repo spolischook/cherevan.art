@@ -6,6 +6,11 @@
   @apply border border-slate-700 flex space-x-2 justify-center items-center rounded-md py-2 px-8 text-center hover:bg-slate-700 hover:text-white duration-300;
 }
 
+article a {
+  @apply text-firebrick hover:text-firebrick-100 underline duration-300;
+}
+/* Menu */
+
 .hamburger-menu {
   cursor: pointer;
   width: 24px;
