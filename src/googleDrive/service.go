@@ -14,7 +14,7 @@ type Service struct {
 	*drive.Service
 }
 
-func (s *Service) DownloadSheetAsCSV(fileID string, destination string) error {
+func (s Service) DownloadSheetAsCSV(fileID string, destination string) error {
 	response, err := s.Files.Export(fileID, "text/csv").Download()
 	if err != nil {
 		return err
@@ -35,7 +35,7 @@ func (s *Service) DownloadSheetAsCSV(fileID string, destination string) error {
 	return nil
 }
 
-func (s *Service) DownloadFile(fileName, dirId, destDir string) error {
+func (s Service) DownloadFile(fileName, dirId, destDir string) error {
 	r, err := s.Files.List().Q(
 		fmt.Sprintf("name='%s' and '%s' in parents", fileName, dirId),
 	).Do()
