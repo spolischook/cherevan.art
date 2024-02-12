@@ -7,29 +7,18 @@
         {{ $artWorks := $pages | shuffle | first 3 }}
 
 
-    <section class="flex flex-col sm:flex-row">
-        <article class="prose lg:prose-xl sm:w-[70%] sm:mb-10 px-4">
-            <h1>{{ .Title }}</h1>
-            {{ .Content }}
+    <section class="flex flex-col sm:flex-row sm:space-x-8">
+        <article class="sm:w-[90%] sm:mb-10 px-2">
+            <h1 class="text-5xl font-bold pb-4">{{ .Title }}</h1>
+            <div class="text-xl font-sans leading-loose indent-8">
+                {{ .Content }}
+            </div>
         </article>
-        <section class="flex flex-col sm:w-[30%]">
+        <section class="flex flex-col sm:w-[20%]">
             <h2 class="font-bold text-xl">Art Works</h2>
             <h3 class="text-gray-500 text-sm mb-5">that you might like...</h3>
             <div class="flex flex-col">
-                {{ range $artWorks }}
-                    <div class="flex flex-col mb-5">
-                        {{ $mainImage := .Params.mainImage }}
-                        {{ with .Resources.GetMatch $mainImage }}
-                            {{ partial "art-works/picture.html" (dict "image" . "title" .Title "inStock" .Params.inStock "index" 0) }}
-                        {{ end }}
-                        <div class="flex flex-col">
-                            <h3 class="text-lg font-bold">{{ .Title }}</h3>
-                            <h4 class="font-bold">
-                                <span class="text-xs text-gray-500">{{.Params.Width}}X{{.Params.Height}}cm&nbsp{{dateFormat "2006" .Params.date}}</span>
-                            </h4>
-                        </div>
-                    </div>
-                {{ end }}
+                {{ partial "art-works/sidebar.html" (dict "count" 3 "pages" .Site.Pages) }}
             </div>
         </section>
     </section>
