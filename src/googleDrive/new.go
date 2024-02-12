@@ -4,27 +4,28 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"log"
-	"net/http"
-	"os"
-	"time"
-
 	"github.com/kpango/glg"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
 	"google.golang.org/api/drive/v3"
+	"log"
+	"net/http"
+	"os"
 )
 
-func CreateService() (*Service, error) {
+const SecretJson = "google_secret.json"
+const TokenJson = "google_token.json"
+
+func New() (*Service, error) {
 	// Load client secret from a file
-	b, err := os.ReadFile("google_secret.json")
+	b, err := os.ReadFile(SecretJson)
 	if err != nil {
 		glg.Errorf("Unable to read client secret file: %v", err)
 		return nil, err
 	}
 
 	// If modifying these scopes, delete your previously saved token.json.
-	config, err := google.ConfigFromJSON(b, drive.DriveReadonlyScope)
+	config, err := google.ConfigFromJSON(b, drive.DriveScope)
 	if err != nil {
 		glg.Errorf("Unable to parse client secret file to config: %v", err)
 		return nil, err
@@ -43,21 +44,26 @@ func CreateService() (*Service, error) {
 
 // Retrieve a token, saves the token, then returns the generated client.
 func getClient(config *oauth2.Config) *http.Client {
-	// The file token.json stores the user's access and refresh tokens, and is
-	// created automatically when the authorization flow completes for the first
-	// time.
-	tokFile := "google_token.json"
-	tok, err := tokenFromFile(tokFile)
+	tok, err := tokenFromFile(TokenJson)
 	if err != nil {
 		tok = getTokenFromWeb(config)
-		saveToken(tokFile, tok)
-	} else if tok.Expiry.Before(time.Now()) {
-		glg.Warn("Token is expired")
-		// If the token is expired, get a new one from the web
-		tok = getTokenFromWeb(config)
-		saveToken(tokFile, tok)
+		saveToken(TokenJson, tok)
 	}
-	return config.Client(context.Background(), tok)
+	// Use TokenSource to automatically refresh the token when it's expired
+	tokenSource := config.TokenSource(context.Background(), tok)
+	client := oauth2.NewClient(context.Background(), tokenSource)
+
+	// Check if the token is valid
+	resp, err := client.Get("https://www.googleapis.com/oauth2/v1/tokeninfo?access_token=" + tok.AccessToken)
+	if err != nil || resp.StatusCode != http.StatusOK {
+		// If the token is not valid, get a new one
+		tok = getTokenFromWeb(config)
+		saveToken(TokenJson, tok)
+		tokenSource = config.TokenSource(context.Background(), tok)
+		client = oauth2.NewClient(context.Background(), tokenSource)
+	}
+
+	return client
 }
 
 // Request a token from the web, then returns the retrieved token.
