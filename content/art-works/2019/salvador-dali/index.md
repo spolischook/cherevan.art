@@ -1,17 +1,20 @@
 ---
+id: 34
+order: 540
+title: Salvador Dali
+slug: salvador-dali
+url: art-works/salvador-dali
+aliases: []
 categories:
 - graphics
-date: "2019-12-31T23:58:41Z"
-height: 35
 inStock: true
 isVisible: true
-mainImage: salvador_dali.jpg
+height: 35
+width: 25
+date: 2019-01-01T00:00:00Z
 materials:
 - newspaper
 - ink
 price: -1
-slug: salvador-dali
-title: Salvador Dali
-width: 25
+mainImage: salvador_dali.jpg
 ---
-

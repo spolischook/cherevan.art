@@ -1,19 +1,20 @@
 ---
+id: 436
+order: 110
+title: If the river wants to become a sea
+slug: if-the-river-wants-to-become-a-sea
+url: art-works/if-the-river-wants-to-become-a-sea
+aliases: []
 categories:
 - painting
-date: "2020-01-01T00:00:00Z"
-height: 85
-id: 0
 inStock: true
 isVisible: true
-mainImage: if_the_river_wants_to_become_a_sea.jpg
+height: 85
+width: 60
+date: 2020-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 112
 price: 800
-slug: if-the-river-wants-to-become-a-sea
-title: If the river wants to become a sea
-width: 60
+mainImage: if_the_river_wants_to_become_a_sea.jpg
 ---
-

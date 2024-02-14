@@ -1,19 +1,20 @@
 ---
+id: 261
+order: 284
+title: Model with cat
+slug: model-with-cat
+url: art-works/model-with-cat
+aliases: []
 categories:
 - graphics
-date: "2017-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: false
-mainImage: model_with_cat.jpg
+height: 30
+width: 21
+date: 2017-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 286
 price: 150
-slug: model-with-cat
-title: Model with cat
-width: 21
+mainImage: model_with_cat.jpg
 ---
-

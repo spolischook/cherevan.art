@@ -1,20 +1,21 @@
 ---
+id: 288
+order: 257
+title: Moonlight
+slug: moonlight
+url: art-works/moonlight
+aliases: []
 categories:
 - painting
-date: "2018-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: false
-mainImage: moonlight.jpg
+height: 30
+width: 25
+date: 2018-01-01T00:00:00Z
 materials:
 - acrylic
 - ink
 - canvas
-order: 259
 price: 250
-slug: moonlight
-title: Moonlight
-width: 25
+mainImage: moonlight.jpg
 ---
-

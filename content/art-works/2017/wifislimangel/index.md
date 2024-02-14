@@ -1,17 +1,20 @@
 ---
+id: 30
+order: 544
+title: Wifislimangel
+slug: wifislimangel
+url: art-works/wifislimangel
+aliases: []
 categories:
 - painting
-date: "2017-12-31T23:58:53Z"
-height: 90
 inStock: true
 isVisible: true
-mainImage: wifi_slim_angel.jpg
+height: 90
+width: 65
+date: 2017-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
 price: 1200
-slug: wifislimangel
-title: Wifislimangel
-width: 65
+mainImage: wifi_slim_angel.jpg
 ---
-

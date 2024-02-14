@@ -1,17 +1,20 @@
 ---
+id: 64
+order: 510
+title: Olya
+slug: olya
+url: art-works/olya
+aliases: []
 categories:
 - graphics
-date: "2008-12-31T23:59:40Z"
-height: 65
 inStock: false
 isVisible: false
-mainImage: olya.jpg
+height: 65
+width: 40
+date: 2008-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: olya
-title: Olya
-width: 40
+mainImage: olya.jpg
 ---
-

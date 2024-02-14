@@ -1,20 +1,21 @@
 ---
+id: 452
+order: 94
+title: Mistress
+slug: mistress
+url: art-works/mistress
+aliases: []
 categories:
 - shibari
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: true
-mainImage: mistress.jpg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 96
 price: 100
-slug: mistress
-title: Mistress
-width: 21
+mainImage: mistress.jpg
 ---
-

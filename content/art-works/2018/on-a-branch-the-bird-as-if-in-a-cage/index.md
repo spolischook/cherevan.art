@@ -1,21 +1,22 @@
 ---
+id: 291
+order: 254
+title: On a branch, the bird as if in a cage
+slug: on-a-branch-the-bird-as-if-in-a-cage
+url: art-works/on-a-branch-the-bird-as-if-in-a-cage
+aliases: []
 categories:
 - shibari
 - painting
-date: "2018-01-01T00:00:00Z"
-height: 120
-id: 0
 inStock: false
 isVisible: true
-mainImage: on_a_branch_the_bird_as_if_in_a_cage.jpg
+height: 120
+width: 80
+date: 2018-01-01T00:00:00Z
 materials:
 - oil
 - acrylic
 - canvas
-order: 256
 price: 2000
-slug: on-a-branch-the-bird-as-if-in-a-cage
-title: On a branch, the bird as if in a cage
-width: 80
+mainImage: on_a_branch_the_bird_as_if_in_a_cage.jpg
 ---
-

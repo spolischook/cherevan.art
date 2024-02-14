@@ -1,20 +1,21 @@
 ---
+id: 509
+order: 37
+title: fallen leaf
+slug: fallen-leaf
+url: art-works/fallen-leaf
+aliases: []
 categories:
 - painting
-date: "2022-01-01T00:00:00Z"
-height: 85
-id: 0
 inStock: false
 isVisible: true
-mainImage: fallen_leaf.JPG
+height: 85
+width: 60
+date: 2022-01-01T00:00:00Z
 materials:
 - acrylic
 - oil
 - canvas
-order: 39
 price: 1200
-slug: fallen-leaf
-title: fallen leaf
-width: 60
+mainImage: fallen_leaf.JPG
 ---
-

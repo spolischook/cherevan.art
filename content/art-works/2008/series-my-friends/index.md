@@ -1,17 +1,20 @@
 ---
+id: 57
+order: 517
+title: Series "My friends"
+slug: series-my-friends
+url: art-works/series-my-friends
+aliases: []
 categories:
 - graphics
-date: "2008-12-31T23:59:33Z"
-height: 65
 inStock: false
 isVisible: false
-mainImage: series_my_friends.jpg
+height: 65
+width: 40
+date: 2008-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: series-my-friends
-title: Series "My friends"
-width: 40
+mainImage: series_my_friends.jpg
 ---
-

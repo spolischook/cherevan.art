@@ -1,19 +1,20 @@
 ---
+id: 377
+order: 168
+title: All we have is now 2
+slug: all-we-have-is-now-2
+url: art-works/all-we-have-is-now-2
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: false
-mainImage: all-we-have-is-now_2.jpg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 170
 price: 100
-slug: all-we-have-is-now-2
-title: All we have is now 2
-width: 21
+mainImage: all-we-have-is-now_2.jpg
 ---
-

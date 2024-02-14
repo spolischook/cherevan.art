@@ -1,21 +1,22 @@
 ---
+id: 215
+order: 330
+title: Fish Samui
+slug: fish-samui
+url: art-works/fish-samui
+aliases: []
 categories:
 - graphics
-date: "2017-01-01T00:00:00Z"
-height: 50
-id: 0
 inStock: true
 isVisible: true
-mainImage: samui_fish.jpg
+height: 50
+width: 35
+date: 2017-01-01T00:00:00Z
 materials:
 - ink
 - marker
 - paper
 - watercolor
-order: 332
 price: -1
-slug: fish-samui
-title: Fish Samui
-width: 35
+mainImage: samui_fish.jpg
 ---
-

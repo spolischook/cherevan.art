@@ -1,21 +1,22 @@
 ---
+id: 346
+order: 199
+title: Two worlds
+slug: two-worlds
+url: art-works/two-worlds
+aliases: []
 categories:
 - painting
-date: "2019-01-01T00:00:00Z"
-height: 50
-id: 0
 inStock: false
 isVisible: false
-mainImage: two_worlds.jpg
+height: 50
+width: 50
+date: 2019-01-01T00:00:00Z
 materials:
 - canvas
 - acrylic
 - ink
 - marker
-order: 201
 price: -1
-slug: two-worlds
-title: Two worlds
-width: 50
+mainImage: two_worlds.jpg
 ---
-

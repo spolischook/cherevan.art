@@ -1,19 +1,20 @@
 ---
+id: 537
+order: 11
+title: Raised angel
+slug: raised-angel
+url: art-works/raised-angel
+aliases: []
 categories:
 - graphics
-date: "2023-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: true
-mainImage: rised_angel.jpg
+height: 30
+width: 21
+date: 2023-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 11
 price: 150
-slug: raised-angel
-title: Raised angel
-width: 21
+mainImage: rised_angel.jpg
 ---
-

@@ -1,17 +1,20 @@
 ---
+id: 148
+order: 424
+title: Bike under the window
+slug: bike-under-the-window
+url: art-works/bike-under-the-window
+aliases: []
 categories:
 - painting
-date: "2014-12-31T23:59:50Z"
-height: 50
 inStock: false
 isVisible: false
-mainImage: bike_under_the_window.jpg
+height: 50
+width: 60
+date: 2014-01-01T00:00:00Z
 materials:
 - oil
 - canvas
 price: 500
-slug: bike-under-the-window
-title: Bike under the window
-width: 60
+mainImage: bike_under_the_window.jpg
 ---
-

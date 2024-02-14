@@ -1,17 +1,20 @@
 ---
+id: 47
+order: 527
+title: Girl with a fan
+slug: girl-with-a-fan
+url: art-works/girl-with-a-fan
+aliases: []
 categories:
 - graphics
-date: "2006-12-31T23:59:55Z"
-height: 50
 inStock: false
 isVisible: false
-mainImage: girl_with_a_fan.jpg
+height: 50
+width: 35
+date: 2006-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: girl-with-a-fan
-title: Girl with a fan
-width: 35
+mainImage: girl_with_a_fan.jpg
 ---
-

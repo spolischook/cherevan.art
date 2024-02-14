@@ -1,17 +1,20 @@
 ---
+id: 85
+order: 489
+title: Nadine
+slug: nadine
+url: art-works/nadine
+aliases: []
 categories:
 - graphics
-date: "2009-12-31T23:59:33Z"
-height: 65
 inStock: false
 isVisible: false
-mainImage: nadine.jpg
+height: 65
+width: 40
+date: 2009-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: nadine
-title: Nadine
-width: 40
+mainImage: nadine.jpg
 ---
-

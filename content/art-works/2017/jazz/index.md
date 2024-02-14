@@ -1,19 +1,20 @@
 ---
+id: 241
+order: 304
+title: Jazz
+slug: jazz
+url: art-works/jazz
+aliases: []
 categories:
 - painting
-date: "2017-01-01T00:00:00Z"
-height: 80
-id: 0
 inStock: true
 isVisible: true
-mainImage: jazz.jpg
+height: 80
+width: 80
+date: 2017-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 306
 price: 1000
-slug: jazz
-title: Jazz
-width: 80
+mainImage: jazz.jpg
 ---
-

@@ -1,17 +1,20 @@
 ---
+id: 23
+order: 551
+title: Burn with the new star
+slug: burn-with-the-new-star
+url: art-works/burn-with-the-new-star
+aliases: []
 categories:
 - painting
-date: "2013-12-31T23:59:52Z"
-height: 60
 inStock: false
 isVisible: false
-mainImage: burn_with_the_new_star.jpg
+height: 60
+width: 40
+date: 2013-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
 price: -1
-slug: burn-with-the-new-star
-title: Burn with the new star
-width: 40
+mainImage: burn_with_the_new_star.jpg
 ---
-

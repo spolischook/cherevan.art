@@ -1,19 +1,20 @@
 ---
+id: 513
+order: 33
+title: The girl who saved the dogs
+slug: the-girl-who-saved-the-dogs
+url: art-works/the-girl-who-saved-the-dogs
+aliases: []
 categories:
 - graphics
-date: "2022-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: false
-mainImage: The_girl_who_saved_the_dogs.JPG
+height: 30
+width: 42
+date: 2022-01-01T00:00:00Z
 materials:
 - paper
 - pencil
-order: 35
 price: 200
-slug: the-girl-who-saved-the-dogs
-title: The girl who saved the dogs
-width: 42
+mainImage: The_girl_who_saved_the_dogs.JPG
 ---
-

@@ -1,20 +1,21 @@
 ---
+id: 485
+order: 61
+title: Shibari devil
+slug: shibari-devil
+url: art-works/shibari-devil
+aliases: []
 categories:
 - shibari
 - graphics
-date: "2021-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: true
-mainImage: shibari_devil.JPG
+height: 30
+width: 21
+date: 2021-01-01T00:00:00Z
 materials:
 - paper
 - pen
-order: 63
 price: 100
-slug: shibari-devil
-title: Shibari devil
-width: 21
+mainImage: shibari_devil.JPG
 ---
-

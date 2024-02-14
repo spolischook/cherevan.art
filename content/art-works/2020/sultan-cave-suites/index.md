@@ -1,20 +1,21 @@
 ---
+id: 465
+order: 81
+title: Sultan Cave suites
+slug: sultan-cave-suites
+url: art-works/sultan-cave-suites
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: false
-mainImage: sultan_cave_suites.jpg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - paper
 - watercolor
 - pen
-order: 83
 price: 100
-slug: sultan-cave-suites
-title: Sultan Cave suites
-width: 21
+mainImage: sultan_cave_suites.jpg
 ---
-

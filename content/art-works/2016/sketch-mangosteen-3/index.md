@@ -1,20 +1,21 @@
 ---
+id: 214
+order: 331
+title: Sketch mangosteen 3
+slug: sketch-mangosteen-3
+url: art-works/sketch-mangosteen-3
+aliases: []
 categories:
 - graphics
-date: "2016-01-01T00:00:00Z"
-height: 21
-id: 0
 inStock: true
 isVisible: false
-mainImage: sketch_mangosteen.jpg
+height: 21
+width: 30
+date: 2016-01-01T00:00:00Z
 materials:
 - ink
 - marker
 - paper
-order: 333
 price: 100
-slug: sketch-mangosteen-3
-title: Sketch mangosteen 3
-width: 30
+mainImage: sketch_mangosteen.jpg
 ---
-

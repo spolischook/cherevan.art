@@ -1,19 +1,20 @@
 ---
+id: 196
+order: 349
+title: Venezia-Castello
+slug: venezia-castello
+url: art-works/venezia-castello
+aliases: []
 categories:
 - graphics
-date: "2016-01-01T00:00:00Z"
-height: 21
-id: 0
 inStock: true
 isVisible: false
-mainImage: venecia_castello.jpg
+height: 21
+width: 30
+date: 2016-01-01T00:00:00Z
 materials:
 - pen
 - paper
-order: 351
 price: 150
-slug: venezia-castello
-title: Venezia-Castello
-width: 30
+mainImage: venecia_castello.jpg
 ---
-

@@ -1,20 +1,21 @@
 ---
+id: 480
+order: 66
+title: Sacred strawberry
+slug: sacred-strawberry
+url: art-works/sacred-strawberry
+aliases: []
 categories:
 - painting
-date: "2021-01-01T00:00:00Z"
-height: 70
-id: 0
 inStock: true
 isVisible: true
-mainImage: sacred_strawberry.JPG
+height: 70
+width: 70
+date: 2021-01-01T00:00:00Z
 materials:
 - acrylic
 - oil
 - canvas
-order: 68
 price: 1000
-slug: sacred-strawberry
-title: Sacred strawberry
-width: 70
+mainImage: sacred_strawberry.JPG
 ---
-

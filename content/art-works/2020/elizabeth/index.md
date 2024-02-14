@@ -1,19 +1,20 @@
 ---
+id: 415
+order: 130
+title: Elizabeth
+slug: elizabeth
+url: art-works/elizabeth
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: true
-mainImage: Elizabeth.jpg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - watercolor
 - paper
-order: 132
 price: 100
-slug: elizabeth
-title: Elizabeth
-width: 21
+mainImage: Elizabeth.jpg
 ---
-

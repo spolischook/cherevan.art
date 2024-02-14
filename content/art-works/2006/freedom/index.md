@@ -1,17 +1,20 @@
 ---
+id: 50
+order: 524
+title: Freedom
+slug: freedom
+url: art-works/freedom
+aliases: []
 categories:
 - graphics
-date: "2006-12-31T23:59:58Z"
-height: 35
 inStock: false
 isVisible: false
-mainImage: freedom.jpg
+height: 35
+width: 50
+date: 2006-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: freedom
-title: Freedom
-width: 50
+mainImage: freedom.jpg
 ---
-

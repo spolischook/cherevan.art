@@ -1,19 +1,20 @@
 ---
+id: 345
+order: 200
+title: Wild Woman
+slug: wild-woman
+url: art-works/wild-woman
+aliases: []
 categories:
 - painting
-date: "2019-01-01T00:00:00Z"
-height: 80
-id: 0
 inStock: false
 isVisible: false
-mainImage: wild_woman.jpg
+height: 80
+width: 60
+date: 2019-01-01T00:00:00Z
 materials:
 - canvas
 - acrylic
-order: 202
 price: -1
-slug: wild-woman
-title: Wild Woman
-width: 60
+mainImage: wild_woman.jpg
 ---
-

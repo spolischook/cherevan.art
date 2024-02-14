@@ -1,19 +1,20 @@
 ---
+id: 259
+order: 286
+title: Venice on the window
+slug: venice-on-the-window
+url: art-works/venice-on-the-window
+aliases: []
 categories:
 - graphics
-date: "2017-01-01T00:00:00Z"
-height: 21
-id: 0
 inStock: false
 isVisible: false
-mainImage: venice_on_the_window.jpg
+height: 21
+width: 30
+date: 2017-01-01T00:00:00Z
 materials:
 - marker
 - paper
-order: 288
 price: 150
-slug: venice-on-the-window
-title: Venice on the window
-width: 30
+mainImage: venice_on_the_window.jpg
 ---
-

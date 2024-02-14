@@ -1,19 +1,20 @@
 ---
+id: 367
+order: 178
+title: Trouble in paradise
+slug: trouble-in-paradise
+url: art-works/trouble-in-paradise
+aliases: []
 categories:
 - painting
-date: "2019-01-01T00:00:00Z"
-height: 50
-id: 0
 inStock: true
 isVisible: true
-mainImage: trouble_in_paradaise_1.jpg
+height: 50
+width: 50
+date: 2019-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 180
 price: 300
-slug: trouble-in-paradise
-title: Trouble in paradise
-width: 50
+mainImage: trouble_in_paradaise_1.jpg
 ---
-

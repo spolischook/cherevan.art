@@ -1,19 +1,20 @@
 ---
+id: 434
+order: 112
+title: Here with me
+slug: here-with-me
+url: art-works/here-with-me
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 70
-id: 0
 inStock: false
 isVisible: false
-mainImage: here_with_me.jpg
+height: 70
+width: 50
+date: 2020-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 114
 price: -1
-slug: here-with-me
-title: Here with me
-width: 50
+mainImage: here_with_me.jpg
 ---
-

@@ -1,19 +1,20 @@
 ---
+id: 428
+order: 118
+title: Pillow challenge 2
+slug: pillow-challenge-2
+url: art-works/pillow-challenge-2
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: false
-mainImage: pillow-challenge_2.jpg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - watercolor
 - paper
-order: 120
 price: -1
-slug: pillow-challenge-2
-title: Pillow challenge 2
-width: 21
+mainImage: pillow-challenge_2.jpg
 ---
-

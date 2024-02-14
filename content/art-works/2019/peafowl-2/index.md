@@ -1,19 +1,20 @@
 ---
+id: 358
+order: 187
+title: Peafowl 2
+slug: peafowl-2
+url: art-works/peafowl-2
+aliases: []
 categories:
 - painting
-date: "2019-01-01T00:00:00Z"
-height: 70
-id: 0
 inStock: true
 isVisible: true
-mainImage: peafowl.jpg
+height: 70
+width: 50
+date: 2019-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 189
 price: 600
-slug: peafowl-2
-title: Peafowl 2
-width: 50
+mainImage: peafowl.jpg
 ---
-

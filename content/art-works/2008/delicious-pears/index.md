@@ -1,17 +1,20 @@
 ---
+id: 9
+order: 565
+title: Delicious pears
+slug: delicious-pears
+url: art-works/delicious-pears
+aliases: []
 categories:
 - painting
-date: "2008-12-31T23:59:32Z"
-height: 70
 inStock: false
 isVisible: false
-mainImage: delicious_pears.jpg
+height: 70
+width: 80
+date: 2008-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
 price: -1
-slug: delicious-pears
-title: Delicious pears
-width: 80
+mainImage: delicious_pears.jpg
 ---
-

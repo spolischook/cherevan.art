@@ -1,20 +1,21 @@
 ---
+id: 199
+order: 346
+title: Birds over the cathedral
+slug: birds-over-the-cathedral
+url: art-works/birds-over-the-cathedral
+aliases: []
 categories:
 - graphics
-date: "2017-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: false
-mainImage: birds_over_the_cathedral.jpg
+height: 30
+width: 21
+date: 2017-01-01T00:00:00Z
 materials:
 - ink
 - marker
 - paper
-order: 348
 price: 150
-slug: birds-over-the-cathedral
-title: Birds over the cathedral
-width: 21
+mainImage: birds_over_the_cathedral.jpg
 ---
-

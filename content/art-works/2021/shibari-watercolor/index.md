@@ -1,21 +1,22 @@
 ---
+id: 483
+order: 63
+title: Shibari watercolor
+slug: shibari-watercolor
+url: art-works/shibari-watercolor
+aliases: []
 categories:
 - shibari
 - graphics
-date: "2021-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: false
-mainImage: shibari_watercolor.jpg
+height: 30
+width: 21
+date: 2021-01-01T00:00:00Z
 materials:
 - paper
 - watercolor
 - pen
-order: 65
 price: 100
-slug: shibari-watercolor
-title: Shibari watercolor
-width: 21
+mainImage: shibari_watercolor.jpg
 ---
-

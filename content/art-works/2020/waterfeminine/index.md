@@ -1,19 +1,20 @@
 ---
+id: 470
+order: 76
+title: water_feminine
+slug: waterfeminine
+url: art-works/waterfeminine
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: true
-mainImage: water_feminine.jpg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 78
 price: 150
-slug: waterfeminine
-title: water_feminine
-width: 21
+mainImage: water_feminine.jpg
 ---
-

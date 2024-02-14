@@ -1,20 +1,21 @@
 ---
+id: 297
+order: 248
+title: Cherchez la femme
+slug: cherchez-la-femme
+url: art-works/cherchez-la-femme
+aliases: []
 categories:
 - painting
-date: "2018-01-01T00:00:00Z"
-height: 85
-id: 0
 inStock: true
 isVisible: true
-mainImage: cherchez_la_femme.jpg
+height: 85
+width: 60
+date: 2018-01-01T00:00:00Z
 materials:
 - acrylic
 - ink
 - canvas
-order: 250
 price: 1500
-slug: cherchez-la-femme
-title: Cherchez la femme
-width: 60
+mainImage: cherchez_la_femme.jpg
 ---
-

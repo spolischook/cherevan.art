@@ -1,21 +1,22 @@
 ---
+id: 464
+order: 82
+title: Shibari cooking
+slug: shibari-cooking
+url: art-works/shibari-cooking
+aliases: []
 categories:
 - shibari
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 21
-id: 0
 inStock: true
 isVisible: true
-mainImage: Shibari_cooking.jpg
+height: 21
+width: 30
+date: 2020-01-01T00:00:00Z
 materials:
 - paper
 - watercolor
 - pen
-order: 84
 price: 50
-slug: shibari-cooking
-title: Shibari cooking
-width: 30
+mainImage: Shibari_cooking.jpg
 ---
-

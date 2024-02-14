@@ -1,19 +1,20 @@
 ---
+id: 514
+order: 32
+title: come back alive
+slug: come-back-alive
+url: art-works/come-back-alive
+aliases: []
 categories:
 - graphics
-date: "2022-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: false
-mainImage: come_back_alive.JPG
+height: 30
+width: 42
+date: 2022-01-01T00:00:00Z
 materials:
 - paper
 - pencil
-order: 34
 price: 200
-slug: come-back-alive
-title: come back alive
-width: 42
+mainImage: come_back_alive.JPG
 ---
-

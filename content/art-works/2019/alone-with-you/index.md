@@ -1,20 +1,21 @@
 ---
+id: 516
+order: 30
+title: Alone with you
+slug: alone-with-you
+url: art-works/alone-with-you
+aliases: []
 categories:
 - painting
-date: "2019-01-01T00:00:00Z"
-height: 90
-id: 0
 inStock: true
 isVisible: true
-mainImage: alone_with_you.JPG
+height: 90
+width: 60
+date: 2019-01-01T00:00:00Z
 materials:
 - acrylic
 - oil
 - canvas
-order: 32
 price: 1500
-slug: alone-with-you
-title: Alone with you
-width: 60
+mainImage: alone_with_you.JPG
 ---
-

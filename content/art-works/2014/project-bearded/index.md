@@ -1,17 +1,20 @@
 ---
+id: 151
+order: 421
+title: Project “Bearded”
+slug: project-bearded
+url: art-works/project-bearded
+aliases: []
 categories:
 - painting
-date: "2014-12-31T23:59:53Z"
-height: 80
 inStock: false
 isVisible: false
-mainImage: hair_vegetation.jpg
+height: 80
+width: 60
+date: 2014-01-01T00:00:00Z
 materials:
 - oil
 - canvas
 price: -1
-slug: project-bearded
-title: Project “Bearded”
-width: 60
+mainImage: hair_vegetation.jpg
 ---
-

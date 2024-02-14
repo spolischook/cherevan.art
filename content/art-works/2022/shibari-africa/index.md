@@ -1,21 +1,22 @@
 ---
+id: 508
+order: 38
+title: shibari Africa
+slug: shibari-africa
+url: art-works/shibari-africa
+aliases: []
 categories:
 - shibari
 - graphics
-date: "2022-01-01T00:00:00Z"
-height: 40
-id: 0
 inStock: false
 isVisible: false
-mainImage: shibari_africa.JPG
+height: 40
+width: 30
+date: 2022-01-01T00:00:00Z
 materials:
 - ink
 - marker
 - paper
-order: 40
 price: 200
-slug: shibari-africa
-title: shibari Africa
-width: 30
+mainImage: shibari_africa.JPG
 ---
-

@@ -1,19 +1,20 @@
 ---
+id: 430
+order: 116
+title: Sleepy bear
+slug: sleepy-bear
+url: art-works/sleepy-bear
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: false
-mainImage: sleepy_bear.jpg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - watercolor
 - paper
-order: 118
 price: 80
-slug: sleepy-bear
-title: Sleepy bear
-width: 21
+mainImage: sleepy_bear.jpg
 ---
-

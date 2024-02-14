@@ -1,17 +1,20 @@
 ---
+id: 7
+order: 567
+title: On the back of whale
+slug: on-the-back-of-whale
+url: art-works/on-the-back-of-whale
+aliases: []
 categories:
 - graphics
-date: "2017-12-31T23:58:43Z"
-height: 21
 inStock: false
 isVisible: false
-mainImage: On_the_back_of_whale.jpg
+height: 21
+width: 30
+date: 2017-01-01T00:00:00Z
 materials:
 - paper
 - ink
 price: -1
-slug: on-the-back-of-whale
-title: On the back of whale
-width: 30
+mainImage: On_the_back_of_whale.jpg
 ---
-

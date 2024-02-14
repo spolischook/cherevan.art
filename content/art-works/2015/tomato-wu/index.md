@@ -1,17 +1,20 @@
 ---
+id: 33
+order: 541
+title: Tomato Wu
+slug: tomato-wu
+url: art-works/tomato-wu
+aliases: []
 categories:
 - painting
-date: "2015-12-31T23:59:39Z"
-height: 30
 inStock: false
 isVisible: false
-mainImage: tomato_wu.jpg
+height: 30
+width: 20
+date: 2015-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
 price: -1
-slug: tomato-wu
-title: Tomato Wu
-width: 20
+mainImage: tomato_wu.jpg
 ---
-

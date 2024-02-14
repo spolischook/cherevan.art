@@ -1,20 +1,21 @@
 ---
+id: 249
+order: 296
+title: Clitoriaterna
+slug: clitoriaterna
+url: art-works/clitoriaterna
+aliases: []
 categories:
 - painting
-date: "2017-01-01T00:00:00Z"
-height: 85
-id: 0
 inStock: true
 isVisible: true
-mainImage: clitiriaterna.jpg
+height: 85
+width: 60
+date: 2017-01-01T00:00:00Z
 materials:
 - acrylic
 - ink
 - canvas
-order: 298
 price: 1500
-slug: clitoriaterna
-title: Clitoriaterna
-width: 60
+mainImage: clitiriaterna.jpg
 ---
-

@@ -1,19 +1,20 @@
 ---
+id: 435
+order: 111
+title: Sweet tooth
+slug: sweet-tooth
+url: art-works/sweet-tooth
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: false
-mainImage: sweettooth.jpg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - watercolor
 - paper
-order: 113
 price: -1
-slug: sweet-tooth
-title: Sweet tooth
-width: 21
+mainImage: sweettooth.jpg
 ---
-

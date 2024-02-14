@@ -1,17 +1,20 @@
 ---
+id: 111
+order: 463
+title: The death of civilizations
+slug: the-death-of-civilizations
+url: art-works/the-death-of-civilizations
+aliases: []
 categories:
 - graphics
-date: "2009-12-31T23:59:59Z"
-height: 70
 inStock: false
 isVisible: false
-mainImage: the_death_of_civilizations.JPG
+height: 70
+width: 50
+date: 2009-01-01T00:00:00Z
 materials:
 - pen
 - paper
 price: -1
-slug: the-death-of-civilizations
-title: The death of civilizations
-width: 50
+mainImage: the_death_of_civilizations.JPG
 ---
-

@@ -1,20 +1,21 @@
 ---
+id: 416
+order: 129
+title: Kiss me girl
+slug: kiss-me-girl
+url: art-works/kiss-me-girl
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: true
-mainImage: kiss_me_boy.jpg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - ink
 - marker
 - paper
-order: 131
 price: 120
-slug: kiss-me-girl
-title: Kiss me girl
-width: 21
+mainImage: kiss_me_boy.jpg
 ---
-

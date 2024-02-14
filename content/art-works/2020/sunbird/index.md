@@ -1,19 +1,20 @@
 ---
+id: 410
+order: 135
+title: Sunbird
+slug: sunbird
+url: art-works/sunbird
+aliases: []
 categories:
 - painting
-date: "2020-01-01T00:00:00Z"
-height: 60
-id: 0
 inStock: true
 isVisible: true
-mainImage: sunbird_2.jpg
+height: 60
+width: 85
+date: 2020-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 137
 price: -1
-slug: sunbird
-title: Sunbird
-width: 85
+mainImage: sunbird_2.jpg
 ---
-

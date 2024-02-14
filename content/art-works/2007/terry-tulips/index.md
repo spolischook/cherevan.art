@@ -1,17 +1,20 @@
 ---
+id: 55
+order: 519
+title: Terry tulips
+slug: terry-tulips
+url: art-works/terry-tulips
+aliases: []
 categories:
 - painting
-date: "2007-12-31T23:59:58Z"
-height: 70
 inStock: false
 isVisible: false
-mainImage: terry_tulips.jpg
+height: 70
+width: 80
+date: 2007-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
 price: -1
-slug: terry-tulips
-title: Terry tulips
-width: 80
+mainImage: terry_tulips.jpg
 ---
-

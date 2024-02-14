@@ -1,17 +1,20 @@
 ---
+id: 59
+order: 515
+title: Tea ceremony
+slug: tea-ceremony
+url: art-works/tea-ceremony
+aliases: []
 categories:
 - graphics
-date: "2008-12-31T23:59:35Z"
-height: 50
 inStock: false
 isVisible: false
-mainImage: tea_ceremony.jpg
+height: 50
+width: 70
+date: 2008-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: tea-ceremony
-title: Tea ceremony
-width: 70
+mainImage: tea_ceremony.jpg
 ---
-

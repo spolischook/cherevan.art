@@ -1,17 +1,20 @@
 ---
+id: 87
+order: 487
+title: Geisha
+slug: geisha
+url: art-works/geisha
+aliases: []
 categories:
 - graphics
-date: "2009-12-31T23:59:35Z"
-height: 50
 inStock: false
 isVisible: false
-mainImage: Geisha.JPG
+height: 50
+width: 35
+date: 2009-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: geisha
-title: Geisha
-width: 35
+mainImage: Geisha.JPG
 ---
-

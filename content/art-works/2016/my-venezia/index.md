@@ -1,17 +1,20 @@
 ---
+id: 15
+order: 559
+title: My Venezia
+slug: my-venezia
+url: art-works/my-venezia
+aliases: []
 categories:
 - painting
-date: "2016-12-31T23:59:39Z"
-height: 50
 inStock: false
 isVisible: false
-mainImage: my_venice.jpg
+height: 50
+width: 60
+date: 2016-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
 price: -1
-slug: my-venezia
-title: My Venezia
-width: 60
+mainImage: my_venice.jpg
 ---
-

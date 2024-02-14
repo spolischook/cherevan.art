@@ -1,19 +1,20 @@
 ---
+id: 329
+order: 216
+title: Mark with artishok
+slug: mark-with-artishok
+url: art-works/mark-with-artishok
+aliases: []
 categories:
 - graphics
-date: "2018-01-01T00:00:00Z"
-height: 70
-id: 0
 inStock: true
 isVisible: false
-mainImage: mark_with_artishok.jpeg
+height: 70
+width: 50
+date: 2018-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
-order: 218
 price: 500
-slug: mark-with-artishok
-title: Mark with artishok
-width: 50
+mainImage: mark_with_artishok.jpeg
 ---
-

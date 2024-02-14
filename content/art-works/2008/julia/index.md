@@ -1,17 +1,20 @@
 ---
+id: 63
+order: 511
+title: Julia
+slug: julia
+url: art-works/julia
+aliases: []
 categories:
 - graphics
-date: "2008-12-31T23:59:39Z"
-height: 65
 inStock: false
 isVisible: false
-mainImage: julia.jpg
+height: 65
+width: 40
+date: 2008-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: julia
-title: Julia
-width: 40
+mainImage: julia.jpg
 ---
-

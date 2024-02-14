@@ -1,19 +1,20 @@
 ---
+id: 392
+order: 153
+title: Kiara
+slug: kiara
+url: art-works/kiara
+aliases: []
 categories:
 - graphics
-date: "2019-01-01T00:00:00Z"
-height: 35
-id: 0
 inStock: true
 isVisible: true
-mainImage: kiara.jpg
+height: 35
+width: 25
+date: 2019-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 155
 price: 100
-slug: kiara
-title: Kiara
-width: 25
+mainImage: kiara.jpg
 ---
-

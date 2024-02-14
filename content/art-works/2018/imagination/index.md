@@ -1,20 +1,21 @@
 ---
+id: 280
+order: 265
+title: Imagination
+slug: imagination
+url: art-works/imagination
+aliases: []
 categories:
 - graphics
-date: "2018-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: false
-mainImage: imagination.jpg
+height: 30
+width: 21
+date: 2018-01-01T00:00:00Z
 materials:
 - ink
 - marker
 - paper
-order: 267
 price: 150
-slug: imagination
-title: Imagination
-width: 21
+mainImage: imagination.jpg
 ---
-

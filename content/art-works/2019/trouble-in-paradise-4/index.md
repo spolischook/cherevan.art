@@ -1,19 +1,20 @@
 ---
+id: 364
+order: 181
+title: Trouble in paradise 4
+slug: trouble-in-paradise-4
+url: art-works/trouble-in-paradise-4
+aliases: []
 categories:
 - painting
-date: "2019-01-01T00:00:00Z"
-height: 50
-id: 0
 inStock: true
 isVisible: true
-mainImage: trouble_in_paradaise_4.jpg
+height: 50
+width: 50
+date: 2019-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 183
 price: 300
-slug: trouble-in-paradise-4
-title: Trouble in paradise 4
-width: 50
+mainImage: trouble_in_paradaise_4.jpg
 ---
-

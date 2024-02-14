@@ -1,17 +1,20 @@
 ---
+id: 74
+order: 500
+title: Callas
+slug: callas
+url: art-works/callas
+aliases: []
 categories:
 - painting
-date: "2008-12-31T23:59:50Z"
-height: 90
 inStock: false
 isVisible: false
-mainImage: callas.jpg
+height: 90
+width: 90
+date: 2008-01-01T00:00:00Z
 materials:
 - canvas
 - acrylic
 price: -1
-slug: callas
-title: Callas
-width: 90
+mainImage: callas.jpg
 ---
-

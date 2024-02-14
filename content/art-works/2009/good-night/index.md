@@ -1,17 +1,20 @@
 ---
+id: 96
+order: 478
+title: Good night
+slug: good-night
+url: art-works/good-night
+aliases: []
 categories:
 - painting
-date: "2009-12-31T23:59:44Z"
-height: 80
 inStock: false
 isVisible: false
-mainImage: good_night.jpg
+height: 80
+width: 70
+date: 2009-01-01T00:00:00Z
 materials:
 - canvas
 - acrylic
 price: -1
-slug: good-night
-title: Good night
-width: 70
+mainImage: good_night.jpg
 ---
-

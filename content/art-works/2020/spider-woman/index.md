@@ -1,20 +1,21 @@
 ---
+id: 482
+order: 64
+title: Spider woman
+slug: spider-woman
+url: art-works/spider-woman
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: true
-mainImage: spider_woman.jpg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - paper
 - watercolor
 - pen
-order: 66
 price: 150
-slug: spider-woman
-title: Spider woman
-width: 21
+mainImage: spider_woman.jpg
 ---
-

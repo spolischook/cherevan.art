@@ -1,19 +1,20 @@
 ---
+id: 315
+order: 230
+title: The Abduction of Eva 2
+slug: the-abduction-of-eva-2
+url: art-works/the-abduction-of-eva-2
+aliases: []
 categories:
 - graphics
-date: "2018-01-01T00:00:00Z"
-height: 20
-id: 0
 inStock: false
 isVisible: false
-mainImage: the_abduction_of_evrope_pen_paper.jpg
+height: 20
+width: 20
+date: 2018-01-01T00:00:00Z
 materials:
 - marker
 - paper
-order: 232
 price: 150
-slug: the-abduction-of-eva-2
-title: The Abduction of Eva 2
-width: 20
+mainImage: the_abduction_of_evrope_pen_paper.jpg
 ---
-

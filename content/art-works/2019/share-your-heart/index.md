@@ -1,19 +1,20 @@
 ---
+id: 360
+order: 185
+title: Share your heart
+slug: share-your-heart
+url: art-works/share-your-heart
+aliases: []
 categories:
 - painting
-date: "2019-01-01T00:00:00Z"
-height: 70
-id: 0
 inStock: true
 isVisible: true
-mainImage: share_your_heart.jpg
+height: 70
+width: 50
+date: 2019-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 187
 price: 1400
-slug: share-your-heart
-title: Share your heart
-width: 50
+mainImage: share_your_heart.jpg
 ---
-

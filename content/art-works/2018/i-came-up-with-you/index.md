@@ -1,21 +1,22 @@
 ---
+id: 306
+order: 239
+title: I came up with You
+slug: i-came-up-with-you
+url: art-works/i-came-up-with-you
+aliases: []
 categories:
 - painting
-date: "2018-01-01T00:00:00Z"
-height: 80
-id: 0
 inStock: true
 isVisible: true
-mainImage: i_came_up_with_you.jpg
+height: 80
+width: 60
+date: 2018-01-01T00:00:00Z
 materials:
 - acrylic
 - ink
 - resin
 - canvas
-order: 241
 price: 1200
-slug: i-came-up-with-you
-title: I came up with You
-width: 60
+mainImage: i_came_up_with_you.jpg
 ---
-

@@ -1,20 +1,21 @@
 ---
+id: 174
+order: 371
+title: Glasha
+slug: glasha
+url: art-works/glasha
+aliases: []
 categories:
 - graphics
-date: "2015-01-01T00:00:00Z"
-height: 50
-id: 0
 inStock: true
 isVisible: true
-mainImage: glasha.jpg
+height: 50
+width: 35
+date: 2015-01-01T00:00:00Z
 materials:
 - pencil
 - marker
 - paper
-order: 373
 price: 400
-slug: glasha
-title: Glasha
-width: 35
+mainImage: glasha.jpg
 ---
-

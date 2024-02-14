@@ -1,19 +1,20 @@
 ---
+id: 363
+order: 182
+title: Subtleties
+slug: subtleties
+url: art-works/subtleties
+aliases: []
 categories:
 - painting
-date: "2019-01-01T00:00:00Z"
-height: 70
-id: 0
 inStock: false
 isVisible: false
-mainImage: subtleties.jpg
+height: 70
+width: 50
+date: 2019-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 184
 price: 1200
-slug: subtleties
-title: Subtleties
-width: 50
+mainImage: subtleties.jpg
 ---
-

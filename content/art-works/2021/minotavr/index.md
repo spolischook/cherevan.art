@@ -1,19 +1,20 @@
 ---
+id: 497
+order: 49
+title: Minotavr
+slug: minotavr
+url: art-works/minotavr
+aliases: []
 categories:
 - graphics
-date: "2021-01-01T00:00:00Z"
-height: 21
-id: 0
 inStock: true
 isVisible: true
-mainImage: minotavr.jpeg
+height: 21
+width: 30
+date: 2021-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 51
 price: 100
-slug: minotavr
-title: Minotavr
-width: 30
+mainImage: minotavr.jpeg
 ---
-

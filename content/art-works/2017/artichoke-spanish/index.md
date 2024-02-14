@@ -1,19 +1,20 @@
 ---
+id: 201
+order: 344
+title: Artichoke Spanish
+slug: artichoke-spanish
+url: art-works/artichoke-spanish
+aliases: []
 categories:
 - graphics
-date: "2017-01-01T00:00:00Z"
-height: 21
-id: 0
 inStock: false
 isVisible: false
-mainImage: artichoke_spanish.jpg
+height: 21
+width: 30
+date: 2017-01-01T00:00:00Z
 materials:
 - marker
 - paper
-order: 346
 price: 150
-slug: artichoke-spanish
-title: Artichoke Spanish
-width: 30
+mainImage: artichoke_spanish.jpg
 ---
-

@@ -1,20 +1,21 @@
 ---
+id: 473
+order: 73
+title: Spirit of Love
+slug: spirit-of-love
+url: art-works/spirit-of-love
+aliases: []
 categories:
 - painting
-date: "2020-01-01T00:00:00Z"
-height: 150
-id: 0
 inStock: true
 isVisible: true
-mainImage: spirit_of_love.jpg
+height: 150
+width: 70
+date: 2020-01-01T00:00:00Z
 materials:
 - acrylic
 - oil
 - canvas
-order: 75
 price: 2500
-slug: spirit-of-love
-title: Spirit of Love
-width: 70
+mainImage: spirit_of_love.jpg
 ---
-

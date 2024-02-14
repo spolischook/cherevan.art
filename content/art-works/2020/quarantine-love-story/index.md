@@ -1,19 +1,20 @@
 ---
+id: 460
+order: 86
+title: Quarantine love story
+slug: quarantine-love-story
+url: art-works/quarantine-love-story
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: true
-mainImage: quarantine_love_story.jpg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - paper
 - pen
-order: 88
 price: 80
-slug: quarantine-love-story
-title: Quarantine love story
-width: 21
+mainImage: quarantine_love_story.jpg
 ---
-

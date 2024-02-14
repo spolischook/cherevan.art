@@ -1,20 +1,21 @@
 ---
+id: 158
+order: 387
+title: Couroupita guianensis
+slug: couroupita-guianensis
+url: art-works/couroupita-guianensis
+aliases: []
 categories:
 - graphics
-date: "2015-01-01T00:00:00Z"
-height: 35
-id: 0
 inStock: true
 isVisible: false
-mainImage: kurupita.jpg
+height: 35
+width: 50
+date: 2015-01-01T00:00:00Z
 materials:
 - marker
 - watercolor
 - paper
-order: 389
 price: -1
-slug: couroupita-guianensis
-title: Couroupita guianensis
-width: 50
+mainImage: kurupita.jpg
 ---
-

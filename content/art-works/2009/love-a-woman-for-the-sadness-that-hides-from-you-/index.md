@@ -1,17 +1,20 @@
 ---
+id: 84
+order: 490
+title: Love a woman for the sadness that hides from you ...
+slug: love-a-woman-for-the-sadness-that-hides-from-you-
+url: art-works/love-a-woman-for-the-sadness-that-hides-from-you-
+aliases: []
 categories:
 - graphics
-date: "2009-12-31T23:59:32Z"
-height: 70
 inStock: false
 isVisible: false
-mainImage: love_a_woman_for_the_sadness.jpg
+height: 70
+width: 50
+date: 2009-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: love-a-woman-for-the-sadness-that-hides-from-you-
-title: Love a woman for the sadness that hides from you ...
-width: 50
+mainImage: love_a_woman_for_the_sadness.jpg
 ---
-

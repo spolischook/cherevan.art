@@ -1,17 +1,20 @@
 ---
+id: 69
+order: 505
+title: Kiss
+slug: kiss
+url: art-works/kiss
+aliases: []
 categories:
 - graphics
-date: "2008-12-31T23:59:45Z"
-height: 60
 inStock: false
 isVisible: false
-mainImage: kiss.jpg
+height: 60
+width: 50
+date: 2008-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: kiss
-title: Kiss
-width: 50
+mainImage: kiss.jpg
 ---
-

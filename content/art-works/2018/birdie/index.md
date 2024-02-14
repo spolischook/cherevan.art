@@ -1,21 +1,22 @@
 ---
+id: 294
+order: 251
+title: Birdie
+slug: birdie
+url: art-works/birdie
+aliases: []
 categories:
 - painting
-date: "2018-01-01T00:00:00Z"
-height: 85
-id: 0
 inStock: false
 isVisible: false
-mainImage: birdie.jpg
+height: 85
+width: 60
+date: 2018-01-01T00:00:00Z
 materials:
 - acrylic
 - oil
 - ink
 - canvas
-order: 253
 price: 1500
-slug: birdie
-title: Birdie
-width: 60
+mainImage: birdie.jpg
 ---
-

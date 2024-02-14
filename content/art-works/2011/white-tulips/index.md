@@ -1,17 +1,20 @@
 ---
+id: 20
+order: 554
+title: White tulips
+slug: white-tulips
+url: art-works/white-tulips
+aliases: []
 categories:
 - painting
-date: "2011-12-31T23:59:57Z"
-height: 50
 inStock: false
 isVisible: false
-mainImage: white_tulips.jpg
+height: 50
+width: 70
+date: 2011-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
 price: -1
-slug: white-tulips
-title: White tulips
-width: 70
+mainImage: white_tulips.jpg
 ---
-

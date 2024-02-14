@@ -1,17 +1,20 @@
 ---
+id: 14
+order: 560
+title: Undina
+slug: undina
+url: art-works/undina
+aliases: []
 categories:
 - painting
-date: "2011-12-31T23:59:56Z"
-height: 90
 inStock: false
 isVisible: false
-mainImage: undina.jpg
+height: 90
+width: 100
+date: 2011-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
 price: -1
-slug: undina
-title: Undina
-width: 100
+mainImage: undina.jpg
 ---
-

@@ -1,17 +1,20 @@
 ---
+id: 22
+order: 552
+title: 'Segue '
+slug: segue-
+url: art-works/segue-
+aliases: []
 categories:
 - painting
-date: "2013-12-31T23:59:51Z"
-height: 80
 inStock: false
 isVisible: false
-mainImage: segue.jpg
+height: 80
+width: 60
+date: 2013-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
 price: -1
-slug: segue-
-title: 'Segue '
-width: 60
+mainImage: segue.jpg
 ---
-

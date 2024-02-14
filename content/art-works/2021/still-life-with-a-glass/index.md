@@ -1,20 +1,21 @@
 ---
+id: 517
+order: 29
+title: Still life with a glass
+slug: still-life-with-a-glass
+url: art-works/still-life-with-a-glass
+aliases: []
 categories:
 - painting
-date: "2021-01-01T00:00:00Z"
-height: 70
-id: 0
 inStock: true
 isVisible: true
-mainImage: still_life_with_a_glass.jpg
+height: 70
+width: 70
+date: 2021-01-01T00:00:00Z
 materials:
 - acrylic
 - oil
 - canvas
-order: 31
 price: 800
-slug: still-life-with-a-glass
-title: Still life with a glass
-width: 70
+mainImage: still_life_with_a_glass.jpg
 ---
-

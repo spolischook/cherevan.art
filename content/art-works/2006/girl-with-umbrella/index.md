@@ -1,17 +1,20 @@
 ---
+id: 48
+order: 526
+title: Girl with umbrella
+slug: girl-with-umbrella
+url: art-works/girl-with-umbrella
+aliases: []
 categories:
 - graphics
-date: "2006-12-31T23:59:56Z"
-height: 50
 inStock: false
 isVisible: false
-mainImage: girl_with_umbrella.jpg
+height: 50
+width: 35
+date: 2006-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: girl-with-umbrella
-title: Girl with umbrella
-width: 35
+mainImage: girl_with_umbrella.jpg
 ---
-

@@ -1,20 +1,21 @@
 ---
+id: 502
+order: 44
+title: Shibari Eva
+slug: shibari-eva
+url: art-works/shibari-eva
+aliases: []
 categories:
 - shibari
 - graphics
-date: "2021-01-01T00:00:00Z"
-height: 32
-id: 0
 inStock: true
 isVisible: false
-mainImage: shibari_eva2.jpg
+height: 32
+width: 27
+date: 2021-01-01T00:00:00Z
 materials:
 - paper
 - pencil
-order: 46
 price: 100
-slug: shibari-eva
-title: Shibari Eva
-width: 27
+mainImage: shibari_eva2.jpg
 ---
-

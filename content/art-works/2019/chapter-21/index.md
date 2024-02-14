@@ -1,19 +1,20 @@
 ---
+id: 393
+order: 152
+title: Chapter 21
+slug: chapter-21
+url: art-works/chapter-21
+aliases: []
 categories:
 - graphics
-date: "2019-01-01T00:00:00Z"
-height: 22
-id: 0
 inStock: true
 isVisible: true
-mainImage: chapter_21.jpg
+height: 22
+width: 15
+date: 2019-01-01T00:00:00Z
 materials:
 - ink
 - antique book
-order: 154
 price: 100
-slug: chapter-21
-title: Chapter 21
-width: 15
+mainImage: chapter_21.jpg
 ---
-

@@ -1,21 +1,22 @@
 ---
+id: 305
+order: 240
+title: I am freezing
+slug: i-am-freezing
+url: art-works/i-am-freezing
+aliases: []
 categories:
 - painting
-date: "2018-01-01T00:00:00Z"
-height: 80
-id: 0
 inStock: true
 isVisible: true
-mainImage: i_am_freezing.jpg
+height: 80
+width: 60
+date: 2018-01-01T00:00:00Z
 materials:
 - acrylic
 - ink
 - resin
 - canvas
-order: 242
 price: 1200
-slug: i-am-freezing
-title: I am freezing
-width: 60
+mainImage: i_am_freezing.jpg
 ---
-

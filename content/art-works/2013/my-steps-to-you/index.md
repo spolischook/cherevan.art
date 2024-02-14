@@ -1,17 +1,20 @@
 ---
+id: 24
+order: 550
+title: My steps to you
+slug: my-steps-to-you
+url: art-works/my-steps-to-you
+aliases: []
 categories:
 - painting
-date: "2013-12-31T23:59:53Z"
-height: 60
 inStock: false
 isVisible: false
-mainImage: my_steps_to_you.jpg
+height: 60
+width: 40
+date: 2013-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
 price: -1
-slug: my-steps-to-you
-title: My steps to you
-width: 40
+mainImage: my_steps_to_you.jpg
 ---
-

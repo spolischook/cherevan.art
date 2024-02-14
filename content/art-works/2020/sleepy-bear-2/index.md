@@ -1,19 +1,20 @@
 ---
+id: 432
+order: 114
+title: Sleepy bear 2
+slug: sleepy-bear-2
+url: art-works/sleepy-bear-2
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: false
-mainImage: chika_with_bear-2.jpg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - watercolor
 - paper
-order: 116
 price: 80
-slug: sleepy-bear-2
-title: Sleepy bear 2
-width: 21
+mainImage: chika_with_bear-2.jpg
 ---
-

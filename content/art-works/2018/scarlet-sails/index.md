@@ -1,19 +1,20 @@
 ---
+id: 308
+order: 237
+title: Scarlet Sails
+slug: scarlet-sails
+url: art-works/scarlet-sails
+aliases: []
 categories:
 - painting
-date: "2018-01-01T00:00:00Z"
-height: 80
-id: 0
 inStock: true
 isVisible: true
-mainImage: scarlet_sails.jpg
+height: 80
+width: 60
+date: 2018-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 239
 price: 1400
-slug: scarlet-sails
-title: Scarlet Sails
-width: 60
+mainImage: scarlet_sails.jpg
 ---
-

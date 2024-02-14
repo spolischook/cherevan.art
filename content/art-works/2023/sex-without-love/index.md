@@ -1,20 +1,21 @@
 ---
+id: 533
+order: 15
+title: Sex without love
+slug: sex-without-love
+url: art-works/sex-without-love
+aliases: []
 categories:
 - shibari
 - graphics
-date: "2023-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: true
-mainImage: sex_without_love.jpeg
+height: 30
+width: 21
+date: 2023-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 15
 price: 150
-slug: sex-without-love
-title: Sex without love
-width: 21
+mainImage: sex_without_love.jpeg
 ---
-

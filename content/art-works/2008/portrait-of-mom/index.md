@@ -1,17 +1,20 @@
 ---
+id: 70
+order: 504
+title: Portrait of mom
+slug: portrait-of-mom
+url: art-works/portrait-of-mom
+aliases: []
 categories:
 - graphics
-date: "2008-12-31T23:59:46Z"
-height: 50
 inStock: false
 isVisible: false
-mainImage: portrait_of_mom.jpg
+height: 50
+width: 50
+date: 2008-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: portrait-of-mom
-title: Portrait of mom
-width: 50
+mainImage: portrait_of_mom.jpg
 ---
-

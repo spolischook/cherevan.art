@@ -1,19 +1,20 @@
 ---
+id: 429
+order: 117
+title: Pillow challenge
+slug: pillow-challenge
+url: art-works/pillow-challenge
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: false
-mainImage: pillow-challenge.jpg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 119
 price: -1
-slug: pillow-challenge
-title: Pillow challenge
-width: 21
+mainImage: pillow-challenge.jpg
 ---
-

@@ -1,19 +1,20 @@
 ---
+id: 235
+order: 310
+title: Sunset after the rain, Koh Samui
+slug: sunset-after-the-rain-koh-samui
+url: art-works/sunset-after-the-rain-koh-samui
+aliases: []
 categories:
 - painting
-date: "2017-01-01T00:00:00Z"
-height: 20
-id: 0
 inStock: true
 isVisible: true
-mainImage: sunset_after_the_rain_koh_samui.jpg
+height: 20
+width: 30
+date: 2017-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 312
 price: 150
-slug: sunset-after-the-rain-koh-samui
-title: Sunset after the rain, Koh Samui
-width: 30
+mainImage: sunset_after_the_rain_koh_samui.jpg
 ---
-

@@ -1,17 +1,20 @@
 ---
+id: 124
+order: 450
+title: Versailles gardens
+slug: versailles-gardens
+url: art-works/versailles-gardens
+aliases: []
 categories:
 - painting
-date: "2010-12-31T23:59:54Z"
-height: 60
 inStock: false
 isVisible: false
-mainImage: versailles_gardens.jpeg
+height: 60
+width: 80
+date: 2010-01-01T00:00:00Z
 materials:
 - canvas
 - acrylic
 price: -1
-slug: versailles-gardens
-title: Versailles gardens
-width: 80
+mainImage: versailles_gardens.jpeg
 ---
-

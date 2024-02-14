@@ -1,19 +1,20 @@
 ---
+id: 181
+order: 364
+title: Desire to fly
+slug: desire-to-fly
+url: art-works/desire-to-fly
+aliases: []
 categories:
 - painting
-date: "2016-01-01T00:00:00Z"
-height: 80
-id: 0
 inStock: false
 isVisible: false
-mainImage: desire_to_fly.jpeg
+height: 80
+width: 60
+date: 2016-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 366
 price: -1
-slug: desire-to-fly
-title: Desire to fly
-width: 60
+mainImage: desire_to_fly.jpeg
 ---
-

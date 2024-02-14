@@ -1,17 +1,20 @@
 ---
+id: 61
+order: 513
+title: Nadya
+slug: nadya
+url: art-works/nadya
+aliases: []
 categories:
 - graphics
-date: "2008-12-31T23:59:37Z"
-height: 65
 inStock: false
 isVisible: false
-mainImage: nadya.jpg
+height: 65
+width: 40
+date: 2008-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: nadya
-title: Nadya
-width: 40
+mainImage: nadya.jpg
 ---
-

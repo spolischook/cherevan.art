@@ -1,20 +1,21 @@
 ---
+id: 244
+order: 301
+title: Wichuta
+slug: wichuta
+url: art-works/wichuta
+aliases: []
 categories:
 - painting
-date: "2017-01-01T00:00:00Z"
-height: 85
-id: 0
 inStock: true
 isVisible: true
-mainImage: wichuta.jpg
+height: 85
+width: 60
+date: 2017-01-01T00:00:00Z
 materials:
 - acrylic
 - ink
 - canvas
-order: 303
 price: 1200
-slug: wichuta
-title: Wichuta
-width: 60
+mainImage: wichuta.jpg
 ---
-

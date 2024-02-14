@@ -1,19 +1,20 @@
 ---
+id: 503
+order: 43
+title: Mars en Venus
+slug: mars-en-venus
+url: art-works/mars-en-venus
+aliases: []
 categories:
 - graphics
-date: "2021-01-01T00:00:00Z"
-height: 21
-id: 0
 inStock: true
 isVisible: false
-mainImage: mars_en_venus.jpeg
+height: 21
+width: 23
+date: 2021-01-01T00:00:00Z
 materials:
 - paper
 - watercolor
-order: 45
 price: 80
-slug: mars-en-venus
-title: Mars en Venus
-width: 23
+mainImage: mars_en_venus.jpeg
 ---
-

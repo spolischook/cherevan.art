@@ -1,17 +1,20 @@
 ---
+id: 12
+order: 562
+title: Symfony 2
+slug: symfony-2
+url: art-works/symfony-2
+aliases: []
 categories:
 - painting
-date: "2017-12-31T23:58:45Z"
-height: 50
 inStock: false
 isVisible: false
-mainImage: symfony2.jpg
+height: 50
+width: 50
+date: 2017-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
 price: -1
-slug: symfony-2
-title: Symfony 2
-width: 50
+mainImage: symfony2.jpg
 ---
-

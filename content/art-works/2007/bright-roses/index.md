@@ -1,17 +1,20 @@
 ---
+id: 56
+order: 518
+title: Bright roses
+slug: bright-roses
+url: art-works/bright-roses
+aliases: []
 categories:
 - painting
-date: "2007-12-31T23:59:59Z"
-height: 70
 inStock: false
 isVisible: false
-mainImage: bright_roses.jpg
+height: 70
+width: 90
+date: 2007-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
 price: -1
-slug: bright-roses
-title: Bright roses
-width: 90
+mainImage: bright_roses.jpg
 ---
-

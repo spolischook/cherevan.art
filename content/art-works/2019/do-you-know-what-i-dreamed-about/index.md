@@ -1,19 +1,20 @@
 ---
+id: 339
+order: 206
+title: Do you know what I dreamed about?
+slug: do-you-know-what-i-dreamed-about
+url: art-works/do-you-know-what-i-dreamed-about
+aliases: []
 categories:
 - graphics
-date: "2019-01-01T00:00:00Z"
-height: 35
-id: 0
 inStock: false
 isVisible: false
-mainImage: 15Mercury.jpg
+height: 35
+width: 25
+date: 2019-01-01T00:00:00Z
 materials:
 - newspaper
 - ink
-order: 208
 price: -1
-slug: do-you-know-what-i-dreamed-about
-title: Do you know what I dreamed about?
-width: 25
+mainImage: 15Mercury.jpg
 ---
-

@@ -1,19 +1,20 @@
 ---
+id: 242
+order: 303
+title: Intimate
+slug: intimate
+url: art-works/intimate
+aliases: []
 categories:
 - painting
-date: "2017-01-01T00:00:00Z"
-height: 60
-id: 0
 inStock: true
 isVisible: true
-mainImage: intimate.jpg
+height: 60
+width: 80
+date: 2017-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 305
 price: 600
-slug: intimate
-title: Intimate
-width: 80
+mainImage: intimate.jpg
 ---
-

@@ -1,19 +1,20 @@
 ---
+id: 356
+order: 189
+title: Eva
+slug: eva
+url: art-works/eva
+aliases: []
 categories:
 - painting
-date: "2019-01-01T00:00:00Z"
-height: 150
-id: 0
 inStock: true
 isVisible: true
-mainImage: eva2.jpg
+height: 150
+width: 70
+date: 2019-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 191
 price: 1500
-slug: eva
-title: Eva
-width: 70
+mainImage: eva2.jpg
 ---
-

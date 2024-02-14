@@ -1,19 +1,20 @@
 ---
+id: 437
+order: 109
+title: Kiss in masks
+slug: kiss-in-masks
+url: art-works/kiss-in-masks
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 21
-id: 0
 inStock: true
 isVisible: false
-mainImage: kiss_in_masks.jpg
+height: 21
+width: 30
+date: 2020-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 111
 price: 100
-slug: kiss-in-masks
-title: Kiss in masks
-width: 30
+mainImage: kiss_in_masks.jpg
 ---
-

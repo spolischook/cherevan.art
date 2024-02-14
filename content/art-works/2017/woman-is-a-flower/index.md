@@ -1,18 +1,21 @@
 ---
+id: 10
+order: 564
+title: Woman is a flower
+slug: woman-is-a-flower
+url: art-works/woman-is-a-flower
+aliases: []
 categories:
 - graphics
-date: "2017-12-31T23:58:44Z"
-height: 50
 inStock: true
 isVisible: true
-mainImage: woman_is_a_flower.jpg
+height: 50
+width: 35
+date: 2017-01-01T00:00:00Z
 materials:
 - marker
 - paper
 - watercolor
 price: -1
-slug: woman-is-a-flower
-title: Woman is a flower
-width: 35
+mainImage: woman_is_a_flower.jpg
 ---
-

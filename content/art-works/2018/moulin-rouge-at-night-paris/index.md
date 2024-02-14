@@ -1,20 +1,21 @@
 ---
+id: 271
+order: 274
+title: Moulin Rouge at night, Paris
+slug: moulin-rouge-at-night-paris
+url: art-works/moulin-rouge-at-night-paris
+aliases: []
 categories:
 - graphics
-date: "2018-01-01T00:00:00Z"
-height: 21
-id: 0
 inStock: false
 isVisible: false
-mainImage: moulin_rouge_at_night.jpg
+height: 21
+width: 30
+date: 2018-01-01T00:00:00Z
 materials:
 - watercolor
 - marker
 - paper
-order: 276
 price: 150
-slug: moulin-rouge-at-night-paris
-title: Moulin Rouge at night, Paris
-width: 30
+mainImage: moulin_rouge_at_night.jpg
 ---
-

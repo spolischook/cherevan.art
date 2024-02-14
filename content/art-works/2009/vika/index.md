@@ -1,17 +1,20 @@
 ---
+id: 88
+order: 486
+title: Vika
+slug: vika
+url: art-works/vika
+aliases: []
 categories:
 - graphics
-date: "2009-12-31T23:59:36Z"
-height: 65
 inStock: false
 isVisible: false
-mainImage: Vika.JPG
+height: 65
+width: 40
+date: 2009-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: vika
-title: Vika
-width: 40
+mainImage: Vika.JPG
 ---
-

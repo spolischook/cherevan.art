@@ -1,19 +1,20 @@
 ---
+id: 239
+order: 306
+title: Last evening in Think cafe, Koh Samui
+slug: last-evening-in-think-cafe-koh-samui
+url: art-works/last-evening-in-think-cafe-koh-samui
+aliases: []
 categories:
 - painting
-date: "2017-01-01T00:00:00Z"
-height: 90
-id: 0
 inStock: false
 isVisible: false
-mainImage: last_evening_in_thank_cafe_koh_samui.jpg
+height: 90
+width: 100
+date: 2017-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 308
 price: 1000
-slug: last-evening-in-think-cafe-koh-samui
-title: Last evening in Think cafe, Koh Samui
-width: 100
+mainImage: last_evening_in_thank_cafe_koh_samui.jpg
 ---
-

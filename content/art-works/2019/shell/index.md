@@ -1,19 +1,20 @@
 ---
+id: 361
+order: 184
+title: Shell
+slug: shell
+url: art-works/shell
+aliases: []
 categories:
 - painting
-date: "2019-01-01T00:00:00Z"
-height: 60
-id: 0
 inStock: true
 isVisible: true
-mainImage: shell.jpg
+height: 60
+width: 80
+date: 2019-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 186
 price: 1000
-slug: shell
-title: Shell
-width: 80
+mainImage: shell.jpg
 ---
-

@@ -1,17 +1,20 @@
 ---
+id: 114
+order: 460
+title: Love the woman for the mind, which is both great and modest
+slug: love-the-woman-for-the-mind-which-is-both-great-and-modest
+url: art-works/love-the-woman-for-the-mind-which-is-both-great-and-modest
+aliases: []
 categories:
 - graphics
-date: "2010-12-31T23:59:44Z"
-height: 70
 inStock: false
 isVisible: false
-mainImage: mind.jpg
+height: 70
+width: 50
+date: 2010-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: love-the-woman-for-the-mind-which-is-both-great-and-modest
-title: Love the woman for the mind, which is both great and modest
-width: 50
+mainImage: mind.jpg
 ---
-

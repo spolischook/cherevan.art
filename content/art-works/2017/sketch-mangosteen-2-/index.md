@@ -1,21 +1,22 @@
 ---
+id: 212
+order: 333
+title: 'Sketch mangosteen 2 '
+slug: sketch-mangosteen-2-
+url: art-works/sketch-mangosteen-2-
+aliases: []
 categories:
 - graphics
-date: "2017-01-01T00:00:00Z"
-height: 21
-id: 0
 inStock: true
 isVisible: false
-mainImage: mangosteen_2.jpg
+height: 21
+width: 30
+date: 2017-01-01T00:00:00Z
 materials:
 - ink
 - marker
 - paper
 - watercolor
-order: 335
 price: -1
-slug: sketch-mangosteen-2-
-title: 'Sketch mangosteen 2 '
-width: 30
+mainImage: mangosteen_2.jpg
 ---
-

@@ -1,19 +1,20 @@
 ---
+id: 458
+order: 88
+title: Ballet
+slug: ballet
+url: art-works/ballet
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 22
-id: 0
 inStock: true
 isVisible: false
-mainImage: ballet_1.jpg
+height: 22
+width: 22
+date: 2020-01-01T00:00:00Z
 materials:
 - watercolor
 - paper torchon
-order: 90
 price: 100
-slug: ballet
-title: Ballet
-width: 22
+mainImage: ballet_1.jpg
 ---
-

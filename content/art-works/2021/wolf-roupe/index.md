@@ -1,20 +1,21 @@
 ---
+id: 521
+order: 27
+title: Wolf roupe
+slug: wolf-roupe
+url: art-works/wolf-roupe
+aliases: []
 categories:
 - shibari
 - graphics
-date: "2021-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: true
-mainImage: wolf_rope.jpg
+height: 30
+width: 21
+date: 2021-01-01T00:00:00Z
 materials:
 - paper
 - ballpoint pen
-order: 27
 price: 150
-slug: wolf-roupe
-title: Wolf roupe
-width: 21
+mainImage: wolf_rope.jpg
 ---
-

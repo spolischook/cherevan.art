@@ -1,17 +1,20 @@
 ---
+id: 116
+order: 458
+title: The taste of the grapes
+slug: the-taste-of-the-grapes
+url: art-works/the-taste-of-the-grapes
+aliases: []
 categories:
 - painting
-date: "2010-12-31T23:59:46Z"
-height: 60
 inStock: false
 isVisible: false
-mainImage: the_taste_of_the_grapes.jpg
+height: 60
+width: 40
+date: 2010-01-01T00:00:00Z
 materials:
 - canvas
 - acrylic
 price: -1
-slug: the-taste-of-the-grapes
-title: The taste of the grapes
-width: 40
+mainImage: the_taste_of_the_grapes.jpg
 ---
-

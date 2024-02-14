@@ -1,20 +1,21 @@
 ---
+id: 248
+order: 297
+title: Tantira
+slug: tantira
+url: art-works/tantira
+aliases: []
 categories:
 - painting
-date: "2017-01-01T00:00:00Z"
-height: 85
-id: 0
 inStock: true
 isVisible: true
-mainImage: tantira.jpg
+height: 85
+width: 60
+date: 2017-01-01T00:00:00Z
 materials:
 - acrylic
 - ink
 - canvas
-order: 299
 price: 1500
-slug: tantira
-title: Tantira
-width: 60
+mainImage: tantira.jpg
 ---
-

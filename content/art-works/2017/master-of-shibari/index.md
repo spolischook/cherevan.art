@@ -1,20 +1,21 @@
 ---
+id: 252
+order: 293
+title: Master of Shibari
+slug: master-of-shibari
+url: art-works/master-of-shibari
+aliases: []
 categories:
 - shibari
 - graphics
-date: "2017-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: false
-mainImage: master_of_shibari.jpg
+height: 30
+width: 21
+date: 2017-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 295
 price: 150
-slug: master-of-shibari
-title: Master of Shibari
-width: 21
+mainImage: master_of_shibari.jpg
 ---
-

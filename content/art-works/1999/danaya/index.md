@@ -1,17 +1,20 @@
 ---
+id: 36
+order: 538
+title: Danaya
+slug: danaya
+url: art-works/danaya
+aliases: []
 categories:
 - graphics
-date: "1999-12-31T23:59:57Z"
-height: 50
 inStock: false
 isVisible: false
-mainImage: Danaya.jpg
+height: 50
+width: 70
+date: 1999-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: danaya
-title: Danaya
-width: 70
+mainImage: Danaya.jpg
 ---
-

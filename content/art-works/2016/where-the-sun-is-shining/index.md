@@ -1,19 +1,20 @@
 ---
+id: 184
+order: 361
+title: Where the Sun is Shining
+slug: where-the-sun-is-shining
+url: art-works/where-the-sun-is-shining
+aliases: []
 categories:
 - painting
-date: "2016-01-01T00:00:00Z"
-height: 50
-id: 0
 inStock: false
 isVisible: false
-mainImage: where_the_sun_is_shining.jpg
+height: 50
+width: 60
+date: 2016-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 363
 price: 600
-slug: where-the-sun-is-shining
-title: Where the Sun is Shining
-width: 60
+mainImage: where_the_sun_is_shining.jpg
 ---
-

@@ -1,20 +1,21 @@
 ---
+id: 276
+order: 269
+title: Tuk Tuk. Penang, Malaysia
+slug: tuk-tuk-penang-malaysia
+url: art-works/tuk-tuk-penang-malaysia
+aliases: []
 categories:
 - graphics
-date: "2018-01-01T00:00:00Z"
-height: 21
-id: 0
 inStock: true
 isVisible: false
-mainImage: tuk_tuk_penang_malaysia.jpg
+height: 21
+width: 30
+date: 2018-01-01T00:00:00Z
 materials:
 - ink
 - marker
 - paper
-order: 271
 price: 150
-slug: tuk-tuk-penang-malaysia
-title: Tuk Tuk. Penang, Malaysia
-width: 30
+mainImage: tuk_tuk_penang_malaysia.jpg
 ---
-

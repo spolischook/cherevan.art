@@ -1,17 +1,20 @@
 ---
+id: 4
+order: 570
+title: 8:30 a.m.
+slug: 830-am
+url: art-works/830-am
+aliases: []
 categories:
 - painting
-date: "2016-12-31T23:59:36Z"
-height: 80
 inStock: false
 isVisible: false
-mainImage: 8_30.jpg
+height: 80
+width: 60
+date: 2016-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
 price: -1
-slug: 830-am
-title: 8:30 a.m.
-width: 60
+mainImage: 8_30.jpg
 ---
-

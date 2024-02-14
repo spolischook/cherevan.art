@@ -1,19 +1,20 @@
 ---
+id: 399
+order: 146
+title: Real jam
+slug: real-jam
+url: art-works/real-jam
+aliases: []
 categories:
 - graphics
-date: "2019-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: true
-mainImage: real_jam.jpg
+height: 30
+width: 21
+date: 2019-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 148
 price: 150
-slug: real-jam
-title: Real jam
-width: 21
+mainImage: real_jam.jpg
 ---
-

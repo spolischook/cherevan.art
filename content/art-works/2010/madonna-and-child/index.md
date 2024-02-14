@@ -1,17 +1,20 @@
 ---
+id: 120
+order: 454
+title: Madonna and Child
+slug: madonna-and-child
+url: art-works/madonna-and-child
+aliases: []
 categories:
 - painting
-date: "2010-12-31T23:59:50Z"
-height: 60
 inStock: false
 isVisible: false
-mainImage: madonna_and_child.jpg
+height: 60
+width: 40
+date: 2010-01-01T00:00:00Z
 materials:
 - canvas
 - acrylic
 price: -1
-slug: madonna-and-child
-title: Madonna and Child
-width: 40
+mainImage: madonna_and_child.jpg
 ---
-

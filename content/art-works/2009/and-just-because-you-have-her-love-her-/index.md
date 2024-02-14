@@ -1,17 +1,20 @@
 ---
+id: 94
+order: 480
+title: And just because you have her - LOVE HER !!!
+slug: and-just-because-you-have-her-love-her-
+url: art-works/and-just-because-you-have-her-love-her-
+aliases: []
 categories:
 - graphics
-date: "2009-12-31T23:59:42Z"
-height: 70
 inStock: false
 isVisible: false
-mainImage: love_her.jpg
+height: 70
+width: 50
+date: 2009-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: and-just-because-you-have-her-love-her-
-title: And just because you have her - LOVE HER !!!
-width: 50
+mainImage: love_her.jpg
 ---
-

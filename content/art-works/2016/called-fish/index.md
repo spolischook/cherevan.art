@@ -1,19 +1,20 @@
 ---
+id: 187
+order: 358
+title: Called fish
+slug: called-fish
+url: art-works/called-fish
+aliases: []
 categories:
 - painting
-date: "2016-01-01T00:00:00Z"
-height: 50
-id: 0
 inStock: false
 isVisible: false
-mainImage: called_fish.jpg
+height: 50
+width: 60
+date: 2016-01-01T00:00:00Z
 materials:
 - mix media
 - canvas
-order: 360
 price: 500
-slug: called-fish
-title: Called fish
-width: 60
+mainImage: called_fish.jpg
 ---
-

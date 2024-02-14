@@ -1,19 +1,20 @@
 ---
+id: 419
+order: 127
+title: Maria-Antonieta 1
+slug: maria-antonieta-1
+url: art-works/maria-antonieta-1
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: false
-mainImage: maria-antonieta-1.jpg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - watercolor
 - paper
-order: 129
 price: 300
-slug: maria-antonieta-1
-title: Maria-Antonieta 1
-width: 21
+mainImage: maria-antonieta-1.jpg
 ---
-

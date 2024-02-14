@@ -1,19 +1,20 @@
 ---
+id: 234
+order: 311
+title: Sunset, Hikkaduwa
+slug: sunset-hikkaduwa
+url: art-works/sunset-hikkaduwa
+aliases: []
 categories:
 - painting
-date: "2017-01-01T00:00:00Z"
-height: 20
-id: 0
 inStock: true
 isVisible: false
-mainImage: sunset_hikkaduwa.jpg
+height: 20
+width: 30
+date: 2017-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 313
 price: 150
-slug: sunset-hikkaduwa
-title: Sunset, Hikkaduwa
-width: 30
+mainImage: sunset_hikkaduwa.jpg
 ---
-

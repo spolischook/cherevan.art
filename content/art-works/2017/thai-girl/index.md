@@ -1,19 +1,20 @@
 ---
+id: 240
+order: 305
+title: Thai girl
+slug: thai-girl
+url: art-works/thai-girl
+aliases: []
 categories:
 - painting
-date: "2017-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: false
-mainImage: thai_girl.jpg
+height: 30
+width: 20
+date: 2017-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 307
 price: 150
-slug: thai-girl
-title: Thai girl
-width: 20
+mainImage: thai_girl.jpg
 ---
-

@@ -1,17 +1,20 @@
 ---
+id: 146
+order: 426
+title: Sunny hugs
+slug: sunny-hugs
+url: art-works/sunny-hugs
+aliases: []
 categories:
 - painting
-date: "2014-12-31T23:59:48Z"
-height: 80
 inStock: false
 isVisible: false
-mainImage: sunny_hugs.jpg
+height: 80
+width: 60
+date: 2014-01-01T00:00:00Z
 materials:
 - canvas
 - acrylic
 price: -1
-slug: sunny-hugs
-title: Sunny hugs
-width: 60
+mainImage: sunny_hugs.jpg
 ---
-

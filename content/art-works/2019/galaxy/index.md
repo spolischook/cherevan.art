@@ -1,20 +1,21 @@
 ---
+id: 352
+order: 193
+title: Galaxy
+slug: galaxy
+url: art-works/galaxy
+aliases: []
 categories:
 - painting
-date: "2019-01-01T00:00:00Z"
-height: 80
-id: 0
 inStock: false
 isVisible: false
-mainImage: galaxy.jpg
+height: 80
+width: 60
+date: 2019-01-01T00:00:00Z
 materials:
 - canvas
 - acrylic
 - oil
-order: 195
 price: -1
-slug: galaxy
-title: Galaxy
-width: 60
+mainImage: galaxy.jpg
 ---
-

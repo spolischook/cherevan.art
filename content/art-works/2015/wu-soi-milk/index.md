@@ -1,17 +1,20 @@
 ---
+id: 32
+order: 542
+title: Wu (Soi milk)
+slug: wu-soi-milk
+url: art-works/wu-soi-milk
+aliases: []
 categories:
 - painting
-date: "2015-12-31T23:59:38Z"
-height: 30
 inStock: false
 isVisible: false
-mainImage: soi_milk.jpg
+height: 30
+width: 20
+date: 2015-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
 price: -1
-slug: wu-soi-milk
-title: Wu (Soi milk)
-width: 20
+mainImage: soi_milk.jpg
 ---
-

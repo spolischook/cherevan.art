@@ -1,19 +1,20 @@
 ---
+id: 178
+order: 367
+title: Dancing with wind
+slug: dancing-with-wind
+url: art-works/dancing-with-wind
+aliases: []
 categories:
 - painting
-date: "2016-01-01T00:00:00Z"
-height: 60
-id: 0
 inStock: false
 isVisible: false
-mainImage: dancing_with_wind.jpg
+height: 60
+width: 50
+date: 2016-01-01T00:00:00Z
 materials:
 - mix media
 - canvas
-order: 369
 price: 500
-slug: dancing-with-wind
-title: Dancing with wind
-width: 50
+mainImage: dancing_with_wind.jpg
 ---
-

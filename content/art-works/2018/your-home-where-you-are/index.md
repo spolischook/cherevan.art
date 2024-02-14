@@ -1,19 +1,20 @@
 ---
+id: 292
+order: 253
+title: Your home, where you are
+slug: your-home-where-you-are
+url: art-works/your-home-where-you-are
+aliases: []
 categories:
 - painting
-date: "2018-01-01T00:00:00Z"
-height: 85
-id: 0
 inStock: false
 isVisible: true
-mainImage: your_home_where_you_are.jpg
+height: 85
+width: 60
+date: 2018-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 255
 price: 800
-slug: your-home-where-you-are
-title: Your home, where you are
-width: 60
+mainImage: your_home_where_you_are.jpg
 ---
-

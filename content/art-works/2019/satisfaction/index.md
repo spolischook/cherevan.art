@@ -1,19 +1,20 @@
 ---
+id: 373
+order: 172
+title: Satisfaction
+slug: satisfaction
+url: art-works/satisfaction
+aliases: []
 categories:
 - graphics
-date: "2019-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: false
-mainImage: satisfaction.jpg
+height: 30
+width: 21
+date: 2019-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 174
 price: 100
-slug: satisfaction
-title: Satisfaction
-width: 21
+mainImage: satisfaction.jpg
 ---
-
