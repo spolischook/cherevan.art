@@ -1,20 +1,21 @@
 ---
+id: 287
+order: 258
+title: The world has dissolved in you
+slug: the-world-has-dissolved-in-you
+url: art-works/the-world-has-dissolved-in-you
+aliases: []
 categories:
 - painting
-date: "2018-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: false
-mainImage: the_world_has_dissolved_in_you.jpg
+height: 30
+width: 25
+date: 2018-01-01T00:00:00Z
 materials:
 - acrylic
 - ink
 - canvas
-order: 260
 price: 250
-slug: the-world-has-dissolved-in-you
-title: The world has dissolved in you
-width: 25
+mainImage: the_world_has_dissolved_in_you.jpg
 ---
-

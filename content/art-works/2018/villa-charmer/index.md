@@ -1,19 +1,20 @@
 ---
+id: 303
+order: 242
+title: Villa charmer
+slug: villa-charmer
+url: art-works/villa-charmer
+aliases: []
 categories:
 - painting
-date: "2018-01-01T00:00:00Z"
-height: 80
-id: 0
 inStock: false
 isVisible: false
-mainImage: villa_charmer.jpg
+height: 80
+width: 60
+date: 2018-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 244
 price: 1200
-slug: villa-charmer
-title: Villa charmer
-width: 60
+mainImage: villa_charmer.jpg
 ---
-

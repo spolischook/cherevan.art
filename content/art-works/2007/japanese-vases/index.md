@@ -1,17 +1,20 @@
 ---
+id: 53
+order: 521
+title: Japanese vases
+slug: japanese-vases
+url: art-works/japanese-vases
+aliases: []
 categories:
 - painting
-date: "2007-12-31T23:59:56Z"
-height: 70
 inStock: false
 isVisible: false
-mainImage: japanese_vases.jpg
+height: 70
+width: 50
+date: 2007-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
 price: -1
-slug: japanese-vases
-title: Japanese vases
-width: 50
+mainImage: japanese_vases.jpg
 ---
-

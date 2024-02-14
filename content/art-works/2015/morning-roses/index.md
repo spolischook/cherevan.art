@@ -1,19 +1,20 @@
 ---
+id: 172
+order: 373
+title: Morning Roses
+slug: morning-roses
+url: art-works/morning-roses
+aliases: []
 categories:
 - painting
-date: "2015-01-01T00:00:00Z"
-height: 80
-id: 0
 inStock: true
 isVisible: true
-mainImage: morning_roses.jpg
+height: 80
+width: 80
+date: 2015-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 375
 price: 800
-slug: morning-roses
-title: Morning Roses
-width: 80
+mainImage: morning_roses.jpg
 ---
-

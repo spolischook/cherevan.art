@@ -1,17 +1,20 @@
 ---
+id: 45
+order: 529
+title: Passion
+slug: passion
+url: art-works/passion
+aliases: []
 categories:
 - graphics
-date: "2005-12-31T23:59:59Z"
-height: 50
 inStock: false
 isVisible: false
-mainImage: passion.jpg
+height: 50
+width: 80
+date: 2005-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: passion
-title: Passion
-width: 80
+mainImage: passion.jpg
 ---
-

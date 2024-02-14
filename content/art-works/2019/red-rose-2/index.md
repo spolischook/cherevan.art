@@ -1,19 +1,20 @@
 ---
+id: 349
+order: 196
+title: Red rose 2
+slug: red-rose-2
+url: art-works/red-rose-2
+aliases: []
 categories:
 - graphics
-date: "2019-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: false
-mainImage: redrose2.jpg
+height: 30
+width: 21
+date: 2019-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 198
 price: 100
-slug: red-rose-2
-title: Red rose 2
-width: 21
+mainImage: redrose2.jpg
 ---
-

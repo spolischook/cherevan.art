@@ -1,17 +1,20 @@
 ---
+id: 119
+order: 455
+title: Girl-summer
+slug: girl-summer
+url: art-works/girl-summer
+aliases: []
 categories:
 - painting
-date: "2010-12-31T23:59:49Z"
-height: 60
 inStock: false
 isVisible: false
-mainImage: girl_summer.jpg
+height: 60
+width: 40
+date: 2010-01-01T00:00:00Z
 materials:
 - canvas
 - acrylic
 price: -1
-slug: girl-summer
-title: Girl-summer
-width: 40
+mainImage: girl_summer.jpg
 ---
-

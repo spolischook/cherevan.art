@@ -1,17 +1,20 @@
 ---
+id: 65
+order: 509
+title: Girl with a dog
+slug: girl-with-a-dog
+url: art-works/girl-with-a-dog
+aliases: []
 categories:
 - graphics
-date: "2008-12-31T23:59:41Z"
-height: 70
 inStock: false
 isVisible: false
-mainImage: girl_with_a_dog.jpg
+height: 70
+width: 50
+date: 2008-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: girl-with-a-dog
-title: Girl with a dog
-width: 50
+mainImage: girl_with_a_dog.jpg
 ---
-

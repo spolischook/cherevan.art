@@ -1,17 +1,20 @@
 ---
+id: 117
+order: 457
+title: Series of female portraits
+slug: series-of-female-portraits
+url: art-works/series-of-female-portraits
+aliases: []
 categories:
 - painting
-date: "2010-12-31T23:59:47Z"
-height: 60
 inStock: false
 isVisible: false
-mainImage: series_of_female_portraits.jpg
+height: 60
+width: 40
+date: 2010-01-01T00:00:00Z
 materials:
 - canvas
 - acrylic
 price: -1
-slug: series-of-female-portraits
-title: Series of female portraits
-width: 40
+mainImage: series_of_female_portraits.jpg
 ---
-

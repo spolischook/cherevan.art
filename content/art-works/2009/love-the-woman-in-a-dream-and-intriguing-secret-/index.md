@@ -1,17 +1,20 @@
 ---
+id: 93
+order: 481
+title: Love the woman in a dream and intriguing secret ...
+slug: love-the-woman-in-a-dream-and-intriguing-secret-
+url: art-works/love-the-woman-in-a-dream-and-intriguing-secret-
+aliases: []
 categories:
 - graphics
-date: "2009-12-31T23:59:41Z"
-height: 70
 inStock: false
 isVisible: false
-mainImage: love_the_woman_in_a_dream_and_intriguing_secret.jpg
+height: 70
+width: 50
+date: 2009-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: love-the-woman-in-a-dream-and-intriguing-secret-
-title: Love the woman in a dream and intriguing secret ...
-width: 50
+mainImage: love_the_woman_in_a_dream_and_intriguing_secret.jpg
 ---
-

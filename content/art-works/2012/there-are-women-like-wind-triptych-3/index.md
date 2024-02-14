@@ -1,17 +1,20 @@
 ---
+id: 134
+order: 440
+title: There are women like wind. Triptych 3
+slug: there-are-women-like-wind-triptych-3
+url: art-works/there-are-women-like-wind-triptych-3
+aliases: []
 categories:
 - painting
-date: "2012-12-31T23:59:51Z"
-height: 60
 inStock: false
 isVisible: false
-mainImage: there_are_women_like_wind_3.jpg
+height: 60
+width: 80
+date: 2012-01-01T00:00:00Z
 materials:
 - canvas
 - acrylic
 price: -1
-slug: there-are-women-like-wind-triptych-3
-title: There are women like wind. Triptych 3
-width: 80
+mainImage: there_are_women_like_wind_3.jpg
 ---
-

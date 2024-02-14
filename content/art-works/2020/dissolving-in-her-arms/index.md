@@ -1,19 +1,20 @@
 ---
+id: 422
+order: 124
+title: Dissolving in her arms
+slug: dissolving-in-her-arms
+url: art-works/dissolving-in-her-arms
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: true
-mainImage: dissolving-in-her-arms.jpg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - watercolor
 - paper
-order: 126
 price: 100
-slug: dissolving-in-her-arms
-title: Dissolving in her arms
-width: 21
+mainImage: dissolving-in-her-arms.jpg
 ---
-

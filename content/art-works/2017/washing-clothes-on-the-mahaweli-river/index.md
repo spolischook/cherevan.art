@@ -1,20 +1,21 @@
 ---
+id: 233
+order: 312
+title: Washing clothes on the Mahaweli river
+slug: washing-clothes-on-the-mahaweli-river
+url: art-works/washing-clothes-on-the-mahaweli-river
+aliases: []
 categories:
 - painting
-date: "2017-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: false
-mainImage: washing_clothes_on_the_mahaweli_river.jpg
+height: 30
+width: 30
+date: 2017-01-01T00:00:00Z
 materials:
 - acrylic
 - tea
 - canvas
-order: 314
 price: 150
-slug: washing-clothes-on-the-mahaweli-river
-title: Washing clothes on the Mahaweli river
-width: 30
+mainImage: washing_clothes_on_the_mahaweli_river.jpg
 ---
-

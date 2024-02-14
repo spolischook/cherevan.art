@@ -1,19 +1,20 @@
 ---
+id: 254
+order: 291
+title: Leo
+slug: leo
+url: art-works/leo
+aliases: []
 categories:
 - graphics
-date: "2017-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: false
-mainImage: leo.jpg
+height: 30
+width: 21
+date: 2017-01-01T00:00:00Z
 materials:
 - marker
 - paper
-order: 293
 price: 150
-slug: leo
-title: Leo
-width: 21
+mainImage: leo.jpg
 ---
-

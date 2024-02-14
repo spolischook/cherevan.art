@@ -1,20 +1,21 @@
 ---
+id: 326
+order: 219
+title: Kindred spirits
+slug: kindred-spirits
+url: art-works/kindred-spirits
+aliases: []
 categories:
 - graphics
-date: "2018-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: false
-mainImage: kindred_spirits.jpg
+height: 30
+width: 21
+date: 2018-01-01T00:00:00Z
 materials:
 - ink
 - watercolor
 - paper
-order: 221
 price: 100
-slug: kindred-spirits
-title: Kindred spirits
-width: 21
+mainImage: kindred_spirits.jpg
 ---
-

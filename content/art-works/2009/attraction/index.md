@@ -1,17 +1,20 @@
 ---
+id: 86
+order: 488
+title: Attraction
+slug: attraction
+url: art-works/attraction
+aliases: []
 categories:
 - graphics
-date: "2009-12-31T23:59:34Z"
-height: 50
 inStock: false
 isVisible: false
-mainImage: attraction.jpg
+height: 50
+width: 35
+date: 2009-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: attraction
-title: Attraction
-width: 35
+mainImage: attraction.jpg
 ---
-

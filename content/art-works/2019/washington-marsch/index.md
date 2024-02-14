@@ -1,19 +1,20 @@
 ---
+id: 343
+order: 202
+title: washington marsch
+slug: washington-marsch
+url: art-works/washington-marsch
+aliases: []
 categories:
 - graphics
-date: "2019-01-01T00:00:00Z"
-height: 35
-id: 0
 inStock: true
 isVisible: true
-mainImage: washington_marsch.jpg
+height: 35
+width: 25
+date: 2019-01-01T00:00:00Z
 materials:
 - antique notes
 - ink
-order: 204
 price: -1
-slug: washington-marsch
-title: washington marsch
-width: 25
+mainImage: washington_marsch.jpg
 ---
-

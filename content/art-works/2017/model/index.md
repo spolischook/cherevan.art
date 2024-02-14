@@ -1,19 +1,20 @@
 ---
+id: 260
+order: 285
+title: Model
+slug: model
+url: art-works/model
+aliases: []
 categories:
 - graphics
-date: "2017-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: false
-mainImage: model.jpg
+height: 30
+width: 21
+date: 2017-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 287
 price: 150
-slug: model
-title: Model
-width: 21
+mainImage: model.jpg
 ---
-

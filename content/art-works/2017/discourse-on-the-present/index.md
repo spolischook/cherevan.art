@@ -1,21 +1,22 @@
 ---
+id: 257
+order: 288
+title: Discourse on the present
+slug: discourse-on-the-present
+url: art-works/discourse-on-the-present
+aliases: []
 categories:
 - painting
-date: "2017-01-01T00:00:00Z"
-height: 90
-id: 0
 inStock: true
 isVisible: true
-mainImage: discourse_on_the_present.jpg
+height: 90
+width: 80
+date: 2017-01-01T00:00:00Z
 materials:
 - acrylic
 - ink
 - marker
 - canvas
-order: 290
 price: 1000
-slug: discourse-on-the-present
-title: Discourse on the present
-width: 80
+mainImage: discourse_on_the_present.jpg
 ---
-

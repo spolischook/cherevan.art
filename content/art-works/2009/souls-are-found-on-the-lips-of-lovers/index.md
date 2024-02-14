@@ -1,17 +1,20 @@
 ---
+id: 95
+order: 479
+title: Souls are found on the lips of lovers
+slug: souls-are-found-on-the-lips-of-lovers
+url: art-works/souls-are-found-on-the-lips-of-lovers
+aliases: []
 categories:
 - painting
-date: "2009-12-31T23:59:43Z"
-height: 50
 inStock: false
 isVisible: false
-mainImage: souls_are_found_on_the_lips_of_lovers.jpg
+height: 50
+width: 90
+date: 2009-01-01T00:00:00Z
 materials:
 - canvas
 - acrylic
 price: -1
-slug: souls-are-found-on-the-lips-of-lovers
-title: Souls are found on the lips of lovers
-width: 90
+mainImage: souls_are_found_on_the_lips_of_lovers.jpg
 ---
-

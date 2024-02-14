@@ -1,19 +1,20 @@
 ---
+id: 183
+order: 362
+title: To be with you
+slug: to-be-with-you
+url: art-works/to-be-with-you
+aliases: []
 categories:
 - painting
-date: "2016-01-01T00:00:00Z"
-height: 60
-id: 0
 inStock: false
 isVisible: false
-mainImage: to_be_with_you.jpg
+height: 60
+width: 50
+date: 2016-01-01T00:00:00Z
 materials:
 - mix media
 - canvas
-order: 364
 price: 500
-slug: to-be-with-you
-title: To be with you
-width: 50
+mainImage: to_be_with_you.jpg
 ---
-

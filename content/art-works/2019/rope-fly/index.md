@@ -1,20 +1,21 @@
 ---
+id: 374
+order: 171
+title: Rope fly
+slug: rope-fly
+url: art-works/rope-fly
+aliases: []
 categories:
 - shibari
 - graphics
-date: "2019-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: true
-mainImage: rope_fly.jpg
+height: 30
+width: 21
+date: 2019-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 173
 price: 100
-slug: rope-fly
-title: Rope fly
-width: 21
+mainImage: rope_fly.jpg
 ---
-

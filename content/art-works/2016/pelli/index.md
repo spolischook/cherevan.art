@@ -1,19 +1,20 @@
 ---
+id: 182
+order: 363
+title: Pelli
+slug: pelli
+url: art-works/pelli
+aliases: []
 categories:
 - painting
-date: "2016-01-01T00:00:00Z"
-height: 50
-id: 0
 inStock: true
 isVisible: true
-mainImage: pelli.jpg
+height: 50
+width: 60
+date: 2016-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 365
 price: 1000
-slug: pelli
-title: Pelli
-width: 60
+mainImage: pelli.jpg
 ---
-

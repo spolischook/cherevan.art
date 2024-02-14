@@ -1,19 +1,20 @@
 ---
+id: 357
+order: 188
+title: Pain
+slug: pain
+url: art-works/pain
+aliases: []
 categories:
 - painting
-date: "2019-01-01T00:00:00Z"
-height: 70
-id: 0
 inStock: true
 isVisible: true
-mainImage: pain.jpg
+height: 70
+width: 50
+date: 2019-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 190
 price: 800
-slug: pain
-title: Pain
-width: 50
+mainImage: pain.jpg
 ---
-

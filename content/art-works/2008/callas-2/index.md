@@ -1,17 +1,20 @@
 ---
+id: 73
+order: 501
+title: Callas 2
+slug: callas-2
+url: art-works/callas-2
+aliases: []
 categories:
 - painting
-date: "2008-12-31T23:59:49Z"
-height: 90
 inStock: false
 isVisible: false
-mainImage: callas2.jpg
+height: 90
+width: 90
+date: 2008-01-01T00:00:00Z
 materials:
 - canvas
 - acrylic
 price: -1
-slug: callas-2
-title: Callas 2
-width: 90
+mainImage: callas2.jpg
 ---
-

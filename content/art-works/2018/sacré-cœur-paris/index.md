@@ -1,19 +1,20 @@
 ---
+id: 319
+order: 226
+title: Sacré-Cœur, Paris
+slug: sacré-cœur-paris
+url: art-works/sacré-cœur-paris
+aliases: []
 categories:
 - graphics
-date: "2018-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: false
-mainImage: sacre_coeur_paris.jpg
+height: 30
+width: 21
+date: 2018-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 228
 price: 150
-slug: sacré-cœur-paris
-title: Sacré-Cœur, Paris
-width: 21
+mainImage: sacre_coeur_paris.jpg
 ---
-

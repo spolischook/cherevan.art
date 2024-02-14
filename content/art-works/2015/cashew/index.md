@@ -1,20 +1,21 @@
 ---
+id: 162
+order: 383
+title: Cashew
+slug: cashew
+url: art-works/cashew
+aliases: []
 categories:
 - graphics
-date: "2015-01-01T00:00:00Z"
-height: 21
-id: 0
 inStock: true
 isVisible: false
-mainImage: cashew.jpg
+height: 21
+width: 30
+date: 2015-01-01T00:00:00Z
 materials:
 - ink
 - marker
 - paper
-order: 385
 price: -1
-slug: cashew
-title: Cashew
-width: 30
+mainImage: cashew.jpg
 ---
-

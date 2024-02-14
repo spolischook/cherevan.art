@@ -1,20 +1,21 @@
 ---
+id: 448
+order: 98
+title: Fisherman Ship
+slug: fisherman-ship
+url: art-works/fisherman-ship
+aliases: []
 categories:
 - graphics
-date: "2017-01-01T00:00:00Z"
-height: 21
-id: 0
 inStock: true
 isVisible: false
-mainImage: fisherman_ship.jpg
+height: 21
+width: 30
+date: 2017-01-01T00:00:00Z
 materials:
 - watercolor
 - paper
 - marker
-order: 100
 price: 300
-slug: fisherman-ship
-title: Fisherman Ship
-width: 30
+mainImage: fisherman_ship.jpg
 ---
-

@@ -1,19 +1,20 @@
 ---
+id: 375
+order: 170
+title: My freedom is at your feet
+slug: my-freedom-is-at-your-feet
+url: art-works/my-freedom-is-at-your-feet
+aliases: []
 categories:
 - graphics
-date: "2019-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: false
-mainImage: my_freedom_is_at_your_feet.jpg
+height: 30
+width: 21
+date: 2019-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 172
 price: 100
-slug: my-freedom-is-at-your-feet
-title: My freedom is at your feet
-width: 21
+mainImage: my_freedom_is_at_your_feet.jpg
 ---
-

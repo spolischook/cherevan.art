@@ -1,19 +1,20 @@
 ---
+id: 185
+order: 360
+title: Indestructible
+slug: indestructible
+url: art-works/indestructible
+aliases: []
 categories:
 - painting
-date: "2016-01-01T00:00:00Z"
-height: 60
-id: 0
 inStock: false
 isVisible: false
-mainImage: indestructible.jpg
+height: 60
+width: 40
+date: 2016-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 362
 price: -1
-slug: indestructible
-title: Indestructible
-width: 40
+mainImage: indestructible.jpg
 ---
-

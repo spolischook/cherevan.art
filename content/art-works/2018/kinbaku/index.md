@@ -1,19 +1,20 @@
 ---
+id: 300
+order: 245
+title: Kinbaku
+slug: kinbaku
+url: art-works/kinbaku
+aliases: []
 categories:
 - painting
-date: "2018-01-01T00:00:00Z"
-height: 60
-id: 0
 inStock: false
 isVisible: false
-mainImage: kinbaku.jpg
+height: 60
+width: 60
+date: 2018-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 247
 price: 950
-slug: kinbaku
-title: Kinbaku
-width: 60
+mainImage: kinbaku.jpg
 ---
-

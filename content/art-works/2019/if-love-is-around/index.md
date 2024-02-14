@@ -1,19 +1,20 @@
 ---
+id: 342
+order: 203
+title: If love is around
+slug: if-love-is-around
+url: art-works/if-love-is-around
+aliases: []
 categories:
 - painting
-date: "2019-01-01T00:00:00Z"
-height: 80
-id: 0
 inStock: true
 isVisible: true
-mainImage: if_love_is_around_2.jpg
+height: 80
+width: 60
+date: 2019-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 205
 price: 1000
-slug: if-love-is-around
-title: If love is around
-width: 60
+mainImage: if_love_is_around_2.jpg
 ---
-

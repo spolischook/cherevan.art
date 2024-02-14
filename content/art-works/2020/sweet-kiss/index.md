@@ -1,20 +1,21 @@
 ---
+id: 472
+order: 74
+title: Sweet kiss
+slug: sweet-kiss
+url: art-works/sweet-kiss
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: true
-mainImage: sweet_dreams.jpg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - paper
 - watercolor
 - pen
-order: 76
 price: 100
-slug: sweet-kiss
-title: Sweet kiss
-width: 21
+mainImage: sweet_dreams.jpg
 ---
-

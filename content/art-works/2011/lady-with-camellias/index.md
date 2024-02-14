@@ -1,17 +1,20 @@
 ---
+id: 131
+order: 443
+title: Lady with Camellias
+slug: lady-with-camellias
+url: art-works/lady-with-camellias
+aliases: []
 categories:
 - painting
-date: "2011-12-31T23:59:59Z"
-height: 90
 inStock: true
 isVisible: true
-mainImage: lady_with_camellias.jpg
+height: 90
+width: 80
+date: 2011-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
 price: 2000
-slug: lady-with-camellias
-title: Lady with Camellias
-width: 80
+mainImage: lady_with_camellias.jpg
 ---
-

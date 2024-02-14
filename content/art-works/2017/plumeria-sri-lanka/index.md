@@ -1,19 +1,20 @@
 ---
+id: 262
+order: 283
+title: Plumeria, Sri Lanka
+slug: plumeria-sri-lanka
+url: art-works/plumeria-sri-lanka
+aliases: []
 categories:
 - graphics
-date: "2017-01-01T00:00:00Z"
-height: 21
-id: 0
 inStock: true
 isVisible: false
-mainImage: plumeria_sri_lanka.jpg
+height: 21
+width: 30
+date: 2017-01-01T00:00:00Z
 materials:
 - marker
 - paper
-order: 285
 price: 100
-slug: plumeria-sri-lanka
-title: Plumeria, Sri Lanka
-width: 30
+mainImage: plumeria_sri_lanka.jpg
 ---
-

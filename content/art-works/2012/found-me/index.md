@@ -1,17 +1,20 @@
 ---
+id: 132
+order: 442
+title: Found me
+slug: found-me
+url: art-works/found-me
+aliases: []
 categories:
 - painting
-date: "2012-12-31T23:59:49Z"
-height: 80
 inStock: false
 isVisible: false
-mainImage: Рыжая.jpg
+height: 80
+width: 60
+date: 2012-01-01T00:00:00Z
 materials:
 - canvas
 - acrylic
 price: -1
-slug: found-me
-title: Found me
-width: 60
+mainImage: Рыжая.jpg
 ---
-

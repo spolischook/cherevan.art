@@ -1,20 +1,21 @@
 ---
+id: 491
+order: 55
+title: Shibari yoga
+slug: shibari-yoga
+url: art-works/shibari-yoga
+aliases: []
 categories:
 - shibari
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 40
-id: 0
 inStock: true
 isVisible: false
-mainImage: shibari_yoga.jpeg
+height: 40
+width: 30
+date: 2020-01-01T00:00:00Z
 materials:
 - antique notes
 - mix media
-order: 57
 price: 200
-slug: shibari-yoga
-title: Shibari yoga
-width: 30
+mainImage: shibari_yoga.jpeg
 ---
-

@@ -1,19 +1,20 @@
 ---
+id: 387
+order: 158
+title: Money more sacred than art?
+slug: money-more-sacred-than-art
+url: art-works/money-more-sacred-than-art
+aliases: []
 categories:
 - graphics
-date: "2019-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: true
-mainImage: Misheil_with_bird.jpg
+height: 30
+width: 21
+date: 2019-01-01T00:00:00Z
 materials:
 - ink
 - newspaper
-order: 160
 price: 100
-slug: money-more-sacred-than-art
-title: Money more sacred than art?
-width: 21
+mainImage: Misheil_with_bird.jpg
 ---
-

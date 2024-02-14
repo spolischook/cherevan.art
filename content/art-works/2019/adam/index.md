@@ -1,19 +1,20 @@
 ---
+id: 355
+order: 190
+title: Adam
+slug: adam
+url: art-works/adam
+aliases: []
 categories:
 - painting
-date: "2019-01-01T00:00:00Z"
-height: 150
-id: 0
 inStock: true
 isVisible: true
-mainImage: adam2.jpg
+height: 150
+width: 70
+date: 2019-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 192
 price: 1500
-slug: adam
-title: Adam
-width: 70
+mainImage: adam2.jpg
 ---
-

@@ -1,21 +1,22 @@
 ---
+id: 545
+order: 2
+title: Mafdet
+slug: mafdet
+url: art-works/mafdet
+aliases: []
 categories:
 - shibari
 - painting
-date: "2024-01-01T00:00:00Z"
-height: 120
-id: 0
 inStock: true
 isVisible: true
-mainImage: mafdet.JPG
+height: 120
+width: 80
+date: 2024-01-01T00:00:00Z
 materials:
 - oil
 - ' acrylic'
 - ' canvas'
-order: 2
 price: 6000
-slug: mafdet
-title: Mafdet
-width: 80
+mainImage: mafdet.JPG
 ---
-

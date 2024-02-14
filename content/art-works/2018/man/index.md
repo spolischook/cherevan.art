@@ -1,19 +1,20 @@
 ---
+id: 327
+order: 218
+title: Man
+slug: man
+url: art-works/man
+aliases: []
 categories:
 - painting
-date: "2018-01-01T00:00:00Z"
-height: 80
-id: 0
 inStock: true
 isVisible: true
-mainImage: man.jpg
+height: 80
+width: 60
+date: 2018-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 220
 price: 800
-slug: man
-title: Man
-width: 60
+mainImage: man.jpg
 ---
-

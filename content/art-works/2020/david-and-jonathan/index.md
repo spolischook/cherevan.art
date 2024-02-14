@@ -1,20 +1,21 @@
 ---
+id: 474
+order: 72
+title: David and Jonathan
+slug: david-and-jonathan
+url: art-works/david-and-jonathan
+aliases: []
 categories:
 - painting
-date: "2020-01-01T00:00:00Z"
-height: 150
-id: 0
 inStock: true
 isVisible: true
-mainImage: davidas.JPG
+height: 150
+width: 70
+date: 2020-01-01T00:00:00Z
 materials:
 - acrylic
 - oil
 - canvas
-order: 74
 price: 2500
-slug: david-and-jonathan
-title: David and Jonathan
-width: 70
+mainImage: davidas.JPG
 ---
-

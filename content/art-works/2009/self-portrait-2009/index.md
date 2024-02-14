@@ -1,17 +1,20 @@
 ---
+id: 90
+order: 484
+title: Self portrait 2009
+slug: self-portrait-2009
+url: art-works/self-portrait-2009
+aliases: []
 categories:
 - graphics
-date: "2009-12-31T23:59:38Z"
-height: 35
 inStock: false
 isVisible: false
-mainImage: self_portrait.jpg
+height: 35
+width: 50
+date: 2009-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: self-portrait-2009
-title: Self portrait 2009
-width: 50
+mainImage: self_portrait.jpg
 ---
-

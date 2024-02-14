@@ -1,17 +1,20 @@
 ---
+id: 29
+order: 545
+title: Fishmonger
+slug: fishmonger
+url: art-works/fishmonger
+aliases: []
 categories:
 - painting
-date: "2017-12-31T23:58:52Z"
-height: 90
 inStock: true
 isVisible: true
-mainImage: fish_seller.jpg
+height: 90
+width: 65
+date: 2017-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
 price: 1200
-slug: fishmonger
-title: Fishmonger
-width: 65
+mainImage: fish_seller.jpg
 ---
-

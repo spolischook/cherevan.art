@@ -1,19 +1,20 @@
 ---
+id: 338
+order: 207
+title: Children of the sun
+slug: children-of-the-sun
+url: art-works/children-of-the-sun
+aliases: []
 categories:
 - painting
-date: "2019-01-01T00:00:00Z"
-height: 60
-id: 0
 inStock: true
 isVisible: false
-mainImage: children_of_the_sun.jpg
+height: 60
+width: 60
+date: 2019-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 209
 price: -1
-slug: children-of-the-sun
-title: Children of the sun
-width: 60
+mainImage: children_of_the_sun.jpg
 ---
-

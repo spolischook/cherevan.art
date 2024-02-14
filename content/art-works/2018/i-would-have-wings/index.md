@@ -1,21 +1,22 @@
 ---
+id: 293
+order: 252
+title: I would have wings
+slug: i-would-have-wings
+url: art-works/i-would-have-wings
+aliases: []
 categories:
 - painting
-date: "2018-01-01T00:00:00Z"
-height: 85
-id: 0
 inStock: false
 isVisible: false
-mainImage: i_would_have_wings.jpg
+height: 85
+width: 60
+date: 2018-01-01T00:00:00Z
 materials:
 - acrylic
 - oil
 - ink
 - canvas
-order: 254
 price: 800
-slug: i-would-have-wings
-title: I would have wings
-width: 60
+mainImage: i_would_have_wings.jpg
 ---
-

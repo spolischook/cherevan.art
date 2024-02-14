@@ -1,17 +1,20 @@
 ---
+id: 2
+order: 572
+title: I will warm a handful of earth in my hands
+slug: i-will-warm-a-handful-of-earth-in-my-hands
+url: art-works/i-will-warm-a-handful-of-earth-in-my-hands
+aliases: []
 categories:
 - graphics
-date: "2009-12-31T23:59:31Z"
-height: 60
 inStock: false
 isVisible: false
-mainImage: i_will_warm_a_handful_of_earth_in_my_hands.jpg
+height: 60
+width: 50
+date: 2009-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: i-will-warm-a-handful-of-earth-in-my-hands
-title: I will warm a handful of earth in my hands
-width: 50
+mainImage: i_will_warm_a_handful_of_earth_in_my_hands.jpg
 ---
-

@@ -1,19 +1,20 @@
 ---
+id: 301
+order: 244
+title: Tati Limati
+slug: tati-limati
+url: art-works/tati-limati
+aliases: []
 categories:
 - painting
-date: "2018-01-01T00:00:00Z"
-height: 60
-id: 0
 inStock: true
 isVisible: true
-mainImage: tati_limati.jpg
+height: 60
+width: 60
+date: 2018-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 246
 price: 950
-slug: tati-limati
-title: Tati Limati
-width: 60
+mainImage: tati_limati.jpg
 ---
-

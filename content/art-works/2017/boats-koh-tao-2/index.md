@@ -1,21 +1,22 @@
 ---
+id: 219
+order: 326
+title: Boats Koh Tao 2
+slug: boats-koh-tao-2
+url: art-works/boats-koh-tao-2
+aliases: []
 categories:
 - graphics
-date: "2017-01-01T00:00:00Z"
-height: 21
-id: 0
 inStock: true
 isVisible: false
-mainImage: ships_koh_tao_2.jpg
+height: 21
+width: 30
+date: 2017-01-01T00:00:00Z
 materials:
 - ink
 - marker
 - paper
 - watercolor
-order: 328
 price: 150
-slug: boats-koh-tao-2
-title: Boats Koh Tao 2
-width: 30
+mainImage: ships_koh_tao_2.jpg
 ---
-

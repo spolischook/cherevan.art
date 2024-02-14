@@ -1,17 +1,20 @@
 ---
+id: 66
+order: 508
+title: Porcelain cup
+slug: porcelain-cup
+url: art-works/porcelain-cup
+aliases: []
 categories:
 - graphics
-date: "2008-12-31T23:59:42Z"
-height: 60
 inStock: false
 isVisible: false
-mainImage: porcelain_cup.jpg
+height: 60
+width: 50
+date: 2008-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: porcelain-cup
-title: Porcelain cup
-width: 50
+mainImage: porcelain_cup.jpg
 ---
-

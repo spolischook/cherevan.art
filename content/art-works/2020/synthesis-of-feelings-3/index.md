@@ -1,19 +1,20 @@
 ---
+id: 414
+order: 131
+title: Synthesis of feelings 3
+slug: synthesis-of-feelings-3
+url: art-works/synthesis-of-feelings-3
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: true
-mainImage: sintesis_of_feelings_3.jpg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - watercolor
 - paper
-order: 133
 price: 100
-slug: synthesis-of-feelings-3
-title: Synthesis of feelings 3
-width: 21
+mainImage: sintesis_of_feelings_3.jpg
 ---
-

@@ -1,17 +1,20 @@
 ---
+id: 123
+order: 451
+title: She wore flowers in her hair
+slug: she-wore-flowers-in-her-hair
+url: art-works/she-wore-flowers-in-her-hair
+aliases: []
 categories:
 - painting
-date: "2010-12-31T23:59:53Z"
-height: 80
 inStock: false
 isVisible: false
-mainImage: she_wore_flowers_in_her_hair.jpg
+height: 80
+width: 60
+date: 2010-01-01T00:00:00Z
 materials:
 - canvas
 - acrylic
 price: -1
-slug: she-wore-flowers-in-her-hair
-title: She wore flowers in her hair
-width: 60
+mainImage: she_wore_flowers_in_her_hair.jpg
 ---
-

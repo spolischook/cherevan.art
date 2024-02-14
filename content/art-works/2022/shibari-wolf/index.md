@@ -1,21 +1,22 @@
 ---
+id: 532
+order: 16
+title: Shibari wolf
+slug: shibari-wolf
+url: art-works/shibari-wolf
+aliases: []
 categories:
 - shibari
 - graphics
-date: "2022-01-01T00:00:00Z"
-height: 56
-id: 0
 inStock: true
 isVisible: true
-mainImage: shibari_wolf.jpg
+height: 56
+width: 38
+date: 2022-01-01T00:00:00Z
 materials:
 - ink
 - ' marker'
 - ' paper'
-order: 16
 price: 350
-slug: shibari-wolf
-title: Shibari wolf
-width: 38
+mainImage: shibari_wolf.jpg
 ---
-

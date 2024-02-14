@@ -1,20 +1,21 @@
 ---
+id: 469
+order: 77
+title: Rocooco couple lovers
+slug: rocooco-couple-lovers
+url: art-works/rocooco-couple-lovers
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: false
-mainImage: rococo.jpg
+height: 30
+width: 30
+date: 2020-01-01T00:00:00Z
 materials:
 - paper torchon
 - watercolor
 - pen
-order: 79
 price: 150
-slug: rocooco-couple-lovers
-title: Rocooco couple lovers
-width: 30
+mainImage: rococo.jpg
 ---
-

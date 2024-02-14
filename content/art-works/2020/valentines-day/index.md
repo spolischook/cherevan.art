@@ -1,19 +1,20 @@
 ---
+id: 411
+order: 134
+title: Valentines Day
+slug: valentines-day
+url: art-works/valentines-day
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: false
-mainImage: valentines_day.jpg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 136
 price: 100
-slug: valentines-day
-title: Valentines Day
-width: 21
+mainImage: valentines_day.jpg
 ---
-

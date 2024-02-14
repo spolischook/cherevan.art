@@ -1,17 +1,20 @@
 ---
+id: 52
+order: 522
+title: Pale Roses
+slug: pale-roses
+url: art-works/pale-roses
+aliases: []
 categories:
 - painting
-date: "2007-12-31T23:59:55Z"
-height: 70
 inStock: false
 isVisible: false
-mainImage: pale_roses.jpg
+height: 70
+width: 90
+date: 2007-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
 price: -1
-slug: pale-roses
-title: Pale Roses
-width: 90
+mainImage: pale_roses.jpg
 ---
-

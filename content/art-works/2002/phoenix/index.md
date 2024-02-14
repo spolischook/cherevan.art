@@ -1,17 +1,20 @@
 ---
+id: 42
+order: 532
+title: Phoenix
+slug: phoenix
+url: art-works/phoenix
+aliases: []
 categories:
 - graphics
-date: "2002-12-31T23:59:58Z"
-height: 50
 inStock: false
 isVisible: false
-mainImage: Phoenix.jpg
+height: 50
+width: 35
+date: 2002-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: phoenix
-title: Phoenix
-width: 35
+mainImage: Phoenix.jpg
 ---
-

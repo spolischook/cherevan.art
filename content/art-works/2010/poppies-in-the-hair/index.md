@@ -1,17 +1,20 @@
 ---
+id: 118
+order: 456
+title: Poppies in the hair
+slug: poppies-in-the-hair
+url: art-works/poppies-in-the-hair
+aliases: []
 categories:
 - painting
-date: "2010-12-31T23:59:48Z"
-height: 60
 inStock: false
 isVisible: false
-mainImage: poppies_in_the_hair.jpg
+height: 60
+width: 40
+date: 2010-01-01T00:00:00Z
 materials:
 - canvas
 - acrylic
 price: -1
-slug: poppies-in-the-hair
-title: Poppies in the hair
-width: 40
+mainImage: poppies_in_the_hair.jpg
 ---
-

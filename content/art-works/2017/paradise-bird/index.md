@@ -1,17 +1,20 @@
 ---
+id: 31
+order: 543
+title: Paradise bird
+slug: paradise-bird
+url: art-works/paradise-bird
+aliases: []
 categories:
 - painting
-date: "2017-12-31T23:58:54Z"
-height: 50
 inStock: true
 isVisible: true
-mainImage: paradise_bird.jpg
+height: 50
+width: 60
+date: 2017-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
 price: 600
-slug: paradise-bird
-title: Paradise bird
-width: 60
+mainImage: paradise_bird.jpg
 ---
-

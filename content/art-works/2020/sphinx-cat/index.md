@@ -1,19 +1,20 @@
 ---
+id: 461
+order: 85
+title: sphinx cat
+slug: sphinx-cat
+url: art-works/sphinx-cat
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: false
-mainImage: sphinx-woman-shibari.jpg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 87
 price: 120
-slug: sphinx-cat
-title: sphinx cat
-width: 21
+mainImage: sphinx-woman-shibari.jpg
 ---
-

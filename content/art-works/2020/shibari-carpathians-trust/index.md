@@ -1,20 +1,21 @@
 ---
+id: 451
+order: 95
+title: Shibari carpathians, trust
+slug: shibari-carpathians-trust
+url: art-works/shibari-carpathians-trust
+aliases: []
 categories:
 - shibari
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: true
-mainImage: shibari_carpathians.jpg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - watercolor
 - paper
-order: 97
 price: 100
-slug: shibari-carpathians-trust
-title: Shibari carpathians, trust
-width: 21
+mainImage: shibari_carpathians.jpg
 ---
-

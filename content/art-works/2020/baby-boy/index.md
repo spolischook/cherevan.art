@@ -1,19 +1,20 @@
 ---
+id: 425
+order: 121
+title: Baby boy
+slug: baby-boy
+url: art-works/baby-boy
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 21
-id: 0
 inStock: false
 isVisible: false
-mainImage: baby-boy-inside-out.jpg
+height: 21
+width: 30
+date: 2020-01-01T00:00:00Z
 materials:
 - watercolor
 - paper
-order: 123
 price: -1
-slug: baby-boy
-title: Baby boy
-width: 30
+mainImage: baby-boy-inside-out.jpg
 ---
-

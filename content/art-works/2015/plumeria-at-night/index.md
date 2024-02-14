@@ -1,20 +1,21 @@
 ---
+id: 161
+order: 384
+title: Plumeria at night
+slug: plumeria-at-night
+url: art-works/plumeria-at-night
+aliases: []
 categories:
 - graphics
-date: "2015-01-01T00:00:00Z"
-height: 35
-id: 0
 inStock: true
 isVisible: true
-mainImage: plumeria_at_night.jpg
+height: 35
+width: 50
+date: 2015-01-01T00:00:00Z
 materials:
 - marker
 - watercolor
 - paper
-order: 386
 price: -1
-slug: plumeria-at-night
-title: Plumeria at night
-width: 50
+mainImage: plumeria_at_night.jpg
 ---
-

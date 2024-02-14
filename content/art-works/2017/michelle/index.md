@@ -1,17 +1,20 @@
 ---
+id: 27
+order: 547
+title: Michelle
+slug: michelle
+url: art-works/michelle
+aliases: []
 categories:
 - painting
-date: "2017-12-31T23:58:50Z"
-height: 90
 inStock: false
 isVisible: true
-mainImage: michelle.jpg
+height: 90
+width: 65
+date: 2017-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
 price: -1
-slug: michelle
-title: Michelle
-width: 65
+mainImage: michelle.jpg
 ---
-

@@ -1,20 +1,21 @@
 ---
+id: 176
+order: 369
+title: Japanese koi fish
+slug: japanese-koi-fish
+url: art-works/japanese-koi-fish
+aliases: []
 categories:
 - painting
-date: "2015-01-01T00:00:00Z"
-height: 60
-id: 0
 inStock: false
 isVisible: false
-mainImage: japanese_koi_fish.jpg
+height: 60
+width: 60
+date: 2015-01-01T00:00:00Z
 materials:
 - acrylic
 - ink
 - canvas
-order: 371
 price: 600
-slug: japanese-koi-fish
-title: Japanese koi fish
-width: 60
+mainImage: japanese_koi_fish.jpg
 ---
-

@@ -1,21 +1,22 @@
 ---
+id: 492
+order: 54
+title: Shibari batterfly
+slug: shibari-batterfly
+url: art-works/shibari-batterfly
+aliases: []
 categories:
 - shibari
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: true
-mainImage: shibari_butterfly.jpeg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - watercolor
 - ink
 - paper
-order: 56
 price: 100
-slug: shibari-batterfly
-title: Shibari batterfly
-width: 21
+mainImage: shibari_butterfly.jpeg
 ---
-

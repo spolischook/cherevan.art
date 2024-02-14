@@ -1,17 +1,20 @@
 ---
+id: 37
+order: 537
+title: Pepper
+slug: pepper
+url: art-works/pepper
+aliases: []
 categories:
 - graphics
-date: "1999-12-31T23:59:58Z"
-height: 50
 inStock: false
 isVisible: false
-mainImage: pepper.jpg
+height: 50
+width: 70
+date: 1999-01-01T00:00:00Z
 materials:
 - watercolor
 - paper
 price: -1
-slug: pepper
-title: Pepper
-width: 70
+mainImage: pepper.jpg
 ---
-

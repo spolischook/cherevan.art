@@ -1,19 +1,20 @@
 ---
+id: 455
+order: 91
+title: At the bottom of the ocean
+slug: at-the-bottom-of-the-ocean
+url: art-works/at-the-bottom-of-the-ocean
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: true
-mainImage: at_the_bottom_of_the_ocean.jpg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 93
 price: 100
-slug: at-the-bottom-of-the-ocean
-title: At the bottom of the ocean
-width: 21
+mainImage: at_the_bottom_of_the_ocean.jpg
 ---
-

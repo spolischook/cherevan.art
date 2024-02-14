@@ -1,21 +1,22 @@
 ---
+id: 281
+order: 264
+title: Banana flower
+slug: banana-flower
+url: art-works/banana-flower
+aliases: []
 categories:
 - graphics
-date: "2018-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: false
-mainImage: banana_flower.jpg
+height: 30
+width: 21
+date: 2018-01-01T00:00:00Z
 materials:
 - watercolor
 - ink
 - marker
 - paper
-order: 266
 price: 150
-slug: banana-flower
-title: Banana flower
-width: 21
+mainImage: banana_flower.jpg
 ---
-

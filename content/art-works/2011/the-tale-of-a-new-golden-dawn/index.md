@@ -1,17 +1,20 @@
 ---
+id: 130
+order: 444
+title: The tale of a new golden dawn
+slug: the-tale-of-a-new-golden-dawn
+url: art-works/the-tale-of-a-new-golden-dawn
+aliases: []
 categories:
 - painting
-date: "2011-12-31T23:59:58Z"
-height: 80
 inStock: false
 isVisible: false
-mainImage: the_tale_of_a_new_golden_dawn.jpg
+height: 80
+width: 70
+date: 2011-01-01T00:00:00Z
 materials:
 - canvas
 - acrylic
 price: -1
-slug: the-tale-of-a-new-golden-dawn
-title: The tale of a new golden dawn
-width: 70
+mainImage: the_tale_of_a_new_golden_dawn.jpg
 ---
-

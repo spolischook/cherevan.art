@@ -1,19 +1,20 @@
 ---
+id: 362
+order: 183
+title: Tenderness
+slug: tenderness
+url: art-works/tenderness
+aliases: []
 categories:
 - painting
-date: "2019-01-01T00:00:00Z"
-height: 70
-id: 0
 inStock: true
 isVisible: true
-mainImage: tenderness.jpg
+height: 70
+width: 50
+date: 2019-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 185
 price: 1200
-slug: tenderness
-title: Tenderness
-width: 50
+mainImage: tenderness.jpg
 ---
-

@@ -1,20 +1,21 @@
 ---
+id: 250
+order: 295
+title: Jatamart
+slug: jatamart
+url: art-works/jatamart
+aliases: []
 categories:
 - painting
-date: "2017-01-01T00:00:00Z"
-height: 85
-id: 0
 inStock: true
 isVisible: true
-mainImage: jatamart.jpg
+height: 85
+width: 60
+date: 2017-01-01T00:00:00Z
 materials:
 - acrylic
 - ink
 - canvas
-order: 297
 price: 1500
-slug: jatamart
-title: Jatamart
-width: 60
+mainImage: jatamart.jpg
 ---
-

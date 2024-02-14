@@ -1,19 +1,20 @@
 ---
+id: 440
+order: 106
+title: Gun and roses 2
+slug: gun-and-roses-2
+url: art-works/gun-and-roses-2
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: true
-mainImage: gun_and_roses-2.jpg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 108
 price: 80
-slug: gun-and-roses-2
-title: Gun and roses 2
-width: 21
+mainImage: gun_and_roses-2.jpg
 ---
-

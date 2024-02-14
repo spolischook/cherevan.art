@@ -1,19 +1,20 @@
 ---
+id: 409
+order: 136
+title: Dragon birth
+slug: dragon-birth
+url: art-works/dragon-birth
+aliases: []
 categories:
 - painting
-date: "2020-01-01T00:00:00Z"
-height: 85
-id: 0
 inStock: false
 isVisible: false
-mainImage: dragon_birth.jpg
+height: 85
+width: 60
+date: 2020-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 138
 price: -1
-slug: dragon-birth
-title: Dragon birth
-width: 60
+mainImage: dragon_birth.jpg
 ---
-

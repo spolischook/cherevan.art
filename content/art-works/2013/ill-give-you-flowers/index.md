@@ -1,17 +1,20 @@
 ---
+id: 144
+order: 428
+title: I'll give you flowers
+slug: ill-give-you-flowers
+url: art-works/ill-give-you-flowers
+aliases: []
 categories:
 - painting
-date: "2013-12-31T23:59:58Z"
-height: 80
 inStock: true
 isVisible: true
-mainImage: i_will_give_you_flowers.jpg
+height: 80
+width: 60
+date: 2013-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
 price: -1
-slug: ill-give-you-flowers
-title: I'll give you flowers
-width: 60
+mainImage: i_will_give_you_flowers.jpg
 ---
-

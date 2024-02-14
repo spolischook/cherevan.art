@@ -1,20 +1,21 @@
 ---
+id: 484
+order: 62
+title: Shibari suspension
+slug: shibari-suspension
+url: art-works/shibari-suspension
+aliases: []
 categories:
 - shibari
 - graphics
-date: "2021-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: false
-mainImage: shibari_suspension.jpeg
+height: 30
+width: 21
+date: 2021-01-01T00:00:00Z
 materials:
 - paper
 - watercolor
-order: 64
 price: 100
-slug: shibari-suspension
-title: Shibari suspension
-width: 21
+mainImage: shibari_suspension.jpeg
 ---
-

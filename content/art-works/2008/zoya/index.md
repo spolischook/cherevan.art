@@ -1,17 +1,20 @@
 ---
+id: 60
+order: 514
+title: Zoya
+slug: zoya
+url: art-works/zoya
+aliases: []
 categories:
 - graphics
-date: "2008-12-31T23:59:36Z"
-height: 65
 inStock: false
 isVisible: false
-mainImage: zoya.jpg
+height: 65
+width: 40
+date: 2008-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: zoya
-title: Zoya
-width: 40
+mainImage: zoya.jpg
 ---
-

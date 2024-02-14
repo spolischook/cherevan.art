@@ -1,19 +1,20 @@
 ---
+id: 370
+order: 175
+title: Preface
+slug: preface
+url: art-works/preface
+aliases: []
 categories:
 - graphics
-date: "2019-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: false
-mainImage: preface.jpg
+height: 30
+width: 21
+date: 2019-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 177
 price: 100
-slug: preface
-title: Preface
-width: 21
+mainImage: preface.jpg
 ---
-

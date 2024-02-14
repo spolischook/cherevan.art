@@ -1,19 +1,20 @@
 ---
+id: 167
+order: 378
+title: Ding
+slug: ding
+url: art-works/ding
+aliases: []
 categories:
 - painting
-date: "2015-01-01T00:00:00Z"
-height: 70
-id: 0
 inStock: true
 isVisible: true
-mainImage: ding.jpg
+height: 70
+width: 50
+date: 2015-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 380
 price: -1
-slug: ding
-title: Ding
-width: 50
+mainImage: ding.jpg
 ---
-

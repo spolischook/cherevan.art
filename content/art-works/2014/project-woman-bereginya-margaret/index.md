@@ -1,20 +1,21 @@
 ---
+id: 157
+order: 388
+title: Project Woman Bereginya Margaret
+slug: project-woman-bereginya-margaret
+url: art-works/project-woman-bereginya-margaret
+aliases: []
 categories:
 - painting
-date: "2014-01-01T00:00:00Z"
-height: 50
-id: 0
 inStock: true
 isVisible: true
-mainImage: 1_Project_Woman_Bereginya_Margaret.JPG
+height: 50
+width: 70
+date: 2014-01-01T00:00:00Z
 materials:
 - acrylic
 - marker
 - paper
-order: 390
 price: -1
-slug: project-woman-bereginya-margaret
-title: Project Woman Bereginya Margaret
-width: 70
+mainImage: 1_Project_Woman_Bereginya_Margaret.JPG
 ---
-

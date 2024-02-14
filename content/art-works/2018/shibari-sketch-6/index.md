@@ -1,19 +1,20 @@
 ---
+id: 263
+order: 282
+title: Shibari sketch 6
+slug: shibari-sketch-6
+url: art-works/shibari-sketch-6
+aliases: []
 categories:
 - shibari
 - graphics
-date: "2018-01-01T00:00:00Z"
-height: 19
-id: 0
 inStock: true
 isVisible: false
-mainImage: shibari_sketch-6.jpg
+height: 19
+width: 19
+date: 2018-01-01T00:00:00Z
 materials:
 - marker
-order: 284
 price: 100
-slug: shibari-sketch-6
-title: Shibari sketch 6
-width: 19
+mainImage: shibari_sketch-6.jpg
 ---
-

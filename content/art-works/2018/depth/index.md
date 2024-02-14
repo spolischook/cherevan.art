@@ -1,19 +1,20 @@
 ---
+id: 304
+order: 241
+title: Depth
+slug: depth
+url: art-works/depth
+aliases: []
 categories:
 - painting
-date: "2018-01-01T00:00:00Z"
-height: 80
-id: 0
 inStock: false
 isVisible: false
-mainImage: depth.jpg
+height: 80
+width: 60
+date: 2018-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 243
 price: 1200
-slug: depth
-title: Depth
-width: 60
+mainImage: depth.jpg
 ---
-

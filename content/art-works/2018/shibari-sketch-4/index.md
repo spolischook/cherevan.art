@@ -1,21 +1,22 @@
 ---
+id: 265
+order: 280
+title: Shibari sketch 4
+slug: shibari-sketch-4
+url: art-works/shibari-sketch-4
+aliases: []
 categories:
 - shibari
 - graphics
-date: "2018-01-01T00:00:00Z"
-height: 19
-id: 0
 inStock: true
 isVisible: false
-mainImage: shibari_sketch-4.jpg
+height: 19
+width: 19
+date: 2018-01-01T00:00:00Z
 materials:
 - marker
 - watercolor
 - paper
-order: 282
 price: 100
-slug: shibari-sketch-4
-title: Shibari sketch 4
-width: 19
+mainImage: shibari_sketch-4.jpg
 ---
-

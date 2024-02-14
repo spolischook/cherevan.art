@@ -1,20 +1,21 @@
 ---
+id: 302
+order: 243
+title: Knot play
+slug: knot-play
+url: art-works/knot-play
+aliases: []
 categories:
 - painting
-date: "2018-01-01T00:00:00Z"
-height: 60
-id: 0
 inStock: true
 isVisible: true
-mainImage: knot_play.jpg
+height: 60
+width: 60
+date: 2018-01-01T00:00:00Z
 materials:
 - acrylic
 - oil
 - canvas
-order: 245
 price: 950
-slug: knot-play
-title: Knot play
-width: 60
+mainImage: knot_play.jpg
 ---
-

@@ -1,20 +1,21 @@
 ---
+id: 479
+order: 67
+title: All you need is love
+slug: all-you-need-is-love
+url: art-works/all-you-need-is-love
+aliases: []
 categories:
 - painting
-date: "2021-01-01T00:00:00Z"
-height: 70
-id: 0
 inStock: true
 isVisible: true
-mainImage: all_yoou_need_is_love.JPG
+height: 70
+width: 70
+date: 2021-01-01T00:00:00Z
 materials:
 - acrylic
 - oil
 - canvas
-order: 69
 price: 1000
-slug: all-you-need-is-love
-title: All you need is love
-width: 70
+mainImage: all_yoou_need_is_love.JPG
 ---
-

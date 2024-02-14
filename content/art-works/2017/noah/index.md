@@ -1,20 +1,21 @@
 ---
+id: 246
+order: 299
+title: Noah
+slug: noah
+url: art-works/noah
+aliases: []
 categories:
 - painting
-date: "2017-01-01T00:00:00Z"
-height: 85
-id: 0
 inStock: true
 isVisible: true
-mainImage: noah.jpg
+height: 85
+width: 60
+date: 2017-01-01T00:00:00Z
 materials:
 - acrylic
 - ink
 - canvas
-order: 301
 price: 1500
-slug: noah
-title: Noah
-width: 60
+mainImage: noah.jpg
 ---
-

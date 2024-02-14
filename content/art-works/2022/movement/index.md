@@ -1,20 +1,21 @@
 ---
+id: 531
+order: 17
+title: Movement
+slug: movement
+url: art-works/movement
+aliases: []
 categories:
 - shibari
 - graphics
-date: "2022-01-01T00:00:00Z"
-height: 56
-id: 0
 inStock: true
 isVisible: true
-mainImage: movement_graphic.jpeg
+height: 56
+width: 38
+date: 2022-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 17
 price: 350
-slug: movement
-title: Movement
-width: 38
+mainImage: movement_graphic.jpeg
 ---
-

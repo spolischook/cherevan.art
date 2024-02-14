@@ -1,20 +1,21 @@
 ---
+id: 493
+order: 53
+title: In vino veritas
+slug: in-vino-veritas
+url: art-works/in-vino-veritas
+aliases: []
 categories:
 - graphics
-date: "2021-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: false
-mainImage: in_vino_veritas.jpeg
+height: 30
+width: 21
+date: 2021-01-01T00:00:00Z
 materials:
 - watercolor
 - ink
 - paper
-order: 55
 price: 150
-slug: in-vino-veritas
-title: In vino veritas
-width: 21
+mainImage: in_vino_veritas.jpeg
 ---
-

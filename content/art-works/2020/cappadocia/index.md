@@ -1,19 +1,20 @@
 ---
+id: 466
+order: 80
+title: Cappadocia
+slug: cappadocia
+url: art-works/cappadocia
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: false
-mainImage: cappadocia.jpg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - paper
 - watercolor
-order: 82
 price: 100
-slug: cappadocia
-title: Cappadocia
-width: 21
+mainImage: cappadocia.jpg
 ---
-

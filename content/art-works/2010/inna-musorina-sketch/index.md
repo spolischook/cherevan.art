@@ -1,17 +1,20 @@
 ---
+id: 113
+order: 461
+title: Inna Musorina (sketch)
+slug: inna-musorina-sketch
+url: art-works/inna-musorina-sketch
+aliases: []
 categories:
 - graphics
-date: "2010-12-31T23:59:43Z"
-height: 50
 inStock: false
 isVisible: false
-mainImage: inna_musorina.jpg
+height: 50
+width: 38
+date: 2010-01-01T00:00:00Z
 materials:
 - paper
 - pencil
 price: -1
-slug: inna-musorina-sketch
-title: Inna Musorina (sketch)
-width: 38
+mainImage: inna_musorina.jpg
 ---
-

@@ -1,17 +1,20 @@
 ---
+id: 121
+order: 453
+title: Love is a choice, triptych
+slug: love-is-a-choice-triptych
+url: art-works/love-is-a-choice-triptych
+aliases: []
 categories:
 - painting
-date: "2010-12-31T23:59:51Z"
-height: 80
 inStock: false
 isVisible: false
-mainImage: love_is_a_choice.jpg
+height: 80
+width: 70
+date: 2010-01-01T00:00:00Z
 materials:
 - canvas
 - acrylic
 price: -1
-slug: love-is-a-choice-triptych
-title: Love is a choice, triptych
-width: 70
+mainImage: love_is_a_choice.jpg
 ---
-

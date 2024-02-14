@@ -1,20 +1,21 @@
 ---
+id: 225
+order: 320
+title: Prayer to the Gods
+slug: prayer-to-the-gods
+url: art-works/prayer-to-the-gods
+aliases: []
 categories:
 - graphics
-date: "2017-01-01T00:00:00Z"
-height: 35
-id: 0
 inStock: false
 isVisible: false
-mainImage: prayer_to_the_gods.jpg
+height: 35
+width: 50
+date: 2017-01-01T00:00:00Z
 materials:
 - pen
 - paper
 - tea
-order: 322
 price: 150
-slug: prayer-to-the-gods
-title: Prayer to the Gods
-width: 50
+mainImage: prayer_to_the_gods.jpg
 ---
-

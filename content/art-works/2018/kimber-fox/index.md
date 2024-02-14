@@ -1,20 +1,21 @@
 ---
+id: 299
+order: 246
+title: Kimber Fox
+slug: kimber-fox
+url: art-works/kimber-fox
+aliases: []
 categories:
 - painting
-date: "2018-01-01T00:00:00Z"
-height: 85
-id: 0
 inStock: false
 isVisible: false
-mainImage: kimber_fox.jpg
+height: 85
+width: 60
+date: 2018-01-01T00:00:00Z
 materials:
 - acrylic
 - ink
 - canvas
-order: 248
 price: 1500
-slug: kimber-fox
-title: Kimber Fox
-width: 60
+mainImage: kimber_fox.jpg
 ---
-

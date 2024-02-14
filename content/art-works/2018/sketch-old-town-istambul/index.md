@@ -1,20 +1,21 @@
 ---
+id: 321
+order: 224
+title: Sketch old town Istambul
+slug: sketch-old-town-istambul
+url: art-works/sketch-old-town-istambul
+aliases: []
 categories:
 - graphics
-date: "2018-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: false
-mainImage: sketch_old_town_istambul.jpg
+height: 30
+width: 21
+date: 2018-01-01T00:00:00Z
 materials:
 - pen
 - marker
 - paper
-order: 226
 price: 120
-slug: sketch-old-town-istambul
-title: Sketch old town Istambul
-width: 21
+mainImage: sketch_old_town_istambul.jpg
 ---
-

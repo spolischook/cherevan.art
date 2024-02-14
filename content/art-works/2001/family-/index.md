@@ -1,17 +1,20 @@
 ---
+id: 39
+order: 535
+title: 'Family '
+slug: family-
+url: art-works/family-
+aliases: []
 categories:
 - graphics
-date: "2001-12-31T23:59:59Z"
-height: 35
 inStock: false
 isVisible: false
-mainImage: family.jpg
+height: 35
+width: 50
+date: 2001-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: family-
-title: 'Family '
-width: 50
+mainImage: family.jpg
 ---
-

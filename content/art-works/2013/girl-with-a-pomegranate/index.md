@@ -1,17 +1,20 @@
 ---
+id: 141
+order: 431
+title: Girl with a pomegranate
+slug: girl-with-a-pomegranate
+url: art-works/girl-with-a-pomegranate
+aliases: []
 categories:
 - painting
-date: "2013-12-31T23:59:55Z"
-height: 80
 inStock: false
 isVisible: false
-mainImage: Tatiana-Cheryvan-Noch-za-toboj-60x80-polotno-oliya-2013.jpg
+height: 80
+width: 60
+date: 2013-01-01T00:00:00Z
 materials:
 - oil
 - canvas
 price: -1
-slug: girl-with-a-pomegranate
-title: Girl with a pomegranate
-width: 60
+mainImage: Tatiana-Cheryvan-Noch-za-toboj-60x80-polotno-oliya-2013.jpg
 ---
-

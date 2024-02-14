@@ -1,17 +1,20 @@
 ---
+id: 35
+order: 539
+title: Memories
+slug: memories
+url: art-works/memories
+aliases: []
 categories:
 - graphics
-date: "1999-12-31T23:59:56Z"
-height: 50
 inStock: false
 isVisible: false
-mainImage: Memories.jpg
+height: 50
+width: 35
+date: 1999-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: memories
-title: Memories
-width: 35
+mainImage: Memories.jpg
 ---
-

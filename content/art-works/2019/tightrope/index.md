@@ -1,20 +1,21 @@
 ---
+id: 369
+order: 176
+title: Tightrope
+slug: tightrope
+url: art-works/tightrope
+aliases: []
 categories:
 - shibari
 - graphics
-date: "2019-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: true
-mainImage: tightrope.jpg
+height: 30
+width: 21
+date: 2019-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 178
 price: 100
-slug: tightrope
-title: Tightrope
-width: 21
+mainImage: tightrope.jpg
 ---
-

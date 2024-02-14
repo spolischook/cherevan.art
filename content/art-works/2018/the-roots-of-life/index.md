@@ -1,19 +1,20 @@
 ---
+id: 295
+order: 250
+title: The roots of life
+slug: the-roots-of-life
+url: art-works/the-roots-of-life
+aliases: []
 categories:
 - painting
-date: "2018-01-01T00:00:00Z"
-height: 60
-id: 0
 inStock: false
 isVisible: false
-mainImage: the_roots_of_life.jpg
+height: 60
+width: 85
+date: 2018-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 252
 price: 1000
-slug: the-roots-of-life
-title: The roots of life
-width: 85
+mainImage: the_roots_of_life.jpg
 ---
-

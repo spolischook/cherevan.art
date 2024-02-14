@@ -1,17 +1,20 @@
 ---
+id: 8
+order: 566
+title: Love-bound
+slug: love-bound
+url: art-works/love-bound
+aliases: []
 categories:
 - painting
-date: "2016-12-31T23:59:37Z"
-height: 90
 inStock: false
 isVisible: false
-mainImage: Love-bound.jpg
+height: 90
+width: 60
+date: 2016-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
 price: -1
-slug: love-bound
-title: Love-bound
-width: 60
+mainImage: Love-bound.jpg
 ---
-

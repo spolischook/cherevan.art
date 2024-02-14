@@ -1,19 +1,20 @@
 ---
+id: 445
+order: 101
+title: Мy angel
+slug: мy-angel
+url: art-works/мy-angel
+aliases: []
 categories:
 - graphics
-date: "2019-01-01T00:00:00Z"
-height: 21
-id: 0
 inStock: false
 isVisible: false
-mainImage: my_angel.jpg
+height: 21
+width: 30
+date: 2019-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 103
 price: 80
-slug: мy-angel
-title: Мy angel
-width: 30
+mainImage: my_angel.jpg
 ---
-

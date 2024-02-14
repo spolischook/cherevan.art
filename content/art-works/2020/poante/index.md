@@ -1,19 +1,20 @@
 ---
+id: 421
+order: 125
+title: Poante
+slug: poante
+url: art-works/poante
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: false
-mainImage: poante.jpg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - watercolor
 - paper
-order: 127
 price: 300
-slug: poante
-title: Poante
-width: 21
+mainImage: poante.jpg
 ---
-

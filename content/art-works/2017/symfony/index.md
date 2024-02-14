@@ -1,17 +1,20 @@
 ---
+id: 13
+order: 561
+title: Symfony
+slug: symfony
+url: art-works/symfony
+aliases: []
 categories:
 - painting
-date: "2017-12-31T23:58:46Z"
-height: 50
 inStock: false
 isVisible: false
-mainImage: symfony.jpg
+height: 50
+width: 50
+date: 2017-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
 price: -1
-slug: symfony
-title: Symfony
-width: 50
+mainImage: symfony.jpg
 ---
-

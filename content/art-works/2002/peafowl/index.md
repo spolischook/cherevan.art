@@ -1,17 +1,20 @@
 ---
+id: 43
+order: 531
+title: Peafowl
+slug: peafowl
+url: art-works/peafowl
+aliases: []
 categories:
 - graphics
-date: "2002-12-31T23:59:59Z"
-height: 35
 inStock: false
 isVisible: false
-mainImage: Peafowl_later.jpg
+height: 35
+width: 50
+date: 2002-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: peafowl
-title: Peafowl
-width: 50
+mainImage: Peafowl_later.jpg
 ---
-

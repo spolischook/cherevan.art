@@ -1,19 +1,20 @@
 ---
+id: 171
+order: 374
+title: Follow the wave
+slug: follow-the-wave
+url: art-works/follow-the-wave
+aliases: []
 categories:
 - painting
-date: "2015-01-01T00:00:00Z"
-height: 60
-id: 0
 inStock: true
 isVisible: true
-mainImage: follow_the_wave.jpg
+height: 60
+width: 40
+date: 2015-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 376
 price: 600
-slug: follow-the-wave
-title: Follow the wave
-width: 40
+mainImage: follow_the_wave.jpg
 ---
-

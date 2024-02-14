@@ -1,19 +1,20 @@
 ---
+id: 197
+order: 348
+title: Balance
+slug: balance
+url: art-works/balance
+aliases: []
 categories:
 - painting
-date: "2017-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: false
-mainImage: balance.jpg
+height: 30
+width: 20
+date: 2017-01-01T00:00:00Z
 materials:
 - canvas
 - acrylic
-order: 350
 price: -1
-slug: balance
-title: Balance
-width: 20
+mainImage: balance.jpg
 ---
-

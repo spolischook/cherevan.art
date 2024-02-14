@@ -1,19 +1,20 @@
 ---
+id: 395
+order: 150
+title: Sky guard
+slug: sky-guard
+url: art-works/sky-guard
+aliases: []
 categories:
 - painting
-date: "2019-01-01T00:00:00Z"
-height: 80
-id: 0
 inStock: false
 isVisible: true
-mainImage: sky_guard.jpg
+height: 80
+width: 60
+date: 2019-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 152
 price: 1000
-slug: sky-guard
-title: Sky guard
-width: 60
+mainImage: sky_guard.jpg
 ---
-

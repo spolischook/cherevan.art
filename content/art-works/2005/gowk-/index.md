@@ -1,17 +1,20 @@
 ---
+id: 44
+order: 530
+title: 'Gowk '
+slug: gowk-
+url: art-works/gowk-
+aliases: []
 categories:
 - graphics
-date: "2005-12-31T23:59:58Z"
-height: 50
 inStock: false
 isVisible: false
-mainImage: gowk.jpg
+height: 50
+width: 35
+date: 2005-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: gowk-
-title: 'Gowk '
-width: 35
+mainImage: gowk.jpg
 ---
-

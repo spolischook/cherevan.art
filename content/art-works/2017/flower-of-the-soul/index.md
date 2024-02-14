@@ -1,17 +1,20 @@
 ---
+id: 16
+order: 558
+title: Flower of the soul
+slug: flower-of-the-soul
+url: art-works/flower-of-the-soul
+aliases: []
 categories:
 - painting
-date: "2017-12-31T23:58:47Z"
-height: 80
 inStock: false
 isVisible: false
-mainImage: flower_of_the_soul.jpg
+height: 80
+width: 60
+date: 2017-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
 price: -1
-slug: flower-of-the-soul
-title: Flower of the soul
-width: 60
+mainImage: flower_of_the_soul.jpg
 ---
-

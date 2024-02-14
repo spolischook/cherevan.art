@@ -1,21 +1,22 @@
 ---
+id: 180
+order: 365
+title: Fly
+slug: fly
+url: art-works/fly
+aliases: []
 categories:
 - painting
-date: "2016-01-01T00:00:00Z"
-height: 50
-id: 0
 inStock: false
 isVisible: false
-mainImage: fly.jpg
+height: 50
+width: 60
+date: 2016-01-01T00:00:00Z
 materials:
 - acrylic
 - ink
 - pencil
 - canvas
-order: 367
 price: 500
-slug: fly
-title: Fly
-width: 60
+mainImage: fly.jpg
 ---
-

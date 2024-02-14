@@ -1,17 +1,20 @@
 ---
+id: 62
+order: 512
+title: Nataly
+slug: nataly
+url: art-works/nataly
+aliases: []
 categories:
 - graphics
-date: "2008-12-31T23:59:38Z"
-height: 65
 inStock: false
 isVisible: false
-mainImage: nataly.jpg
+height: 65
+width: 40
+date: 2008-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: nataly
-title: Nataly
-width: 40
+mainImage: nataly.jpg
 ---
-

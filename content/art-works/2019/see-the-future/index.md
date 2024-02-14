@@ -1,19 +1,20 @@
 ---
+id: 453
+order: 93
+title: See the future
+slug: see-the-future
+url: art-works/see-the-future
+aliases: []
 categories:
 - graphics
-date: "2019-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: false
-mainImage: see_the_future.jpg
+height: 30
+width: 21
+date: 2019-01-01T00:00:00Z
 materials:
 - watercolor
 - paper
-order: 95
 price: 100
-slug: see-the-future
-title: See the future
-width: 21
+mainImage: see_the_future.jpg
 ---
-

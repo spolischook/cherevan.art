@@ -1,20 +1,21 @@
 ---
+id: 475
+order: 71
+title: 'Listening to your ocean''s tides '
+slug: listening-to-your-oceans-tides-
+url: art-works/listening-to-your-oceans-tides-
+aliases: []
 categories:
 - painting
-date: "2021-01-01T00:00:00Z"
-height: 150
-id: 0
 inStock: true
 isVisible: true
-mainImage: listeng_to_your_oceans_tides.JPG
+height: 150
+width: 70
+date: 2021-01-01T00:00:00Z
 materials:
 - acrylic
 - oil
 - canvas
-order: 73
 price: 2500
-slug: listening-to-your-oceans-tides-
-title: 'Listening to your ocean''s tides '
-width: 70
+mainImage: listeng_to_your_oceans_tides.JPG
 ---
-

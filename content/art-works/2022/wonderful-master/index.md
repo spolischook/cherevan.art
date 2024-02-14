@@ -1,21 +1,22 @@
 ---
+id: 535
+order: 13
+title: Wonderful master
+slug: wonderful-master
+url: art-works/wonderful-master
+aliases: []
 categories:
 - shibari
 - graphics
-date: "2022-01-01T00:00:00Z"
-height: 21
-id: 0
 inStock: true
 isVisible: true
-mainImage: wonderful_master_s.jpg
+height: 21
+width: 30
+date: 2022-01-01T00:00:00Z
 materials:
 - ink
 - ' gold leaf'
 - ' paper'
-order: 13
 price: 200
-slug: wonderful-master
-title: Wonderful master
-width: 30
+mainImage: wonderful_master_s.jpg
 ---
-

@@ -1,20 +1,21 @@
 ---
+id: 496
+order: 50
+title: Dragon tamer
+slug: dragon-tamer
+url: art-works/dragon-tamer
+aliases: []
 categories:
 - shibari
 - graphics
-date: "2021-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: true
-mainImage: dragon_tamer.jpeg
+height: 30
+width: 21
+date: 2021-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 52
 price: 150
-slug: dragon-tamer
-title: Dragon tamer
-width: 21
+mainImage: dragon_tamer.jpeg
 ---
-

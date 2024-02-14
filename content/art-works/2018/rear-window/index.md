@@ -1,19 +1,20 @@
 ---
+id: 279
+order: 266
+title: Rear window
+slug: rear-window
+url: art-works/rear-window
+aliases: []
 categories:
 - graphics
-date: "2018-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: false
-mainImage: rear_window.jpg
+height: 30
+width: 21
+date: 2018-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 268
 price: 150
-slug: rear-window
-title: Rear window
-width: 21
+mainImage: rear_window.jpg
 ---
-

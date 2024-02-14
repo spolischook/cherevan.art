@@ -1,19 +1,20 @@
 ---
+id: 169
+order: 376
+title: Soey Chang
+slug: soey-chang
+url: art-works/soey-chang
+aliases: []
 categories:
 - painting
-date: "2015-01-01T00:00:00Z"
-height: 60
-id: 0
 inStock: true
 isVisible: true
-mainImage: soey_chang.jpg
+height: 60
+width: 80
+date: 2015-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 378
 price: 1300
-slug: soey-chang
-title: Soey Chang
-width: 80
+mainImage: soey_chang.jpg
 ---
-

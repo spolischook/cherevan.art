@@ -1,19 +1,20 @@
 ---
+id: 396
+order: 149
+title: Sky guard 2
+slug: sky-guard-2
+url: art-works/sky-guard-2
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: false
-mainImage: Keeper of the sky.jpg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 151
 price: 150
-slug: sky-guard-2
-title: Sky guard 2
-width: 21
+mainImage: Keeper of the sky.jpg
 ---
-

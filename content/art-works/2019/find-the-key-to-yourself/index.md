@@ -1,19 +1,20 @@
 ---
+id: 340
+order: 205
+title: Find the key to yourself
+slug: find-the-key-to-yourself
+url: art-works/find-the-key-to-yourself
+aliases: []
 categories:
 - graphics
-date: "2019-01-01T00:00:00Z"
-height: 35
-id: 0
 inStock: false
 isVisible: false
-mainImage: Find_the_key_to_yourself.jpg
+height: 35
+width: 25
+date: 2019-01-01T00:00:00Z
 materials:
 - antique notes
 - ink
-order: 207
 price: -1
-slug: find-the-key-to-yourself
-title: Find the key to yourself
-width: 25
+mainImage: Find_the_key_to_yourself.jpg
 ---
-

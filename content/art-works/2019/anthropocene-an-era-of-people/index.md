@@ -1,20 +1,21 @@
 ---
+id: 344
+order: 201
+title: Anthropocene. An era of people.
+slug: anthropocene-an-era-of-people
+url: art-works/anthropocene-an-era-of-people
+aliases: []
 categories:
 - painting
-date: "2019-01-01T00:00:00Z"
-height: 60
-id: 0
 inStock: false
 isVisible: false
-mainImage: Anthropocene.jpeg
+height: 60
+width: 80
+date: 2019-01-01T00:00:00Z
 materials:
 - canvas
 - acrylic
 - resin
-order: 203
 price: -1
-slug: anthropocene-an-era-of-people
-title: Anthropocene. An era of people.
-width: 80
+mainImage: Anthropocene.jpeg
 ---
-

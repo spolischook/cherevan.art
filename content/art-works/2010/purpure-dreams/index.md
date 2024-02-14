@@ -1,17 +1,20 @@
 ---
+id: 122
+order: 452
+title: Purpure dreams
+slug: purpure-dreams
+url: art-works/purpure-dreams
+aliases: []
 categories:
 - painting
-date: "2010-12-31T23:59:52Z"
-height: 50
 inStock: false
 isVisible: false
-mainImage: purpure_dreams.jpg
+height: 50
+width: 70
+date: 2010-01-01T00:00:00Z
 materials:
 - canvas
 - acrylic
 price: 650
-slug: purpure-dreams
-title: Purpure dreams
-width: 70
+mainImage: purpure_dreams.jpg
 ---
-

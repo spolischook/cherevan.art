@@ -1,19 +1,20 @@
 ---
+id: 188
+order: 357
+title: Muze
+slug: muze
+url: art-works/muze
+aliases: []
 categories:
 - painting
-date: "2016-01-01T00:00:00Z"
-height: 60
-id: 0
 inStock: true
 isVisible: true
-mainImage: muze.jpg
+height: 60
+width: 50
+date: 2016-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 359
 price: 700
-slug: muze
-title: Muze
-width: 50
+mainImage: muze.jpg
 ---
-

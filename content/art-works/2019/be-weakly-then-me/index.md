@@ -1,19 +1,20 @@
 ---
+id: 372
+order: 173
+title: Be weakly then me
+slug: be-weakly-then-me
+url: art-works/be-weakly-then-me
+aliases: []
 categories:
 - graphics
-date: "2019-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: true
 isVisible: true
-mainImage: be_weakly_then_me.jpg
+height: 30
+width: 21
+date: 2019-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 175
 price: 100
-slug: be-weakly-then-me
-title: Be weakly then me
-width: 21
+mainImage: be_weakly_then_me.jpg
 ---
-

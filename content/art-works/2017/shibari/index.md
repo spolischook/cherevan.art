@@ -1,21 +1,22 @@
 ---
+id: 255
+order: 290
+title: Shibari
+slug: shibari
+url: art-works/shibari
+aliases: []
 categories:
 - shibari
 - painting
-date: "2017-01-01T00:00:00Z"
-height: 120
-id: 0
 inStock: false
 isVisible: false
-mainImage: shibari_1_with_out_line.jpg
+height: 120
+width: 80
+date: 2017-01-01T00:00:00Z
 materials:
 - oil
 - acrylic
 - canvas
-order: 292
 price: 2000
-slug: shibari
-title: Shibari
-width: 80
+mainImage: shibari_1_with_out_line.jpg
 ---
-

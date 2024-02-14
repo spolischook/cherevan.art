@@ -1,20 +1,21 @@
 ---
+id: 200
+order: 345
+title: Doves of Spanish
+slug: doves-of-spanish
+url: art-works/doves-of-spanish
+aliases: []
 categories:
 - graphics
-date: "2017-01-01T00:00:00Z"
-height: 21
-id: 0
 inStock: true
 isVisible: false
-mainImage: doves_of_spanish.jpg
+height: 21
+width: 30
+date: 2017-01-01T00:00:00Z
 materials:
 - ink
 - marker
 - paper
-order: 347
 price: 150
-slug: doves-of-spanish
-title: Doves of Spanish
-width: 30
+mainImage: doves_of_spanish.jpg
 ---
-

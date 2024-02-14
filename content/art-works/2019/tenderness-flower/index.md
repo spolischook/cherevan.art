@@ -1,19 +1,20 @@
 ---
+id: 389
+order: 156
+title: Tenderness flower
+slug: tenderness-flower
+url: art-works/tenderness-flower
+aliases: []
 categories:
 - graphics
-date: "2019-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: true
-mainImage: tenderness_flower.jpg
+height: 30
+width: 21
+date: 2019-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 158
 price: 100
-slug: tenderness-flower
-title: Tenderness flower
-width: 21
+mainImage: tenderness_flower.jpg
 ---
-

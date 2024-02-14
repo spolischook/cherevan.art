@@ -1,17 +1,20 @@
 ---
+id: 17
+order: 557
+title: Essence of bodily sensations
+slug: essence-of-bodily-sensations
+url: art-works/essence-of-bodily-sensations
+aliases: []
 categories:
 - graphics
-date: "2019-12-31T23:58:40Z"
-height: 30
 inStock: false
 isVisible: false
-mainImage: essence_of_bodily_sensations.jpg
+height: 30
+width: 21
+date: 2019-01-01T00:00:00Z
 materials:
 - paper
 - ink
 price: -1
-slug: essence-of-bodily-sensations
-title: Essence of bodily sensations
-width: 21
+mainImage: essence_of_bodily_sensations.jpg
 ---
-

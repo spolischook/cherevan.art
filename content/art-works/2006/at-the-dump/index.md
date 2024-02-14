@@ -1,17 +1,20 @@
 ---
+id: 46
+order: 528
+title: At the dump
+slug: at-the-dump
+url: art-works/at-the-dump
+aliases: []
 categories:
 - graphics
-date: "2006-12-31T23:59:54Z"
-height: 50
 inStock: false
 isVisible: false
-mainImage: at_the_dump.jpg
+height: 50
+width: 35
+date: 2006-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: at-the-dump
-title: At the dump
-width: 35
+mainImage: at_the_dump.jpg
 ---
-

@@ -1,17 +1,20 @@
 ---
+id: 58
+order: 516
+title: Artist and model
+slug: artist-and-model
+url: art-works/artist-and-model
+aliases: []
 categories:
 - graphics
-date: "2008-12-31T23:59:34Z"
-height: 50
 inStock: false
 isVisible: false
-mainImage: artist_and_model.jpg
+height: 50
+width: 70
+date: 2008-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: artist-and-model
-title: Artist and model
-width: 70
+mainImage: artist_and_model.jpg
 ---
-

@@ -1,19 +1,20 @@
 ---
+id: 313
+order: 232
+title: Bodhi Dance 3
+slug: bodhi-dance-3
+url: art-works/bodhi-dance-3
+aliases: []
 categories:
 - graphics
-date: "2018-01-01T00:00:00Z"
-height: 86
-id: 0
 inStock: false
 isVisible: false
-mainImage: bodhi_dance_3.jpg
+height: 86
+width: 62
+date: 2018-01-01T00:00:00Z
 materials:
 - charcoal
 - paper
-order: 234
 price: 1000
-slug: bodhi-dance-3
-title: Bodhi Dance 3
-width: 62
+mainImage: bodhi_dance_3.jpg
 ---
-

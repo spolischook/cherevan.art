@@ -1,20 +1,21 @@
 ---
+id: 433
+order: 113
+title: Portrait with a diadem
+slug: portrait-with-a-diadem
+url: art-works/portrait-with-a-diadem
+aliases: []
 categories:
 - graphics
-date: "2020-01-01T00:00:00Z"
-height: 30
-id: 0
 inStock: false
 isVisible: false
-mainImage: sana_wish_a_diadem.jpg
+height: 30
+width: 21
+date: 2020-01-01T00:00:00Z
 materials:
 - watercolor
 - paper
 - copper leaf sheets
-order: 115
 price: -1
-slug: portrait-with-a-diadem
-title: Portrait with a diadem
-width: 21
+mainImage: sana_wish_a_diadem.jpg
 ---
-

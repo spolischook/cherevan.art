@@ -1,19 +1,20 @@
 ---
+id: 400
+order: 145
+title: Dancing houses, Amsterdam
+slug: dancing-houses-amsterdam
+url: art-works/dancing-houses-amsterdam
+aliases: []
 categories:
 - graphics
-date: "2019-01-01T00:00:00Z"
-height: 21
-id: 0
 inStock: false
 isVisible: false
-mainImage: dancing_houses.jpg
+height: 21
+width: 30
+date: 2019-01-01T00:00:00Z
 materials:
 - ink
 - paper
-order: 147
 price: 150
-slug: dancing-houses-amsterdam
-title: Dancing houses, Amsterdam
-width: 30
+mainImage: dancing_houses.jpg
 ---
-

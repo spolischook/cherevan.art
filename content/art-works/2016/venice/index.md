@@ -1,19 +1,20 @@
 ---
+id: 191
+order: 354
+title: Venice
+slug: venice
+url: art-works/venice
+aliases: []
 categories:
 - painting
-date: "2016-01-01T00:00:00Z"
-height: 50
-id: 0
 inStock: false
 isVisible: false
-mainImage: venice.jpg
+height: 50
+width: 60
+date: 2016-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 356
 price: 200
-slug: venice
-title: Venice
-width: 60
+mainImage: venice.jpg
 ---
-

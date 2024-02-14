@@ -1,20 +1,21 @@
 ---
+id: 267
+order: 278
+title: Shibari sketch 2
+slug: shibari-sketch-2
+url: art-works/shibari-sketch-2
+aliases: []
 categories:
 - shibari
 - graphics
-date: "2018-01-01T00:00:00Z"
-height: 19
-id: 0
 inStock: true
 isVisible: false
-mainImage: shibari_sketch-2.jpg
+height: 19
+width: 19
+date: 2018-01-01T00:00:00Z
 materials:
 - watercolor
 - paper
-order: 280
 price: 100
-slug: shibari-sketch-2
-title: Shibari sketch 2
-width: 19
+mainImage: shibari_sketch-2.jpg
 ---
-

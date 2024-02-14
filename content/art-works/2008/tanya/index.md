@@ -1,17 +1,20 @@
 ---
+id: 67
+order: 507
+title: Tanya
+slug: tanya
+url: art-works/tanya
+aliases: []
 categories:
 - graphics
-date: "2008-12-31T23:59:43Z"
-height: 40
 inStock: false
 isVisible: false
-mainImage: tanya.jpg
+height: 40
+width: 30
+date: 2008-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
 price: -1
-slug: tanya
-title: Tanya
-width: 30
+mainImage: tanya.jpg
 ---
-

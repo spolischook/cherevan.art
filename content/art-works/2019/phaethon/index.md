@@ -1,19 +1,20 @@
 ---
+id: 359
+order: 186
+title: Phaethon
+slug: phaethon
+url: art-works/phaethon
+aliases: []
 categories:
 - painting
-date: "2019-01-01T00:00:00Z"
-height: 60
-id: 0
 inStock: true
 isVisible: true
-mainImage: phaethon.jpg
+height: 60
+width: 85
+date: 2019-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-order: 188
 price: 1000
-slug: phaethon
-title: Phaethon
-width: 85
+mainImage: phaethon.jpg
 ---
-

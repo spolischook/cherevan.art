@@ -1,19 +1,20 @@
 ---
+id: 512
+order: 34
+title: Dreams of vision
+slug: dreams-of-vision
+url: art-works/dreams-of-vision
+aliases: []
 categories:
 - painting
-date: "2022-01-01T00:00:00Z"
-height: 85
-id: 0
 inStock: true
 isVisible: true
-mainImage: dreams_of_the_vision_2.JPG
+height: 85
+width: 60
+date: 2022-01-01T00:00:00Z
 materials:
 - acrylic
 - ' canvas'
-order: 36
 price: 1000
-slug: dreams-of-vision
-title: Dreams of vision
-width: 60
+mainImage: dreams_of_the_vision_2.JPG
 ---
-

@@ -1,17 +1,20 @@
 ---
+id: 54
+order: 520
+title: Red callas
+slug: red-callas
+url: art-works/red-callas
+aliases: []
 categories:
 - painting
-date: "2007-12-31T23:59:57Z"
-height: 70
 inStock: false
 isVisible: false
-mainImage: red_callas.jpg
+height: 70
+width: 90
+date: 2007-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
 price: -1
-slug: red-callas
-title: Red callas
-width: 90
+mainImage: red_callas.jpg
 ---
-

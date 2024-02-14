@@ -1,17 +1,20 @@
 ---
+id: 142
+order: 430
+title: Dream Light
+slug: dream-light
+url: art-works/dream-light
+aliases: []
 categories:
 - painting
-date: "2013-12-31T23:59:56Z"
-height: 60
 inStock: false
 isVisible: false
-mainImage: dream_light.jpg
+height: 60
+width: 80
+date: 2013-01-01T00:00:00Z
 materials:
 - oil
 - canvas
 price: -1
-slug: dream-light
-title: Dream Light
-width: 80
+mainImage: dream_light.jpg
 ---
-
