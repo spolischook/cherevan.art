@@ -1,6 +1,6 @@
 ---
 id: 252
-order: 293
+order: 306
 title: Master of Shibari
 slug: master-of-shibari
 url: art-works/master-of-shibari

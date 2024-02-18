@@ -1,6 +1,6 @@
 ---
 id: 429
-order: 117
+order: 130
 title: Pillow challenge
 slug: pillow-challenge
 url: art-works/pillow-challenge

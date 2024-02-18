@@ -1,6 +1,6 @@
 ---
 id: 234
-order: 311
+order: 324
 title: Sunset, Hikkaduwa
 slug: sunset-hikkaduwa
 url: art-works/sunset-hikkaduwa

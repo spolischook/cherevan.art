@@ -1,6 +1,6 @@
 ---
 id: 277
-order: 268
+order: 281
 title: Boy on the bicycle
 slug: boy-on-the-bicycle
 url: art-works/boy-on-the-bicycle

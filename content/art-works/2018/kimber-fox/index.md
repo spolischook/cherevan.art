@@ -1,6 +1,6 @@
 ---
 id: 299
-order: 246
+order: 259
 title: Kimber Fox
 slug: kimber-fox
 url: art-works/kimber-fox
@@ -8,7 +8,7 @@ aliases: []
 categories:
 - painting
 inStock: false
-isVisible: false
+isVisible: true
 height: 85
 width: 60
 date: 2018-01-01T00:00:00Z

@@ -7,8 +7,8 @@
         {{ $artWorks := $pages | shuffle | first 3 }}
 
 
-    <section class="flex flex-col sm:flex-row sm:space-x-8">
-        <article class="sm:w-[90%] sm:mb-10 px-2">
+    <section class="flex flex-col sm:flex-row sm:space-x-8 space-y-6 sm:space-y-0">
+        <article class="sm:w-[80%] sm:mb-10 px-2">
             <h1 class="text-5xl font-bold pb-4">{{ .Title }}</h1>
             <div class="text-xl font-sans leading-loose indent-8">
                 {{ .Content }}

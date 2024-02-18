@@ -1,6 +1,6 @@
 ---
 id: 276
-order: 269
+order: 282
 title: Tuk Tuk. Penang, Malaysia
 slug: tuk-tuk-penang-malaysia
 url: art-works/tuk-tuk-penang-malaysia

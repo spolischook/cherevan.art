@@ -1,6 +1,6 @@
 ---
 id: 432
-order: 114
+order: 127
 title: Sleepy bear 2
 slug: sleepy-bear-2
 url: art-works/sleepy-bear-2

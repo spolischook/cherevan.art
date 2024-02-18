@@ -1,6 +1,6 @@
 ---
 id: 479
-order: 67
+order: 80
 title: All you need is love
 slug: all-you-need-is-love
 url: art-works/all-you-need-is-love

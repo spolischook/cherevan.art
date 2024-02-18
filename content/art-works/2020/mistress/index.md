@@ -1,6 +1,6 @@
 ---
 id: 452
-order: 94
+order: 107
 title: Mistress
 slug: mistress
 url: art-works/mistress

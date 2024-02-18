@@ -1,6 +1,6 @@
 ---
 id: 141
-order: 431
+order: 446
 title: Girl with a pomegranate
 slug: girl-with-a-pomegranate
 url: art-works/girl-with-a-pomegranate

@@ -1,6 +1,6 @@
 ---
 id: 464
-order: 82
+order: 95
 title: Shibari cooking
 slug: shibari-cooking
 url: art-works/shibari-cooking

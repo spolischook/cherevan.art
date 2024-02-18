@@ -1,6 +1,6 @@
 ---
 id: 57
-order: 517
+order: 532
 title: Series "My friends"
 slug: series-my-friends
 url: art-works/series-my-friends

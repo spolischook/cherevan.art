@@ -1,6 +1,6 @@
 ---
 id: 381
-order: 164
+order: 177
 title: Tricky angel
 slug: tricky-angel
 url: art-works/tricky-angel

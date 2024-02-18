@@ -1,6 +1,6 @@
 ---
 id: 476
-order: 70
+order: 83
 title: You are only in my dreams
 slug: you-are-only-in-my-dreams
 url: art-works/you-are-only-in-my-dreams
@@ -16,6 +16,6 @@ materials:
 - acrylic
 - oil
 - canvas
-price: 2500
+price: 6000
 mainImage: you_are_only_in_my _reams.JPG
 ---

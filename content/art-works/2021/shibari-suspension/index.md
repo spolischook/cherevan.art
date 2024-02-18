@@ -1,6 +1,6 @@
 ---
 id: 484
-order: 62
+order: 75
 title: Shibari suspension
 slug: shibari-suspension
 url: art-works/shibari-suspension

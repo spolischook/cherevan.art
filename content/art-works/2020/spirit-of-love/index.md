@@ -1,6 +1,6 @@
 ---
 id: 473
-order: 73
+order: 86
 title: Spirit of Love
 slug: spirit-of-love
 url: art-works/spirit-of-love

@@ -1,6 +1,6 @@
 ---
 id: 135
-order: 439
+order: 454
 title: There are women like wind. Triptych 2
 slug: there-are-women-like-wind-triptych-2
 url: art-works/there-are-women-like-wind-triptych-2

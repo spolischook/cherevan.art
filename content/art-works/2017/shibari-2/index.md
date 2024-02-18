@@ -1,6 +1,6 @@
 ---
 id: 256
-order: 289
+order: 302
 title: Shibari 2
 slug: shibari-2
 url: art-works/shibari-2

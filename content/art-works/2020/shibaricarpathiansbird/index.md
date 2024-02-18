@@ -1,6 +1,6 @@
 ---
 id: 450
-order: 96
+order: 109
 title: shibari_carpathians_bird
 slug: shibaricarpathiansbird
 url: art-works/shibaricarpathiansbird

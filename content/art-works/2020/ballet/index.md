@@ -1,6 +1,6 @@
 ---
 id: 458
-order: 88
+order: 101
 title: Ballet
 slug: ballet
 url: art-works/ballet

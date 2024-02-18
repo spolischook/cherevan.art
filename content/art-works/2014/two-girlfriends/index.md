@@ -1,0 +1,19 @@
+---
+id: 147
+order: 440
+title: Two girlfriends
+slug: two-girlfriends
+url: art-works/two-girlfriends
+aliases: []
+categories:
+- painting
+inStock: false
+isVisible: false
+height: 30
+width: 40
+date: 2014-01-01T00:00:00Z
+materials:
+- ""
+price: -1
+mainImage: two_girlfriends.jpg
+---

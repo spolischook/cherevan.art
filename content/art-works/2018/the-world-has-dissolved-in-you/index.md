@@ -1,6 +1,6 @@
 ---
 id: 287
-order: 258
+order: 271
 title: The world has dissolved in you
 slug: the-world-has-dissolved-in-you
 url: art-works/the-world-has-dissolved-in-you

@@ -1,6 +1,6 @@
 ---
 id: 368
-order: 177
+order: 190
 title: My beast
 slug: my-beast
 url: art-works/my-beast

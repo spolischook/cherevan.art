@@ -1,6 +1,6 @@
 ---
 id: 460
-order: 86
+order: 99
 title: Quarantine love story
 slug: quarantine-love-story
 url: art-works/quarantine-love-story

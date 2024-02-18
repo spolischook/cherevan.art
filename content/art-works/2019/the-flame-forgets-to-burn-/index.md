@@ -1,6 +1,6 @@
 ---
 id: 382
-order: 163
+order: 176
 title: 'The flame forgets to burn '
 slug: the-flame-forgets-to-burn-
 url: art-works/the-flame-forgets-to-burn-

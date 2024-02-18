@@ -1,6 +1,6 @@
 ---
 id: 244
-order: 301
+order: 314
 title: Wichuta
 slug: wichuta
 url: art-works/wichuta

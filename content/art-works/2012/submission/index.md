@@ -1,6 +1,6 @@
 ---
 id: 487
-order: 59
+order: 72
 title: Submission
 slug: submission
 url: art-works/submission

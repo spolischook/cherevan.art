@@ -1,6 +1,6 @@
 ---
 id: 278
-order: 267
+order: 280
 title: Thai bird who knows how to speak
 slug: thai-bird-who-knows-how-to-speak
 url: art-works/thai-bird-who-knows-how-to-speak

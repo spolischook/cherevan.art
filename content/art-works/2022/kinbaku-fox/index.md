@@ -1,6 +1,6 @@
 ---
 id: 534
-order: 14
+order: 17
 title: Kinbaku fox
 slug: kinbaku-fox
 url: art-works/kinbaku-fox

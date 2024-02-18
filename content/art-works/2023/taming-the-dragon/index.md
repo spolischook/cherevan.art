@@ -1,6 +1,6 @@
 ---
 id: 542
-order: 6
+order: 9
 title: Taming the dragon
 slug: taming-the-dragon
 url: art-works/taming-the-dragon

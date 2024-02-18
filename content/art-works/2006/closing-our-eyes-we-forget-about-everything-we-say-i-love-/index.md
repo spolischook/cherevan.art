@@ -1,6 +1,6 @@
 ---
 id: 49
-order: 525
+order: 540
 title: Closing our eyes, we forget about everything ... We say, I love ...
 slug: closing-our-eyes-we-forget-about-everything-we-say-i-love-
 url: art-works/closing-our-eyes-we-forget-about-everything-we-say-i-love-

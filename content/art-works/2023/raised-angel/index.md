@@ -1,6 +1,6 @@
 ---
 id: 537
-order: 11
+order: 14
 title: Raised angel
 slug: raised-angel
 url: art-works/raised-angel

@@ -1,6 +1,6 @@
 ---
 id: 171
-order: 374
+order: 387
 title: Follow the wave
 slug: follow-the-wave
 url: art-works/follow-the-wave

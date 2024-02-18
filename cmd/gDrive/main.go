@@ -13,7 +13,7 @@ const paintingsFolderId = "1NA3FqpicdYnl7RS7-YDks0oh6eLNFTcp"
 const graphicsFolderId = "11nADUmGwSlnT4LGA9DF7RzButDb1FHNd"
 
 func main() {
-	srv, err := googleDrive.CreateService()
+	srv, err := googleDrive.New()
 	checkError(err)
 
 	// Replace 'filename' with the name of the file you are looking for.

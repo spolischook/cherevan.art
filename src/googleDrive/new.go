@@ -2,107 +2,18 @@ package googleDrive
 
 import (
 	"context"
-	"encoding/json"
-	"fmt"
+	"github.com/cherevan.art/src/googleDrive/login"
 	"github.com/kpango/glg"
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/google"
 	"google.golang.org/api/drive/v3"
-	"log"
-	"net/http"
-	"os"
+	"google.golang.org/api/option"
 )
 
-const SecretJson = "google_secret.json"
-const TokenJson = "google_token.json"
-
 func New() (*Service, error) {
-	// Load client secret from a file
-	b, err := os.ReadFile(SecretJson)
+	tokenSource, err := login.TokenSource()
+	d, err := drive.NewService(context.Background(), option.WithTokenSource(tokenSource))
 	if err != nil {
-		glg.Errorf("Unable to read client secret file: %v", err)
-		return nil, err
+		glg.Fatal(err)
 	}
 
-	// If modifying these scopes, delete your previously saved token.json.
-	config, err := google.ConfigFromJSON(b, drive.DriveScope)
-	if err != nil {
-		glg.Errorf("Unable to parse client secret file to config: %v", err)
-		return nil, err
-	}
-
-	client := getClient(config)
-
-	srv, err := drive.New(client)
-	if err != nil {
-		glg.Errorf("Unable to retrieve Drive client: %v", err)
-		return nil, err
-	}
-
-	return &Service{srv}, nil
-}
-
-// Retrieve a token, saves the token, then returns the generated client.
-func getClient(config *oauth2.Config) *http.Client {
-	tok, err := tokenFromFile(TokenJson)
-	if err != nil {
-		tok = getTokenFromWeb(config)
-		saveToken(TokenJson, tok)
-	}
-	// Use TokenSource to automatically refresh the token when it's expired
-	tokenSource := config.TokenSource(context.Background(), tok)
-	client := oauth2.NewClient(context.Background(), tokenSource)
-
-	// Check if the token is valid
-	resp, err := client.Get("https://www.googleapis.com/oauth2/v1/tokeninfo?access_token=" + tok.AccessToken)
-	if err != nil || resp.StatusCode != http.StatusOK {
-		// If the token is not valid, get a new one
-		tok = getTokenFromWeb(config)
-		saveToken(TokenJson, tok)
-		tokenSource = config.TokenSource(context.Background(), tok)
-		client = oauth2.NewClient(context.Background(), tokenSource)
-	}
-
-	return client
-}
-
-// Request a token from the web, then returns the retrieved token.
-func getTokenFromWeb(config *oauth2.Config) *oauth2.Token {
-	authURL := config.AuthCodeURL("state-token", oauth2.AccessTypeOffline)
-	fmt.Printf("Go to the following link in your browser then type the "+
-		"authorization code: \n%v\n", authURL)
-
-	var authCode string
-	if _, err := fmt.Scan(&authCode); err != nil {
-		log.Fatalf("Unable to read authorization code: %v", err)
-	}
-
-	tok, err := config.Exchange(context.TODO(), authCode)
-	if err != nil {
-		log.Fatalf("Unable to retrieve token from web: %v", err)
-	}
-	return tok
-}
-
-// Retrieves a token from a local file.
-func tokenFromFile(file string) (*oauth2.Token, error) {
-	f, err := os.Open(file)
-	if err != nil {
-		return nil, err
-	}
-	defer f.Close()
-	tok := &oauth2.Token{}
-	err = json.NewDecoder(f).Decode(tok)
-	return tok, err
-}
-
-// Saves a token to a file path.
-func saveToken(path string, token *oauth2.Token) {
-	fmt.Printf("Saving credential file to: %s\n", path)
-	f, err := os.OpenFile(path, os.O_RDWR|os.O_CREATE|os.O_TRUNC, 0600)
-	if err != nil {
-		log.Fatalf("Unable to cache oauth token: %v", err)
-	}
-	defer f.Close()
-	json.NewEncoder(f).Encode(token)
+	return &Service{d}, nil
 }

@@ -1,6 +1,6 @@
 ---
 id: 478
-order: 68
+order: 81
 title: We become ideal puzzles
 slug: we-become-ideal-puzzles
 url: art-works/we-become-ideal-puzzles
@@ -16,6 +16,6 @@ materials:
 - acrylic
 - oil
 - canvas
-price: 2500
+price: 6000
 mainImage: we_become_ideal_puzzles.jpg
 ---

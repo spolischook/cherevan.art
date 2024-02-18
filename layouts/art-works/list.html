@@ -10,7 +10,7 @@
 
     {{ $pages := slice }}
 
-    {{ range $index, $page := sort (where (where .Site.Pages "Type" "art-works") ".IsSection" false) "Params.date" "desc" }}
+    {{ range $index, $page := sort (where (where .Site.Pages "Type" "art-works") ".IsSection" false) "Params.order" "asc" }}
         {{ $pages = $pages | append $page }}
     {{ end }}
 
@@ -40,9 +40,9 @@
                      data-params="{{jsonify $page.Params}}">
                     {{ partial "art-works/picture.html" (dict "image" . "title" $page.Title "inStock" $page.Params.inStock "index" $index) }}
 
-                    <h3 class="font-bold">
+                    <a class="font-bold" href="{{$page.Permalink}}">
                         {{ $page.Title }} <span class="text-xs text-gray-500">{{$page.Params.Width}}X{{$page.Params.Height}}cm&nbsp{{dateFormat "2006" $page.Params.date}}</span>
-                    </h3>
+                    </a>
                     <div class="mt-1 border-b mb-3 mr-8"></div>
 
                 </div>

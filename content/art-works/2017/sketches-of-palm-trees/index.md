@@ -1,6 +1,6 @@
 ---
 id: 208
-order: 337
+order: 350
 title: Sketches of palm trees
 slug: sketches-of-palm-trees
 url: art-works/sketches-of-palm-trees

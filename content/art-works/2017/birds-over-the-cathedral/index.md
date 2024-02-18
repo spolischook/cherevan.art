@@ -1,6 +1,6 @@
 ---
 id: 199
-order: 346
+order: 359
 title: Birds over the cathedral
 slug: birds-over-the-cathedral
 url: art-works/birds-over-the-cathedral

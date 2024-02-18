@@ -1,6 +1,6 @@
 ---
 id: 242
-order: 303
+order: 316
 title: Intimate
 slug: intimate
 url: art-works/intimate

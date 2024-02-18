@@ -1,6 +1,6 @@
 ---
 id: 451
-order: 95
+order: 108
 title: Shibari carpathians, trust
 slug: shibari-carpathians-trust
 url: art-works/shibari-carpathians-trust

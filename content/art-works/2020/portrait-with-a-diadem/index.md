@@ -1,6 +1,6 @@
 ---
 id: 433
-order: 113
+order: 126
 title: Portrait with a diadem
 slug: portrait-with-a-diadem
 url: art-works/portrait-with-a-diadem

@@ -1,6 +1,6 @@
 ---
 id: 24
-order: 550
+order: 565
 title: My steps to you
 slug: my-steps-to-you
 url: art-works/my-steps-to-you

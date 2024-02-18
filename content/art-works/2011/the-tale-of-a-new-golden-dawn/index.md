@@ -1,6 +1,6 @@
 ---
 id: 130
-order: 444
+order: 459
 title: The tale of a new golden dawn
 slug: the-tale-of-a-new-golden-dawn
 url: art-works/the-tale-of-a-new-golden-dawn

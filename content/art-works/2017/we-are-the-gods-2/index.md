@@ -1,6 +1,6 @@
 ---
 id: 243
-order: 302
+order: 315
 title: We are the Gods 2
 slug: we-are-the-gods-2
 url: art-works/we-are-the-gods-2

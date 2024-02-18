@@ -1,6 +1,6 @@
 ---
 id: 428
-order: 118
+order: 131
 title: Pillow challenge 2
 slug: pillow-challenge-2
 url: art-works/pillow-challenge-2

@@ -1,6 +1,6 @@
 ---
 id: 520
-order: 433
+order: 448
 title: Will grow up my son and go on your way 2
 slug: will-grow-up-my-son-and-go-on-your-way-2
 url: art-works/will-grow-up-my-son-and-go-on-your-way-2

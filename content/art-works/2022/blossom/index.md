@@ -1,0 +1,21 @@
+---
+id: 574
+order: 41
+title: Blossom
+slug: blossom
+url: art-works/blossom
+aliases: []
+categories:
+- graphics
+inStock: true
+isVisible: true
+height: 56
+width: 38
+date: 2022-01-01T00:00:00Z
+materials:
+- ink
+- ' gold leaf'
+- ' paper'
+price: 450
+mainImage: blossom.jpg
+---

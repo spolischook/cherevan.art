@@ -1,6 +1,6 @@
 ---
 id: 188
-order: 357
+order: 370
 title: Muze
 slug: muze
 url: art-works/muze

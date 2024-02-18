@@ -44,7 +44,7 @@ func (s Service) DownloadFile(fileName, dirId, destDir string) error {
 	}
 
 	if len(r.Files) == 0 {
-		return fmt.Errorf("no files found")
+		return fmt.Errorf(`file "%s" not found`, fileName)
 	}
 
 	if len(r.Files) > 1 {
@@ -57,6 +57,12 @@ func (s Service) DownloadFile(fileName, dirId, destDir string) error {
 		return err
 	}
 	defer resp.Body.Close()
+
+	// create directory if it not exists
+	err = os.MkdirAll(destDir, 0755)
+	if err != nil {
+		return err
+	}
 
 	out, err := os.Create(filepath.Join(destDir, i.Name))
 	if err != nil {
