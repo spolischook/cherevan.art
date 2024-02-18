@@ -1,6 +1,6 @@
 ---
 id: 531
-order: 17
+order: 20
 title: Movement
 slug: movement
 url: art-works/movement

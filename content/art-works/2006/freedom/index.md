@@ -1,6 +1,6 @@
 ---
 id: 50
-order: 524
+order: 539
 title: Freedom
 slug: freedom
 url: art-works/freedom

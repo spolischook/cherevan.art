@@ -1,6 +1,6 @@
 ---
 id: 43
-order: 531
+order: 546
 title: Peafowl
 slug: peafowl
 url: art-works/peafowl

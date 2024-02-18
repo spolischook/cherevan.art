@@ -1,6 +1,6 @@
 ---
 id: 412
-order: 133
+order: 146
 title: Synthesis of feelings 1
 slug: synthesis-of-feelings-1
 url: art-works/synthesis-of-feelings-1

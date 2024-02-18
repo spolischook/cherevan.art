@@ -1,6 +1,6 @@
 ---
 id: 67
-order: 507
+order: 522
 title: Tanya
 slug: tanya
 url: art-works/tanya

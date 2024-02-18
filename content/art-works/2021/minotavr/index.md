@@ -1,6 +1,6 @@
 ---
 id: 497
-order: 49
+order: 62
 title: Minotavr
 slug: minotavr
 url: art-works/minotavr

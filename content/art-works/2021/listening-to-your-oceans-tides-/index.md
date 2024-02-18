@@ -1,6 +1,6 @@
 ---
 id: 475
-order: 71
+order: 84
 title: 'Listening to your ocean''s tides '
 slug: listening-to-your-oceans-tides-
 url: art-works/listening-to-your-oceans-tides-
@@ -16,6 +16,6 @@ materials:
 - acrylic
 - oil
 - canvas
-price: 2500
-mainImage: listeng_to_your_oceans_tides.JPG
+price: 6000
+mainImage: your_oceans_tides.JPG
 ---

@@ -1,6 +1,6 @@
 ---
 id: 468
-order: 78
+order: 91
 title: Cappadocia valley 2
 slug: cappadocia-valley-2
 url: art-works/cappadocia-valley-2

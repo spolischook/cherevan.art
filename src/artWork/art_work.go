@@ -10,6 +10,8 @@ type ArtWork struct {
 	Order      int       `yaml:"order" json:"order"`
 	Title      string    `yaml:"title" json:"title"`
 	Slug       string    `yaml:"slug" json:"slug"`
+	Url        string    `yaml:"url" json:"url"`
+	Aliases    []string  `yaml:"aliases" json:"aliases"`
 	Categories []string  `yaml:"categories" json:"categories"`
 	InStock    bool      `yaml:"inStock" json:"inStock"`
 	IsVisible  bool      `yaml:"isVisible" json:"isVisible"`
@@ -19,4 +21,5 @@ type ArtWork struct {
 	Materials  []string  `yaml:"materials" json:"materials"`
 	Price      int       `yaml:"price" json:"price"`
 	ImageName  string    `yaml:"mainImage" json:"mainImage"`
+	Text       string    `yaml:"-" json:"text"`
 }

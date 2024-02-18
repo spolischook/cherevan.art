@@ -1,6 +1,6 @@
 ---
 id: 74
-order: 500
+order: 515
 title: Callas
 slug: callas
 url: art-works/callas

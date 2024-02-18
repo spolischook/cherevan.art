@@ -1,6 +1,6 @@
 ---
 id: 225
-order: 320
+order: 333
 title: Prayer to the Gods
 slug: prayer-to-the-gods
 url: art-works/prayer-to-the-gods

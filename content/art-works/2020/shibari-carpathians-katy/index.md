@@ -1,6 +1,6 @@
 ---
 id: 447
-order: 99
+order: 112
 title: Shibari Carpathians Katy
 slug: shibari-carpathians-katy
 url: art-works/shibari-carpathians-katy

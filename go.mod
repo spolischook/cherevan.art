@@ -4,6 +4,8 @@ go 1.20
 
 require (
 	github.com/digitalocean/godo v1.108.0
+	github.com/go-ozzo/ozzo-validation v3.6.0+incompatible
+	github.com/gomarkdown/markdown v0.0.0-20231222211730-1d6d20845b47
 	github.com/kpango/glg v1.6.15
 	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646
 	golang.org/x/oauth2 v0.16.0
@@ -14,10 +16,10 @@ require (
 require (
 	cloud.google.com/go/compute v1.23.3 // indirect
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
+	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/go-logr/logr v1.3.0 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
-	github.com/go-ozzo/ozzo-validation v3.6.0+incompatible // indirect
 	github.com/goccy/go-json v0.10.2 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.3 // indirect

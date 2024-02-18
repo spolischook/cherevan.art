@@ -1,6 +1,6 @@
 ---
 id: 60
-order: 514
+order: 529
 title: Zoya
 slug: zoya
 url: art-works/zoya

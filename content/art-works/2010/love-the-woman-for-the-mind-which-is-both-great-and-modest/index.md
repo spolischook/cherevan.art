@@ -1,6 +1,6 @@
 ---
 id: 114
-order: 460
+order: 475
 title: Love the woman for the mind, which is both great and modest
 slug: love-the-woman-for-the-mind-which-is-both-great-and-modest
 url: art-works/love-the-woman-for-the-mind-which-is-both-great-and-modest

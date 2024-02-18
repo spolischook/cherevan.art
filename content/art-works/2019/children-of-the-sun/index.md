@@ -1,6 +1,6 @@
 ---
 id: 338
-order: 207
+order: 220
 title: Children of the sun
 slug: children-of-the-sun
 url: art-works/children-of-the-sun

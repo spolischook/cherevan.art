@@ -1,6 +1,6 @@
 ---
 id: 90
-order: 484
+order: 499
 title: Self portrait 2009
 slug: self-portrait-2009
 url: art-works/self-portrait-2009

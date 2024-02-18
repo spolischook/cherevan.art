@@ -1,6 +1,6 @@
 ---
 id: 326
-order: 219
+order: 232
 title: Kindred spirits
 slug: kindred-spirits
 url: art-works/kindred-spirits

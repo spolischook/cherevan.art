@@ -1,6 +1,6 @@
 ---
 id: 466
-order: 80
+order: 93
 title: Cappadocia
 slug: cappadocia
 url: art-works/cappadocia

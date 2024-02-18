@@ -1,6 +1,6 @@
 ---
 id: 238
-order: 307
+order: 320
 title: Sunrise at fish market, Negombo
 slug: sunrise-at-fish-market-negombo
 url: art-works/sunrise-at-fish-market-negombo

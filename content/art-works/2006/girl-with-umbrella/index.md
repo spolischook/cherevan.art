@@ -1,6 +1,6 @@
 ---
 id: 48
-order: 526
+order: 541
 title: Girl with umbrella
 slug: girl-with-umbrella
 url: art-works/girl-with-umbrella

@@ -1,6 +1,6 @@
 ---
 id: 47
-order: 527
+order: 542
 title: Girl with a fan
 slug: girl-with-a-fan
 url: art-works/girl-with-a-fan

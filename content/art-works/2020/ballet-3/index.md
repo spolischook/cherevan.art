@@ -1,6 +1,6 @@
 ---
 id: 456
-order: 90
+order: 103
 title: Ballet 3
 slug: ballet-3
 url: art-works/ballet-3

@@ -1,6 +1,6 @@
 ---
 id: 197
-order: 348
+order: 361
 title: Balance
 slug: balance
 url: art-works/balance

@@ -1,6 +1,6 @@
 ---
 id: 398
-order: 147
+order: 160
 title: Lowliness
 slug: lowliness
 url: art-works/lowliness

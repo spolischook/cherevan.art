@@ -1,6 +1,6 @@
 ---
 id: 71
-order: 503
+order: 518
 title: My friends, Olya
 slug: my-friends-olya
 url: art-works/my-friends-olya

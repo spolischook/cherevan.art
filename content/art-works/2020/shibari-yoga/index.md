@@ -1,6 +1,6 @@
 ---
 id: 491
-order: 55
+order: 68
 title: Shibari yoga
 slug: shibari-yoga
 url: art-works/shibari-yoga

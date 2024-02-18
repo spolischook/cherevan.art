@@ -1,6 +1,6 @@
 ---
 id: 121
-order: 453
+order: 468
 title: Love is a choice, triptych
 slug: love-is-a-choice-triptych
 url: art-works/love-is-a-choice-triptych

@@ -1,6 +1,6 @@
 ---
 id: 168
-order: 377
+order: 390
 title: Self portrait 2015 2
 slug: self-portrait-2015-2
 url: art-works/self-portrait-2015-2

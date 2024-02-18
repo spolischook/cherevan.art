@@ -1,6 +1,6 @@
 ---
 id: 486
-order: 60
+order: 73
 title: Rope fetish
 slug: rope-fetish
 url: art-works/rope-fetish

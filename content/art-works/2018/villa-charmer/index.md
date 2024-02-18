@@ -1,6 +1,6 @@
 ---
 id: 303
-order: 242
+order: 255
 title: Villa charmer
 slug: villa-charmer
 url: art-works/villa-charmer
@@ -8,7 +8,7 @@ aliases: []
 categories:
 - painting
 inStock: false
-isVisible: false
+isVisible: true
 height: 80
 width: 60
 date: 2018-01-01T00:00:00Z

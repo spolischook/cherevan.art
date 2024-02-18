@@ -1,6 +1,6 @@
 ---
 id: 474
-order: 72
+order: 85
 title: David and Jonathan
 slug: david-and-jonathan
 url: art-works/david-and-jonathan
@@ -16,6 +16,6 @@ materials:
 - acrylic
 - oil
 - canvas
-price: 2500
+price: 6000
 mainImage: davidas.JPG
 ---

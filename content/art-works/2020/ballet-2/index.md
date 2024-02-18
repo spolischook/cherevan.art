@@ -1,6 +1,6 @@
 ---
 id: 457
-order: 89
+order: 102
 title: Ballet 2
 slug: ballet-2
 url: art-works/ballet-2

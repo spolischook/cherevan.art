@@ -1,6 +1,6 @@
 ---
 id: 120
-order: 454
+order: 469
 title: Madonna and Child
 slug: madonna-and-child
 url: art-works/madonna-and-child

@@ -1,6 +1,6 @@
 ---
 id: 302
-order: 243
+order: 256
 title: Knot play
 slug: knot-play
 url: art-works/knot-play

@@ -1,6 +1,6 @@
 ---
 id: 354
-order: 191
+order: 204
 title: Kiss of the serpent
 slug: kiss-of-the-serpent
 url: art-works/kiss-of-the-serpent

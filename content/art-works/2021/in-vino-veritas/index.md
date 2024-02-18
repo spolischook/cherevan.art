@@ -1,6 +1,6 @@
 ---
 id: 493
-order: 53
+order: 66
 title: In vino veritas
 slug: in-vino-veritas
 url: art-works/in-vino-veritas

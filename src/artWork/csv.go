@@ -55,7 +55,7 @@ func (c csv) ParseRow(row []string) ArtWork {
 
 	date, _ := parseYear(year)
 
-	return ArtWork{
+	aw := ArtWork{
 		ID:         parseInt(id),
 		Title:      title,
 		Slug:       tool.Slugify(title),
@@ -69,6 +69,8 @@ func (c csv) ParseRow(row []string) ArtWork {
 		Price:      parseInt(price),
 		ImageName:  imageName,
 	}
+	aw.Url = aw.GetUrl()
+	return aw
 }
 
 func (hs csvHeaders) MustGetIndex(header string) int {

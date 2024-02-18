@@ -1,6 +1,6 @@
 ---
 id: 275
-order: 270
+order: 283
 title: On the border between Thailand and Malaysia
 slug: on-the-border-between-thailand-and-malaysia
 url: art-works/on-the-border-between-thailand-and-malaysia

@@ -1,6 +1,6 @@
 ---
 id: 492
-order: 54
+order: 67
 title: Shibari batterfly
 slug: shibari-batterfly
 url: art-works/shibari-batterfly

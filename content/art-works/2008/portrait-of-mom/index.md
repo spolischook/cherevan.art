@@ -1,6 +1,6 @@
 ---
 id: 70
-order: 504
+order: 519
 title: Portrait of mom
 slug: portrait-of-mom
 url: art-works/portrait-of-mom

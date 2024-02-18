@@ -1,6 +1,6 @@
 ---
 id: 226
-order: 319
+order: 332
 title: Dance of stingrays
 slug: dance-of-stingrays
 url: art-works/dance-of-stingrays

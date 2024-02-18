@@ -1,6 +1,6 @@
 ---
 id: 58
-order: 516
+order: 531
 title: Artist and model
 slug: artist-and-model
 url: art-works/artist-and-model

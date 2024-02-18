@@ -1,6 +1,6 @@
 ---
 id: 72
-order: 502
+order: 517
 title: 1000 suns
 slug: 1000-suns
 url: art-works/1000-suns

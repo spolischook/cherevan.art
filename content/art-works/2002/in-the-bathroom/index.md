@@ -1,6 +1,6 @@
 ---
 id: 41
-order: 533
+order: 548
 title: In the bathroom
 slug: in-the-bathroom
 url: art-works/in-the-bathroom

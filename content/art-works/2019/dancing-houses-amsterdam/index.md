@@ -1,6 +1,6 @@
 ---
 id: 400
-order: 145
+order: 158
 title: Dancing houses, Amsterdam
 slug: dancing-houses-amsterdam
 url: art-works/dancing-houses-amsterdam

@@ -1,6 +1,6 @@
 ---
 id: 248
-order: 297
+order: 310
 title: Tantira
 slug: tantira
 url: art-works/tantira

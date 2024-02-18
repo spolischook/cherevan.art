@@ -1,6 +1,6 @@
 ---
 id: 69
-order: 505
+order: 520
 title: Kiss
 slug: kiss
 url: art-works/kiss

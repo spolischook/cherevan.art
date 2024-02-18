@@ -1,6 +1,6 @@
 ---
 id: 344
-order: 201
+order: 214
 title: Anthropocene. An era of people.
 slug: anthropocene-an-era-of-people
 url: art-works/anthropocene-an-era-of-people

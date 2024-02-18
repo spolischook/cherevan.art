@@ -1,6 +1,6 @@
 ---
 id: 424
-order: 122
+order: 135
 title: Waiting for the tide
 slug: waiting-for-the-tide
 url: art-works/waiting-for-the-tide

@@ -1,6 +1,6 @@
 ---
 id: 536
-order: 12
+order: 15
 title: Sicily
 slug: sicily
 url: art-works/sicily

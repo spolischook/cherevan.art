@@ -1,6 +1,6 @@
 ---
 id: 115
-order: 459
+order: 474
 title: The smallest window
 slug: the-smallest-window
 url: art-works/the-smallest-window

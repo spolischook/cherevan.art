@@ -1,6 +1,6 @@
 ---
 id: 200
-order: 345
+order: 358
 title: Doves of Spanish
 slug: doves-of-spanish
 url: art-works/doves-of-spanish
