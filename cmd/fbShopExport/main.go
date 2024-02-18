@@ -30,6 +30,12 @@ func main() {
 
 	// Write artworks data
 	for _, aw := range existingArtWorks {
+		if aw.Validate() != nil {
+			continue
+		}
+		if aw.Price < 1 {
+			continue
+		}
 		awFb := aw.ToFb()
 		err = writer.Write(awFb.ToCsv())
 		checkErr(err)
