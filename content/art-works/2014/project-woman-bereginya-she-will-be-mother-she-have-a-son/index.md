@@ -1,9 +1,9 @@
 ---
 id: 580
 order: 409
-title: Project Woman_Bereginya_She_will_be_mother_she_have_a_son.jpg
-slug: project-womanbereginyashewillbemothershehaveasonjpg
-url: art-works/project-womanbereginyashewillbemothershehaveasonjpg
+title: Project Woman Bereginya She will be mother she have a son
+slug: project-woman-bereginya-she-will-be-mother-she-have-a-son
+url: art-works/project-woman-bereginya-she-will-be-mother-she-have-a-son
 aliases: []
 categories:
 - graphics
