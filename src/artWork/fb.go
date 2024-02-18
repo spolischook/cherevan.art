@@ -16,6 +16,7 @@ type fb struct {
 	Price                    string `csv:"price"`
 	Link                     string `csv:"link"`
 	ImageLink                string `csv:"image_link"`
+	AdditionalImageLink      string `csv:"additional_image_link"`
 	Brand                    string `csv:"brand"`
 	GoogleProductCategory    string `csv:"google_product_category"`
 	FbProductCategory        string `csv:"fb_product_category"`
@@ -34,7 +35,7 @@ type fb struct {
 }
 
 func (f fb) ToCsv() []string {
-t := reflect.TypeOf(f)
+	t := reflect.TypeOf(f)
 	v := reflect.ValueOf(f)
 	row := make([]string, t.NumField())
 	for i := 0; i < t.NumField(); i++ {
@@ -102,5 +103,5 @@ func fbAvailability(a ArtWork) string {
 }
 
 func fbPrice(a ArtWork) string {
-	return fmt.Sprintf("%s.00 EUR", a.Price)
+	return fmt.Sprintf("%d.00 EUR", a.Price)
 }
