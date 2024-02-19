@@ -25,7 +25,7 @@ function processDirectory(directory) {
                     try {
                         const image = sharp(absolutePath);
                         const formats = ['webp', 'avif'];
-                        const sizes = [360, 375, 750, 768];
+                        const sizes = [360, 375, 450, 750, 768];
 
                         formats.forEach(format => {
                             sizes.forEach(size => {
