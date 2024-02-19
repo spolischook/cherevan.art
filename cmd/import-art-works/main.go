@@ -47,6 +47,7 @@ func main() {
 		for p, existing := range existingArtWorks {
 			if w.ID == existing.ID {
 				existing.UpdateFrontMatter(w)
+				checkErr(gDrive.FetchMainImage(w))
 				checkErr(existing.Save())
 				delete(existingArtWorks, p)
 				found = true
