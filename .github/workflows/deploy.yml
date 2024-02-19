@@ -38,22 +38,22 @@ jobs:
     - name: Build Hugo
       run: hugo --minify --baseURL="https://www.cherevan.art"
 
-    - name: Deploy to S3
-      uses: jakejarvis/s3-sync-action@master
-      with:
-        args: --acl public-read --follow-symlinks --delete
-      env:
-        AWS_S3_BUCKET: cherevan-art-website
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        AWS_REGION: 'eu-central-1'
-        SOURCE_DIR: 'public'
-
-    - name: Invalidate CloudFront distribution
-      run: |
-        aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
-      env:
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        AWS_REGION: 'eu-central-1'
-        CLOUDFRONT_DISTRIBUTION_ID: EREI1NSZ6N902
+#    - name: Deploy to S3
+#      uses: jakejarvis/s3-sync-action@master
+#      with:
+#        args: --acl public-read --follow-symlinks --delete
+#      env:
+#        AWS_S3_BUCKET: cherevan-art-website
+#        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+#        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+#        AWS_REGION: 'eu-central-1'
+#        SOURCE_DIR: 'public'
+#
+#    - name: Invalidate CloudFront distribution
+#      run: |
+#        aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
+#      env:
+#        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+#        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+#        AWS_REGION: 'eu-central-1'
+#        CLOUDFRONT_DISTRIBUTION_ID: EREI1NSZ6N902
