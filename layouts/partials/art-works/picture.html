@@ -19,12 +19,14 @@
                 srcset="{{ .image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_360.avif" }} 360w,
                     {{ .image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_375.avif" }} 375w,
                     {{ .image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_750.avif" }} 750w,
-                    {{ .image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_768.avif" }} 768w">
+                    {{ .image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_768.avif" }} 768w"
+                sizes="(min-width: 1080px) 456px, (min-width: 640px) calc(45.71vw - 29px), calc(100vw - 24px)">
         <source type="image/webp"
                 srcset="{{ .image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_360.webp" }} 360w,
                     {{ .image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_375.webp" }} 375w,
                     {{ .image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_750.webp" }} 750w,
-                    {{ .image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_768.webp" }} 768w">
+                    {{ .image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_768.webp" }} 768w"
+                sizes="(min-width: 1080px) 456px, (min-width: 640px) calc(45.71vw - 29px), calc(100vw - 24px)">
 
         <img class="object-cover w-full h-full"
              style="aspect-ratio: {{.image.Width}}/{{.image.Height}}"
@@ -40,7 +42,7 @@
                     {{.image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_750.avif"}} 750w,
                     {{.image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_768.avif"}} 768w"
 
-             sizes="(max-width: 361px) 360w, (max-width: 376px) 375w, (max-width: 750px) 750w, 768w" loading="lazy">
+             sizes="(min-width: 1080px) 456px, (min-width: 640px) calc(45.71vw - 29px), calc(100vw - 24px)" loading="lazy">
     </picture>
     {{ if not .inStock }}
         <div class="absolute w-8 h-8 bg-red-500 bottom-5 right-5 rounded-full shadow-xl" title="out of stock"></div>
