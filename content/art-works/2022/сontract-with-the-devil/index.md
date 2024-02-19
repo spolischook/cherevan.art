@@ -3,9 +3,8 @@ id: 530
 order: 25
 title: Сontract with the devil
 slug: сontract-with-the-devil
-url: art-works/dream-1
-aliases:
-- art-works/dream-1
+url: art-works/сontract-with-the-devil
+aliases: []
 categories:
 - shibari
 - graphics
