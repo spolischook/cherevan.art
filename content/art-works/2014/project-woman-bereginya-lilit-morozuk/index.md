@@ -1,6 +1,6 @@
 ---
 id: 582
-order: 412
+order: 413
 title: Project Woman Bereginya Lilit Morozuk
 slug: project-woman-bereginya-lilit-morozuk
 url: art-works/project-woman-bereginya-lilit-morozuk

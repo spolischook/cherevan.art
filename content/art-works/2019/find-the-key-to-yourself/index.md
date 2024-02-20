@@ -1,6 +1,6 @@
 ---
 id: 340
-order: 218
+order: 219
 title: Find the key to yourself
 slug: find-the-key-to-yourself
 url: art-works/find-the-key-to-yourself

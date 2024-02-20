@@ -1,6 +1,6 @@
 ---
 id: 559
-order: 431
+order: 432
 title: Anastasia Shevchenko/ Stasik
 slug: anastasia-shevchenko-stasik
 url: art-works/anastasia-shevchenko-stasik

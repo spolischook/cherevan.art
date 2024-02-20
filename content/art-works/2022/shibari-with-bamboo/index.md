@@ -1,6 +1,6 @@
 ---
 id: 570
-order: 22
+order: 23
 title: Shibari with bamboo
 slug: shibari-with-bamboo
 url: art-works/shibari-with-bamboo

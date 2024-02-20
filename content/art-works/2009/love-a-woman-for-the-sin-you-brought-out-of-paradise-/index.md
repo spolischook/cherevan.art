@@ -1,6 +1,6 @@
 ---
 id: 92
-order: 497
+order: 498
 title: Love a woman for the sin you brought out of paradise ...
 slug: love-a-woman-for-the-sin-you-brought-out-of-paradise-
 url: art-works/love-a-woman-for-the-sin-you-brought-out-of-paradise-

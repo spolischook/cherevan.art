@@ -1,6 +1,6 @@
 ---
 id: 23
-order: 566
+order: 567
 title: Burn with the new star
 slug: burn-with-the-new-star
 url: art-works/burn-with-the-new-star

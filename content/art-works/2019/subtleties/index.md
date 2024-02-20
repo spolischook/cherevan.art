@@ -1,6 +1,6 @@
 ---
 id: 363
-order: 195
+order: 196
 title: Subtleties
 slug: subtleties
 url: art-works/subtleties

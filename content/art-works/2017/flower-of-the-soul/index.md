@@ -1,6 +1,6 @@
 ---
 id: 16
-order: 573
+order: 574
 title: Flower of the soul
 slug: flower-of-the-soul
 url: art-works/flower-of-the-soul

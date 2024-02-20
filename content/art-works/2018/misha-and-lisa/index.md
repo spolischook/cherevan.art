@@ -1,6 +1,6 @@
 ---
 id: 325
-order: 233
+order: 234
 title: Misha and Lisa
 slug: misha-and-lisa
 url: art-works/misha-and-lisa

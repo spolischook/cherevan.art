@@ -1,6 +1,6 @@
 ---
 id: 254
-order: 304
+order: 305
 title: Leo
 slug: leo
 url: art-works/leo

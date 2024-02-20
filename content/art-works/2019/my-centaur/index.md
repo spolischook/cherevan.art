@@ -1,6 +1,6 @@
 ---
 id: 454
-order: 105
+order: 106
 title: My Centaur
 slug: my-centaur
 url: art-works/my-centaur

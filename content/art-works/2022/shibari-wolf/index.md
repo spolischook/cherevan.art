@@ -1,6 +1,6 @@
 ---
 id: 532
-order: 19
+order: 20
 title: Shibari wolf
 slug: shibari-wolf
 url: art-works/shibari-wolf

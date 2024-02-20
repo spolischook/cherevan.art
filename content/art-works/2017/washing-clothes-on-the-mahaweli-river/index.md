@@ -1,6 +1,6 @@
 ---
 id: 233
-order: 325
+order: 326
 title: Washing clothes on the Mahaweli river
 slug: washing-clothes-on-the-mahaweli-river
 url: art-works/washing-clothes-on-the-mahaweli-river

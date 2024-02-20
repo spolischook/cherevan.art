@@ -1,6 +1,6 @@
 ---
 id: 125
-order: 464
+order: 465
 title: God, don't judge! - You were not - Woman on earth!
 slug: god-dont-judge-you-were-not-woman-on-earth
 url: art-works/god-dont-judge-you-were-not-woman-on-earth

@@ -1,6 +1,6 @@
 ---
 id: 566
-order: 5
+order: 6
 title: Pear diver
 slug: pear-diver
 url: art-works/pear-diver

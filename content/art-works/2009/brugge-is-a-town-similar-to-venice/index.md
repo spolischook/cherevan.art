@@ -1,6 +1,6 @@
 ---
 id: 97
-order: 492
+order: 493
 title: Brugge is a town similar to Venice.
 slug: brugge-is-a-town-similar-to-venice
 url: art-works/brugge-is-a-town-similar-to-venice

@@ -1,6 +1,6 @@
 ---
 id: 169
-order: 389
+order: 390
 title: Soey Chang
 slug: soey-chang
 url: art-works/soey-chang

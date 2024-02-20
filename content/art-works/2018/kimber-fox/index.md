@@ -1,6 +1,6 @@
 ---
 id: 299
-order: 259
+order: 260
 title: Kimber Fox
 slug: kimber-fox
 url: art-works/kimber-fox

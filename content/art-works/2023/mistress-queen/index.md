@@ -1,6 +1,6 @@
 ---
 id: 525
-order: 30
+order: 31
 title: Mistress Queen
 slug: mistress-queen
 url: art-works/mistress-queen

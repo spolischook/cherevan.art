@@ -1,6 +1,6 @@
 ---
 id: 113
-order: 476
+order: 477
 title: Inna Musorina (sketch)
 slug: inna-musorina-sketch
 url: art-works/inna-musorina-sketch

@@ -1,6 +1,6 @@
 ---
 id: 186
-order: 372
+order: 373
 title: Self portrait 2016
 slug: self-portrait-2016
 url: art-works/self-portrait-2016

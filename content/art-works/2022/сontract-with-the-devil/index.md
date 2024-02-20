@@ -1,6 +1,6 @@
 ---
 id: 530
-order: 25
+order: 26
 title: Сontract with the devil
 slug: сontract-with-the-devil
 url: art-works/сontract-with-the-devil

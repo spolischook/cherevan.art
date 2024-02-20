@@ -1,6 +1,6 @@
 ---
 id: 485
-order: 74
+order: 75
 title: Shibari devil
 slug: shibari-devil
 url: art-works/shibari-devil

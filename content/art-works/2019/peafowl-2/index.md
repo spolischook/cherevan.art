@@ -1,6 +1,6 @@
 ---
 id: 358
-order: 200
+order: 201
 title: Peafowl 2
 slug: peafowl-2
 url: art-works/peafowl-2

@@ -1,6 +1,6 @@
 ---
 id: 572
-order: 33
+order: 34
 title: Wake up destiny
 slug: wake-up-destiny
 url: art-works/wake-up-destiny

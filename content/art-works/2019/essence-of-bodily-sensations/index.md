@@ -1,6 +1,6 @@
 ---
 id: 17
-order: 572
+order: 573
 title: Essence of bodily sensations
 slug: essence-of-bodily-sensations
 url: art-works/essence-of-bodily-sensations

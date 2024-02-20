@@ -1,6 +1,6 @@
 ---
 id: 465
-order: 94
+order: 95
 title: Sultan Cave suites
 slug: sultan-cave-suites
 url: art-works/sultan-cave-suites

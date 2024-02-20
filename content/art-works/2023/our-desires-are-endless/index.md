@@ -1,6 +1,6 @@
 ---
 id: 567
-order: 6
+order: 7
 title: Our desires are endless
 slug: our-desires-are-endless
 url: art-works/our-desires-are-endless

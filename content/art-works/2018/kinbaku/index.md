@@ -1,6 +1,6 @@
 ---
 id: 300
-order: 258
+order: 259
 title: Kinbaku
 slug: kinbaku
 url: art-works/kinbaku

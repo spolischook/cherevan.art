@@ -1,6 +1,6 @@
 ---
 id: 151
-order: 436
+order: 437
 title: Project “Bearded”
 slug: project-bearded
 url: art-works/project-bearded

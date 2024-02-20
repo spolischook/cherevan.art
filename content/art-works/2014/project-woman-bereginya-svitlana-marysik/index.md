@@ -1,6 +1,6 @@
 ---
 id: 588
-order: 418
+order: 419
 title: Project Woman Bereginya Svitlana Marysik
 slug: project-woman-bereginya-svitlana-marysik
 url: art-works/project-woman-bereginya-svitlana-marysik

@@ -1,6 +1,6 @@
 ---
 id: 474
-order: 85
+order: 86
 title: David and Jonathan
 slug: david-and-jonathan
 url: art-works/david-and-jonathan

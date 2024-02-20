@@ -1,6 +1,6 @@
 ---
 id: 337
-order: 221
+order: 222
 title: Free Wi-Fi
 slug: free-wi-fi
 url: art-works/free-wi-fi

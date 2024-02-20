@@ -1,6 +1,6 @@
 ---
 id: 397
-order: 161
+order: 162
 title: Humility
 slug: humility
 url: art-works/humility

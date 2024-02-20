@@ -1,6 +1,6 @@
 ---
 id: 257
-order: 301
+order: 302
 title: Discourse on the present
 slug: discourse-on-the-present
 url: art-works/discourse-on-the-present

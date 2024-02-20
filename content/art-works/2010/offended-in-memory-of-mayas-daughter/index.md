@@ -1,6 +1,6 @@
 ---
 id: 112
-order: 477
+order: 478
 title: Offended (in memory of Maya's daughter)
 slug: offended-in-memory-of-mayas-daughter
 url: art-works/offended-in-memory-of-mayas-daughter

@@ -1,6 +1,6 @@
 ---
 id: 568
-order: 7
+order: 8
 title: Almost naked
 slug: almost-naked
 url: art-works/almost-naked
