@@ -1,6 +1,6 @@
 ---
 id: 203
-order: 355
+order: 356
 title: Morning on the Koh Phangan
 slug: morning-on-the-koh-phangan
 url: art-works/morning-on-the-koh-phangan

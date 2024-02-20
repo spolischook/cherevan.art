@@ -1,6 +1,6 @@
 ---
 id: 576
-order: 49
+order: 50
 title: Essence of shibari
 slug: essence-of-shibari
 url: art-works/essence-of-shibari

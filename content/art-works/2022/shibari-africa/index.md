@@ -1,6 +1,6 @@
 ---
 id: 508
-order: 51
+order: 52
 title: shibari Africa
 slug: shibari-africa
 url: art-works/shibari-africa

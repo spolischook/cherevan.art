@@ -1,6 +1,6 @@
 ---
 id: 327
-order: 231
+order: 232
 title: Man
 slug: man
 url: art-works/man

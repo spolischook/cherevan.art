@@ -1,6 +1,6 @@
 ---
 id: 545
-order: 2
+order: 3
 title: Mafdet
 slug: mafdet
 url: art-works/mafdet

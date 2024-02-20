@@ -1,6 +1,6 @@
 ---
 id: 28
-order: 561
+order: 562
 title: Goddess of Earth
 slug: goddess-of-earth
 url: art-works/goddess-of-earth

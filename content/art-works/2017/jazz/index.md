@@ -1,6 +1,6 @@
 ---
 id: 241
-order: 317
+order: 318
 title: Jazz
 slug: jazz
 url: art-works/jazz

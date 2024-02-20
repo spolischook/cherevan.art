@@ -1,6 +1,6 @@
 ---
 id: 535
-order: 16
+order: 17
 title: Wonderful master
 slug: wonderful-master
 url: art-works/wonderful-master

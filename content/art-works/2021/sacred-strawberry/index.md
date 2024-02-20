@@ -1,6 +1,6 @@
 ---
 id: 480
-order: 79
+order: 80
 title: Sacred strawberry
 slug: sacred-strawberry
 url: art-works/sacred-strawberry

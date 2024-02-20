@@ -1,6 +1,6 @@
 ---
 id: 557
-order: 429
+order: 430
 title: Tetiana Chornovol
 slug: tetiana-chornovol
 url: art-works/tetiana-chornovol

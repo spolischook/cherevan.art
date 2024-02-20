@@ -1,6 +1,6 @@
 ---
 id: 552
-order: 424
+order: 425
 title: Project Woman Bereginya Yagidka
 slug: project-woman-bereginya-yagidka
 url: art-works/project-woman-bereginya-yagidka

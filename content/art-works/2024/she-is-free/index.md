@@ -1,6 +1,6 @@
 ---
 id: 544
-order: 1
+order: 2
 title: She is free
 slug: she-is-free
 url: art-works/she-is-free

@@ -1,6 +1,6 @@
 ---
 id: 523
-order: 35
+order: 36
 title: Two birds in the Garden of Eden
 slug: two-birds-in-the-garden-of-eden
 url: art-works/two-birds-in-the-garden-of-eden

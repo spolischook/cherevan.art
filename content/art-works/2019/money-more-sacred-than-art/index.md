@@ -1,6 +1,6 @@
 ---
 id: 387
-order: 171
+order: 172
 title: Money more sacred than art?
 slug: money-more-sacred-than-art
 url: art-works/money-more-sacred-than-art

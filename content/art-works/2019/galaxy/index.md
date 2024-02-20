@@ -1,6 +1,6 @@
 ---
 id: 352
-order: 206
+order: 207
 title: Galaxy
 slug: galaxy
 url: art-works/galaxy

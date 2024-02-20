@@ -1,6 +1,6 @@
 ---
 id: 220
-order: 338
+order: 339
 title: Boats Koh Tao
 slug: boats-koh-tao
 url: art-works/boats-koh-tao

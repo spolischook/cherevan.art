@@ -1,6 +1,6 @@
 ---
 id: 562
-order: 434
+order: 435
 title: Valeria Karpilenko (Nava)
 slug: valeria-karpilenko-nava
 url: art-works/valeria-karpilenko-nava

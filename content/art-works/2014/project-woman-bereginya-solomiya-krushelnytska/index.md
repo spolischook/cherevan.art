@@ -1,6 +1,6 @@
 ---
 id: 156
-order: 407
+order: 408
 title: Project Woman Bereginya Solomiya Krushelnytska
 slug: project-woman-bereginya-solomiya-krushelnytska
 url: art-works/project-woman-bereginya-solomiya-krushelnytska

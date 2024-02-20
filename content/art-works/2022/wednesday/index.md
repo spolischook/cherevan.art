@@ -1,6 +1,6 @@
 ---
 id: 538
-order: 13
+order: 14
 title: Wednesday
 slug: wednesday
 url: art-works/wednesday

@@ -1,6 +1,6 @@
 ---
 id: 59
-order: 530
+order: 531
 title: Tea ceremony
 slug: tea-ceremony
 url: art-works/tea-ceremony

@@ -1,6 +1,6 @@
 ---
 id: 437
-order: 122
+order: 123
 title: Kiss in masks
 slug: kiss-in-masks
 url: art-works/kiss-in-masks

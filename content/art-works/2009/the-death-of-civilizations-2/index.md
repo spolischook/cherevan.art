@@ -1,6 +1,6 @@
 ---
 id: 110
-order: 479
+order: 480
 title: The death of civilizations 2
 slug: the-death-of-civilizations-2
 url: art-works/the-death-of-civilizations-2

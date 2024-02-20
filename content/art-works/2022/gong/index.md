@@ -1,6 +1,6 @@
 ---
 id: 565
-order: 31
+order: 32
 title: Gong
 slug: gong
 url: art-works/gong

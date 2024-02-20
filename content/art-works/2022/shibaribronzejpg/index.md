@@ -1,6 +1,6 @@
 ---
 id: 571
-order: 23
+order: 24
 title: shibari_bronze.JPG
 slug: shibaribronzejpg
 url: art-works/shibaribronzejpg

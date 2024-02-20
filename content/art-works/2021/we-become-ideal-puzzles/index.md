@@ -1,6 +1,6 @@
 ---
 id: 478
-order: 81
+order: 82
 title: We become ideal puzzles
 slug: we-become-ideal-puzzles
 url: art-works/we-become-ideal-puzzles

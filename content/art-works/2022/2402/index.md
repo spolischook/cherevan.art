@@ -1,6 +1,6 @@
 ---
 id: 515
-order: 42
+order: 43
 title: "24.02"
 slug: "2402"
 url: art-works/2402

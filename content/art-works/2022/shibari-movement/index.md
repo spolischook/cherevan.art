@@ -1,6 +1,6 @@
 ---
 id: 569
-order: 21
+order: 22
 title: Shibari movement
 slug: shibari-movement
 url: art-works/shibari-movement

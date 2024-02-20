@@ -1,6 +1,6 @@
 ---
 id: 34
-order: 555
+order: 556
 title: Salvador Dali
 slug: salvador-dali
 url: art-works/salvador-dali

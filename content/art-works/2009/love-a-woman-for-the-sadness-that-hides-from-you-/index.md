@@ -1,6 +1,6 @@
 ---
 id: 84
-order: 505
+order: 506
 title: Love a woman for the sadness that hides from you ...
 slug: love-a-woman-for-the-sadness-that-hides-from-you-
 url: art-works/love-a-woman-for-the-sadness-that-hides-from-you-

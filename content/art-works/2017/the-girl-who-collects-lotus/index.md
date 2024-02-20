@@ -1,6 +1,6 @@
 ---
 id: 247
-order: 311
+order: 312
 title: The girl who collects lotus
 slug: the-girl-who-collects-lotus
 url: art-works/the-girl-who-collects-lotus

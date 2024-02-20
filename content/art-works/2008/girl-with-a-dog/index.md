@@ -1,6 +1,6 @@
 ---
 id: 65
-order: 524
+order: 525
 title: Girl with a dog
 slug: girl-with-a-dog
 url: art-works/girl-with-a-dog

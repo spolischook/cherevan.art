@@ -1,6 +1,6 @@
 ---
 id: 369
-order: 189
+order: 190
 title: Tightrope
 slug: tightrope
 url: art-works/tightrope

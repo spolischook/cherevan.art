@@ -1,6 +1,6 @@
 ---
 id: 575
-order: 46
+order: 47
 title: Dreams of vision
 slug: dreams-of-vision
 url: art-works/dreams-of-vision
