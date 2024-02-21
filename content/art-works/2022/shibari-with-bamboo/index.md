@@ -6,6 +6,7 @@ slug: shibari-with-bamboo
 url: art-works/shibari-with-bamboo
 aliases: []
 categories:
+- shibari
 - painting
 inStock: true
 isVisible: true

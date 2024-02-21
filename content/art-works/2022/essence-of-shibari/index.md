@@ -6,6 +6,7 @@ slug: essence-of-shibari
 url: art-works/essence-of-shibari
 aliases: []
 categories:
+- shibari
 - painting
 inStock: false
 isVisible: true
