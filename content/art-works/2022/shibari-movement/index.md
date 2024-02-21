@@ -6,6 +6,7 @@ slug: shibari-movement
 url: art-works/shibari-movement
 aliases: []
 categories:
+- shibari
 - painting
 inStock: true
 isVisible: true

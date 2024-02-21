@@ -6,6 +6,7 @@ slug: shibaribronzejpg
 url: art-works/shibaribronzejpg
 aliases: []
 categories:
+- shibari
 - painting
 inStock: true
 isVisible: true
