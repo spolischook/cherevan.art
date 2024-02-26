@@ -1,6 +1,8 @@
 ---
 id: 41
-order: 549
+shopifyId: 0
+shopifyOptionId: 0
+order: 547
 title: In the bathroom
 slug: in-the-bathroom
 url: art-works/in-the-bathroom

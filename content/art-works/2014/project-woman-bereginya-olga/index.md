@@ -1,6 +1,8 @@
 ---
 id: 155
-order: 405
+shopifyId: 0
+shopifyOptionId: 0
+order: 403
 title: Project Woman Bereginya Olga
 slug: project-woman-bereginya-olga
 url: art-works/project-woman-bereginya-olga

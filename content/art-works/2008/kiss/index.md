@@ -1,6 +1,8 @@
 ---
 id: 69
-order: 521
+shopifyId: 0
+shopifyOptionId: 0
+order: 519
 title: Kiss
 slug: kiss
 url: art-works/kiss

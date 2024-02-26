@@ -1,6 +1,8 @@
 ---
 id: 161
-order: 400
+shopifyId: 0
+shopifyOptionId: 0
+order: 398
 title: Plumeria at night
 slug: plumeria-at-night
 url: art-works/plumeria-at-night

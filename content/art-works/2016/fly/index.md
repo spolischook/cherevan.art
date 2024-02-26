@@ -1,6 +1,8 @@
 ---
 id: 180
-order: 379
+shopifyId: 0
+shopifyOptionId: 0
+order: 377
 title: Fly
 slug: fly
 url: art-works/fly

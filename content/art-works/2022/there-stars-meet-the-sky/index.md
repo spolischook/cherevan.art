@@ -1,6 +1,8 @@
 ---
 id: 510
-order: 49
+shopifyId: 7160661278825
+shopifyOptionId: 41108748599401
+order: 48
 title: There stars meet the sky
 slug: there-stars-meet-the-sky
 url: art-works/there-stars-meet-the-sky
@@ -16,6 +18,6 @@ materials:
 - acrylic
 - oil
 - canvas
-price: 1200
+price: 2000
 mainImage: there_stars_meet_the_sky.jpg
 ---

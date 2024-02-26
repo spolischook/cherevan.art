@@ -1,6 +1,8 @@
 ---
 id: 213
-order: 346
+shopifyId: 0
+shopifyOptionId: 0
+order: 344
 title: Sketch mangosteen
 slug: sketch-mangosteen
 url: art-works/sketch-mangosteen

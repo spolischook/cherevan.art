@@ -1,6 +1,8 @@
 ---
 id: 252
-order: 307
+shopifyId: 7160662458473
+shopifyOptionId: 41108751450217
+order: 305
 title: Master of Shibari
 slug: master-of-shibari
 url: art-works/master-of-shibari

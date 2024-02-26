@@ -1,6 +1,8 @@
 ---
 id: 307
-order: 252
+shopifyId: 7160655970409
+shopifyOptionId: 41108733526121
+order: 250
 title: 'Play with Diana '
 slug: play-with-diana-
 url: art-works/play-with-diana-

@@ -1,6 +1,8 @@
 ---
 id: 350
-order: 209
+shopifyId: 0
+shopifyOptionId: 0
+order: 207
 title: Red rose
 slug: red-rose
 url: art-works/red-rose

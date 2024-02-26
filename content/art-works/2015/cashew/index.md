@@ -1,6 +1,8 @@
 ---
 id: 162
-order: 399
+shopifyId: 0
+shopifyOptionId: 0
+order: 397
 title: Cashew
 slug: cashew
 url: art-works/cashew

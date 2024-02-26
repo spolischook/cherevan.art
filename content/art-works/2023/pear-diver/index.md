@@ -1,5 +1,7 @@
 ---
 id: 566
+shopifyId: 7160660983913
+shopifyOptionId: 41108747583593
 order: 6
 title: Pear diver
 slug: pear-diver

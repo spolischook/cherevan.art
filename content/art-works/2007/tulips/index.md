@@ -1,6 +1,8 @@
 ---
 id: 18
-order: 572
+shopifyId: 0
+shopifyOptionId: 0
+order: 570
 title: Tulips
 slug: tulips
 url: art-works/tulips

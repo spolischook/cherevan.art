@@ -1,6 +1,8 @@
 ---
 id: 167
-order: 392
+shopifyId: 0
+shopifyOptionId: 0
+order: 390
 title: Ding
 slug: ding
 url: art-works/ding

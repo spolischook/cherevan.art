@@ -1,6 +1,8 @@
 ---
 id: 146
-order: 442
+shopifyId: 0
+shopifyOptionId: 0
+order: 440
 title: Sunny hugs
 slug: sunny-hugs
 url: art-works/sunny-hugs

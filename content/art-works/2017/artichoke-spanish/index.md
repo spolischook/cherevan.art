@@ -1,6 +1,8 @@
 ---
 id: 201
-order: 358
+shopifyId: 0
+shopifyOptionId: 0
+order: 356
 title: Artichoke Spanish
 slug: artichoke-spanish
 url: art-works/artichoke-spanish

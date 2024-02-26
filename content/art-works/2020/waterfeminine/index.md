@@ -1,6 +1,8 @@
 ---
 id: 470
-order: 90
+shopifyId: 7160658296937
+shopifyOptionId: 41108740374633
+order: 88
 title: water_feminine
 slug: waterfeminine
 url: art-works/waterfeminine

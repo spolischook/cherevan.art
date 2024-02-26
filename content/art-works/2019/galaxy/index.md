@@ -1,6 +1,8 @@
 ---
 id: 352
-order: 207
+shopifyId: 0
+shopifyOptionId: 0
+order: 205
 title: Galaxy
 slug: galaxy
 url: art-works/galaxy

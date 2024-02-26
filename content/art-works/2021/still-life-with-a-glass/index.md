@@ -1,6 +1,8 @@
 ---
 id: 517
-order: 40
+shopifyId: 7160659476585
+shopifyOptionId: 41108742701161
+order: 39
 title: Still life with a glass
 slug: still-life-with-a-glass
 url: art-works/still-life-with-a-glass
@@ -16,6 +18,6 @@ materials:
 - acrylic
 - oil
 - canvas
-price: 800
+price: 2000
 mainImage: still_life_with_a_glass.jpg
 ---

@@ -1,6 +1,8 @@
 ---
 id: 17
-order: 573
+shopifyId: 0
+shopifyOptionId: 0
+order: 571
 title: Essence of bodily sensations
 slug: essence-of-bodily-sensations
 url: art-works/essence-of-bodily-sensations

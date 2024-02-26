@@ -1,6 +1,8 @@
 ---
 id: 299
-order: 260
+shopifyId: 0
+shopifyOptionId: 0
+order: 258
 title: Kimber Fox
 slug: kimber-fox
 url: art-works/kimber-fox

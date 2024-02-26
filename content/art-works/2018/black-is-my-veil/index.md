@@ -1,6 +1,8 @@
 ---
 id: 296
-order: 263
+shopifyId: 0
+shopifyOptionId: 0
+order: 261
 title: Black is my veil
 slug: black-is-my-veil
 url: art-works/black-is-my-veil

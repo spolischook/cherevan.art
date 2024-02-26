@@ -1,6 +1,8 @@
 ---
 id: 174
-order: 385
+shopifyId: 7160665473129
+shopifyOptionId: 41108760658025
+order: 383
 title: Glasha
 slug: glasha
 url: art-works/glasha

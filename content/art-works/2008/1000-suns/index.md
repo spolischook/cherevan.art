@@ -1,6 +1,8 @@
 ---
 id: 72
-order: 518
+shopifyId: 0
+shopifyOptionId: 0
+order: 516
 title: 1000 suns
 slug: 1000-suns
 url: art-works/1000-suns

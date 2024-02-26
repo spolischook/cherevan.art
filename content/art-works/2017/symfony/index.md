@@ -1,6 +1,8 @@
 ---
 id: 13
-order: 577
+shopifyId: 0
+shopifyOptionId: 0
+order: 575
 title: Symfony
 slug: symfony
 url: art-works/symfony

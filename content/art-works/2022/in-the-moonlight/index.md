@@ -1,5 +1,7 @@
 ---
 id: 573
+shopifyId: 0
+shopifyOptionId: 0
 order: 35
 title: In the moonlight
 slug: in-the-moonlight

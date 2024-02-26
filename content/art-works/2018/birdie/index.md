@@ -1,6 +1,8 @@
 ---
 id: 294
-order: 265
+shopifyId: 0
+shopifyOptionId: 0
+order: 263
 title: Birdie
 slug: birdie
 url: art-works/birdie

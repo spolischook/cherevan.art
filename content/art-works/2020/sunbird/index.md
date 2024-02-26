@@ -1,6 +1,8 @@
 ---
 id: 410
-order: 149
+shopifyId: 0
+shopifyOptionId: 0
+order: 147
 title: Sunbird
 slug: sunbird
 url: art-works/sunbird

@@ -1,6 +1,8 @@
 ---
 id: 197
-order: 362
+shopifyId: 0
+shopifyOptionId: 0
+order: 360
 title: Balance
 slug: balance
 url: art-works/balance

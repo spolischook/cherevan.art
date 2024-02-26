@@ -1,6 +1,8 @@
 ---
 id: 189
-order: 370
+shopifyId: 0
+shopifyOptionId: 0
+order: 368
 title: Mark yourself 2
 slug: mark-yourself-2
 url: art-works/mark-yourself-2

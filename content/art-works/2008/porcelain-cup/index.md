@@ -1,6 +1,8 @@
 ---
 id: 66
-order: 524
+shopifyId: 0
+shopifyOptionId: 0
+order: 522
 title: Porcelain cup
 slug: porcelain-cup
 url: art-works/porcelain-cup

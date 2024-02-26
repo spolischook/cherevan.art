@@ -1,6 +1,8 @@
 ---
 id: 30
-order: 560
+shopifyId: 7160660131945
+shopifyOptionId: 41108744306793
+order: 558
 title: Wifislimangel
 slug: wifislimangel
 url: art-works/wifislimangel

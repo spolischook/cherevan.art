@@ -1,6 +1,8 @@
 ---
 id: 516
-order: 41
+shopifyId: 7160660295785
+shopifyOptionId: 41108744601705
+order: 40
 title: Alone with you
 slug: alone-with-you
 url: art-works/alone-with-you
@@ -16,6 +18,6 @@ materials:
 - acrylic
 - oil
 - canvas
-price: 1500
+price: 2200
 mainImage: alone_with_you.JPG
 ---

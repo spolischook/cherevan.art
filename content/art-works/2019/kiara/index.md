@@ -1,6 +1,8 @@
 ---
 id: 392
-order: 167
+shopifyId: 7160657969257
+shopifyOptionId: 41108739194985
+order: 165
 title: Kiara
 slug: kiara
 url: art-works/kiara

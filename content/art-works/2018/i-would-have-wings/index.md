@@ -1,6 +1,8 @@
 ---
 id: 293
-order: 266
+shopifyId: 0
+shopifyOptionId: 0
+order: 264
 title: I would have wings
 slug: i-would-have-wings
 url: art-works/i-would-have-wings

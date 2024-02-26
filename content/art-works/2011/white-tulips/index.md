@@ -1,6 +1,8 @@
 ---
 id: 20
-order: 570
+shopifyId: 0
+shopifyOptionId: 0
+order: 568
 title: White tulips
 slug: white-tulips
 url: art-works/white-tulips

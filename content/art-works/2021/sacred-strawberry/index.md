@@ -1,6 +1,8 @@
 ---
 id: 480
-order: 80
+shopifyId: 7160663736425
+shopifyOptionId: 41108755644521
+order: 78
 title: Sacred strawberry
 slug: sacred-strawberry
 url: art-works/sacred-strawberry

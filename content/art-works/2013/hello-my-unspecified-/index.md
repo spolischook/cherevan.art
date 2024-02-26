@@ -1,6 +1,8 @@
 ---
 id: 140
-order: 448
+shopifyId: 0
+shopifyOptionId: 0
+order: 446
 title: 'Hello, my unspecified '
 slug: hello-my-unspecified-
 url: art-works/hello-my-unspecified-

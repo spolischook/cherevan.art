@@ -1,6 +1,8 @@
 ---
 id: 548
-order: 421
+shopifyId: 0
+shopifyOptionId: 0
+order: 419
 title: Project Woman Bereginya Vlada
 slug: project-woman-bereginya-vlada
 url: art-works/project-woman-bereginya-vlada

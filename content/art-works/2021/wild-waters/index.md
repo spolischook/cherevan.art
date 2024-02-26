@@ -1,5 +1,7 @@
 ---
 id: 564
+shopifyId: 0
+shopifyOptionId: 0
 order: 33
 title: Wild waters
 slug: wild-waters

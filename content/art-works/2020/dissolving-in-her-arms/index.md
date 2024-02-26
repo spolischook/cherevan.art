@@ -1,6 +1,8 @@
 ---
 id: 422
-order: 138
+shopifyId: 0
+shopifyOptionId: 0
+order: 136
 title: Dissolving in her arms
 slug: dissolving-in-her-arms
 url: art-works/dissolving-in-her-arms

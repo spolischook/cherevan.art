@@ -1,6 +1,8 @@
 ---
 id: 37
-order: 553
+shopifyId: 0
+shopifyOptionId: 0
+order: 551
 title: Pepper
 slug: pepper
 url: art-works/pepper

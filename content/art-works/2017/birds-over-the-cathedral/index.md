@@ -1,6 +1,8 @@
 ---
 id: 199
-order: 360
+shopifyId: 0
+shopifyOptionId: 0
+order: 358
 title: Birds over the cathedral
 slug: birds-over-the-cathedral
 url: art-works/birds-over-the-cathedral

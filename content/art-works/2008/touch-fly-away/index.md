@@ -1,6 +1,8 @@
 ---
 id: 68
-order: 522
+shopifyId: 0
+shopifyOptionId: 0
+order: 520
 title: Touch - fly away
 slug: touch-fly-away
 url: art-works/touch-fly-away

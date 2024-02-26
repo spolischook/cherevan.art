@@ -1,6 +1,8 @@
 ---
 id: 58
-order: 532
+shopifyId: 0
+shopifyOptionId: 0
+order: 530
 title: Artist and model
 slug: artist-and-model
 url: art-works/artist-and-model

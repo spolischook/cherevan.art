@@ -1,6 +1,8 @@
 ---
 id: 179
-order: 380
+shopifyId: 7160664686697
+shopifyOptionId: 41108758823017
+order: 378
 title: A breath of rose
 slug: a-breath-of-rose
 url: art-works/a-breath-of-rose

@@ -1,6 +1,8 @@
 ---
 id: 393
-order: 166
+shopifyId: 7160660623465
+shopifyOptionId: 41108746240105
+order: 164
 title: Chapter 21
 slug: chapter-21
 url: art-works/chapter-21

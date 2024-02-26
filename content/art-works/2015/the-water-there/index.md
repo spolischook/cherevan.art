@@ -1,6 +1,8 @@
 ---
 id: 160
-order: 401
+shopifyId: 0
+shopifyOptionId: 0
+order: 399
 title: The water there
 slug: the-water-there
 url: art-works/the-water-there

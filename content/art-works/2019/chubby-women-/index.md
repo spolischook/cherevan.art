@@ -1,6 +1,8 @@
 ---
 id: 384
-order: 175
+shopifyId: 7160657346665
+shopifyOptionId: 41108737654889
+order: 173
 title: 'Chubby women '
 slug: chubby-women-
 url: art-works/chubby-women-

@@ -1,6 +1,8 @@
 ---
 id: 297
-order: 262
+shopifyId: 7160663965801
+shopifyOptionId: 41108755972201
+order: 260
 title: Cherchez la femme
 slug: cherchez-la-femme
 url: art-works/cherchez-la-femme

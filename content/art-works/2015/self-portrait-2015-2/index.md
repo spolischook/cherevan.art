@@ -1,6 +1,8 @@
 ---
 id: 168
-order: 391
+shopifyId: 7160658428009
+shopifyOptionId: 41108740604009
+order: 389
 title: Self portrait 2015 2
 slug: self-portrait-2015-2
 url: art-works/self-portrait-2015-2

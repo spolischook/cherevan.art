@@ -1,11 +1,14 @@
 ---
 id: 300
-order: 259
+shopifyId: 0
+shopifyOptionId: 0
+order: 257
 title: Kinbaku
 slug: kinbaku
 url: art-works/kinbaku
 aliases: []
 categories:
+- shibari
 - painting
 inStock: false
 isVisible: true

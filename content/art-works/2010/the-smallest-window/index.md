@@ -1,6 +1,8 @@
 ---
 id: 115
-order: 475
+shopifyId: 0
+shopifyOptionId: 0
+order: 473
 title: The smallest window
 slug: the-smallest-window
 url: art-works/the-smallest-window

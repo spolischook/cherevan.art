@@ -1,6 +1,8 @@
 ---
 id: 169
-order: 390
+shopifyId: 7160665505897
+shopifyOptionId: 41108760690793
+order: 388
 title: Soey Chang
 slug: soey-chang
 url: art-works/soey-chang

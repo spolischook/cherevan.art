@@ -1,6 +1,8 @@
 ---
 id: 154
-order: 406
+shopifyId: 0
+shopifyOptionId: 0
+order: 404
 title: Project Woman Bereginya Natalia_in_balaclava
 slug: project-woman-bereginya-nataliainbalaclava
 url: art-works/project-woman-bereginya-nataliainbalaclava

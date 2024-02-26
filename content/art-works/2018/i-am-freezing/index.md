@@ -1,6 +1,8 @@
 ---
 id: 305
-order: 254
+shopifyId: 7160655675497
+shopifyOptionId: 41108732280937
+order: 252
 title: I am freezing
 slug: i-am-freezing
 url: art-works/i-am-freezing

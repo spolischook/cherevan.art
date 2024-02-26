@@ -1,5 +1,7 @@
 ---
 id: 533
+shopifyId: 0
+shopifyOptionId: 0
 order: 19
 title: Sex without love
 slug: sex-without-love

@@ -1,6 +1,8 @@
 ---
 id: 288
-order: 271
+shopifyId: 0
+shopifyOptionId: 0
+order: 269
 title: Moonlight
 slug: moonlight
 url: art-works/moonlight

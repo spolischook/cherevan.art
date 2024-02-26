@@ -1,6 +1,8 @@
 ---
 id: 16
-order: 574
+shopifyId: 0
+shopifyOptionId: 0
+order: 572
 title: Flower of the soul
 slug: flower-of-the-soul
 url: art-works/flower-of-the-soul

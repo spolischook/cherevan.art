@@ -1,6 +1,8 @@
 ---
 id: 438
-order: 122
+shopifyId: 0
+shopifyOptionId: 0
+order: 120
 title: Endangered species
 slug: endangered-species
 url: art-works/endangered-species

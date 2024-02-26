@@ -1,5 +1,7 @@
 ---
 id: 571
+shopifyId: 7160662032489
+shopifyOptionId: 41108750434409
 order: 24
 title: shibari_bronze.JPG
 slug: shibaribronzejpg

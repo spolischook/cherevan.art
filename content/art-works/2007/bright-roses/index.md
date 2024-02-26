@@ -1,6 +1,8 @@
 ---
 id: 56
-order: 534
+shopifyId: 0
+shopifyOptionId: 0
+order: 532
 title: Bright roses
 slug: bright-roses
 url: art-works/bright-roses

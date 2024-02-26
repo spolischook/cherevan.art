@@ -1,6 +1,8 @@
 ---
 id: 51
-order: 539
+shopifyId: 0
+shopifyOptionId: 0
+order: 537
 title: White rose
 slug: white-rose
 url: art-works/white-rose

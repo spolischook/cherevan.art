@@ -1,11 +1,14 @@
 ---
 id: 301
-order: 258
+shopifyId: 7160659214441
+shopifyOptionId: 41108742340713
+order: 256
 title: Tati Limati
 slug: tati-limati
 url: art-works/tati-limati
 aliases: []
 categories:
+- shibari
 - painting
 inStock: true
 isVisible: true

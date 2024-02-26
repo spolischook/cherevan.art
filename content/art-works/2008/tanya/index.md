@@ -1,6 +1,8 @@
 ---
 id: 67
-order: 523
+shopifyId: 0
+shopifyOptionId: 0
+order: 521
 title: Tanya
 slug: tanya
 url: art-works/tanya

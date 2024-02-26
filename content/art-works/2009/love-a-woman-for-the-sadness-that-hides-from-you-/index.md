@@ -1,6 +1,8 @@
 ---
 id: 84
-order: 506
+shopifyId: 0
+shopifyOptionId: 0
+order: 504
 title: Love a woman for the sadness that hides from you ...
 slug: love-a-woman-for-the-sadness-that-hides-from-you-
 url: art-works/love-a-woman-for-the-sadness-that-hides-from-you-

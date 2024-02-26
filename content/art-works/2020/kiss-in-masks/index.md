@@ -1,6 +1,8 @@
 ---
 id: 437
-order: 123
+shopifyId: 7160664555625
+shopifyOptionId: 41108758298729
+order: 121
 title: Kiss in masks
 slug: kiss-in-masks
 url: art-works/kiss-in-masks

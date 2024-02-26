@@ -1,6 +1,8 @@
 ---
 id: 64
-order: 526
+shopifyId: 0
+shopifyOptionId: 0
+order: 524
 title: Olya
 slug: olya
 url: art-works/olya

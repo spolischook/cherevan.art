@@ -1,6 +1,8 @@
 ---
 id: 389
-order: 170
+shopifyId: 0
+shopifyOptionId: 0
+order: 168
 title: Tenderness flower
 slug: tenderness-flower
 url: art-works/tenderness-flower

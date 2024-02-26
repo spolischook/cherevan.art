@@ -1,6 +1,8 @@
 ---
 id: 71
-order: 519
+shopifyId: 0
+shopifyOptionId: 0
+order: 517
 title: My friends, Olya
 slug: my-friends-olya
 url: art-works/my-friends-olya

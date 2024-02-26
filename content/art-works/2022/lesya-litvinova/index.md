@@ -1,6 +1,8 @@
 ---
 id: 560
-order: 433
+shopifyId: 0
+shopifyOptionId: 0
+order: 431
 title: Lesya Litvinova
 slug: lesya-litvinova
 url: art-works/lesya-litvinova

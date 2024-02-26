@@ -1,6 +1,8 @@
 ---
 id: 19
-order: 571
+shopifyId: 0
+shopifyOptionId: 0
+order: 569
 title: Yellow tulips
 slug: yellow-tulips
 url: art-works/yellow-tulips
