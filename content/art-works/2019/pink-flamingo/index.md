@@ -1,6 +1,8 @@
 ---
 id: 376
-order: 183
+shopifyId: 0
+shopifyOptionId: 0
+order: 181
 title: Pink flamingo
 slug: pink-flamingo
 url: art-works/pink-flamingo

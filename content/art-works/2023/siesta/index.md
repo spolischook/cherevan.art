@@ -1,5 +1,7 @@
 ---
 id: 541
+shopifyId: 7160662982761
+shopifyOptionId: 41108753809513
 order: 11
 title: Siesta
 slug: siesta

@@ -1,6 +1,8 @@
 ---
 id: 373
-order: 186
+shopifyId: 0
+shopifyOptionId: 0
+order: 184
 title: Satisfaction
 slug: satisfaction
 url: art-works/satisfaction

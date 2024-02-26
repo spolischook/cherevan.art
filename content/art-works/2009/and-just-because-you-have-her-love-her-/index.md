@@ -1,6 +1,8 @@
 ---
 id: 94
-order: 496
+shopifyId: 0
+shopifyOptionId: 0
+order: 494
 title: And just because you have her - LOVE HER !!!
 slug: and-just-because-you-have-her-love-her-
 url: art-works/and-just-because-you-have-her-love-her-

@@ -1,6 +1,8 @@
 ---
 id: 54
-order: 536
+shopifyId: 0
+shopifyOptionId: 0
+order: 534
 title: Red callas
 slug: red-callas
 url: art-works/red-callas

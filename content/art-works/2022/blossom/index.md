@@ -1,6 +1,8 @@
 ---
 id: 574
-order: 42
+shopifyId: 7160663408745
+shopifyOptionId: 41108755153001
+order: 41
 title: Blossom
 slug: blossom
 url: art-works/blossom

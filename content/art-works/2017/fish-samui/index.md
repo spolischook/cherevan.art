@@ -1,6 +1,8 @@
 ---
 id: 215
-order: 344
+shopifyId: 0
+shopifyOptionId: 0
+order: 342
 title: Fish Samui
 slug: fish-samui
 url: art-works/fish-samui

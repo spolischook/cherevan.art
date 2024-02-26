@@ -1,6 +1,8 @@
 ---
 id: 575
-order: 47
+shopifyId: 0
+shopifyOptionId: 0
+order: 46
 title: Dreams of vision
 slug: dreams-of-vision
 url: art-works/dreams-of-vision

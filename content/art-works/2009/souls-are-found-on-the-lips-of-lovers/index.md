@@ -1,6 +1,8 @@
 ---
 id: 95
-order: 495
+shopifyId: 0
+shopifyOptionId: 0
+order: 493
 title: Souls are found on the lips of lovers
 slug: souls-are-found-on-the-lips-of-lovers
 url: art-works/souls-are-found-on-the-lips-of-lovers

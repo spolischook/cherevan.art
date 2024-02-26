@@ -1,6 +1,8 @@
 ---
 id: 412
-order: 147
+shopifyId: 7160658395241
+shopifyOptionId: 41108740571241
+order: 145
 title: Synthesis of feelings 1
 slug: synthesis-of-feelings-1
 url: art-works/synthesis-of-feelings-1

@@ -1,6 +1,8 @@
 ---
 id: 585
-order: 416
+shopifyId: 0
+shopifyOptionId: 0
+order: 414
 title: Project Woman Bereginya Svitlana
 slug: project-woman-bereginya-svitlana
 url: art-works/project-woman-bereginya-svitlana

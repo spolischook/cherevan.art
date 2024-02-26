@@ -1,6 +1,8 @@
 ---
 id: 240
-order: 319
+shopifyId: 0
+shopifyOptionId: 0
+order: 317
 title: Thai girl
 slug: thai-girl
 url: art-works/thai-girl

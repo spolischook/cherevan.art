@@ -1,6 +1,8 @@
 ---
 id: 22
-order: 568
+shopifyId: 0
+shopifyOptionId: 0
+order: 566
 title: 'Segue '
 slug: segue-
 url: art-works/segue-

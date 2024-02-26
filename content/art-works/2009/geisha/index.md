@@ -1,6 +1,8 @@
 ---
 id: 87
-order: 503
+shopifyId: 0
+shopifyOptionId: 0
+order: 501
 title: Geisha
 slug: geisha
 url: art-works/geisha

@@ -1,6 +1,8 @@
 ---
 id: 457
-order: 103
+shopifyId: 7160662622313
+shopifyOptionId: 41108752728169
+order: 101
 title: Ballet 2
 slug: ballet-2
 url: art-works/ballet-2

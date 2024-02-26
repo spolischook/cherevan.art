@@ -1,6 +1,8 @@
 ---
 id: 338
-order: 221
+shopifyId: 0
+shopifyOptionId: 0
+order: 219
 title: Children of the sun
 slug: children-of-the-sun
 url: art-works/children-of-the-sun

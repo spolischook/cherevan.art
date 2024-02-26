@@ -1,6 +1,8 @@
 ---
 id: 46
-order: 544
+shopifyId: 0
+shopifyOptionId: 0
+order: 542
 title: At the dump
 slug: at-the-dump
 url: art-works/at-the-dump

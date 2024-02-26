@@ -1,6 +1,8 @@
 ---
 id: 275
-order: 284
+shopifyId: 7160659083369
+shopifyOptionId: 41108742111337
+order: 282
 title: On the border between Thailand and Malaysia
 slug: on-the-border-between-thailand-and-malaysia
 url: art-works/on-the-border-between-thailand-and-malaysia

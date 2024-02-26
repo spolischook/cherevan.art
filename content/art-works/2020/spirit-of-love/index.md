@@ -1,6 +1,8 @@
 ---
 id: 473
-order: 87
+shopifyId: 7160662491241
+shopifyOptionId: 41108751482985
+order: 85
 title: Spirit of Love
 slug: spirit-of-love
 url: art-works/spirit-of-love
@@ -16,6 +18,6 @@ materials:
 - acrylic
 - oil
 - canvas
-price: 2500
+price: 6000
 mainImage: spirit_of_love.jpg
 ---

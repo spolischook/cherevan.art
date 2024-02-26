@@ -1,6 +1,8 @@
 ---
 id: 388
-order: 171
+shopifyId: 0
+shopifyOptionId: 0
+order: 169
 title: Fascination
 slug: fascination
 url: art-works/fascination

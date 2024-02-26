@@ -1,5 +1,7 @@
 ---
 id: 545
+shopifyId: 7160656298089
+shopifyOptionId: 41108734640233
 order: 3
 title: Mafdet
 slug: mafdet

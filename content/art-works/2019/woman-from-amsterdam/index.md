@@ -1,6 +1,8 @@
 ---
 id: 443
-order: 117
+shopifyId: 7160656429161
+shopifyOptionId: 41108734869609
+order: 115
 title: Woman from Amsterdam
 slug: woman-from-amsterdam
 url: art-works/woman-from-amsterdam

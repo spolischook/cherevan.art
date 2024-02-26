@@ -1,6 +1,8 @@
 ---
 id: 346
-order: 213
+shopifyId: 0
+shopifyOptionId: 0
+order: 211
 title: Two worlds
 slug: two-worlds
 url: art-works/two-worlds

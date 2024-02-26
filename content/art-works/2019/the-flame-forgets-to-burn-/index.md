@@ -1,6 +1,8 @@
 ---
 id: 382
-order: 177
+shopifyId: 0
+shopifyOptionId: 0
+order: 175
 title: 'The flame forgets to burn '
 slug: the-flame-forgets-to-burn-
 url: art-works/the-flame-forgets-to-burn-

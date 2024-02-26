@@ -1,6 +1,8 @@
 ---
 id: 226
-order: 333
+shopifyId: 7160660787305
+shopifyOptionId: 41108746502249
+order: 331
 title: Dance of stingrays
 slug: dance-of-stingrays
 url: art-works/dance-of-stingrays

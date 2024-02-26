@@ -1,6 +1,8 @@
 ---
 id: 340
-order: 219
+shopifyId: 0
+shopifyOptionId: 0
+order: 217
 title: Find the key to yourself
 slug: find-the-key-to-yourself
 url: art-works/find-the-key-to-yourself

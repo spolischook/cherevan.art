@@ -1,6 +1,8 @@
 ---
 id: 126
-order: 464
+shopifyId: 0
+shopifyOptionId: 0
+order: 462
 title: Project «Edge of the permitted» 4
 slug: project-edge-of-the-permitted-4
 url: art-works/project-edge-of-the-permitted-4

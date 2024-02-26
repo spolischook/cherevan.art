@@ -1,6 +1,8 @@
 ---
 id: 555
-order: 428
+shopifyId: 0
+shopifyOptionId: 0
+order: 426
 title: Zoya Plotnikova
 slug: zoya-plotnikova
 url: art-works/zoya-plotnikova

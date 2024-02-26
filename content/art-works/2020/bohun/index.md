@@ -1,6 +1,8 @@
 ---
 id: 426
-order: 134
+shopifyId: 0
+shopifyOptionId: 0
+order: 132
 title: Bohun
 slug: bohun
 url: art-works/bohun

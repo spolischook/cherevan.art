@@ -1,6 +1,8 @@
 ---
 id: 151
-order: 437
+shopifyId: 0
+shopifyOptionId: 0
+order: 435
 title: Project “Bearded”
 slug: project-bearded
 url: art-works/project-bearded

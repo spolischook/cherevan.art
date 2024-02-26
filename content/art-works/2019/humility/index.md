@@ -1,6 +1,8 @@
 ---
 id: 397
-order: 162
+shopifyId: 7160660918377
+shopifyOptionId: 41108747485289
+order: 160
 title: Humility
 slug: humility
 url: art-works/humility

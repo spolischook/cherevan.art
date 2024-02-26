@@ -1,6 +1,8 @@
 ---
 id: 551
-order: 424
+shopifyId: 0
+shopifyOptionId: 0
+order: 422
 title: Project Woman Bereginya Sofia
 slug: project-woman-bereginya-sofia
 url: art-works/project-woman-bereginya-sofia

@@ -1,6 +1,8 @@
 ---
 id: 36
-order: 554
+shopifyId: 0
+shopifyOptionId: 0
+order: 552
 title: Danaya
 slug: danaya
 url: art-works/danaya

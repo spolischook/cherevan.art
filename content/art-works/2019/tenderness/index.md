@@ -1,6 +1,8 @@
 ---
 id: 362
-order: 197
+shopifyId: 7160661442665
+shopifyOptionId: 41108748861545
+order: 195
 title: Tenderness
 slug: tenderness
 url: art-works/tenderness

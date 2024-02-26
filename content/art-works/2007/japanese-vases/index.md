@@ -1,6 +1,8 @@
 ---
 id: 53
-order: 537
+shopifyId: 0
+shopifyOptionId: 0
+order: 535
 title: Japanese vases
 slug: japanese-vases
 url: art-works/japanese-vases

@@ -1,5 +1,7 @@
 ---
 id: 524
+shopifyId: 7160664948841
+shopifyOptionId: 41108759543913
 order: 25
 title: Borderline
 slug: borderline

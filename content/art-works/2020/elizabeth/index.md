@@ -1,6 +1,8 @@
 ---
 id: 415
-order: 144
+shopifyId: 0
+shopifyOptionId: 0
+order: 142
 title: Elizabeth
 slug: elizabeth
 url: art-works/elizabeth

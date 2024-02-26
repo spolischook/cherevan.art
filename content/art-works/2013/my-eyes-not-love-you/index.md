@@ -1,6 +1,8 @@
 ---
 id: 21
-order: 569
+shopifyId: 0
+shopifyOptionId: 0
+order: 567
 title: My eyes not love you
 slug: my-eyes-not-love-you
 url: art-works/my-eyes-not-love-you

@@ -1,6 +1,8 @@
 ---
 id: 52
-order: 538
+shopifyId: 0
+shopifyOptionId: 0
+order: 536
 title: Pale Roses
 slug: pale-roses
 url: art-works/pale-roses

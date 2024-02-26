@@ -1,6 +1,8 @@
 ---
 id: 35
-order: 555
+shopifyId: 0
+shopifyOptionId: 0
+order: 553
 title: Memories
 slug: memories
 url: art-works/memories

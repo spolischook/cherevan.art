@@ -1,5 +1,7 @@
 ---
 id: 534
+shopifyId: 7160665440361
+shopifyOptionId: 41108760625257
 order: 18
 title: Kinbaku fox
 slug: kinbaku-fox

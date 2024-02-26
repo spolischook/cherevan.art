@@ -1,6 +1,8 @@
 ---
 id: 313
-order: 246
+shopifyId: 0
+shopifyOptionId: 0
+order: 244
 title: Bodhi Dance 3
 slug: bodhi-dance-3
 url: art-works/bodhi-dance-3

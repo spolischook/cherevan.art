@@ -1,6 +1,8 @@
 ---
 id: 96
-order: 494
+shopifyId: 0
+shopifyOptionId: 0
+order: 492
 title: Good night
 slug: good-night
 url: art-works/good-night

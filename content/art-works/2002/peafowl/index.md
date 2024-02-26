@@ -1,6 +1,8 @@
 ---
 id: 43
-order: 547
+shopifyId: 0
+shopifyOptionId: 0
+order: 545
 title: Peafowl
 slug: peafowl
 url: art-works/peafowl

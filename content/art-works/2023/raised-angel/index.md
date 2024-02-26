@@ -1,5 +1,7 @@
 ---
 id: 537
+shopifyId: 7160661082217
+shopifyOptionId: 41108747681897
 order: 15
 title: Raised angel
 slug: raised-angel

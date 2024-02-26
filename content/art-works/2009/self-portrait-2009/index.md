@@ -1,6 +1,8 @@
 ---
 id: 90
-order: 500
+shopifyId: 0
+shopifyOptionId: 0
+order: 498
 title: Self portrait 2009
 slug: self-portrait-2009
 url: art-works/self-portrait-2009

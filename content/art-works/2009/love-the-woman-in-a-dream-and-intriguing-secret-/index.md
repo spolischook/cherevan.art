@@ -1,6 +1,8 @@
 ---
 id: 93
-order: 497
+shopifyId: 0
+shopifyOptionId: 0
+order: 495
 title: Love the woman in a dream and intriguing secret ...
 slug: love-the-woman-in-a-dream-and-intriguing-secret-
 url: art-works/love-the-woman-in-a-dream-and-intriguing-secret-

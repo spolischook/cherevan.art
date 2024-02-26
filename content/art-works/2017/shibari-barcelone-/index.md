@@ -1,6 +1,8 @@
 ---
 id: 253
-order: 306
+shopifyId: 7160658722921
+shopifyOptionId: 41108741095529
+order: 304
 title: 'Shibari Barcelone '
 slug: shibari-barcelone-
 url: art-works/shibari-barcelone-

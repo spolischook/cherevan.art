@@ -1,6 +1,8 @@
 ---
 id: 452
-order: 108
+shopifyId: 7160663277673
+shopifyOptionId: 41108754792553
+order: 106
 title: Mistress
 slug: mistress
 url: art-works/mistress

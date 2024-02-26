@@ -1,6 +1,8 @@
 ---
 id: 497
-order: 63
+shopifyId: 7160659148905
+shopifyOptionId: 41108742176873
+order: 61
 title: Minotavr
 slug: minotavr
 url: art-works/minotavr

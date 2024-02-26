@@ -1,6 +1,8 @@
 ---
 id: 34
-order: 556
+shopifyId: 0
+shopifyOptionId: 0
+order: 554
 title: Salvador Dali
 slug: salvador-dali
 url: art-works/salvador-dali

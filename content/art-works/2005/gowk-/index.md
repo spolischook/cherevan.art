@@ -1,6 +1,8 @@
 ---
 id: 44
-order: 546
+shopifyId: 0
+shopifyOptionId: 0
+order: 544
 title: 'Gowk '
 slug: gowk-
 url: art-works/gowk-

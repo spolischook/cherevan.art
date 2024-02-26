@@ -1,6 +1,8 @@
 ---
 id: 118
-order: 472
+shopifyId: 0
+shopifyOptionId: 0
+order: 470
 title: Poppies in the hair
 slug: poppies-in-the-hair
 url: art-works/poppies-in-the-hair

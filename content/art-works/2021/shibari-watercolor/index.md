@@ -1,6 +1,8 @@
 ---
 id: 483
-order: 77
+shopifyId: 0
+shopifyOptionId: 0
+order: 75
 title: Shibari watercolor
 slug: shibari-watercolor
 url: art-works/shibari-watercolor

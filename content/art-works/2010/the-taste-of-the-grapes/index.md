@@ -1,6 +1,8 @@
 ---
 id: 116
-order: 474
+shopifyId: 0
+shopifyOptionId: 0
+order: 472
 title: The taste of the grapes
 slug: the-taste-of-the-grapes
 url: art-works/the-taste-of-the-grapes

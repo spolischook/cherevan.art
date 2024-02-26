@@ -1,6 +1,8 @@
 ---
 id: 455
-order: 105
+shopifyId: 0
+shopifyOptionId: 0
+order: 103
 title: At the bottom of the ocean
 slug: at-the-bottom-of-the-ocean
 url: art-works/at-the-bottom-of-the-ocean

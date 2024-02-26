@@ -1,6 +1,8 @@
 ---
 id: 561
-order: 434
+shopifyId: 0
+shopifyOptionId: 0
+order: 432
 title: Anastasia
 slug: anastasia
 url: art-works/anastasia

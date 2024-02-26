@@ -1,6 +1,8 @@
 ---
 id: 2
-order: 588
+shopifyId: 0
+shopifyOptionId: 0
+order: 586
 title: I will warm a handful of earth in my hands
 slug: i-will-warm-a-handful-of-earth-in-my-hands
 url: art-works/i-will-warm-a-handful-of-earth-in-my-hands

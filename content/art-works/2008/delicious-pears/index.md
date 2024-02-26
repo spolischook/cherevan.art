@@ -1,6 +1,8 @@
 ---
 id: 9
-order: 581
+shopifyId: 0
+shopifyOptionId: 0
+order: 579
 title: Delicious pears
 slug: delicious-pears
 url: art-works/delicious-pears

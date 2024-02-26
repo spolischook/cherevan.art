@@ -1,6 +1,8 @@
 ---
 id: 502
-order: 58
+shopifyId: 7160657870953
+shopifyOptionId: 41108738801769
+order: 56
 title: Shibari Eva
 slug: shibari-eva
 url: art-works/shibari-eva

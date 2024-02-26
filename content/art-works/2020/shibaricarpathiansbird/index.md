@@ -1,6 +1,8 @@
 ---
 id: 450
-order: 110
+shopifyId: 0
+shopifyOptionId: 0
+order: 108
 title: shibari_carpathians_bird
 slug: shibaricarpathiansbird
 url: art-works/shibaricarpathiansbird

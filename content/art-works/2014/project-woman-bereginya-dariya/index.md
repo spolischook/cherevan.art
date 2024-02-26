@@ -1,6 +1,8 @@
 ---
 id: 584
-order: 415
+shopifyId: 0
+shopifyOptionId: 0
+order: 413
 title: Project Woman Bereginya Dariya
 slug: project-woman-bereginya-dariya
 url: art-works/project-woman-bereginya-dariya

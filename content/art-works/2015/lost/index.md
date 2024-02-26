@@ -1,6 +1,8 @@
 ---
 id: 170
-order: 389
+shopifyId: 0
+shopifyOptionId: 0
+order: 387
 title: Lost
 slug: lost
 url: art-works/lost

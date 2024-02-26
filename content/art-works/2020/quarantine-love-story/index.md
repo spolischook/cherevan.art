@@ -1,6 +1,8 @@
 ---
 id: 460
-order: 100
+shopifyId: 7160662196329
+shopifyOptionId: 41108750958697
+order: 98
 title: Quarantine love story
 slug: quarantine-love-story
 url: art-works/quarantine-love-story

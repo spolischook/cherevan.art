@@ -1,6 +1,8 @@
 ---
 id: 130
-order: 460
+shopifyId: 0
+shopifyOptionId: 0
+order: 458
 title: The tale of a new golden dawn
 slug: the-tale-of-a-new-golden-dawn
 url: art-works/the-tale-of-a-new-golden-dawn

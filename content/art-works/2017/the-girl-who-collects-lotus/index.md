@@ -1,6 +1,8 @@
 ---
 id: 247
-order: 312
+shopifyId: 7160657838185
+shopifyOptionId: 41108738769001
+order: 310
 title: The girl who collects lotus
 slug: the-girl-who-collects-lotus
 url: art-works/the-girl-who-collects-lotus
