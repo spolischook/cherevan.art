@@ -9,37 +9,37 @@ import (
 	"strings"
 )
 
-func (a ArtWork) OldPath() string {
-	return fmt.Sprintf("content/art-works/%s/%s", a.Date.Format("2006"), a.Slug)
+func (aw ArtWork) OldPath() string {
+	return fmt.Sprintf("content/art-works/%s/%s", aw.Date.Format("2006"), aw.Slug)
 }
-func (a ArtWork) NewPath() string {
-	return fmt.Sprintf("content/art-works/%s/%s", a.Date.Format("2006"), a.Slug)
+func (aw ArtWork) NewPath() string {
+	return fmt.Sprintf("content/art-works/%s/%s", aw.Date.Format("2006"), aw.Slug)
 }
-func (a ArtWork) PageLeafPath() string {
-	return a.NewPath()
+func (aw ArtWork) PageLeafPath() string {
+	return aw.NewPath()
 }
 
-func (a ArtWork) MoveToNewPath() error {
-	_, err := os.Stat(a.NewPath())
+func (aw ArtWork) MoveToNewPath() error {
+	_, err := os.Stat(aw.NewPath())
 	if err == nil {
 		// already exists
 		return nil
 	}
 
-	_, err = os.Stat(a.OldPath())
+	_, err = os.Stat(aw.OldPath())
 	if err != nil {
 		// nothing to move
 		return err
 	}
 
-	parentDir := filepath.Dir(a.NewPath())
+	parentDir := filepath.Dir(aw.NewPath())
 	err = os.MkdirAll(parentDir, 0755)
 	if err != nil {
 		return err
 	}
 
 	// Move the directory
-	err = os.Rename(a.OldPath(), a.NewPath())
+	err = os.Rename(aw.OldPath(), aw.NewPath())
 	if err != nil {
 		return err
 	}

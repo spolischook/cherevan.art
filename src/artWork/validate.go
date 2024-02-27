@@ -5,14 +5,14 @@ import (
 	"time"
 )
 
-func (a ArtWork) Validate() error {
-	return validation.ValidateStruct(&a,
-		validation.Field(&a.Title, validation.Required),
-		validation.Field(&a.Height, validation.Required, validation.Min(5)),
-		validation.Field(&a.Width, validation.Required, validation.Min(5)),
-		validation.Field(&a.Date, validation.Required, validation.Min(
+func (aw ArtWork) Validate() error {
+	return validation.ValidateStruct(&aw,
+		validation.Field(&aw.Title, validation.Required),
+		validation.Field(&aw.Height, validation.Required, validation.Min(5)),
+		validation.Field(&aw.Width, validation.Required, validation.Min(5)),
+		validation.Field(&aw.Date, validation.Required, validation.Min(
 			time.Date(1975, 1, 25, 0, 0, 0, 0, time.UTC))),
-		validation.Field(&a.ImageName, validation.Required),
+		validation.Field(&aw.ImageName, validation.Required),
 	)
 }
 

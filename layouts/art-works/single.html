@@ -35,7 +35,7 @@
                     Returns accepted
                 </li>
             </ul>
-            <button class="mt-6 w-full bg-tiger-300 text-white py-2 px-4 rounded-full text-lg font-bold">Buy now</button>
+            <button id="buy-button" class="mt-6 w-full bg-tiger-300 text-white py-2 px-4 rounded-full text-lg font-bold">Buy now</button>
         </div>
     </section>
 
@@ -58,4 +58,32 @@
     </div>
     {{.Content}}
 </article>
+{{ end }}
+{{ define "scripts" }}
+    <script src="https://sdks.shopifycdn.com/js-buy-sdk/v2/latest/index.umd.min.js"></script>
+    <script>
+        const client = ShopifyBuy.buildClient({
+            domain: '{{ .Site.Params.shopifyDomain }}',
+            storefrontAccessToken: {{ .Site.Params.storefrontAccessToken }}
+        });
+
+        document.getElementById('buy-button').addEventListener('click', function() {
+            client.checkout.create().then((checkout) => {
+                const lineItemsToAdd = [
+                    {
+                        variantId: '{{ (printf "gid://shopify/ProductVariant/%d" .Params.shopifyOptionId) | base64Encode }}',
+                        quantity: 1,
+                    },
+                ];
+
+                client.checkout.addLineItems(checkout.id, lineItemsToAdd);
+                console.log(checkout);
+                return checkout
+            }).then((checkout) => {
+                // window.location.href = checkout.webUrl;
+                console.log(checkout);
+            });
+        });
+
+    </script>
 {{ end }}

@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-type csv struct {
+type inventory struct {
 	ID        int
 	Title     int
 	Category  int
@@ -22,10 +22,10 @@ type csv struct {
 	Price     int
 	ImageName int
 }
-type csvHeaders []string
+type inventoryHeaders []string
 
-func NewCsv(headers csvHeaders) *csv {
-	return &csv{
+func NewCsvInventory(headers inventoryHeaders) *inventory {
+	return &inventory{
 		ID:        headers.MustGetIndex("ID"),
 		Title:     headers.MustGetIndex("Title en"),
 		Category:  headers.MustGetIndex("Category"),
@@ -40,18 +40,18 @@ func NewCsv(headers csvHeaders) *csv {
 	}
 }
 
-func (c csv) ParseRow(row []string) ArtWork {
-	id := row[c.ID]
-	title := row[c.Title]
-	cat := row[c.Category]
-	inStock := row[c.InStock]
-	isVisible := row[c.IsVisible]
-	height := row[c.Height]
-	width := row[c.Width]
-	year := row[c.Year]
-	materials := row[c.Materials]
-	price := row[c.Price]
-	imageName := row[c.ImageName]
+func (inv inventory) ParseRow(row []string) ArtWork {
+	id := row[inv.ID]
+	title := row[inv.Title]
+	cat := row[inv.Category]
+	inStock := row[inv.InStock]
+	isVisible := row[inv.IsVisible]
+	height := row[inv.Height]
+	width := row[inv.Width]
+	year := row[inv.Year]
+	materials := row[inv.Materials]
+	price := row[inv.Price]
+	imageName := row[inv.ImageName]
 
 	date, _ := parseYear(year)
 
@@ -69,11 +69,11 @@ func (c csv) ParseRow(row []string) ArtWork {
 		Price:      parseInt(price),
 		ImageName:  imageName,
 	}
-	aw.Url = aw.GetUrl()
+	aw.HugoUrl = aw.GetUrl()
 	return aw
 }
 
-func (hs csvHeaders) MustGetIndex(header string) int {
+func (hs inventoryHeaders) MustGetIndex(header string) int {
 	for i, h := range hs {
 		if h == header {
 			return i

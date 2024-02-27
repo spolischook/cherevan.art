@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-type fb struct {
+type Fb struct {
 	ID                       int    `csv:"id"`
 	Title                    string `csv:"title"`
 	Description              string `csv:"description"`
@@ -34,7 +34,7 @@ type fb struct {
 	ShippingWeight           string `csv:"shipping_weight"`
 }
 
-func (f fb) ToCsv() []string {
+func (f Fb) ToCsv() []string {
 	t := reflect.TypeOf(f)
 	v := reflect.ValueOf(f)
 	row := make([]string, t.NumField())
@@ -46,7 +46,7 @@ func (f fb) ToCsv() []string {
 }
 
 func FbCsvHeaders() []string {
-	t := reflect.TypeOf(fb{})
+	t := reflect.TypeOf(Fb{})
 	headers := make([]string, t.NumField())
 	for i := 0; i < t.NumField(); i++ {
 		field := t.Field(i)
@@ -55,28 +55,28 @@ func FbCsvHeaders() []string {
 	return headers
 }
 
-func (a ArtWork) ToFb() fb {
-	return fb{
-		ID:                       a.ID,
-		Title:                    a.Title,
-		Description:              fbText(a),
-		Availability:             fbAvailability(a),
+func (aw ArtWork) ToFb() Fb {
+	return Fb{
+		ID:                       aw.ID,
+		Title:                    aw.Title,
+		Description:              fbText(aw),
+		Availability:             fbAvailability(aw),
 		Condition:                "new",
-		Price:                    fbPrice(a),
-		Link:                     fmt.Sprintf("https://cherevan.art/%s/", a.Url),
-		ImageLink:                fmt.Sprintf("https://cherevan.art/%s/%s", a.Url, a.ImageName),
+		Price:                    fbPrice(aw),
+		Link:                     fmt.Sprintf("https://cherevan.art/%s/", aw.HugoUrl),
+		ImageLink:                fmt.Sprintf("https://cherevan.art/%s/%s", aw.HugoUrl, aw.ImageName),
 		Brand:                    "CherevanArt",
 		GoogleProductCategory:    "Home & Garden > Decor > Artwork",
 		FbProductCategory:        "home > home goods > home decor",
 		QuantityToSellOnFacebook: "1",
 		SalePrice:                "",
 		SalePriceEffectiveDate:   "",
-		ItemGroupId:              strconv.Itoa(a.ID),
+		ItemGroupId:              strconv.Itoa(aw.ID),
 		Gender:                   "unisex",
 		Color:                    "",
 		Size:                     "",
 		AgeGroup:                 "",
-		Material:                 strings.Join(a.Materials, ", "),
+		Material:                 strings.Join(aw.Materials, ", "),
 		Pattern:                  "",
 		Shipping:                 "",
 		ShippingWeight:           "",

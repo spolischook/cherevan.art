@@ -1,0 +1,11 @@
+{{ define "root/index.tmpl" }}
+<html><h1>
+	{{ .title }}
+</h1>
+<p>Using posts/index.tmpl</p>
+<a href="/shopify/login">Shopify Login</a>
+<form action="/shopify/update" method="post">
+    <input type="submit" value="Update Shopify Products">
+</form>
+</html>
+{{ end }}

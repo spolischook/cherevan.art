@@ -5,28 +5,28 @@ import (
 	"os"
 )
 
-func (a ArtWork) Save() error {
+func (aw ArtWork) Save() error {
 	// Create the directory if it does not exist
-	err := a.createLeafFolder()
+	err := aw.createLeafFolder()
 	if err != nil {
 		return err
 	}
 
 	// Create the file
-	file, err := os.Create(a.NewPath() + "/index.md")
+	file, err := os.Create(aw.NewPath() + "/index.md")
 	if err != nil {
 		return err
 	}
 	defer file.Close()
 
 	// Write the YAML front matter
-	err = writeFrontMatter(a, file)
+	err = writeFrontMatter(aw, file)
 	if err != nil {
 		return err
 	}
 
 	// Write the text content
-	_, err = file.Write([]byte(a.Text))
+	_, err = file.Write([]byte(aw.Text))
 	if err != nil {
 		return err
 	}
@@ -54,6 +54,6 @@ func writeFrontMatter(a ArtWork, file *os.File) error {
 	return nil
 }
 
-func (a ArtWork) createLeafFolder() error {
-	return os.MkdirAll(a.NewPath(), 0755)
+func (aw ArtWork) createLeafFolder() error {
+	return os.MkdirAll(aw.NewPath(), 0755)
 }

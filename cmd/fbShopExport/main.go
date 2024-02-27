@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/csv"
 	"github.com/cherevan.art/src/artWork"
+	"github.com/cherevan.art/src/tool"
 	"github.com/kpango/glg"
 	"os"
 )
@@ -25,7 +26,7 @@ func main() {
 	defer writer.Flush()
 
 	// Write CSV header
-	err = writer.Write(artWork.FbCsvHeaders())
+	err = writer.Write(tool.CsvHeaders(artWork.Fb{}))
 	checkErr(err)
 
 	// Write artworks data
@@ -37,7 +38,7 @@ func main() {
 			continue
 		}
 		awFb := aw.ToFb()
-		err = writer.Write(awFb.ToCsv())
+		err = writer.Write(tool.ToCsv(awFb))
 		checkErr(err)
 	}
 }

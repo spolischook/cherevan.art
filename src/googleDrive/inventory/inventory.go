@@ -74,7 +74,7 @@ func (i instance) GetArtWorks() artWork.ArtWorks {
 	// Parse the file
 	r := csv.NewReader(csvFile)
 	headers, err := r.Read()
-	artWorkCsv := artWork.NewCsv(headers)
+	artWorkCsv := artWork.NewCsvInventory(headers)
 
 	var order = 0
 	var artWorks []artWork.ArtWork
