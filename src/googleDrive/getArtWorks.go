@@ -30,7 +30,7 @@ func (s Service) MustGetArtWorks() artWork.ArtWorks {
 	// Parse the file
 	r := csv.NewReader(csvfile)
 	headers, err := r.Read()
-	csv := artWork.NewCsv(headers)
+	csv := artWork.NewCsvInventory(headers)
 
 	var artWorks []artWork.ArtWork
 	// Iterate through the records

@@ -2,6 +2,15 @@
 <html lang="en" class="scroll-smooth">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-21CQLLSNPS"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-21CQLLSNPS');
+    </script>
     <meta charset="UTF-8">
     <title>Tetiana Cherevan | Ukrainian painter</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
@@ -42,15 +51,6 @@
     <script src="/js/script.js" defer></script>
 
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-21CQLLSNPS"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-21CQLLSNPS');
-</script>
 <body class="bg-slate-50">
     <div class="flex flex-col max-w-5xl px-3 sm:px-10 mx-auto min-h-screen bg-white shadow-lg">
         {{ $t := "Jan 02, 2006 3:04 PM Z07:00" }}
@@ -72,5 +72,6 @@
         <footer class="py-4 text-xs">Copyright © 1995 - {{ now.Year }} Tetiana Cherevan</footer>
     </div>
 </body>
+{{ block "scripts" . }}{{ end }}
 <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/610ab21a2b0c081249a0eb8ae/0983c1f02ae2be0d24e608ab7.js");</script>
 </html>

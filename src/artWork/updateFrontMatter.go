@@ -1,23 +1,23 @@
 package artWork
 
-func (a *ArtWork) UpdateFrontMatter(a2 ArtWork) {
-	a.ID = a2.ID
-	a.Order = a2.Order
-	a.Title = a2.Title
-	if a.Slug != a2.Slug {
-		a.Aliases = append(a.Aliases, a.GetUrl())
+func (aw *ArtWork) UpdateFrontMatter(a2 ArtWork) {
+	aw.ID = a2.ID
+	aw.Order = a2.Order
+	aw.Title = a2.Title
+	if aw.Slug != a2.Slug {
+		aw.Aliases = append(aw.Aliases, aw.GetUrl())
 	}
-	a.Slug = a2.Slug
-	if a.Url == "" {
-		a.Url = a2.GetUrl()
+	aw.Slug = a2.Slug
+	if aw.HugoUrl == "" {
+		aw.HugoUrl = a2.GetUrl()
 	}
-	a.Categories = a2.Categories
-	a.InStock = a2.InStock
-	a.IsVisible = a2.IsVisible
-	a.Height = a2.Height
-	a.Width = a2.Width
-	a.Date = a2.Date
-	a.Materials = a2.Materials
-	a.Price = a2.Price
-	a.ImageName = a2.ImageName
+	aw.Categories = a2.Categories
+	aw.InStock = a2.InStock
+	aw.IsVisible = a2.IsVisible
+	aw.Height = a2.Height
+	aw.Width = a2.Width
+	aw.Date = a2.Date
+	aw.Materials = a2.Materials
+	aw.Price = a2.Price
+	aw.ImageName = a2.ImageName
 }
