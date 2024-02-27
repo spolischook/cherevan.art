@@ -31,6 +31,8 @@ menu:
     #   pageRef: /archive
     #   weight: 40
 params:
+  shopifyDomain: 'cherevan-art-dev.myshopify.com'
+  storefrontAccessToken: '0939f06e3e664220c126b05f744f064a'
   supportedImageThumbnails:
     - jpeg
     - png
