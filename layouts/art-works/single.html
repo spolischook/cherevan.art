@@ -67,21 +67,30 @@
             storefrontAccessToken: {{ .Site.Params.storefrontAccessToken }}
         });
 
+        // const productId = btoa('gid://shopify/Product/7160972050537'); // mafdet t-shirt
+        const productId = btoa('gid://shopify/Product/7160656298089'); // mafdet original painting
+        {{/*const productId = '{{ "gid://shopify/Product/7160656298089" | base64Encode }}';*/}}
+        client.product.fetch(productId).then((product) => {
+            // Do something with the product
+            console.log("Product: ", product);
+        });
+
         document.getElementById('buy-button').addEventListener('click', function() {
             client.checkout.create().then((checkout) => {
                 const lineItemsToAdd = [
                     {
-                        variantId: '{{ (printf "gid://shopify/ProductVariant/%d" .Params.shopifyOptionId) | base64Encode }}',
+                        {{/*variantId: '{{ (printf "gid://shopify/ProductVariant/%d" .Params.shopifyOptionId) | base64Encode }}',*/}}
+                        variantId: '{{ (printf "gid://shopify/ProductVariant/%d" 41108734640233) | base64Encode }}',
                         quantity: 1,
-                    },
+                    }
                 ];
 
-                client.checkout.addLineItems(checkout.id, lineItemsToAdd);
-                console.log(checkout);
-                return checkout
-            }).then((checkout) => {
-                window.location.href = checkout.webUrl;
-                // console.log(checkout);
+                client.checkout.addLineItems(checkout.id, lineItemsToAdd).then((checkout) => {
+                    window.location.href = checkout.webUrl;
+                    // console.log(checkout.lineItems); // Array with one additional line item
+                }).catch((error) => {
+                    console.error(error);
+                });
             });
         });
 
