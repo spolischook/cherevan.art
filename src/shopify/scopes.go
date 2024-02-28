@@ -23,6 +23,7 @@ var scopes = []string{
 	"unauthenticated_read_product_pickup_locations",
 	"unauthenticated_read_product_tags",
 	"unauthenticated_read_selling_plans",
+	"write_product_listings",
 }
 
 func Scopes() string {
