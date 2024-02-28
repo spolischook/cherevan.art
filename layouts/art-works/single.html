@@ -79,8 +79,8 @@
             client.checkout.create().then((checkout) => {
                 const lineItemsToAdd = [
                     {
-                        {{/*variantId: '{{ (printf "gid://shopify/ProductVariant/%d" .Params.shopifyOptionId) | base64Encode }}',*/}}
-                        variantId: '{{ (printf "gid://shopify/ProductVariant/%d" 41108734640233) | base64Encode }}',
+                        variantId: '{{ (printf "gid://shopify/ProductVariant/%d" .Params.shopifyOptionId) | base64Encode }}',
+                        {{/*variantId: '{{ (printf "gid://shopify/ProductVariant/%d" 41108734640233) | base64Encode }}',*/}}
                         quantity: 1,
                     }
                 ];
