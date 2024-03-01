@@ -1,7 +1,7 @@
 ---
 id: 497
 shopifyId: 7160659148905
-shopifyOptionId: 41108742176873
+shopifyOptionId: 41114784366697
 order: 61
 title: Minotavr
 slug: minotavr

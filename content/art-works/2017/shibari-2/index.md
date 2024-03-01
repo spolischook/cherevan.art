@@ -1,7 +1,7 @@
 ---
 id: 256
 shopifyId: 7160662360169
-shopifyOptionId: 41108751253609
+shopifyOptionId: 41114769555561
 order: 301
 title: Shibari 2
 slug: shibari-2

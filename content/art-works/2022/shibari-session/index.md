@@ -1,7 +1,7 @@
 ---
 id: 528
 shopifyId: 7161394036841
-shopifyOptionId: 0
+shopifyOptionId: 41114772766825
 order: 28
 title: Shibari session
 slug: shibari-session

@@ -1,7 +1,7 @@
 ---
 id: 515
 shopifyId: 7160660525161
-shopifyOptionId: 41108746141801
+shopifyOptionId: 41114784268393
 order: 42
 title: "24.02"
 slug: "2402"

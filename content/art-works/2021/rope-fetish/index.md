@@ -1,7 +1,7 @@
 ---
 id: 486
 shopifyId: 7160656167017
-shopifyOptionId: 41108734312553
+shopifyOptionId: 41114767786089
 order: 72
 title: Rope fetish
 slug: rope-fetish

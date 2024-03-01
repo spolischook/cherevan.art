@@ -1,7 +1,7 @@
 ---
 id: 11
 shopifyId: 7160662392937
-shopifyOptionId: 41108751286377
+shopifyOptionId: 41114770669673
 order: 577
 title: Tea with cat
 slug: tea-with-cat

@@ -1,7 +1,7 @@
 ---
 id: 525
 shopifyId: 7160663801961
-shopifyOptionId: 41108755710057
+shopifyOptionId: 41114767884393
 order: 31
 title: Mistress Queen
 slug: mistress-queen

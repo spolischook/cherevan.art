@@ -1,7 +1,7 @@
 ---
 id: 248
 shopifyId: 7160656494697
-shopifyOptionId: 41108734935145
+shopifyOptionId: 41114768801897
 order: 309
 title: Tantira
 slug: tantira

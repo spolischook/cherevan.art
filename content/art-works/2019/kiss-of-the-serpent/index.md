@@ -1,7 +1,7 @@
 ---
 id: 354
 shopifyId: 7160655872105
-shopifyOptionId: 41108732936297
+shopifyOptionId: 41114771128425
 order: 203
 title: Kiss of the serpent
 slug: kiss-of-the-serpent

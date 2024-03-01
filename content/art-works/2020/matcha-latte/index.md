@@ -1,7 +1,7 @@
 ---
 id: 462
 shopifyId: 7160662753385
-shopifyOptionId: 41108753285225
+shopifyOptionId: 41114769129577
 order: 96
 title: Matcha latte
 slug: matcha-latte

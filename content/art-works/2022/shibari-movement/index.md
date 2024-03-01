@@ -1,7 +1,7 @@
 ---
 id: 569
 shopifyId: 7160661377129
-shopifyOptionId: 41108748796009
+shopifyOptionId: 41114783055977
 order: 22
 title: Shibari movement
 slug: shibari-movement

@@ -1,7 +1,7 @@
 ---
 id: 182
 shopifyId: 7160663867497
-shopifyOptionId: 41108755775593
+shopifyOptionId: 41114783711337
 order: 375
 title: Pelli
 slug: pelli
