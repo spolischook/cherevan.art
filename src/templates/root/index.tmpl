@@ -7,5 +7,29 @@
 <form action="/shopify/update" method="post">
     <input type="submit" value="Update Shopify Products">
 </form>
+<h2>Update single Shopify product:</h2>
+<form id="updateShopifyProductForm" action="/shopify/update" method="post">
+    <label for="id">ID:</label><br>
+    <input type="text" id="id" name="id"><br>
+    <input type="submit" value="Submit">
+</form>
+<h2>Get info about product</h2>
+<form id="getShopifyProductForm" action="/shopify/products" method="get">
+    <label for="id">ID:</label><br>
+    <input type="text" id="getShopifyProductForm_id" name="id"><br>
+    <input type="submit" value="Submit">
+</form>
+<script>
+    document.getElementById('updateShopifyProductForm').addEventListener('submit', function(e) {
+        var id = document.getElementById('id').value;
+        this.action = "/shopify/update/" + id;
+    });
+    document.getElementById('getShopifyProductForm').addEventListener('submit', function(e) {
+        e.preventDefault(); // prevent the default form submission
+        var id = document.getElementById('getShopifyProductForm_id').value;
+        console.log("/shopify/products/" + id);
+        window.location.href = "/shopify/products/" + id; // manually change the window location
+    });
+</script>
 </html>
 {{ end }}
