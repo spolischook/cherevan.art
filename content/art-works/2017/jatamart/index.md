@@ -1,7 +1,7 @@
 ---
 id: 250
 shopifyId: 7160661147753
-shopifyOptionId: 41108747714665
+shopifyOptionId: 41114770931817
 order: 307
 title: Jatamart
 slug: jatamart

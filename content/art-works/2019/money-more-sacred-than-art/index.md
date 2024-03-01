@@ -1,7 +1,7 @@
 ---
 id: 387
 shopifyId: 7160663539817
-shopifyOptionId: 41108755284073
+shopifyOptionId: 41114772373609
 order: 170
 title: Money more sacred than art?
 slug: money-more-sacred-than-art

@@ -1,7 +1,7 @@
 ---
 id: 397
 shopifyId: 7160660918377
-shopifyOptionId: 41108747485289
+shopifyOptionId: 41114769850473
 order: 160
 title: Humility
 slug: humility

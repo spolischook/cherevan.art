@@ -1,7 +1,7 @@
 ---
 id: 192
 shopifyId: 7160665538665
-shopifyOptionId: 41108760723561
+shopifyOptionId: 41114783285353
 order: 365
 title: Lotos
 slug: lotos

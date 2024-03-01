@@ -1,13 +1,11 @@
 ---
 id: 571
 shopifyId: 7160662032489
-shopifyOptionId: 41108750434409
+shopifyOptionId: 41114777518185
 order: 24
 title: Shibari Bronze
 slug: shibari-bronze
 url: art-works/shibaribronzejpg
-aliases:
-- art-works/shibaribronzejpg
 categories:
 - shibari
 - painting

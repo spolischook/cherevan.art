@@ -1,7 +1,7 @@
 ---
 id: 301
 shopifyId: 7160659214441
-shopifyOptionId: 41108742340713
+shopifyOptionId: 41114772340841
 order: 256
 title: Tati Limati
 slug: tati-limati

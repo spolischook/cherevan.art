@@ -1,7 +1,7 @@
 ---
 id: 284
 shopifyId: 7160661868649
-shopifyOptionId: 41108749516905
+shopifyOptionId: 41114772996201
 order: 273
 title: Flowers of durian
 slug: flowers-of-durian

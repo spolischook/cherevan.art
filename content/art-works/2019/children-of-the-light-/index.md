@@ -1,7 +1,7 @@
 ---
 id: 385
 shopifyId: 7160664424553
-shopifyOptionId: 41108757938281
+shopifyOptionId: 41114767917161
 order: 172
 title: 'Children of the light '
 slug: children-of-the-light-

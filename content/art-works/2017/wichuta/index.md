@@ -1,7 +1,7 @@
 ---
 id: 244
 shopifyId: 7160658985065
-shopifyOptionId: 41108741718121
+shopifyOptionId: 41114773127273
 order: 313
 title: Wichuta
 slug: wichuta

@@ -1,7 +1,7 @@
 ---
 id: 302
 shopifyId: 7160659574889
-shopifyOptionId: 41108742799465
+shopifyOptionId: 41114777354345
 order: 255
 title: Knot play
 slug: knot-play

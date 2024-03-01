@@ -1,7 +1,7 @@
 ---
 id: 447
 shopifyId: 7160663703657
-shopifyOptionId: 41108755611753
+shopifyOptionId: 41114783219817
 order: 111
 title: Shibari Carpathians Katy
 slug: shibari-carpathians-katy

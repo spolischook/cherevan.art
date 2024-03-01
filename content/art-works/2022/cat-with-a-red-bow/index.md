@@ -1,7 +1,7 @@
 ---
 id: 529
 shopifyId: 7161394135145
-shopifyOptionId: 0
+shopifyOptionId: 41114768605289
 order: 27
 title: Cat with a red bow
 slug: cat-with-a-red-bow

@@ -1,7 +1,7 @@
 ---
 id: 536
 shopifyId: 7160656068713
-shopifyOptionId: 41108733788265
+shopifyOptionId: 41114782105705
 order: 16
 title: Sicily
 slug: sicily
