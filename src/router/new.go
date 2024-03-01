@@ -21,6 +21,8 @@ func New() *gin.Engine {
 	r.GET("/shopify/login", shopifyHandler.Login)
 	r.GET("/shopify/callback", shopifyHandler.Callback)
 	r.POST("/shopify/update", shopifyHandler.UpdateProducts)
+	r.POST("/shopify/update/:id", shopifyHandler.UpdateProduct)
+	r.GET("/shopify/products/:id", shopifyHandler.GetProduct)
 
 	return r
 }

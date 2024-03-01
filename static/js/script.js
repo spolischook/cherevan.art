@@ -8,3 +8,4 @@ function navToggle() {
     mobileNav.classList.toggle("flex");
     mobileNav.classList.toggle("hidden");
 }
+

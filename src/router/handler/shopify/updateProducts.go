@@ -33,8 +33,27 @@ func (h *Handler) UpdateProducts(c *gin.Context) {
 		isNew := true
 		for _, sp := range shopifyProducts {
 			if aw.ShopifyID == sp.ID {
-				// todo: update product
 				isNew = false
+				aw.UpdateShopifyProduct(&sp)
+				sp1, err := h.client.Product.Update(sp)
+				if err != nil {
+					c.AbortWithStatusJSON(
+						500,
+						gin.H{
+							fmt.Sprintf(`error update %d %s:`, aw.ID, aw.Title): err.Error()},
+					)
+					return
+				}
+				aw.ShopifyOptionID = sp1.Variants[0].ID
+				err = aw.Save()
+				if err != nil {
+					c.AbortWithStatusJSON(
+						500,
+						gin.H{
+							fmt.Sprintf(`error save %d %s:`, aw.ID, aw.Title): err.Error()},
+					)
+					return
+				}
 			}
 		}
 
@@ -71,5 +90,30 @@ func (h *Handler) UpdateProducts(c *gin.Context) {
 		if err != nil {
 				c.AbortWithStatusJSON(http.StatusBadGateway, gin.H{"error": err.Error()})
 			}
+
+		aw.UpdateShopifyProduct(createdProduct)
+		createdProduct, err = h.client.Product.Update(*createdProduct)
+		if err != nil {
+			c.AbortWithStatusJSON(http.StatusBadGateway, gin.H{"error": err.Error()})
+		}
 	}
+
+	// todo: we should delete only original artworks, but not all other products, e.g. t-shorts, prints, etc.
+	//for _, p := range shopifyProducts {
+	//	isDeleted := true
+	//	for _, aw := range existingArtWorks {
+	//		if p.ID == aw.ShopifyID {
+	//			isDeleted = false
+	//		}
+	//	}
+	//	if false == isDeleted {
+	//		continue
+	//	}
+	//
+	//	glg.Warnf("deleting product %d: %s\n", p.ID, p.Title)
+	//	err := h.client.Product.Delete(p.ID)
+	//	if err != nil {
+	//		c.AbortWithStatusJSON(http.StatusBadGateway, gin.H{"error": err.Error()})
+	//	}
+	//}
 }
