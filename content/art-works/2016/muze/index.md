@@ -2,7 +2,7 @@
 id: 188
 shopifyId: 7160658165865
 shopifyOptionId: 41114773192809
-order: 368
+order: 370
 title: Muze
 slug: muze
 url: art-works/muze

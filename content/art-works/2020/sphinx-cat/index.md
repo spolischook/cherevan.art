@@ -2,7 +2,7 @@
 id: 461
 shopifyId: 0
 shopifyOptionId: 0
-order: 96
+order: 98
 title: sphinx cat
 slug: sphinx-cat
 url: art-works/sphinx-cat

@@ -2,7 +2,7 @@
 id: 535
 shopifyId: 7160661409897
 shopifyOptionId: 41114772799593
-order: 17
+order: 18
 title: Wonderful master
 slug: wonderful-master
 url: art-works/wonderful-master

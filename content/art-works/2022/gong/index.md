@@ -2,7 +2,7 @@
 id: 565
 shopifyId: 0
 shopifyOptionId: 0
-order: 32
+order: 33
 title: Gong
 slug: gong
 url: art-works/gong

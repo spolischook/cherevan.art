@@ -2,7 +2,7 @@
 id: 257
 shopifyId: 7160659509353
 shopifyOptionId: 41114773323881
-order: 299
+order: 301
 title: Discourse on the present
 slug: discourse-on-the-present
 url: art-works/discourse-on-the-present

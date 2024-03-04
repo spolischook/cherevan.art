@@ -2,7 +2,7 @@
 id: 300
 shopifyId: 0
 shopifyOptionId: 0
-order: 256
+order: 258
 title: Kinbaku
 slug: kinbaku
 url: art-works/kinbaku

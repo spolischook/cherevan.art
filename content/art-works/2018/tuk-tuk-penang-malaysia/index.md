@@ -2,7 +2,7 @@
 id: 276
 shopifyId: 7160664883305
 shopifyOptionId: 41114783154281
-order: 280
+order: 282
 title: Tuk Tuk. Penang, Malaysia
 slug: tuk-tuk-penang-malaysia
 url: art-works/tuk-tuk-penang-malaysia

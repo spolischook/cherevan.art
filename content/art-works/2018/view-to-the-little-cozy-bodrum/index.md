@@ -2,7 +2,7 @@
 id: 322
 shopifyId: 7160659279977
 shopifyOptionId: 41114768375913
-order: 234
+order: 236
 title: View to the little cozy Bodrum
 slug: view-to-the-little-cozy-bodrum
 url: art-works/view-to-the-little-cozy-bodrum

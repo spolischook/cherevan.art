@@ -2,7 +2,7 @@
 id: 63
 shopifyId: 0
 shopifyOptionId: 0
-order: 524
+order: 526
 title: Julia
 slug: julia
 url: art-works/julia

@@ -2,7 +2,7 @@
 id: 568
 shopifyId: 7160657739881
 shopifyOptionId: 41114770833513
-order: 8
+order: 9
 title: Almost naked
 slug: almost-naked
 url: art-works/almost-naked

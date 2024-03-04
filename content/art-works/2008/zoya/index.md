@@ -2,7 +2,7 @@
 id: 60
 shopifyId: 0
 shopifyOptionId: 0
-order: 527
+order: 529
 title: Zoya
 slug: zoya
 url: art-works/zoya
