@@ -2,7 +2,7 @@
 id: 563
 shopifyId: 0
 shopifyOptionId: 0
-order: 434
+order: 433
 title: Elena
 slug: elena
 url: art-works/elena

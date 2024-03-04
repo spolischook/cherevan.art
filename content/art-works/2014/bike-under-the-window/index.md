@@ -2,7 +2,7 @@
 id: 148
 shopifyId: 0
 shopifyOptionId: 0
-order: 438
+order: 437
 title: Bike under the window
 slug: bike-under-the-window
 url: art-works/bike-under-the-window

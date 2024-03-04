@@ -2,7 +2,7 @@
 id: 449
 shopifyId: 0
 shopifyOptionId: 0
-order: 109
+order: 108
 title: shibari_carpathians_4
 slug: shibaricarpathians4
 url: art-works/shibaricarpathians4

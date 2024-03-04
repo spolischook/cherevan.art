@@ -2,7 +2,7 @@
 id: 153
 shopifyId: 0
 shopifyOptionId: 0
-order: 405
+order: 404
 title: Project Woman Bereginya Pray
 slug: project-woman-bereginya-pray
 url: art-works/project-woman-bereginya-pray

@@ -2,7 +2,7 @@
 id: 135
 shopifyId: 0
 shopifyOptionId: 0
-order: 453
+order: 452
 title: There are women like wind. Triptych 2
 slug: there-are-women-like-wind-triptych-2
 url: art-works/there-are-women-like-wind-triptych-2

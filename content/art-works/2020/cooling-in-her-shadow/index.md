@@ -2,7 +2,7 @@
 id: 408
 shopifyId: 7160656756841
 shopifyOptionId: 41114771161193
-order: 149
+order: 148
 title: Cooling in her shadow
 slug: cooling-in-her-shadow
 url: art-works/cooling-in-her-shadow

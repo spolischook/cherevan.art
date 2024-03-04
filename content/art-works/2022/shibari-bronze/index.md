@@ -6,6 +6,7 @@ order: 24
 title: Shibari Bronze
 slug: shibari-bronze
 url: art-works/shibaribronzejpg
+aliases: []
 categories:
 - shibari
 - painting

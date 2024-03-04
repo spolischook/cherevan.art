@@ -2,7 +2,7 @@
 id: 298
 shopifyId: 7160663343209
 shopifyOptionId: 41114775847017
-order: 259
+order: 258
 title: To love or to forget
 slug: to-love-or-to-forget
 url: art-works/to-love-or-to-forget
