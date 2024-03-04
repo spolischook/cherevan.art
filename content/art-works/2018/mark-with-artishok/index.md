@@ -2,7 +2,7 @@
 id: 329
 shopifyId: 7160655741033
 shopifyOptionId: 41114777124969
-order: 228
+order: 227
 title: Mark with artishok
 slug: mark-with-artishok
 url: art-works/mark-with-artishok

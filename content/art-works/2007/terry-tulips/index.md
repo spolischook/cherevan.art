@@ -2,7 +2,7 @@
 id: 55
 shopifyId: 0
 shopifyOptionId: 0
-order: 533
+order: 532
 title: Terry tulips
 slug: terry-tulips
 url: art-works/terry-tulips

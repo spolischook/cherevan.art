@@ -2,7 +2,7 @@
 id: 378
 shopifyId: 7160662851689
 shopifyOptionId: 41114773291113
-order: 179
+order: 178
 title: All we have is now
 slug: all-we-have-is-now
 url: art-works/all-we-have-is-now

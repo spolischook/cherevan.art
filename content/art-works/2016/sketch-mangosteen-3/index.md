@@ -2,7 +2,7 @@
 id: 214
 shopifyId: 7160660263017
 shopifyOptionId: 41114770800745
-order: 343
+order: 342
 title: Sketch mangosteen 3
 slug: sketch-mangosteen-3
 url: art-works/sketch-mangosteen-3

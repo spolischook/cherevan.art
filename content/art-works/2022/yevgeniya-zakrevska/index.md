@@ -2,7 +2,7 @@
 id: 558
 shopifyId: 0
 shopifyOptionId: 0
-order: 429
+order: 428
 title: Yevgeniya Zakrevska
 slug: yevgeniya-zakrevska
 url: art-works/yevgeniya-zakrevska

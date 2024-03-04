@@ -2,7 +2,7 @@
 id: 303
 shopifyId: 0
 shopifyOptionId: 0
-order: 254
+order: 253
 title: Villa charmer
 slug: villa-charmer
 url: art-works/villa-charmer

@@ -2,7 +2,7 @@
 id: 250
 shopifyId: 7160661147753
 shopifyOptionId: 41114770931817
-order: 307
+order: 306
 title: Jatamart
 slug: jatamart
 url: art-works/jatamart

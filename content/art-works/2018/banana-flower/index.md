@@ -2,7 +2,7 @@
 id: 281
 shopifyId: 7160665145449
 shopifyOptionId: 41114775912553
-order: 276
+order: 275
 title: Banana flower
 slug: banana-flower
 url: art-works/banana-flower
