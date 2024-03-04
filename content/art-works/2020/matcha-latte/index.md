@@ -2,7 +2,7 @@
 id: 462
 shopifyId: 7160662753385
 shopifyOptionId: 41114769129577
-order: 95
+order: 97
 title: Matcha latte
 slug: matcha-latte
 url: art-works/matcha-latte

@@ -2,7 +2,7 @@
 id: 524
 shopifyId: 7160664948841
 shopifyOptionId: 41114783547497
-order: 25
+order: 26
 title: Borderline
 slug: borderline
 url: art-works/borderline

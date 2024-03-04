@@ -2,7 +2,7 @@
 id: 587
 shopifyId: 0
 shopifyOptionId: 0
-order: 415
+order: 417
 title: Project Woman Bereginya Yaryna Kvitka
 slug: project-woman-bereginya-yaryna-kvitka
 url: art-works/project-woman-bereginya-yaryna-kvitka

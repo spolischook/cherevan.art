@@ -2,7 +2,7 @@
 id: 156
 shopifyId: 0
 shopifyOptionId: 0
-order: 405
+order: 407
 title: Project Woman Bereginya Solomiya Krushelnytska
 slug: project-woman-bereginya-solomiya-krushelnytska
 url: art-works/project-woman-bereginya-solomiya-krushelnytska

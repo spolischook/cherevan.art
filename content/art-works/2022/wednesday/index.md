@@ -2,7 +2,7 @@
 id: 538
 shopifyId: 7160658329705
 shopifyOptionId: 41114770473065
-order: 14
+order: 15
 title: Wednesday
 slug: wednesday
 url: art-works/wednesday

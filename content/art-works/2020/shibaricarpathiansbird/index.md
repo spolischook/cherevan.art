@@ -2,7 +2,7 @@
 id: 450
 shopifyId: 0
 shopifyOptionId: 0
-order: 107
+order: 109
 title: shibari_carpathians_bird
 slug: shibaricarpathiansbird
 url: art-works/shibaricarpathiansbird

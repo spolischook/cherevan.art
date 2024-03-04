@@ -2,7 +2,7 @@
 id: 384
 shopifyId: 7160657346665
 shopifyOptionId: 41114776109161
-order: 172
+order: 174
 title: 'Chubby women '
 slug: chubby-women-
 url: art-works/chubby-women-

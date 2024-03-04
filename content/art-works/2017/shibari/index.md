@@ -2,7 +2,7 @@
 id: 255
 shopifyId: 0
 shopifyOptionId: 0
-order: 301
+order: 303
 title: Shibari
 slug: shibari
 url: art-works/shibari

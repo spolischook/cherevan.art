@@ -2,7 +2,7 @@
 id: 536
 shopifyId: 7160656068713
 shopifyOptionId: 41114782105705
-order: 16
+order: 17
 title: Sicily
 slug: sicily
 url: art-works/sicily
