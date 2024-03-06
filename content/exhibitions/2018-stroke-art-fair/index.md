@@ -2,11 +2,11 @@
 title: "Stroke Art Fair"
 date: 2017-11-25 21:05:56
 slug: 2018-stroke-art-fair
-draft: true
+draft: false
 location: "Munich, Germany"
 locationLink: ""
 eventDate: 2017-11-25 19:00:00
-afisha: ~
+afisha: 2018-stroke-art-fair-poster.jpg
 tags: ["exhibition", "group exhibition"]
 ---
 
