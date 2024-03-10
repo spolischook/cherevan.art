@@ -2,7 +2,7 @@
 id: 327
 shopifyId: 7160656953449
 shopifyOptionId: 41114784825449
-order: 234
+order: 235
 title: Man
 slug: man
 url: art-works/man

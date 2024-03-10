@@ -2,7 +2,7 @@
 id: 496
 shopifyId: 7160662163561
 shopifyOptionId: 41114767949929
-order: 66
+order: 67
 title: Dragon tamer
 slug: dragon-tamer
 url: art-works/dragon-tamer

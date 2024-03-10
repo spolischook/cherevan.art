@@ -2,7 +2,7 @@
 id: 242
 shopifyId: 7160659837033
 shopifyOptionId: 41114768244841
-order: 319
+order: 320
 title: Intimate
 slug: intimate
 url: art-works/intimate
