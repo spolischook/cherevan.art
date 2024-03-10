@@ -36,7 +36,7 @@
             {{- if ne $pl 0 }}
                 > 
             {{- end }}
-            {{ .Name }}
+            {{ safeHTML .Name }}
         </a>
         {{- with .Children }}
                 {{- partial "inline/menu/mobile_walk.html" (dict "page" $page "menuEntries" . "pl" (add $pl 4)) }}
@@ -59,6 +59,7 @@
             {{- $attrs = merge $attrs (dict "class" "ancestor" "aria-current" "true") }}
         {{- end }}
         {{- $name := .Name }}
+        {{- $icon := .Params.Icon }}
         {{- with .Identifier }}
             {{- with T . }}
                 {{- $name = . }}
@@ -68,7 +69,12 @@
             <a class="flex group flex-col px-2 pt-1"
                 {{- range $k, $v :=$attrs }} {{- with $v }} {{- printf " %s=%q" $k $v | safeHTMLAttr }} {{- end }} {{- end -}}>
                 <div class="flex items-center justify-start py-1">
-                    {{ $name }}
+                    {{ if $icon }}
+                        {{ safeHTML $icon }}
+                    {{else}}
+                        {{ safeHTML $name }}
+                    {{- end}}
+
                     {{- if len .Children }}
                     <svg class="w-5 h-5 mx-1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M12 15.713L18.01 9.70299L16.597 8.28799L12 12.888L7.40399 8.28799L5.98999 9.70199L12 15.713Z"
