@@ -1,0 +1,9 @@
+{{- $s := .Text -}}
+    {{- $s = replace $s "&amp;ldquo;" "“" -}}
+    {{- $s = replace $s "&amp;rdquo;" "”" -}}
+    {{- $s = replace $s "&amp;lsquo;" "‘" -}}
+    {{- $s = replace $s "&amp;rsquo;" "’" -}}
+    {{- $s = replace $s "&amp;ndash;" "–" -}}
+    {{- $s = replace $s "&amp;mdash;" "—" -}}
+    {{- $s = replace $s "&amp;hellip;" "…" -}}
+{{- $s -}}
