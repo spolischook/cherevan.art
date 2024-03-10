@@ -1,3 +1,11 @@
+{{ define "meta" }}
+    {{ $image := .Resources.GetMatch .Params.mainImage }}
+    <meta property="og:type"               content="article" />
+    <meta property="og:title"              content="{{.Title}}" />
+    <meta property="og:image"              content="{{$image.RelPermalink}}" />
+    <meta property="description"           content="{{ delimit .Params.materials ", " }} |  {{.Params.Width}}X{{.Params.Height}}cm | {{dateFormat "2006" .Params.date}}">
+{{ end }}
+
 {{ define "main" }}
     <article class="flex flex-col">
         <section class="flex flex-col sm:flex-row sm:space-x-8">
