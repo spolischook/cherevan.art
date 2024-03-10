@@ -5,7 +5,8 @@
         {{ $image := .Resources.GetMatch .Params.afisha }}
         <meta property="og:image"              content="{{$image.RelPermalink}}" />
     {{ end }}
-    <meta property="description" content="{{ .Content | plainify | truncate 155 | print "..." }}">
+        {{- $description := .Content | plainify | truncate 155 -}}
+    <meta property="description" content="{{ partial "entities_text.html" (dict "Text" $description) }}">
 {{ end }}
 
 {{ define "main" }}
