@@ -2,7 +2,7 @@
 id: 301
 shopifyId: 7160659214441
 shopifyOptionId: 41114772340841
-order: 260
+order: 261
 title: Tati Limati
 slug: tati-limati
 url: art-works/tati-limati

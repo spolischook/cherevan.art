@@ -2,7 +2,7 @@
 id: 451
 shopifyId: 7160657608809
 shopifyOptionId: 41114784301161
-order: 110
+order: 111
 title: Shibari carpathians, trust
 slug: shibari-carpathians-trust
 url: art-works/shibari-carpathians-trust
