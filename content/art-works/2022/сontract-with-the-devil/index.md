@@ -2,7 +2,7 @@
 id: 530
 shopifyId: 7160660426857
 shopifyOptionId: 41114771325033
-order: 27
+order: 28
 title: Сontract with the devil
 slug: сontract-with-the-devil
 url: art-works/сontract-with-the-devil
@@ -19,6 +19,6 @@ materials:
 - ink
 - ' gold leaf'
 - ' paper'
-price: 350
+price: 550
 mainImage: contract_with_the_devil.jpg
 ---

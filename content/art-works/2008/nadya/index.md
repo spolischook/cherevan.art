@@ -2,7 +2,7 @@
 id: 61
 shopifyId: 0
 shopifyOptionId: 0
-order: 528
+order: 531
 title: Nadya
 slug: nadya
 url: art-works/nadya

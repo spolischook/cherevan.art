@@ -2,7 +2,7 @@
 id: 210
 shopifyId: 7160656199785
 shopifyOptionId: 41114781483113
-order: 348
+order: 351
 title: Acai palm
 slug: acai-palm
 url: art-works/acai-palm

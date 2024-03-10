@@ -17,6 +17,6 @@ date: 2023-01-01T00:00:00Z
 materials:
 - pencil
 - ' canvas'
-price: 1200
+price: 2500
 mainImage: the_beauty_and_the_beast.JPG
 ---

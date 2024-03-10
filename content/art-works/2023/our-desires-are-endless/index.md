@@ -18,6 +18,6 @@ materials:
 - ink
 - ' gold leaf'
 - ' paper'
-price: 350
+price: 500
 mainImage: our_desires_are_endless.jpeg
 ---

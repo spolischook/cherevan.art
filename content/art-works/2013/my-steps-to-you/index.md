@@ -2,7 +2,7 @@
 id: 24
 shopifyId: 0
 shopifyOptionId: 0
-order: 565
+order: 568
 title: My steps to you
 slug: my-steps-to-you
 url: art-works/my-steps-to-you

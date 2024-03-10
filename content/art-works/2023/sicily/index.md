@@ -2,7 +2,7 @@
 id: 536
 shopifyId: 7160656068713
 shopifyOptionId: 41114782105705
-order: 17
+order: 18
 title: Sicily
 slug: sicily
 url: art-works/sicily
@@ -17,6 +17,6 @@ date: 2023-01-01T00:00:00Z
 materials:
 - ink
 - paper
-price: 150
+price: 200
 mainImage: Siciliy.jpg
 ---

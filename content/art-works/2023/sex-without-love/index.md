@@ -2,7 +2,7 @@
 id: 533
 shopifyId: 0
 shopifyOptionId: 0
-order: 20
+order: 21
 title: Sex without love
 slug: sex-without-love
 url: art-works/sex-without-love
@@ -18,6 +18,6 @@ date: 2023-01-01T00:00:00Z
 materials:
 - ink
 - paper
-price: 150
+price: 200
 mainImage: sex_without_love.jpeg
 ---

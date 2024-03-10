@@ -2,7 +2,7 @@
 id: 569
 shopifyId: 7160661377129
 shopifyOptionId: 41114783055977
-order: 23
+order: 24
 title: Shibari movement
 slug: shibari-movement
 url: art-works/shibari-movement

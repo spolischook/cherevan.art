@@ -2,7 +2,7 @@
 id: 114
 shopifyId: 0
 shopifyOptionId: 0
-order: 475
+order: 478
 title: Love the woman for the mind, which is both great and modest
 slug: love-the-woman-for-the-mind-which-is-both-great-and-modest
 url: art-works/love-the-woman-for-the-mind-which-is-both-great-and-modest
