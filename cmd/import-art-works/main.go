@@ -11,7 +11,7 @@ import (
 
 func checkErr(err error) {
 	if err != nil {
-		glg.Fatal(err)
+		panic(err)
 	}
 }
 
