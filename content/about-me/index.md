@@ -13,4 +13,16 @@ In my art, I convey emotions and feelings evoked by the world around me. My art 
 
 I give priority to female images in my art, exploring various aspects of female life and self-identification. The woman is not only a symbol of life and faith, yet a practical and real entity who encounters miscellaneous challenges, such as injustice, discrimination, violence, and whatnot. I create images of women with their dreams, illusions, and desires, as well as explore their psychology to reproduce their essence in my works.
 
-[Complete statement on Google Drive](https://docs.google.com/presentation/d/1bslCemGZ1SEwcD51dhUO694m99OcMZP2taDo40GllVg/edit#slide=id.g2a0bfe57b1c_0_849) 
+[Complete statement on Google Drive](https://docs.google.com/presentation/d/1bslCemGZ1SEwcD51dhUO694m99OcMZP2taDo40GllVg/edit#slide=id.g2a0bfe57b1c_0_849)
+
+
+Follow me on Social Media:
+- [Instagram Personal](https://www.instagram.com/tetianacherevan/)
+- [Instagram Shibari](https://www.instagram.com/shibari.artkingdom/)
+- [Facebook](https://www.facebook.com/tetiana.cherevan)
+
+
+Visit my shops:
+- [Etsy](https://www.etsy.com/shop/CherevanArtGallery)
+- [Art Finder](https://www.artfinder.com/artist/tetiana-cherevan/)
+
