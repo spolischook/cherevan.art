@@ -1,11 +1,11 @@
 ---
-id: 509
+id: 594
 shopifyId: 0
 shopifyOptionId: 0
-order: 54
-title: fallen leaf
-slug: fallen-leaf
-url: art-works/fallen-leaf
+order: 33
+title: Cant smile in black
+slug: cant-smile-in-black
+url: art-works/cant-smile-in-black
 aliases: []
 categories:
 - painting
@@ -16,8 +16,7 @@ width: 60
 date: 2022-01-01T00:00:00Z
 materials:
 - acrylic
-- oil
 - canvas
 price: -1
-mainImage: fallen_leaf.JPG
+mainImage: Cant_smile_in_black.JPG
 ---

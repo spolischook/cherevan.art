@@ -2,7 +2,7 @@
 id: 456
 shopifyId: 7160469028969
 shopifyOptionId: 0
-order: 106
+order: 105
 title: Ballet 3
 slug: ballet-3
 url: art-works/ballet-3

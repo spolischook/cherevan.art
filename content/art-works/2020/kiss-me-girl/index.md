@@ -2,7 +2,7 @@
 id: 416
 shopifyId: 7160663113833
 shopifyOptionId: 41114775978089
-order: 145
+order: 144
 title: Kiss me girl
 slug: kiss-me-girl
 url: art-works/kiss-me-girl
