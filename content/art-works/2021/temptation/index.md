@@ -2,7 +2,7 @@
 id: 505
 shopifyId: 7160660689001
 shopifyOptionId: 41114772635753
-order: 59
+order: 57
 title: Temptation
 slug: temptation
 url: art-works/temptation
