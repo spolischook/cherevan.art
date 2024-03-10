@@ -2,7 +2,7 @@
 id: 528
 shopifyId: 7161394036841
 shopifyOptionId: 41114772766825
-order: 29
+order: 30
 title: Shibari session
 slug: shibari-session
 url: art-works/shibari-session

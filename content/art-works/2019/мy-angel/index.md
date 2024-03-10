@@ -2,7 +2,7 @@
 id: 445
 shopifyId: 0
 shopifyOptionId: 0
-order: 114
+order: 117
 title: Мy angel
 slug: мy-angel
 url: art-works/мy-angel

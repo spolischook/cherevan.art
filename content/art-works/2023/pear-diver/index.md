@@ -18,6 +18,6 @@ materials:
 - ink
 - ' gold leaf'
 - ' paper'
-price: 350
+price: 500
 mainImage: pear_diver.jpg
 ---

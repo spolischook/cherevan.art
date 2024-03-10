@@ -2,7 +2,7 @@
 id: 538
 shopifyId: 7160658329705
 shopifyOptionId: 41114770473065
-order: 15
+order: 16
 title: Wednesday
 slug: wednesday
 url: art-works/wednesday
@@ -17,6 +17,6 @@ date: 2022-01-01T00:00:00Z
 materials:
 - ink
 - paper
-price: 150
+price: 200
 mainImage: wednesday.jpg
 ---

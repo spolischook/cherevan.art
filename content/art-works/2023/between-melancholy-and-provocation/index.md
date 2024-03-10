@@ -2,7 +2,7 @@
 id: 527
 shopifyId: 7161394331753
 shopifyOptionId: 41114768638057
-order: 30
+order: 31
 title: Between melancholy and provocation
 slug: between-melancholy-and-provocation
 url: art-works/between-melancholy-and-provocation

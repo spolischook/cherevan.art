@@ -2,7 +2,7 @@
 id: 473
 shopifyId: 7160662491241
 shopifyOptionId: 41114772734057
-order: 86
+order: 89
 title: Spirit of Love
 slug: spirit-of-love
 url: art-works/spirit-of-love

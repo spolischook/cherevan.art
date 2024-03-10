@@ -2,7 +2,7 @@
 id: 302
 shopifyId: 7160659574889
 shopifyOptionId: 41114777354345
-order: 256
+order: 259
 title: Knot play
 slug: knot-play
 url: art-works/knot-play

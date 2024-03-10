@@ -18,6 +18,6 @@ materials:
 - ink
 - ' gold leaf'
 - ' paper'
-price: 350
+price: 450
 mainImage: Almost naked.jpg
 ---

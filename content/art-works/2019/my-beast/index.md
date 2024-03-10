@@ -2,7 +2,7 @@
 id: 368
 shopifyId: 7160663638121
 shopifyOptionId: 41114784137321
-order: 190
+order: 193
 title: My beast
 slug: my-beast
 url: art-works/my-beast

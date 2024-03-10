@@ -2,7 +2,7 @@
 id: 249
 shopifyId: 7160660590697
 shopifyOptionId: 41114773225577
-order: 309
+order: 312
 title: Clitoriaterna
 slug: clitoriaterna
 url: art-works/clitoriaterna
