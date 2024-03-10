@@ -1,0 +1,23 @@
+---
+id: 592
+shopifyId: 0
+shopifyOptionId: 0
+order: 10
+title: Symphony of soul and body
+slug: symphony-of-soul-and-body
+url: art-works/symphony-of-soul-and-body
+aliases: []
+categories:
+- graphics
+inStock: true
+isVisible: true
+height: 70
+width: 50
+date: 2023-01-01T00:00:00Z
+materials:
+- ink
+- ' gold leaf'
+- ' paper'
+price: 550
+mainImage: symphony_of_Soul_and_Body1.jpg
+---
