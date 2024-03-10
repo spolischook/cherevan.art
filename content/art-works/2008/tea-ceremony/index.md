@@ -2,7 +2,7 @@
 id: 59
 shopifyId: 0
 shopifyOptionId: 0
-order: 534
+order: 535
 title: Tea ceremony
 slug: tea-ceremony
 url: art-works/tea-ceremony

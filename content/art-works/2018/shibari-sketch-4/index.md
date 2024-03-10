@@ -2,7 +2,7 @@
 id: 265
 shopifyId: 7160656724073
 shopifyOptionId: 41114768834665
-order: 297
+order: 298
 title: Shibari sketch 4
 slug: shibari-sketch-4
 url: art-works/shibari-sketch-4

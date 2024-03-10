@@ -2,7 +2,7 @@
 id: 468
 shopifyId: 7160660361321
 shopifyOptionId: 41114769588329
-order: 94
+order: 95
 title: Cappadocia valley 2
 slug: cappadocia-valley-2
 url: art-works/cappadocia-valley-2

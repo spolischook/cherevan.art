@@ -2,7 +2,7 @@
 id: 381
 shopifyId: 7160659378281
 shopifyOptionId: 41114771292265
-order: 181
+order: 183
 title: Tricky angel
 slug: tricky-angel
 url: art-works/tricky-angel
