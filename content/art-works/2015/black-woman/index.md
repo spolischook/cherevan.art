@@ -2,7 +2,7 @@
 id: 578
 shopifyId: 0
 shopifyOptionId: 0
-order: 401
+order: 402
 title: Black woman
 slug: black-woman
 url: art-works/black-woman

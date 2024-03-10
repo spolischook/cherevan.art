@@ -2,7 +2,7 @@
 id: 370
 shopifyId: 0
 shopifyOptionId: 0
-order: 192
+order: 194
 title: Preface
 slug: preface
 url: art-works/preface
