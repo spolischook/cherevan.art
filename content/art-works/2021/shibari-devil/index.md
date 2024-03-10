@@ -2,7 +2,7 @@
 id: 485
 shopifyId: 7160665243753
 shopifyOptionId: 41114767818857
-order: 78
+order: 76
 title: Shibari devil
 slug: shibari-devil
 url: art-works/shibari-devil

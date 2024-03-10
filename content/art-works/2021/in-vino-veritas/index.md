@@ -2,7 +2,7 @@
 id: 493
 shopifyId: 0
 shopifyOptionId: 0
-order: 70
+order: 68
 title: In vino veritas
 slug: in-vino-veritas
 url: art-works/in-vino-veritas
