@@ -36,7 +36,8 @@
                 <div class="grid-item
                     {{if or (ne $page.Params.IsVisible true) (ne $page.Params.InStock true) }}hidden{{end}}
                     {{if ge $page.Params.Width 140 }}grid-item--width3
-                    {{else if ge $page.Params.Width 59 }}grid-item--width2{{end}}"
+                        {{else if or (ge $page.Params.Width 59) (ge $page.Params.Height 59) }}grid-item--width2
+                    {{end}}"
                      data-params="{{jsonify $page.Params}}">
                     {{ partial "art-works/picture.html" (dict "image" . "title" $page.Title "inStock" $page.Params.inStock "index" $index) }}
 
