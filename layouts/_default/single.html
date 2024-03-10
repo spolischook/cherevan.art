@@ -28,13 +28,5 @@
         </ul>
     </div>
     {{.Content}}
-    {{ if .Params.materials }}
-    <h2>Materials</h2>
-    <ul>
-        {{ range .Params.materials }}
-        <li>{{ . }}</li>
-        {{ end }}
-    </ul>
-    {{ end }}
 </article>
 {{ end }}

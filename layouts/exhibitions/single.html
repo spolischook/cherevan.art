@@ -5,7 +5,7 @@
         {{ $image := .Resources.GetMatch .Params.afisha }}
         <meta property="og:image"              content="{{$image.RelPermalink}}" />
     {{ end }}
-    <meta property="description"           content="">
+    <meta property="description" content="{{ .Content | plainify | truncate 155 | print "..." }}">
 {{ end }}
 
 {{ define "main" }}
@@ -42,13 +42,5 @@
             <img src="{{$image.RelPermalink}}" alt="{{.Title}}" class="sm:w-1/2 w-full h-auto mr-5 float-left">
         {{ end }}
         {{.Content}}
-        {{ if .Params.materials }}
-            <h2>Materials</h2>
-            <ul>
-                {{ range .Params.materials }}
-                    <li>{{ . }}</li>
-                {{ end }}
-            </ul>
-        {{ end }}
     </article>
 {{ end }}
