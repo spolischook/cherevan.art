@@ -81,6 +81,10 @@ func (s Service) FetchMainImage(aw artWork.ArtWork) error {
 			dirId = graphicsFolderId
 			break
 		}
+		if cat == "pastel" {
+			dirId = graphicsFolderId
+			break
+		}
 	}
 
 	err = s.DownloadFile(aw.ImageName, dirId, aw.PageLeafPath())
