@@ -10,6 +10,10 @@ import (
 
 func New() (*Service, error) {
 	tokenSource, err := login.TokenSource()
+	if err != nil {
+		glg.Fatal(err)
+	}
+
 	d, err := drive.NewService(context.Background(), option.WithTokenSource(tokenSource))
 	if err != nil {
 		glg.Fatal(err)
