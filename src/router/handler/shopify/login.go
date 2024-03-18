@@ -11,7 +11,7 @@ import (
 )
 
 type Handler struct {
-	client *goshopify.Client
+	Client *goshopify.Client
 }
 
 func (h *Handler) Login(c *gin.Context) {
@@ -41,8 +41,8 @@ func (h *Handler) Callback(c *gin.Context) {
 		return
 	}
 
-	// Create a new API client
-	h.client = app.NewClient(
+	// Create a new API Client
+	h.Client = app.NewClient(
 		config.ShopName,
 		token,
 		goshopify.WithLogger(&goshopify.LeveledLogger{}))

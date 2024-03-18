@@ -6,10 +6,11 @@ import (
 	"github.com/cherevan.art/src/shopify"
 	"github.com/gin-gonic/gin"
 	"net/http"
+	"time"
 )
 
 func (h *Handler) UpdateProducts(c *gin.Context) {
-	if h.client == nil {
+	if h.Client == nil {
 		c.AbortWithStatusJSON(401, gin.H{"error": "unauthorized"})
 		return
 	}
@@ -21,7 +22,7 @@ func (h *Handler) UpdateProducts(c *gin.Context) {
 	}
 
 	// Get all products from Shopify
-	shopifyProducts, err := shopify.GetAllProducts(h.client)
+	shopifyProducts, err := shopify.GetAllProducts(h.Client)
 
 	// Update products
 	for _, aw := range existingArtWorks {
@@ -35,7 +36,8 @@ func (h *Handler) UpdateProducts(c *gin.Context) {
 			if aw.ShopifyID == sp.ID {
 				isNew = false
 				aw.UpdateShopifyProduct(&sp)
-				sp1, err := h.client.Product.Update(sp)
+				time.Sleep(time.Second / 2) // prevent exceeding the limit of requests
+				sp1, err := h.Client.Product.Update(sp)
 				if err != nil {
 					c.AbortWithStatusJSON(
 						500,
@@ -62,7 +64,7 @@ func (h *Handler) UpdateProducts(c *gin.Context) {
 		}
 
 		// Create product
-		createdProduct, err := h.client.Product.Create(aw.ShopifyProduct())
+		createdProduct, err := h.Client.Product.Create(aw.ShopifyProduct())
 		if err != nil {
 			c.AbortWithStatusJSON(
 				500,
@@ -72,7 +74,7 @@ func (h *Handler) UpdateProducts(c *gin.Context) {
 			return
 		}
 
-		_, err = h.client.ProductListing.Publish(createdProduct.ID)
+		_, err = h.Client.ProductListing.Publish(createdProduct.ID)
 		if err != nil {
 			c.AbortWithStatusJSON(http.StatusBadRequest, gin.H{"error": fmt.Sprintf("error publish %d %s: %s", aw.ID, aw.Title, err.Error())})
 			return
@@ -86,13 +88,13 @@ func (h *Handler) UpdateProducts(c *gin.Context) {
 		}
 
 		// Create image
-		_, err = h.client.Image.Create(createdProduct.ID, aw.ShopifyImage())
+		_, err = h.Client.Image.Create(createdProduct.ID, aw.ShopifyImage())
 		if err != nil {
 				c.AbortWithStatusJSON(http.StatusBadGateway, gin.H{"error": err.Error()})
 			}
 
 		aw.UpdateShopifyProduct(createdProduct)
-		createdProduct, err = h.client.Product.Update(*createdProduct)
+		createdProduct, err = h.Client.Product.Update(*createdProduct)
 		if err != nil {
 			c.AbortWithStatusJSON(http.StatusBadGateway, gin.H{"error": err.Error()})
 		}
@@ -111,7 +113,7 @@ func (h *Handler) UpdateProducts(c *gin.Context) {
 	//	}
 	//
 	//	glg.Warnf("deleting product %d: %s\n", p.ID, p.Title)
-	//	err := h.client.Product.Delete(p.ID)
+	//	err := h.Client.Product.Delete(p.ID)
 	//	if err != nil {
 	//		c.AbortWithStatusJSON(http.StatusBadGateway, gin.H{"error": err.Error()})
 	//	}

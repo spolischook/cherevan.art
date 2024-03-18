@@ -7,7 +7,7 @@ import (
 )
 
 func (h *Handler) GetProduct(c *gin.Context) {
-	if h.client == nil {
+	if h.Client == nil {
 		c.AbortWithStatusJSON(401, gin.H{"error": "unauthorized"})
 		return
 	}
@@ -19,7 +19,7 @@ func (h *Handler) GetProduct(c *gin.Context) {
 		return
 	}
 
-	p, err := h.client.Product.Get(spId, nil)
+	p, err := h.Client.Product.Get(spId, nil)
 	if err != nil {
 		c.AbortWithStatusJSON(500, gin.H{"error": err.Error()})
 		return
