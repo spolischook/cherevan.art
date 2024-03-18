@@ -1,7 +1,7 @@
 ---
 id: 514
-shopifyId: 7160664653929
-shopifyOptionId: 41114770702441
+shopifyId: 8723275579722
+shopifyOptionId: 47772457402698
 order: 45
 title: Сome back alive
 slug: сome-back-alive

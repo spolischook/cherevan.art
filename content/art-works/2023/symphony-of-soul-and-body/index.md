@@ -1,7 +1,7 @@
 ---
 id: 592
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 8723269779786
+shopifyOptionId: 47772444459338
 order: 10
 title: Symphony of soul and body
 slug: symphony-of-soul-and-body

@@ -1,7 +1,7 @@
 ---
 id: 326
-shopifyId: 7160659935337
-shopifyOptionId: 41114781745257
+shopifyId: 8723261063498
+shopifyOptionId: 47772422209866
 order: 237
 title: Kindred spirits
 slug: kindred-spirits

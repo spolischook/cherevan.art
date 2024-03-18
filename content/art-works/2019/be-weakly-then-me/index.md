@@ -1,7 +1,7 @@
 ---
 id: 372
-shopifyId: 7160659116137
-shopifyOptionId: 41114771488873
+shopifyId: 8723269321034
+shopifyOptionId: 47772443476298
 order: 192
 title: Be weakly then me
 slug: be-weakly-then-me

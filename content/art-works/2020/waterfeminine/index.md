@@ -1,7 +1,7 @@
 ---
 id: 470
-shopifyId: 7160658296937
-shopifyOptionId: 41114783776873
+shopifyId: 8723264307530
+shopifyOptionId: 47772430434634
 order: 93
 title: water_feminine
 slug: waterfeminine

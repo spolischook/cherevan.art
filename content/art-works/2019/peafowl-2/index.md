@@ -1,7 +1,7 @@
 ---
 id: 358
-shopifyId: 7160660066409
-shopifyOptionId: 41114771652713
+shopifyId: 8723269648714
+shopifyOptionId: 47772444229962
 order: 206
 title: Peafowl 2
 slug: peafowl-2

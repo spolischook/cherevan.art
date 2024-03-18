@@ -1,7 +1,7 @@
 ---
 id: 423
-shopifyId: 7160657543273
-shopifyOptionId: 41114769227881
+shopifyId: 8723262832970
+shopifyOptionId: 47772425421130
 order: 140
 title: Blue wings
 slug: blue-wings

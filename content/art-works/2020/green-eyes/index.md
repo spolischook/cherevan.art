@@ -1,7 +1,7 @@
 ---
 id: 540
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 8723260211530
+shopifyOptionId: 47772419293514
 order: 14
 title: Green eyes
 slug: green-eyes

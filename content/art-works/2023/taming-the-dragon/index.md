@@ -1,7 +1,7 @@
 ---
 id: 542
-shopifyId: 7160663310441
-shopifyOptionId: 41114771554409
+shopifyId: 8723262341450
+shopifyOptionId: 47772424601930
 order: 12
 title: Taming the dragon
 slug: taming-the-dragon

@@ -1,7 +1,7 @@
 ---
 id: 188
-shopifyId: 7160658165865
-shopifyOptionId: 41114773192809
+shopifyId: 8723260899658
+shopifyOptionId: 47772421980490
 order: 375
 title: Muze
 slug: muze

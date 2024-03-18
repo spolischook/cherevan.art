@@ -1,7 +1,7 @@
 ---
 id: 413
-shopifyId: 7160657117289
-shopifyOptionId: 41114771718249
+shopifyId: 8723270730058
+shopifyOptionId: 47772446916938
 order: 149
 title: Synthesis of feelings 2
 slug: synthesis-of-feelings-2

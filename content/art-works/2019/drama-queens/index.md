@@ -1,7 +1,7 @@
 ---
 id: 390
-shopifyId: 7160661540969
-shopifyOptionId: 41114772832361
+shopifyId: 8723272237386
+shopifyOptionId: 47772450652490
 order: 174
 title: Drama Queens
 slug: drama-queens

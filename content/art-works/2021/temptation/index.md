@@ -1,7 +1,7 @@
 ---
 id: 505
-shopifyId: 7160660689001
-shopifyOptionId: 41114772635753
+shopifyId: 8723270926666
+shopifyOptionId: 47772447539530
 order: 58
 title: Temptation
 slug: temptation

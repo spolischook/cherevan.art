@@ -1,7 +1,7 @@
 ---
 id: 571
-shopifyId: 7160662032489
-shopifyOptionId: 41114777518185
+shopifyId: 8723261817162
+shopifyOptionId: 47772423586122
 order: 26
 title: Shibari Bronze
 slug: shibari-bronze

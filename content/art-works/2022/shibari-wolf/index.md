@@ -1,7 +1,7 @@
 ---
 id: 532
-shopifyId: 7160655609961
-shopifyOptionId: 41114768277609
+shopifyId: 8723271778634
+shopifyOptionId: 47772449276234
 order: 22
 title: Shibari wolf
 slug: shibari-wolf

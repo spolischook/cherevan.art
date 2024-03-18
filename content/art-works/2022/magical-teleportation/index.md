@@ -1,7 +1,7 @@
 ---
 id: 596
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 8723260244298
+shopifyOptionId: 47772419359050
 order: 52
 title: Magical teleportation
 slug: magical-teleportation

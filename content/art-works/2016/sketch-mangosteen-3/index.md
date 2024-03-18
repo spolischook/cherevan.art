@@ -1,7 +1,7 @@
 ---
 id: 214
-shopifyId: 7160660263017
-shopifyOptionId: 41114770800745
+shopifyId: 8723264438602
+shopifyOptionId: 47772430958922
 order: 350
 title: Sketch mangosteen 3
 slug: sketch-mangosteen-3

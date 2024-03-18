@@ -1,7 +1,7 @@
 ---
 id: 328
-shopifyId: 7160660164713
-shopifyOptionId: 41114783383657
+shopifyId: 8723268862282
+shopifyOptionId: 47772442689866
 order: 235
 title: Golden rain
 slug: golden-rain

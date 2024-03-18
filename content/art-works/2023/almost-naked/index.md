@@ -1,7 +1,7 @@
 ---
 id: 568
-shopifyId: 7160657739881
-shopifyOptionId: 41114770833513
+shopifyId: 8723264340298
+shopifyOptionId: 47772430762314
 order: 9
 title: Almost naked
 slug: almost-naked

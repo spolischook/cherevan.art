@@ -1,7 +1,7 @@
 ---
 id: 175
-shopifyId: 7160663441513
-shopifyOptionId: 41114770636905
+shopifyId: 8723271287114
+shopifyOptionId: 47772448358730
 order: 388
 title: Namong
 slug: namong

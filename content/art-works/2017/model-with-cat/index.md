@@ -1,7 +1,7 @@
 ---
 id: 261
-shopifyId: 7160660033641
-shopifyOptionId: 41114784661609
+shopifyId: 8723274039626
+shopifyOptionId: 47772454781258
 order: 302
 title: Model with cat
 slug: model-with-cat

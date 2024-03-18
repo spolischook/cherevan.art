@@ -1,7 +1,7 @@
 ---
 id: 546
-shopifyId: 7160656822377
-shopifyOptionId: 41114771357801
+shopifyId: 8723262210378
+shopifyOptionId: 47772424405322
 order: 4
 title: Delicious apple
 slug: delicious-apple

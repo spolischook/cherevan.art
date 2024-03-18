@@ -1,7 +1,7 @@
 ---
 id: 210
-shopifyId: 7160656199785
-shopifyOptionId: 41114781483113
+shopifyId: 8723263750474
+shopifyOptionId: 47772428697930
 order: 354
 title: Acai palm
 slug: acai-palm

@@ -1,7 +1,7 @@
 ---
 id: 381
-shopifyId: 7160659378281
-shopifyOptionId: 41114771292265
+shopifyId: 8723264110922
+shopifyOptionId: 47772430106954
 order: 183
 title: Tricky angel
 slug: tricky-angel

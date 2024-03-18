@@ -1,7 +1,7 @@
 ---
 id: 384
-shopifyId: 7160657346665
-shopifyOptionId: 41114776109161
+shopifyId: 8723261686090
+shopifyOptionId: 47772423323978
 order: 180
 title: 'Chubby women '
 slug: chubby-women-

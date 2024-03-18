@@ -1,7 +1,7 @@
 ---
 id: 393
-shopifyId: 7160660623465
-shopifyOptionId: 41114772668521
+shopifyId: 8723271844170
+shopifyOptionId: 47772449800522
 order: 171
 title: Chapter 21
 slug: chapter-21

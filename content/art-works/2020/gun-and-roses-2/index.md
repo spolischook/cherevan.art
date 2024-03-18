@@ -1,7 +1,7 @@
 ---
 id: 440
-shopifyId: 7160657215593
-shopifyOptionId: 41114770440297
+shopifyId: 8723263717706
+shopifyOptionId: 47772428632394
 order: 123
 title: Gun and roses 2
 slug: gun-and-roses-2

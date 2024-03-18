@@ -1,7 +1,7 @@
 ---
 id: 399
-shopifyId: 7160659705961
-shopifyOptionId: 41114776010857
+shopifyId: 8723260604746
+shopifyOptionId: 47772421587274
 order: 164
 title: Real jam
 slug: real-jam

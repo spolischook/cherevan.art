@@ -1,7 +1,7 @@
 ---
 id: 431
-shopifyId: 7160659738729
-shopifyOptionId: 41114784039017
+shopifyId: 8723263881546
+shopifyOptionId: 47772428992842
 order: 132
 title: Sleepy bear 1
 slug: sleepy-bear-1

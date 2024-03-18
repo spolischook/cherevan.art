@@ -1,7 +1,7 @@
 ---
 id: 171
-shopifyId: 7160656593001
-shopifyOptionId: 41114777387113
+shopifyId: 8723261260106
+shopifyOptionId: 47772422701386
 order: 392
 title: Follow the wave
 slug: follow-the-wave

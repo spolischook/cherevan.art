@@ -1,7 +1,7 @@
 ---
 id: 591
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 8723263521098
+shopifyOptionId: 47772428239178
 order: 5
 title: Sweet dreams
 slug: sweet-dreams

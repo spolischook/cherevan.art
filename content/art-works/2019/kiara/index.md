@@ -1,7 +1,7 @@
 ---
 id: 392
-shopifyId: 7160657969257
-shopifyOptionId: 41114770047081
+shopifyId: 8723271582026
+shopifyOptionId: 47772448850250
 order: 172
 title: Kiara
 slug: kiara
