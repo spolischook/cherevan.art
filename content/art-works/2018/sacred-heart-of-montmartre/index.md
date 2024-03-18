@@ -5,7 +5,7 @@ shopifyOptionId: 0
 order: 244
 title: Sacré-Cœur, Paris
 slug: sacré-cœur-paris
-url: art-works/sacré-cœur-paris
+url: art-works/sacred-heart-of-montmartre
 aliases: []
 categories:
 - graphics
