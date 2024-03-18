@@ -1,7 +1,7 @@
 ---
 id: 196
-shopifyId: 7160658231401
-shopifyOptionId: 41114768179305
+shopifyId: 8723260768586
+shopifyOptionId: 47772421783882
 order: 367
 title: Venezia-Castello
 slug: venezia-castello

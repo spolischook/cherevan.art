@@ -1,7 +1,7 @@
 ---
 id: 472
-shopifyId: 7160660099177
-shopifyOptionId: 41114768048233
+shopifyId: 8723273744714
+shopifyOptionId: 47772454060362
 order: 91
 title: Sweet kiss
 slug: sweet-kiss

@@ -1,7 +1,7 @@
 ---
 id: 174
-shopifyId: 7160665473129
-shopifyOptionId: 41114782007401
+shopifyId: 8723261292874
+shopifyOptionId: 47772422832458
 order: 389
 title: Glasha
 slug: glasha

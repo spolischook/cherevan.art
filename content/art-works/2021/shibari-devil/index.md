@@ -1,7 +1,7 @@
 ---
 id: 485
-shopifyId: 7160665243753
-shopifyOptionId: 41114767818857
+shopifyId: 8723266437450
+shopifyOptionId: 47772436169034
 order: 77
 title: Shibari devil
 slug: shibari-devil

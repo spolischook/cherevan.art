@@ -1,7 +1,7 @@
 ---
 id: 226
-shopifyId: 7160660787305
-shopifyOptionId: 41114771193961
+shopifyId: 8723265978698
+shopifyOptionId: 47772435022154
 order: 338
 title: Dance of stingrays
 slug: dance-of-stingrays

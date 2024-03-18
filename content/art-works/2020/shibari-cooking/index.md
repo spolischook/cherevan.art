@@ -1,7 +1,7 @@
 ---
 id: 464
-shopifyId: 7160658821225
-shopifyOptionId: 41114782335081
+shopifyId: 8723268501834
+shopifyOptionId: 47772441641290
 order: 99
 title: Shibari cooking
 slug: shibari-cooking

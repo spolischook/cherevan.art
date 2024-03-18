@@ -1,7 +1,7 @@
 ---
 id: 452
-shopifyId: 7160663277673
-shopifyOptionId: 41114775814249
+shopifyId: 8723267060042
+shopifyOptionId: 47772438364490
 order: 111
 title: Mistress
 slug: mistress

@@ -1,7 +1,7 @@
 ---
 id: 421
-shopifyId: 7160660000873
-shopifyOptionId: 41114782859369
+shopifyId: 8723270467914
+shopifyOptionId: 47772446589258
 order: 142
 title: Poante
 slug: poante

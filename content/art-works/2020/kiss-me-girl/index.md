@@ -1,7 +1,7 @@
 ---
 id: 416
-shopifyId: 7160663113833
-shopifyOptionId: 41114775978089
+shopifyId: 8723271188810
+shopifyOptionId: 47772448194890
 order: 146
 title: Kiss me girl
 slug: kiss-me-girl

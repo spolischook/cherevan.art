@@ -1,7 +1,7 @@
 ---
 id: 496
-shopifyId: 7160662163561
-shopifyOptionId: 41114767949929
+shopifyId: 8723264405834
+shopifyOptionId: 47772430827850
 order: 66
 title: Dragon tamer
 slug: dragon-tamer

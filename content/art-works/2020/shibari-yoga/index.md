@@ -1,7 +1,7 @@
 ---
 id: 491
-shopifyId: 7160656658537
-shopifyOptionId: 41114771390569
+shopifyId: 8723272532298
+shopifyOptionId: 47772451209546
 order: 71
 title: Shibari yoga
 slug: shibari-yoga

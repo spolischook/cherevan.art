@@ -1,7 +1,7 @@
 ---
 id: 254
-shopifyId: 7160663998569
-shopifyOptionId: 41114784006249
+shopifyId: 8723267354954
+shopifyOptionId: 47772438757706
 order: 310
 title: Leo
 slug: leo

@@ -1,7 +1,7 @@
 ---
 id: 368
-shopifyId: 7160663638121
-shopifyOptionId: 41114784137321
+shopifyId: 8723272958282
+shopifyOptionId: 47772451963210
 order: 196
 title: My beast
 slug: my-beast

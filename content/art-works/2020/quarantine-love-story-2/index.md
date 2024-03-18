@@ -1,7 +1,7 @@
 ---
 id: 459
-shopifyId: 7160659247209
-shopifyOptionId: 41114775650409
+shopifyId: 8723263619402
+shopifyOptionId: 47772428435786
 order: 104
 title: Quarantine love story 2
 slug: quarantine-love-story-2

@@ -1,7 +1,7 @@
 ---
 id: 590
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 8723265651018
+shopifyOptionId: 47772433449290
 order: 7
 title: The beauty and the beast
 slug: the-beauty-and-the-beast

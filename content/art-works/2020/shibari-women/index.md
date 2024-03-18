@@ -1,7 +1,7 @@
 ---
 id: 444
-shopifyId: 7160659312745
-shopifyOptionId: 41114784202857
+shopifyId: 8723270697290
+shopifyOptionId: 47772446818634
 order: 119
 title: Shibari women
 slug: shibari-women

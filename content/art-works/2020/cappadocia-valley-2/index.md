@@ -1,7 +1,7 @@
 ---
 id: 468
-shopifyId: 7160660361321
-shopifyOptionId: 41114769588329
+shopifyId: 8723268272458
+shopifyOptionId: 47772441018698
 order: 95
 title: Cappadocia valley 2
 slug: cappadocia-valley-2

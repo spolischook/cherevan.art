@@ -1,7 +1,7 @@
 ---
 id: 396
-shopifyId: 7160661999721
-shopifyOptionId: 41114777419881
+shopifyId: 8723263652170
+shopifyOptionId: 47772428501322
 order: 167
 title: Sky guard 2
 slug: sky-guard-2

@@ -1,7 +1,7 @@
 ---
 id: 260
-shopifyId: 7160663933033
-shopifyOptionId: 41114769981545
+shopifyId: 8723260014922
+shopifyOptionId: 47772418801994
 order: 303
 title: Model
 slug: model

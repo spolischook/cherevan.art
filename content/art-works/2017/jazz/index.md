@@ -1,7 +1,7 @@
 ---
 id: 241
-shopifyId: 7160663834729
-shopifyOptionId: 41114768146537
+shopifyId: 8723273941322
+shopifyOptionId: 47772454256970
 order: 323
 title: Jazz
 slug: jazz

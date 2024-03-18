@@ -1,7 +1,7 @@
 ---
 id: 480
-shopifyId: 7160663736425
-shopifyOptionId: 41114769686633
+shopifyId: 8723265257802
+shopifyOptionId: 47772432925002
 order: 83
 title: Sacred strawberry
 slug: sacred-strawberry

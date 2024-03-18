@@ -1,7 +1,7 @@
 ---
 id: 527
-shopifyId: 7161394331753
-shopifyOptionId: 41114768638057
+shopifyId: 8723263684938
+shopifyOptionId: 47772428566858
 order: 31
 title: Between melancholy and provocation
 slug: between-melancholy-and-provocation

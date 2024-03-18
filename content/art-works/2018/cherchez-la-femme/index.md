@@ -1,7 +1,7 @@
 ---
 id: 297
-shopifyId: 7160663965801
-shopifyOptionId: 41114775781481
+shopifyId: 8723267256650
+shopifyOptionId: 47772438593866
 order: 266
 title: Cherchez la femme
 slug: cherchez-la-femme

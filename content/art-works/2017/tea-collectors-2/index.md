@@ -1,7 +1,7 @@
 ---
 id: 229
-shopifyId: 7160656101481
-shopifyOptionId: 41114769096809
+shopifyId: 8723274760522
+shopifyOptionId: 47772456026442
 order: 335
 title: Tea collectors 2
 slug: tea-collectors-2

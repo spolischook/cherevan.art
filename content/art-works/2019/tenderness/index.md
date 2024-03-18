@@ -1,7 +1,7 @@
 ---
 id: 362
-shopifyId: 7160661442665
-shopifyOptionId: 41114776043625
+shopifyId: 8723261423946
+shopifyOptionId: 47772422963530
 order: 202
 title: Tenderness
 slug: tenderness

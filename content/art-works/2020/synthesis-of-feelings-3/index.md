@@ -1,7 +1,7 @@
 ---
 id: 414
-shopifyId: 7160657018985
-shopifyOptionId: 41114784530537
+shopifyId: 8723274826058
+shopifyOptionId: 47772456157514
 order: 148
 title: Synthesis of feelings 3
 slug: synthesis-of-feelings-3

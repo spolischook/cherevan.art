@@ -1,7 +1,7 @@
 ---
 id: 437
-shopifyId: 7160664555625
-shopifyOptionId: 41114783940713
+shopifyId: 8723268337994
+shopifyOptionId: 47772441444682
 order: 126
 title: Kiss in masks
 slug: kiss-in-masks

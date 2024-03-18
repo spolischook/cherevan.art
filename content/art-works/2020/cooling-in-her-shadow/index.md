@@ -1,7 +1,7 @@
 ---
 id: 408
-shopifyId: 7160656756841
-shopifyOptionId: 41114771161193
+shopifyId: 8723261129034
+shopifyOptionId: 47772422275402
 order: 154
 title: Cooling in her shadow
 slug: cooling-in-her-shadow

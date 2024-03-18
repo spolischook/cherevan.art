@@ -1,7 +1,7 @@
 ---
 id: 517
-shopifyId: 7160659476585
-shopifyOptionId: 41114770604137
+shopifyId: 8723272040778
+shopifyOptionId: 47772449997130
 order: 82
 title: Still life with a glass
 slug: still-life-with-a-glass

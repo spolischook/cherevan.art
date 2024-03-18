@@ -1,7 +1,7 @@
 ---
 id: 281
-shopifyId: 7160665145449
-shopifyOptionId: 41114775912553
+shopifyId: 8723268043082
+shopifyOptionId: 47772440363338
 order: 282
 title: Banana flower
 slug: banana-flower
