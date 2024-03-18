@@ -2,7 +2,7 @@
 id: 88
 shopifyId: 0
 shopifyOptionId: 0
-order: 506
+order: 505
 title: Vika
 slug: vika
 url: art-works/vika

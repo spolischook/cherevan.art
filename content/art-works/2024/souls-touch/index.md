@@ -12,8 +12,8 @@ categories:
 - painting
 inStock: true
 isVisible: true
-height: 90
-width: 80
+height: 100
+width: 81
 date: 2024-01-01T00:00:00Z
 materials:
 - oil

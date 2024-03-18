@@ -2,7 +2,7 @@
 id: 358
 shopifyId: 8723269648714
 shopifyOptionId: 47772444229962
-order: 206
+order: 205
 title: Peafowl 2
 slug: peafowl-2
 url: art-works/peafowl-2
@@ -17,6 +17,6 @@ date: 2019-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 600
+price: 2400
 mainImage: peafowl.jpg
 ---

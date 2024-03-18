@@ -2,7 +2,7 @@
 id: 421
 shopifyId: 8723270467914
 shopifyOptionId: 47772446589258
-order: 142
+order: 141
 title: Poante
 slug: poante
 url: art-works/poante

@@ -2,7 +2,7 @@
 id: 357
 shopifyId: 8723264176458
 shopifyOptionId: 47772430172490
-order: 207
+order: 206
 title: Pain
 slug: pain
 url: art-works/pain
@@ -17,6 +17,6 @@ date: 2019-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 800
+price: 3200
 mainImage: pain.jpg
 ---
