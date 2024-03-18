@@ -10,6 +10,7 @@ import (
 )
 
 var app *goshopify.App
+
 func checkErr(err error) {
 	if err != nil {
 		panic(err)
