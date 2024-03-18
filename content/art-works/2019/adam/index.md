@@ -2,7 +2,7 @@
 id: 355
 shopifyId: 8723269976394
 shopifyOptionId: 47772444885322
-order: 209
+order: 208
 title: Adam
 slug: adam
 url: art-works/adam
@@ -17,6 +17,6 @@ date: 2019-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 1500
+price: 5500
 mainImage: adam2.jpg
 ---

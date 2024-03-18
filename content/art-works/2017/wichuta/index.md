@@ -2,7 +2,7 @@
 id: 244
 shopifyId: 8723267322186
 shopifyOptionId: 47772438659402
-order: 320
+order: 319
 title: Wichuta
 slug: wichuta
 url: art-works/wichuta

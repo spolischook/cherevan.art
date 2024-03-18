@@ -2,7 +2,7 @@
 id: 62
 shopifyId: 0
 shopifyOptionId: 0
-order: 532
+order: 531
 title: Nataly
 slug: nataly
 url: art-works/nataly

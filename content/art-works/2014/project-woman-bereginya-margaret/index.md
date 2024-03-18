@@ -2,7 +2,7 @@
 id: 157
 shopifyId: 0
 shopifyOptionId: 0
-order: 408
+order: 407
 title: Project Woman Bereginya Margaret
 slug: project-woman-bereginya-margaret
 url: art-works/project-woman-bereginya-margaret
@@ -11,8 +11,8 @@ categories:
 - painting
 inStock: true
 isVisible: true
-height: 70
-width: 50
+height: 50
+width: 70
 date: 2014-01-01T00:00:00Z
 materials:
 - acrylic

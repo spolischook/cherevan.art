@@ -2,7 +2,7 @@
 id: 348
 shopifyId: 0
 shopifyOptionId: 0
-order: 216
+order: 215
 title: Double dark theory
 slug: double-dark-theory
 url: art-works/double-dark-theory
@@ -19,6 +19,6 @@ materials:
 - newspaper
 - ink
 - canvas
-price: -1
+price: 3800
 mainImage: double_dark_theory.jpeg
 ---

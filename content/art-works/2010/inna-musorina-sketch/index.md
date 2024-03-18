@@ -2,7 +2,7 @@
 id: 113
 shopifyId: 0
 shopifyOptionId: 0
-order: 481
+order: 480
 title: Inna Musorina (sketch)
 slug: inna-musorina-sketch
 url: art-works/inna-musorina-sketch

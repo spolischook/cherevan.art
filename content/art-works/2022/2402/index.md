@@ -2,14 +2,14 @@
 id: 515
 shopifyId: 8723269747018
 shopifyOptionId: 47772444393802
-order: 44
+order: 43
 title: "24.02"
 slug: "2402"
 url: art-works/2402
 aliases: []
 categories:
 - graphics
-inStock: true
+inStock: false
 isVisible: false
 height: 42
 width: 30
