@@ -12,6 +12,7 @@ type config struct {
 	ApiKey   string `env:"SHOPIFY_API_KEY,required"`
 	ApiSecret string `env:"SHOPIFY_API_SECRET,required"`
 	RedirectUrl string `env:"SHOPIFY_REDIRECT_URL,required"`
+	AccessToken string `env:"SHOPIFY_ADMIN_API_ACCESS_TOKEN,required"`
 }
 
 func Config() *config {
