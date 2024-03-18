@@ -1,7 +1,7 @@
 ---
 id: 348
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 8725100101962
+shopifyOptionId: 47779097837898
 order: 215
 title: Double dark theory
 slug: double-dark-theory
