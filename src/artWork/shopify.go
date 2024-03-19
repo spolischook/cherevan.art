@@ -42,7 +42,11 @@ func (aw ArtWork) ShopifyImage() goshopify.Image {
 func (aw ArtWork) UpdateShopifyProduct(sp *goshopify.Product) {
 	sp.Title = aw.Title
 	sp.Tags = strings.Join(aw.Categories, ", ")
-	sp.Status = "active"
+	if aw.InStock {
+		sp.Status = goshopify.ProductStatusActive
+	} else {
+		sp.Status = goshopify.ProductStatusArchived
+	}
 	size := fmt.Sprintf("%d x %d cm", aw.Width, aw.Height)
 	medium := strings.Join(aw.Materials, ", ")
 	sp.Options = []goshopify.ProductOption{
