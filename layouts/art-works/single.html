@@ -122,6 +122,8 @@
                 ];
 
                 client.checkout.addLineItems(checkout.id, lineItemsToAdd).then((checkout) => {
+                    document.getElementById('buy-button').classList.remove('hidden');
+                    document.getElementById('buy-button-process').classList.add('hidden');
                     window.location.href = checkout.webUrl;
                     // console.log(checkout.lineItems); // Array with one additional line item
                 }).catch((error) => {
