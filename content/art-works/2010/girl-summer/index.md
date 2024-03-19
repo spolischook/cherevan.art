@@ -2,7 +2,7 @@
 id: 119
 shopifyId: 0
 shopifyOptionId: 0
-order: 474
+order: 473
 title: Girl-summer
 slug: girl-summer
 url: art-works/girl-summer

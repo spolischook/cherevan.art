@@ -2,7 +2,7 @@
 id: 241
 shopifyId: 8723273941322
 shopifyOptionId: 47772454256970
-order: 322
+order: 321
 title: Jazz
 slug: jazz
 url: art-works/jazz
@@ -17,6 +17,6 @@ date: 2017-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 1000
+price: 7000
 mainImage: jazz.jpg
 ---

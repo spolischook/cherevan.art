@@ -2,7 +2,7 @@
 id: 11
 shopifyId: 8723273646410
 shopifyOptionId: 47772453503306
-order: 582
+order: 581
 title: Tea with cat
 slug: tea-with-cat
 url: art-works/tea-with-cat
@@ -17,6 +17,6 @@ date: 2016-01-01T00:00:00Z
 materials:
 - marker
 - paper
-price: 80
+price: 300
 mainImage: tea_with_cat.jpg
 ---

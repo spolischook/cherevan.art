@@ -18,6 +18,6 @@ materials:
 - ink
 - paper
 - pen
-price: 100
+price: 300
 mainImage: tricky_angel.jpg
 ---

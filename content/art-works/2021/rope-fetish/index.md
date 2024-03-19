@@ -18,6 +18,6 @@ date: 2021-01-01T00:00:00Z
 materials:
 - paper
 - pen
-price: 100
+price: 200
 mainImage: Rope_fetish.jpeg
 ---

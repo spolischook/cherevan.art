@@ -17,6 +17,6 @@ date: 2019-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 1200
+price: 2400
 mainImage: tenderness.jpg
 ---

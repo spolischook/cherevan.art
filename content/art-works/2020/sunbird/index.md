@@ -1,7 +1,7 @@
 ---
 id: 410
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 8726450995530
+shopifyOptionId: 47785144713546
 order: 151
 title: Sunbird
 slug: sunbird
@@ -17,6 +17,6 @@ date: 2020-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: -1
+price: 5000
 mainImage: sunbird_2.jpg
 ---

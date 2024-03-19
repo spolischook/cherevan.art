@@ -17,6 +17,6 @@ date: 2019-01-01T00:00:00Z
 materials:
 - ink
 - newspaper
-price: 100
+price: 240
 mainImage: children_of_the_light.jpg
 ---

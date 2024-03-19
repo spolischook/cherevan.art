@@ -19,6 +19,6 @@ materials:
 - paper
 - watercolor
 - pen
-price: 100
+price: 200
 mainImage: shibari_watercolor.jpg
 ---

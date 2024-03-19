@@ -2,7 +2,7 @@
 id: 171
 shopifyId: 8723261260106
 shopifyOptionId: 47772422701386
-order: 391
+order: 390
 title: Follow the wave
 slug: follow-the-wave
 url: art-works/follow-the-wave
@@ -17,6 +17,6 @@ date: 2015-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 600
+price: 3000
 mainImage: follow_the_wave.jpg
 ---

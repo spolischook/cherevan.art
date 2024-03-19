@@ -2,7 +2,7 @@
 id: 520
 shopifyId: 8723268731210
 shopifyOptionId: 47772442591562
-order: 452
+order: 451
 title: Will grow up my son and go on your way 2
 slug: will-grow-up-my-son-and-go-on-your-way-2
 url: art-works/will-grow-up-my-son-and-go-on-your-way-2
@@ -17,6 +17,6 @@ date: 2012-01-01T00:00:00Z
 materials:
 - acrylic
 - paper
-price: 800
+price: 3000
 mainImage: will_grow_up_my_son_and_go_on_your_way2.JPG
 ---

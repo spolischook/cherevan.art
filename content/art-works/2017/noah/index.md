@@ -2,7 +2,7 @@
 id: 246
 shopifyId: 8723262570826
 shopifyOptionId: 47772424962378
-order: 317
+order: 316
 title: Noah
 slug: noah
 url: art-works/noah
@@ -18,6 +18,6 @@ materials:
 - acrylic
 - ink
 - canvas
-price: 1500
+price: 3500
 mainImage: noah.jpg
 ---

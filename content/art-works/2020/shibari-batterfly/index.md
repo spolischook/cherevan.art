@@ -19,6 +19,6 @@ materials:
 - watercolor
 - ink
 - paper
-price: 100
+price: 200
 mainImage: shibari_butterfly.jpeg
 ---

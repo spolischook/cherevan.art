@@ -18,6 +18,6 @@ materials:
 - acrylic
 - oil
 - canvas
-price: 2400
+price: 5000
 mainImage: all_yoou_need_is_love.JPG
 ---

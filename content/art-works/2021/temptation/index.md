@@ -17,6 +17,6 @@ date: 2021-01-01T00:00:00Z
 materials:
 - paper
 - ink
-price: 150
+price: 300
 mainImage: Temptation.jpg
 ---

@@ -2,7 +2,7 @@
 id: 147
 shopifyId: 0
 shopifyOptionId: 0
-order: 444
+order: 443
 title: Two girlfriends
 slug: two-girlfriends
 url: art-works/two-girlfriends

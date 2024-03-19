@@ -2,7 +2,7 @@
 id: 70
 shopifyId: 0
 shopifyOptionId: 0
-order: 523
+order: 522
 title: Portrait of mom
 slug: portrait-of-mom
 url: art-works/portrait-of-mom

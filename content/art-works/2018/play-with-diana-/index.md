@@ -2,7 +2,7 @@
 id: 307
 shopifyId: 8723265454410
 shopifyOptionId: 47772433187146
-order: 255
+order: 254
 title: 'Play with Diana '
 slug: play-with-diana-
 url: art-works/play-with-diana-
@@ -17,6 +17,6 @@ date: 2018-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 1000
+price: 3500
 mainImage: play_with_diana.jpg
 ---

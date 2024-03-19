@@ -17,6 +17,6 @@ date: 2020-01-01T00:00:00Z
 materials:
 - paper
 - pen
-price: 80
+price: 200
 mainImage: quarantine_love_story_2.jpg
 ---

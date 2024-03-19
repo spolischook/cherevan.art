@@ -2,7 +2,7 @@
 id: 302
 shopifyId: 8723273318730
 shopifyOptionId: 47772452913482
-order: 260
+order: 259
 title: Knot play
 slug: knot-play
 url: art-works/knot-play
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - shibari
 - painting
-inStock: true
+inStock: false
 isVisible: true
 height: 60
 width: 60
@@ -19,6 +19,6 @@ materials:
 - acrylic
 - oil
 - canvas
-price: 950
+price: 1400
 mainImage: knot_play.jpg
 ---

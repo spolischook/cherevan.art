@@ -17,6 +17,6 @@ date: 2019-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 800
+price: 2500
 mainImage: for_playin_with_your_heart_acrylic.jpg
 ---

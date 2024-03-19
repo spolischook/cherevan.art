@@ -2,7 +2,7 @@
 id: 299
 shopifyId: 0
 shopifyOptionId: 0
-order: 263
+order: 262
 title: Kimber Fox
 slug: kimber-fox
 url: art-works/kimber-fox
@@ -18,6 +18,6 @@ materials:
 - acrylic
 - ink
 - canvas
-price: 1500
+price: -1
 mainImage: kimber_fox.jpg
 ---

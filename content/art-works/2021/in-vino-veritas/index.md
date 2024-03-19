@@ -18,6 +18,6 @@ materials:
 - watercolor
 - ink
 - paper
-price: 150
+price: 300
 mainImage: in_vino_veritas.jpeg
 ---

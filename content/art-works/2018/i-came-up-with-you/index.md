@@ -2,7 +2,7 @@
 id: 306
 shopifyId: 8723268108618
 shopifyOptionId: 47772440822090
-order: 256
+order: 255
 title: I came up with You
 slug: i-came-up-with-you
 url: art-works/i-came-up-with-you
@@ -19,6 +19,6 @@ materials:
 - ink
 - resin
 - canvas
-price: 1200
+price: 3500
 mainImage: i_came_up_with_you.jpg
 ---

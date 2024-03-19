@@ -2,7 +2,7 @@
 id: 172
 shopifyId: 8723267944778
 shopifyOptionId: 47772440265034
-order: 390
+order: 389
 title: Morning Roses
 slug: morning-roses
 url: art-works/morning-roses
@@ -17,6 +17,6 @@ date: 2015-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 800
+price: 5000
 mainImage: morning_roses.jpg
 ---

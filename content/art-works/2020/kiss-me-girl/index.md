@@ -18,6 +18,6 @@ materials:
 - ink
 - marker
 - paper
-price: 120
+price: 240
 mainImage: kiss_me_boy.jpg
 ---

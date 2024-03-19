@@ -2,7 +2,7 @@
 id: 131
 shopifyId: 8723273056586
 shopifyOptionId: 47772452290890
-order: 462
+order: 461
 title: Lady with Camellias
 slug: lady-with-camellias
 url: art-works/lady-with-camellias
@@ -17,6 +17,6 @@ date: 2011-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 2000
+price: 8000
 mainImage: lady_with_camellias.jpg
 ---

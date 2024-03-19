@@ -2,7 +2,7 @@
 id: 250
 shopifyId: 8723270566218
 shopifyOptionId: 47772446720330
-order: 313
+order: 312
 title: Jatamart
 slug: jatamart
 url: art-works/jatamart
@@ -18,6 +18,6 @@ materials:
 - acrylic
 - ink
 - canvas
-price: 1500
+price: 3500
 mainImage: jatamart.jpg
 ---

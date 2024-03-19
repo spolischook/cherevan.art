@@ -2,7 +2,7 @@
 id: 29
 shopifyId: 8723260309834
 shopifyOptionId: 47772421161290
-order: 564
+order: 563
 title: Fishmonger
 slug: fishmonger
 url: art-works/fishmonger
@@ -17,6 +17,6 @@ date: 2017-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 1200
+price: 4000
 mainImage: fish_seller.jpg
 ---

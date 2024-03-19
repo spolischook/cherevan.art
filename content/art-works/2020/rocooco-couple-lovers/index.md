@@ -18,6 +18,6 @@ materials:
 - paper torchon
 - watercolor
 - pen
-price: 150
+price: 300
 mainImage: rococo.jpg
 ---

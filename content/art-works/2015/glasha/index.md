@@ -2,7 +2,7 @@
 id: 174
 shopifyId: 8723261292874
 shopifyOptionId: 47772422832458
-order: 388
+order: 387
 title: Glasha
 slug: glasha
 url: art-works/glasha
@@ -18,6 +18,6 @@ materials:
 - pencil
 - marker
 - paper
-price: 400
+price: 1200
 mainImage: glasha.jpg
 ---

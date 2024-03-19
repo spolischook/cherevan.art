@@ -19,6 +19,6 @@ materials:
 - paper
 - watercolor
 - pen
-price: 50
+price: 300
 mainImage: Shibari_cooking.jpg
 ---

@@ -18,6 +18,6 @@ date: 2020-01-01T00:00:00Z
 materials:
 - ink
 - paper
-price: 100
+price: 300
 mainImage: mistress.jpg
 ---

@@ -18,6 +18,6 @@ materials:
 - ink
 - marker
 - paper
-price: 150
+price: 300
 mainImage: i-see-you-2.jpg
 ---

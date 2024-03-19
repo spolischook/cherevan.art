@@ -2,7 +2,7 @@
 id: 262
 shopifyId: 8723260997962
 shopifyOptionId: 47772422111562
-order: 300
+order: 299
 title: Plumeria, Sri Lanka
 slug: plumeria-sri-lanka
 url: art-works/plumeria-sri-lanka
@@ -17,6 +17,6 @@ date: 2017-01-01T00:00:00Z
 materials:
 - marker
 - paper
-price: 100
+price: 300
 mainImage: plumeria_sri_lanka.jpg
 ---

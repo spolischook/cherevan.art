@@ -2,7 +2,7 @@
 id: 202
 shopifyId: 8723267617098
 shopifyOptionId: 47772439576906
-order: 306
+order: 305
 title: The calm inside me
 slug: the-calm-inside-me
 url: art-works/the-calm-inside-me
@@ -17,6 +17,6 @@ date: 2017-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 1200
+price: 5200
 mainImage: the_calm_inside_me.jpg
 ---

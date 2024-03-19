@@ -2,15 +2,15 @@
 id: 34
 shopifyId: 0
 shopifyOptionId: 0
-order: 559
+order: 558
 title: Salvador Dali
 slug: salvador-dali
 url: art-works/salvador-dali
 aliases: []
 categories:
 - graphics
-inStock: true
-isVisible: true
+inStock: false
+isVisible: false
 height: 35
 width: 25
 date: 2019-01-01T00:00:00Z
