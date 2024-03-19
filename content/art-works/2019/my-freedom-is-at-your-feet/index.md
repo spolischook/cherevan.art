@@ -17,6 +17,6 @@ date: 2019-01-01T00:00:00Z
 materials:
 - ink
 - paper
-price: 100
+price: -1
 mainImage: my_freedom_is_at_your_feet.jpg
 ---

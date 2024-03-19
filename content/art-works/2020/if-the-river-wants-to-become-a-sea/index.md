@@ -17,6 +17,6 @@ date: 2020-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 800
+price: 2500
 mainImage: if_the_river_wants_to_become_a_sea.jpg
 ---

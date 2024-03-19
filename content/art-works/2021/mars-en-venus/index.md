@@ -17,6 +17,6 @@ date: 2021-01-01T00:00:00Z
 materials:
 - paper
 - watercolor
-price: 80
+price: 200
 mainImage: mars_en_venus.jpeg
 ---

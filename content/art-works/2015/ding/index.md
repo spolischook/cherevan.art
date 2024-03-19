@@ -1,8 +1,8 @@
 ---
 id: 167
-shopifyId: 0
-shopifyOptionId: 0
-order: 395
+shopifyId: 8726450766154
+shopifyOptionId: 47785143894346
+order: 394
 title: Ding
 slug: ding
 url: art-works/ding
@@ -17,6 +17,6 @@ date: 2015-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: -1
+price: 3000
 mainImage: ding.jpg
 ---

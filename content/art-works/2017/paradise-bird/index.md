@@ -2,7 +2,7 @@
 id: 31
 shopifyId: 8723271811402
 shopifyOptionId: 47772449341770
-order: 562
+order: 561
 title: Paradise bird
 slug: paradise-bird
 url: art-works/paradise-bird
@@ -17,6 +17,6 @@ date: 2017-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 600
+price: 2200
 mainImage: paradise_bird.jpg
 ---

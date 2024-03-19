@@ -18,6 +18,6 @@ materials:
 - paper
 - watercolor
 - pen
-price: 100
+price: 200
 mainImage: cappadocia-valley-2.jpg
 ---

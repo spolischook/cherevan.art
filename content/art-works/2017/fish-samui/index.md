@@ -1,8 +1,8 @@
 ---
 id: 215
-shopifyId: 0
-shopifyOptionId: 0
-order: 348
+shopifyId: 8726451650890
+shopifyOptionId: 47785147236682
+order: 347
 title: Fish Samui
 slug: fish-samui
 url: art-works/fish-samui
@@ -19,6 +19,6 @@ materials:
 - marker
 - paper
 - watercolor
-price: -1
+price: 2000
 mainImage: samui_fish.jpg
 ---

@@ -17,6 +17,6 @@ date: 2019-01-01T00:00:00Z
 materials:
 - ink
 - paper
-price: 150
+price: 300
 mainImage: lowliness.jpg
 ---

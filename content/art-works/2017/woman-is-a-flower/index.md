@@ -1,8 +1,8 @@
 ---
 id: 10
-shopifyId: 0
-shopifyOptionId: 0
-order: 583
+shopifyId: 8726450831690
+shopifyOptionId: 47785144090954
+order: 582
 title: Woman is a flower
 slug: woman-is-a-flower
 url: art-works/woman-is-a-flower
@@ -18,6 +18,6 @@ materials:
 - marker
 - paper
 - watercolor
-price: -1
+price: 300
 mainImage: woman_is_a_flower.jpg
 ---

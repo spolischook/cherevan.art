@@ -18,6 +18,6 @@ materials:
 - paper
 - watercolor
 - pen
-price: 150
+price: 300
 mainImage: spider_woman.jpg
 ---

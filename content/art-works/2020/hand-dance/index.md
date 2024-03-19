@@ -17,6 +17,6 @@ date: 2020-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 1600
+price: 4500
 mainImage: hand_dance.jpg
 ---

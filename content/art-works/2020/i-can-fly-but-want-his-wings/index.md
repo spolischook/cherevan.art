@@ -17,6 +17,6 @@ date: 2020-01-01T00:00:00Z
 materials:
 - ink
 - paper
-price: 80
+price: 200
 mainImage: i_can_fly_but_want_his_wings.jpg
 ---

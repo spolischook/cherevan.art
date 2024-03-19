@@ -2,7 +2,7 @@
 id: 264
 shopifyId: 8723264799050
 shopifyOptionId: 47772432007498
-order: 298
+order: 297
 title: Shibari sketch 5
 slug: shibari-sketch-5
 url: art-works/shibari-sketch-5
@@ -19,6 +19,6 @@ materials:
 - marker
 - watercolor
 - paper
-price: 100
+price: 250
 mainImage: shibari_sketch-5.jpg
 ---

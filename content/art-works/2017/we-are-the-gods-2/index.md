@@ -2,7 +2,7 @@
 id: 243
 shopifyId: 8723264045386
 shopifyOptionId: 47772429910346
-order: 320
+order: 319
 title: We are the Gods 2
 slug: we-are-the-gods-2
 url: art-works/we-are-the-gods-2
@@ -18,6 +18,6 @@ materials:
 - acrylic
 - ink
 - canvas
-price: 1500
+price: 6000
 mainImage: we_are_the_gods_2.jpg
 ---

@@ -18,6 +18,6 @@ materials:
 - acrylic
 - oil
 - canvas
-price: 2000
+price: 3300
 mainImage: there_stars_meet_the_sky.jpg
 ---

@@ -2,7 +2,7 @@
 id: 193
 shopifyId: 0
 shopifyOptionId: 0
-order: 369
+order: 368
 title: Love in the gondola
 slug: love-in-the-gondola
 url: art-works/love-in-the-gondola
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - graphics
 inStock: false
-isVisible: true
+isVisible: false
 height: 30
 width: 21
 date: 2016-01-01T00:00:00Z

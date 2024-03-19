@@ -17,6 +17,6 @@ date: 2023-01-01T00:00:00Z
 materials:
 - ink
 - paper
-price: 350
+price: 420
 mainImage: delicious_apple.jpeg
 ---

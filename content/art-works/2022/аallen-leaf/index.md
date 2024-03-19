@@ -9,6 +9,7 @@ url: art-works/fallen-leaf
 aliases:
 - art-works/fallen-leaf
 categories:
+- shibari
 - painting
 inStock: false
 isVisible: true

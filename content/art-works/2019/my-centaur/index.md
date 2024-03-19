@@ -17,6 +17,6 @@ date: 2019-01-01T00:00:00Z
 materials:
 - watercolor
 - paper
-price: 100
+price: 200
 mainImage: my_centaur.jpg
 ---

@@ -1,8 +1,8 @@
 ---
 id: 170
-shopifyId: 0
-shopifyOptionId: 0
-order: 392
+shopifyId: 8726450471242
+shopifyOptionId: 47785142092106
+order: 391
 title: Lost
 slug: lost
 url: art-works/lost
@@ -17,6 +17,6 @@ date: 2015-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: -1
+price: 8000
 mainImage: lost.jpg
 ---

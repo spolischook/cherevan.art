@@ -2,7 +2,7 @@
 id: 179
 shopifyId: 8723275383114
 shopifyOptionId: 47772456976714
-order: 383
+order: 382
 title: A breath of rose
 slug: a-breath-of-rose
 url: art-works/a-breath-of-rose
@@ -19,6 +19,6 @@ materials:
 - ink
 - pencil
 - canvas
-price: 1300
+price: 3000
 mainImage: a_breath_of_rose.jpg
 ---

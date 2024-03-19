@@ -2,7 +2,7 @@
 id: 244
 shopifyId: 8723267322186
 shopifyOptionId: 47772438659402
-order: 319
+order: 318
 title: Wichuta
 slug: wichuta
 url: art-works/wichuta
@@ -18,6 +18,6 @@ materials:
 - acrylic
 - ink
 - canvas
-price: 1200
+price: 3500
 mainImage: wichuta.jpg
 ---

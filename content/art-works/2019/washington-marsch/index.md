@@ -1,7 +1,7 @@
 ---
 id: 343
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 8726451355978
+shopifyOptionId: 47785146483018
 order: 220
 title: washington marsch
 slug: washington-marsch
@@ -17,6 +17,6 @@ date: 2019-01-01T00:00:00Z
 materials:
 - antique notes
 - ink
-price: -1
+price: 250
 mainImage: washington_marsch.jpg
 ---

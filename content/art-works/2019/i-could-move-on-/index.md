@@ -18,6 +18,6 @@ materials:
 - ink
 - paper
 - pen
-price: 100
+price: 300
 mainImage: i_could_move_on.jpg
 ---

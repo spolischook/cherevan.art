@@ -2,7 +2,7 @@
 id: 305
 shopifyId: 8723275088202
 shopifyOptionId: 47772456616266
-order: 257
+order: 256
 title: I am freezing
 slug: i-am-freezing
 url: art-works/i-am-freezing
@@ -19,6 +19,6 @@ materials:
 - ink
 - resin
 - canvas
-price: 1200
+price: 3500
 mainImage: i_am_freezing.jpg
 ---

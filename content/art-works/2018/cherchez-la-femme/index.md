@@ -2,7 +2,7 @@
 id: 297
 shopifyId: 8723267256650
 shopifyOptionId: 47772438593866
-order: 265
+order: 264
 title: Cherchez la femme
 slug: cherchez-la-femme
 url: art-works/cherchez-la-femme
@@ -18,6 +18,6 @@ materials:
 - acrylic
 - ink
 - canvas
-price: 1500
+price: 4200
 mainImage: cherchez_la_femme.jpg
 ---

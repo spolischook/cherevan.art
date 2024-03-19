@@ -2,7 +2,7 @@
 id: 182
 shopifyId: 8723269812554
 shopifyOptionId: 47772444557642
-order: 380
+order: 379
 title: Pelli
 slug: pelli
 url: art-works/pelli
@@ -17,6 +17,6 @@ date: 2016-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 1000
+price: 2600
 mainImage: pelli.jpg
 ---

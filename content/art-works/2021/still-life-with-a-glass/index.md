@@ -18,6 +18,6 @@ materials:
 - acrylic
 - oil
 - canvas
-price: 2000
+price: 3000
 mainImage: still_life_with_a_glass.jpg
 ---

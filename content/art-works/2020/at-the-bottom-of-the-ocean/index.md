@@ -17,6 +17,6 @@ date: 2020-01-01T00:00:00Z
 materials:
 - ink
 - paper
-price: 100
+price: 200
 mainImage: at_the_bottom_of_the_ocean.jpg
 ---

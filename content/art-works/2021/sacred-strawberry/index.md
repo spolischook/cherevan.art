@@ -18,6 +18,6 @@ materials:
 - acrylic
 - oil
 - canvas
-price: 1000
+price: 3000
 mainImage: sacred_strawberry.JPG
 ---

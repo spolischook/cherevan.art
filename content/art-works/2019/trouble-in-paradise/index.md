@@ -17,6 +17,6 @@ date: 2019-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 300
+price: 600
 mainImage: trouble_in_paradaise_1.jpg
 ---

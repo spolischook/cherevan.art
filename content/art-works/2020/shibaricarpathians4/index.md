@@ -1,7 +1,7 @@
 ---
 id: 449
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 8726451061066
+shopifyOptionId: 47785145172298
 order: 113
 title: shibari_carpathians_4
 slug: shibaricarpathians4
@@ -18,6 +18,6 @@ date: 2020-01-01T00:00:00Z
 materials:
 - watercolor
 - paper
-price: -1
+price: 200
 mainImage: shibari_carpathians_4.jpg
 ---

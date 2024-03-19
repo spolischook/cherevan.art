@@ -2,7 +2,7 @@
 id: 248
 shopifyId: 8723274727754
 shopifyOptionId: 47772455960906
-order: 315
+order: 314
 title: Tantira
 slug: tantira
 url: art-works/tantira
@@ -18,6 +18,6 @@ materials:
 - acrylic
 - ink
 - canvas
-price: 1500
+price: 3500
 mainImage: tantira.jpg
 ---

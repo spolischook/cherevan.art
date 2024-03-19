@@ -9,7 +9,7 @@ url: art-works/golden-rain
 aliases: []
 categories:
 - graphics
-inStock: true
+inStock: false
 isVisible: false
 height: 70
 width: 50

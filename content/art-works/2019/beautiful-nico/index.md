@@ -17,6 +17,6 @@ date: 2019-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 2500
+price: 3000
 mainImage: nico.jpg
 ---

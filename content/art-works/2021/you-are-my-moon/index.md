@@ -17,6 +17,6 @@ date: 2021-01-01T00:00:00Z
 materials:
 - ink
 - paper
-price: 100
+price: 200
 mainImage: you_are_my_moon.jpg
 ---

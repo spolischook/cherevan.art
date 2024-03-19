@@ -2,7 +2,7 @@
 id: 256
 shopifyId: 8723265323338
 shopifyOptionId: 47772433023306
-order: 307
+order: 306
 title: Shibari 2
 slug: shibari-2
 url: art-works/shibari-2
@@ -19,6 +19,6 @@ materials:
 - oil
 - acrylic
 - canvas
-price: 2000
+price: 6000
 mainImage: shibari_2_with_line.jpg
 ---

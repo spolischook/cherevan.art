@@ -18,6 +18,6 @@ date: 2021-01-01T00:00:00Z
 materials:
 - paper
 - ballpoint pen
-price: 150
+price: 300
 mainImage: wolf_rope.jpg
 ---

@@ -20,6 +20,6 @@ materials:
 - ' acrylic'
 - ' gold leaf'
 - ' canvas'
-price: 6000
+price: 8000
 mainImage: souls_touch.JPG
 ---

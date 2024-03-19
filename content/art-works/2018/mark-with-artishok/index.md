@@ -9,7 +9,7 @@ url: art-works/mark-with-artishok
 aliases: []
 categories:
 - graphics
-inStock: true
+inStock: false
 isVisible: false
 height: 70
 width: 50

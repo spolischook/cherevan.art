@@ -18,6 +18,6 @@ materials:
 - acrylic
 - oil
 - canvas
-price: 2200
+price: 3500
 mainImage: alone_with_you.JPG
 ---

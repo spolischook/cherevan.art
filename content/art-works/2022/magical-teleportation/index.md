@@ -17,6 +17,6 @@ date: 2022-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 3500
+price: 4000
 mainImage: magical_teleportation_2022.JPG
 ---

@@ -1,8 +1,8 @@
 ---
 id: 144
-shopifyId: 0
-shopifyOptionId: 0
-order: 447
+shopifyId: 8726451618122
+shopifyOptionId: 47785147072842
+order: 446
 title: I'll give you flowers
 slug: ill-give-you-flowers
 url: art-works/ill-give-you-flowers
@@ -17,6 +17,6 @@ date: 2013-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: -1
+price: 3000
 mainImage: i_will_give_you_flowers.jpg
 ---

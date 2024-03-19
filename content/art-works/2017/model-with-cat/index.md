@@ -2,7 +2,7 @@
 id: 261
 shopifyId: 8723274039626
 shopifyOptionId: 47772454781258
-order: 301
+order: 300
 title: Model with cat
 slug: model-with-cat
 url: art-works/model-with-cat
@@ -17,6 +17,6 @@ date: 2017-01-01T00:00:00Z
 materials:
 - ink
 - paper
-price: 150
+price: 300
 mainImage: model_with_cat.jpg
 ---

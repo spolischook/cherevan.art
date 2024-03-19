@@ -17,6 +17,6 @@ date: 2020-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 3500
+price: 3000
 mainImage: endangered_species.jpg
 ---
