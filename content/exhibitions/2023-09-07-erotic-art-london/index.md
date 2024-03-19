@@ -9,3 +9,5 @@ eventDate: 2023-09-07 18:00:00
 afisha: "2023-erotic-art-london-afisha.jpg"
 tags: ["exhibition", "group exhibition", "essential"]
 ---
+
+{{< gallery match="opening/*" sortOrder="asc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
