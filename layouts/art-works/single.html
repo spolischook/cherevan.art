@@ -99,22 +99,20 @@
         let unavailableToBuyButton = document.getElementById('unavailable-to-buy-button');
         let buyButtonProcess = document.getElementById('buy-button-process');
 
-        document.addEventListener('DOMContentLoaded', function() {
-            buyButton.classList.add('hidden');
-            buyButtonProcess.classList.add('hidden');
+        buyButton.classList.add('hidden');
+        buyButtonProcess.classList.add('hidden');
 
-            const productId = '{{ (printf "gid://shopify/Product/%d" .Params.shopifyId) | base64Encode }}';
-            client.product.fetch(productId).then((product) => {
-                let available = false;
-                buyButtonSpinner.classList.add('hidden');
+        const productId = '{{ (printf "gid://shopify/Product/%d" .Params.shopifyId) | base64Encode }}';
+        client.product.fetch(productId).then((product) => {
+            let available = false;
+            buyButtonSpinner.classList.add('hidden');
 
-                if (!product) { unavailableToBuyButton.classList.remove('hidden'); return; }
-                if (!product.variants) { unavailableToBuyButton.classList.remove('hidden'); return; }
-                if (!product.variants[0].available) { unavailableToBuyButton.classList.remove('hidden'); return; }
+            if (!product) { unavailableToBuyButton.classList.remove('hidden'); return; }
+            if (!product.variants) { unavailableToBuyButton.classList.remove('hidden'); return; }
+            if (!product.variants[0].available) { unavailableToBuyButton.classList.remove('hidden'); return; }
 
-                buyButton.classList.remove('hidden');
-            });
-        }, false);
+            buyButton.classList.remove('hidden');
+        });
 
         buyButton.addEventListener('click', function() {
             buyButton.classList.add('hidden');
