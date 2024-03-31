@@ -2,7 +2,7 @@
 id: 259
 shopifyId: 0
 shopifyOptionId: 0
-order: 302
+order: 303
 title: Venice on the window
 slug: venice-on-the-window
 url: art-works/venice-on-the-window

@@ -2,7 +2,7 @@
 id: 361
 shopifyId: 8723267027274
 shopifyOptionId: 47772438069578
-order: 202
+order: 203
 title: Shell
 slug: shell
 url: art-works/shell
@@ -17,6 +17,6 @@ date: 2019-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 3000
+price: 3200
 mainImage: shell.jpg
 ---

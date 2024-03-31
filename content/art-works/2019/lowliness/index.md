@@ -2,7 +2,7 @@
 id: 398
 shopifyId: 0
 shopifyOptionId: 0
-order: 164
+order: 165
 title: Lowliness
 slug: lowliness
 url: art-works/lowliness

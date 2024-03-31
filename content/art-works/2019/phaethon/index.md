@@ -2,7 +2,7 @@
 id: 359
 shopifyId: 8723264274762
 shopifyOptionId: 47772430369098
-order: 204
+order: 205
 title: Phaethon
 slug: phaethon
 url: art-works/phaethon
@@ -17,6 +17,6 @@ date: 2019-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 3000
+price: 3200
 mainImage: phaethon.jpg
 ---
