@@ -2,7 +2,7 @@
 id: 464
 shopifyId: 8723268501834
 shopifyOptionId: 47772441641290
-order: 98
+order: 99
 title: Shibari cooking
 slug: shibari-cooking
 url: art-works/shibari-cooking

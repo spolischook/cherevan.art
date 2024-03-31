@@ -2,7 +2,7 @@
 id: 531
 shopifyId: 8723267158346
 shopifyOptionId: 47772438495562
-order: 23
+order: 24
 title: Movement
 slug: movement
 url: art-works/movement

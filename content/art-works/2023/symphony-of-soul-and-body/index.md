@@ -2,7 +2,7 @@
 id: 592
 shopifyId: 8723269779786
 shopifyOptionId: 47772444459338
-order: 10
+order: 11
 title: Symphony of soul and body
 slug: symphony-of-soul-and-body
 url: art-works/symphony-of-soul-and-body
@@ -18,6 +18,6 @@ materials:
 - ink
 - ' gold leaf'
 - ' paper'
-price: 550
+price: 850
 mainImage: symphony_of_Soul_and_Body1.jpg
 ---

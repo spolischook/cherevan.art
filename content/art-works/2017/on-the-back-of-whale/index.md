@@ -2,7 +2,7 @@
 id: 7
 shopifyId: 0
 shopifyOptionId: 0
-order: 585
+order: 586
 title: On the back of whale
 slug: on-the-back-of-whale
 url: art-works/on-the-back-of-whale

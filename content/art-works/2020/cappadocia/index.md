@@ -2,7 +2,7 @@
 id: 466
 shopifyId: 8723261718858
 shopifyOptionId: 47772423389514
-order: 96
+order: 97
 title: Cappadocia
 slug: cappadocia
 url: art-works/cappadocia

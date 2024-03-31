@@ -2,7 +2,7 @@
 id: 476
 shopifyId: 8723272892746
 shopifyOptionId: 47772451897674
-order: 86
+order: 87
 title: You are only in my dreams
 slug: you-are-only-in-my-dreams
 url: art-works/you-are-only-in-my-dreams
@@ -18,6 +18,6 @@ materials:
 - acrylic
 - oil
 - canvas
-price: 6000
+price: 6300
 mainImage: you_are_only_in_my _reams.JPG
 ---
