@@ -2,7 +2,7 @@
 id: 201
 shopifyId: 0
 shopifyOptionId: 0
-order: 361
+order: 363
 title: Artichoke Spanish
 slug: artichoke-spanish
 url: art-works/artichoke-spanish
@@ -17,6 +17,6 @@ date: 2017-01-01T00:00:00Z
 materials:
 - marker
 - paper
-price: 150
+price: 200
 mainImage: artichoke_spanish.jpg
 ---

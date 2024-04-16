@@ -2,7 +2,7 @@
 id: 237
 shopifyId: 8723262079306
 shopifyOptionId: 47772423979338
-order: 326
+order: 328
 title: Sunset, Koh Samui
 slug: sunset-koh-samui
 url: art-works/sunset-koh-samui
@@ -17,6 +17,6 @@ date: 2017-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 150
+price: 300
 mainImage: sunsen_koh_samui_1.jpg
 ---

@@ -2,7 +2,7 @@
 id: 461
 shopifyId: 0
 shopifyOptionId: 0
-order: 102
+order: 104
 title: sphinx cat
 slug: sphinx-cat
 url: art-works/sphinx-cat
@@ -17,6 +17,6 @@ date: 2020-01-01T00:00:00Z
 materials:
 - ink
 - paper
-price: 120
+price: 200
 mainImage: sphinx-woman-shibari.jpg
 ---

@@ -2,7 +2,7 @@
 id: 281
 shopifyId: 8723268043082
 shopifyOptionId: 47772440363338
-order: 281
+order: 283
 title: Banana flower
 slug: banana-flower
 url: art-works/banana-flower
@@ -19,6 +19,6 @@ materials:
 - ink
 - marker
 - paper
-price: 150
+price: 200
 mainImage: banana_flower.jpg
 ---

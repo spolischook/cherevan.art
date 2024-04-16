@@ -2,7 +2,7 @@
 id: 261
 shopifyId: 8723274039626
 shopifyOptionId: 47772454781258
-order: 301
+order: 303
 title: Model with cat
 slug: model-with-cat
 url: art-works/model-with-cat

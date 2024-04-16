@@ -2,7 +2,7 @@
 id: 259
 shopifyId: 0
 shopifyOptionId: 0
-order: 303
+order: 305
 title: Venice on the window
 slug: venice-on-the-window
 url: art-works/venice-on-the-window
@@ -17,6 +17,6 @@ date: 2017-01-01T00:00:00Z
 materials:
 - marker
 - paper
-price: 150
+price: 200
 mainImage: venice_on_the_window.jpg
 ---

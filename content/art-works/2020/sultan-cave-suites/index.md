@@ -2,7 +2,7 @@
 id: 465
 shopifyId: 8723271516490
 shopifyOptionId: 47772448751946
-order: 98
+order: 100
 title: Sultan Cave suites
 slug: sultan-cave-suites
 url: art-works/sultan-cave-suites
@@ -18,6 +18,6 @@ materials:
 - paper
 - watercolor
 - pen
-price: 100
+price: 200
 mainImage: sultan_cave_suites.jpg
 ---

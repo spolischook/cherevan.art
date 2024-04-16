@@ -2,7 +2,7 @@
 id: 499
 shopifyId: 8725100822858
 shopifyOptionId: 47779108028746
-order: 63
+order: 65
 title: Wild grape
 slug: wild-grape
 url: art-works/wild-grape

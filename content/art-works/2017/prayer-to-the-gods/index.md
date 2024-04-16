@@ -2,7 +2,7 @@
 id: 225
 shopifyId: 0
 shopifyOptionId: 0
-order: 338
+order: 340
 title: Prayer to the Gods
 slug: prayer-to-the-gods
 url: art-works/prayer-to-the-gods
@@ -18,6 +18,6 @@ materials:
 - pen
 - paper
 - tea
-price: 150
+price: 200
 mainImage: prayer_to_the_gods.jpg
 ---

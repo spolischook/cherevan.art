@@ -2,7 +2,7 @@
 id: 192
 shopifyId: 8723263029578
 shopifyOptionId: 47772426076490
-order: 370
+order: 372
 title: Lotos
 slug: lotos
 url: art-works/lotos

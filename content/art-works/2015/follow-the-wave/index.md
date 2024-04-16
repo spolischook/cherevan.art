@@ -2,7 +2,7 @@
 id: 171
 shopifyId: 8723261260106
 shopifyOptionId: 47772422701386
-order: 391
+order: 393
 title: Follow the wave
 slug: follow-the-wave
 url: art-works/follow-the-wave

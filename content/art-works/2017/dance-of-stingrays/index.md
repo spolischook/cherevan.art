@@ -2,7 +2,7 @@
 id: 226
 shopifyId: 8723265978698
 shopifyOptionId: 47772435022154
-order: 337
+order: 339
 title: Dance of stingrays
 slug: dance-of-stingrays
 url: art-works/dance-of-stingrays
@@ -18,6 +18,6 @@ materials:
 - pen
 - marker
 - paper
-price: 150
+price: 200
 mainImage: batoidea_dance.jpg
 ---

@@ -2,7 +2,7 @@
 id: 230
 shopifyId: 8723269550410
 shopifyOptionId: 47772444098890
-order: 333
+order: 335
 title: Tea collectors
 slug: tea-collectors
 url: art-works/tea-collectors
@@ -18,6 +18,6 @@ materials:
 - acrylic
 - tea
 - canvas
-price: 150
+price: -1
 mainImage: tea_collectors.jpg
 ---

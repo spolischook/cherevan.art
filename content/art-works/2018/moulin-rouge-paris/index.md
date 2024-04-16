@@ -2,7 +2,7 @@
 id: 272
 shopifyId: 0
 shopifyOptionId: 0
-order: 290
+order: 292
 title: Moulin Rouge, Paris
 slug: moulin-rouge-paris
 url: art-works/moulin-rouge-paris
@@ -18,6 +18,6 @@ materials:
 - watercolor
 - marker
 - paper
-price: 150
+price: 200
 mainImage: moulin_rouge.jpg
 ---

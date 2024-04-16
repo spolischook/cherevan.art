@@ -2,7 +2,7 @@
 id: 210
 shopifyId: 8723263750474
 shopifyOptionId: 47772428697930
-order: 353
+order: 355
 title: Acai palm
 slug: acai-palm
 url: art-works/acai-palm
@@ -18,6 +18,6 @@ materials:
 - ink
 - marker
 - paper
-price: 150
+price: 200
 mainImage: acai_palm_thailand.jpg
 ---

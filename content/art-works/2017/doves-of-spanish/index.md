@@ -2,7 +2,7 @@
 id: 200
 shopifyId: 8723260277066
 shopifyOptionId: 47772419424586
-order: 362
+order: 364
 title: Doves of Spanish
 slug: doves-of-spanish
 url: art-works/doves-of-spanish
@@ -18,6 +18,6 @@ materials:
 - ink
 - marker
 - paper
-price: 150
+price: 200
 mainImage: doves_of_spanish.jpg
 ---

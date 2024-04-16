@@ -2,7 +2,7 @@
 id: 462
 shopifyId: 8723267780938
 shopifyOptionId: 47772440133962
-order: 101
+order: 103
 title: Matcha latte
 slug: matcha-latte
 url: art-works/matcha-latte
@@ -18,6 +18,6 @@ materials:
 - paper
 - watercolor
 - pen
-price: 120
+price: 200
 mainImage: matcha_latte.jpeg
 ---

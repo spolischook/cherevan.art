@@ -2,7 +2,7 @@
 id: 373
 shopifyId: 0
 shopifyOptionId: 0
-order: 191
+order: 193
 title: Satisfaction
 slug: satisfaction
 url: art-works/satisfaction
@@ -17,6 +17,6 @@ date: 2019-01-01T00:00:00Z
 materials:
 - ink
 - paper
-price: 100
+price: 200
 mainImage: satisfaction.jpg
 ---

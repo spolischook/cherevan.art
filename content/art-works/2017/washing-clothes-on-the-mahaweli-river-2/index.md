@@ -2,7 +2,7 @@
 id: 232
 shopifyId: 0
 shopifyOptionId: 0
-order: 331
+order: 333
 title: Washing clothes on the Mahaweli river 2
 slug: washing-clothes-on-the-mahaweli-river-2
 url: art-works/washing-clothes-on-the-mahaweli-river-2
@@ -18,6 +18,6 @@ materials:
 - acrylic
 - tea
 - canvas
-price: 150
+price: 300
 mainImage: washing_clothes_on_the_mahaweli_river_2.jpg
 ---

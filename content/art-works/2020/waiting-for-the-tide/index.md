@@ -2,7 +2,7 @@
 id: 424
 shopifyId: 8723265388874
 shopifyOptionId: 47772433121610
-order: 139
+order: 141
 title: Waiting for the tide
 slug: waiting-for-the-tide
 url: art-works/waiting-for-the-tide
@@ -18,6 +18,6 @@ materials:
 - paper
 - ink
 - marker
-price: 100
+price: 200
 mainImage: waiting_for_the_tide.jpg
 ---

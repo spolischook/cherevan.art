@@ -2,7 +2,7 @@
 id: 196
 shopifyId: 8723260768586
 shopifyOptionId: 47772421783882
-order: 366
+order: 368
 title: Venezia-Castello
 slug: venezia-castello
 url: art-works/venezia-castello
@@ -17,6 +17,6 @@ date: 2016-01-01T00:00:00Z
 materials:
 - pen
 - paper
-price: 150
+price: 200
 mainImage: venecia_castello.jpg
 ---

@@ -2,7 +2,7 @@
 id: 576
 shopifyId: 0
 shopifyOptionId: 0
-order: 53
+order: 55
 title: Essence of shibari
 slug: essence-of-shibari
 url: art-works/essence-of-shibari

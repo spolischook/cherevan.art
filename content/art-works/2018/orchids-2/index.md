@@ -2,7 +2,7 @@
 id: 283
 shopifyId: 8723261882698
 shopifyOptionId: 47772423684426
-order: 279
+order: 281
 title: Orchids 2
 slug: orchids-2
 url: art-works/orchids-2
@@ -18,6 +18,6 @@ materials:
 - watercolor
 - ink
 - paper
-price: 150
+price: 200
 mainImage: orchids_ink_2018.jpg
 ---
