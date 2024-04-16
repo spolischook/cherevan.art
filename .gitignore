@@ -37,6 +37,7 @@ _gen
 google_secret.json
 google_token.json
 inventory.csv
+fbArtworks.csv
 
 # exceed git LFS size limit
 content/exhibitions/2017-11-25-barcelona-graffiti-festival/opening/IMG_0976.mov
