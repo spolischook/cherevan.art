@@ -2,7 +2,7 @@
 id: 203
 shopifyId: 8723268403530
 shopifyOptionId: 47772441542986
-order: 360
+order: 362
 title: Morning on the Koh Phangan
 slug: morning-on-the-koh-phangan
 url: art-works/morning-on-the-koh-phangan
@@ -17,6 +17,6 @@ date: 2017-01-01T00:00:00Z
 materials:
 - ink
 - paper
-price: 150
+price: 200
 mainImage: morning_on_the_koh_phangan.jpg
 ---

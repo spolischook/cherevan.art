@@ -2,14 +2,14 @@
 id: 325
 shopifyId: 8723274465610
 shopifyOptionId: 47772455600458
-order: 238
+order: 240
 title: Misha and Lisa
 slug: misha-and-lisa
 url: art-works/misha-and-lisa
 aliases: []
 categories:
 - graphics
-inStock: true
+inStock: false
 isVisible: false
 height: 30
 width: 21
@@ -18,6 +18,6 @@ materials:
 - pen
 - watercolor
 - paper
-price: 100
+price: 200
 mainImage: misha_and_lisa.jpg
 ---

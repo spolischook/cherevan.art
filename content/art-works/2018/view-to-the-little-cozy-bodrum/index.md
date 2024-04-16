@@ -2,7 +2,7 @@
 id: 322
 shopifyId: 8723271024970
 shopifyOptionId: 47772447670602
-order: 241
+order: 243
 title: View to the little cozy Bodrum
 slug: view-to-the-little-cozy-bodrum
 url: art-works/view-to-the-little-cozy-bodrum
@@ -18,6 +18,6 @@ materials:
 - pen
 - marker
 - paper
-price: 150
+price: 300
 mainImage: view_to_the_little_cozy_bodrum.jpg
 ---

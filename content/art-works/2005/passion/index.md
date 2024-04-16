@@ -2,7 +2,7 @@
 id: 45
 shopifyId: 0
 shopifyOptionId: 0
-order: 548
+order: 550
 title: Passion
 slug: passion
 url: art-works/passion

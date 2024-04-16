@@ -2,7 +2,7 @@
 id: 423
 shopifyId: 8723262832970
 shopifyOptionId: 47772425421130
-order: 140
+order: 142
 title: Blue wings
 slug: blue-wings
 url: art-works/blue-wings
@@ -18,6 +18,6 @@ materials:
 - watercolor
 - paper
 - marker
-price: 100
+price: 200
 mainImage: blue_wing.jpg
 ---

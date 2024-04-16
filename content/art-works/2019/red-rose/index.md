@@ -2,7 +2,7 @@
 id: 350
 shopifyId: 0
 shopifyOptionId: 0
-order: 214
+order: 216
 title: Red rose
 slug: red-rose
 url: art-works/red-rose
@@ -17,6 +17,6 @@ date: 2019-01-01T00:00:00Z
 materials:
 - ink
 - paper
-price: 100
+price: 200
 mainImage: redrose1.jpg
 ---

@@ -2,7 +2,7 @@
 id: 326
 shopifyId: 8723261063498
 shopifyOptionId: 47772422209866
-order: 237
+order: 239
 title: Kindred spirits
 slug: kindred-spirits
 url: art-works/kindred-spirits
@@ -18,6 +18,6 @@ materials:
 - ink
 - watercolor
 - paper
-price: 100
+price: 200
 mainImage: kindred_spirits.jpg
 ---

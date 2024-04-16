@@ -2,7 +2,7 @@
 id: 240
 shopifyId: 0
 shopifyOptionId: 0
-order: 323
+order: 325
 title: Thai girl
 slug: thai-girl
 url: art-works/thai-girl
@@ -17,6 +17,6 @@ date: 2017-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 150
+price: 300
 mainImage: thai_girl.jpg
 ---

@@ -2,7 +2,7 @@
 id: 186
 shopifyId: 8723271352650
 shopifyOptionId: 47772448424266
-order: 376
+order: 378
 title: Self portrait 2016
 slug: self-portrait-2016
 url: art-works/self-portrait-2016
@@ -17,6 +17,6 @@ date: 2016-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 150
+price: 300
 mainImage: seif_portrait_greece.JPG
 ---

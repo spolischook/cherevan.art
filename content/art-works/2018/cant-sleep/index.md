@@ -2,7 +2,7 @@
 id: 317
 shopifyId: 8723262701898
 shopifyOptionId: 47772425060682
-order: 246
+order: 248
 title: Can't sleep
 slug: cant-sleep
 url: art-works/cant-sleep
@@ -17,6 +17,6 @@ date: 2018-01-01T00:00:00Z
 materials:
 - marker
 - paper
-price: 150
+price: 200
 mainImage: cant_sleep.jpg
 ---

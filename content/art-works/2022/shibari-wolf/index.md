@@ -2,7 +2,7 @@
 id: 532
 shopifyId: 8723271778634
 shopifyOptionId: 47772449276234
-order: 23
+order: 24
 title: Shibari wolf
 slug: shibari-wolf
 url: art-works/shibari-wolf

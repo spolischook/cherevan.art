@@ -2,7 +2,7 @@
 id: 252
 shopifyId: 8723259916618
 shopifyOptionId: 47772418736458
-order: 311
+order: 313
 title: Master of Shibari
 slug: master-of-shibari
 url: art-works/master-of-shibari
@@ -18,6 +18,6 @@ date: 2017-01-01T00:00:00Z
 materials:
 - ink
 - paper
-price: 150
+price: 200
 mainImage: master_of_shibari.jpg
 ---

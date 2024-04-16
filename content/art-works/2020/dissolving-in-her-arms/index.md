@@ -2,7 +2,7 @@
 id: 422
 shopifyId: 0
 shopifyOptionId: 0
-order: 141
+order: 143
 title: Dissolving in her arms
 slug: dissolving-in-her-arms
 url: art-works/dissolving-in-her-arms
@@ -17,6 +17,6 @@ date: 2020-01-01T00:00:00Z
 materials:
 - watercolor
 - paper
-price: 100
+price: 200
 mainImage: dissolving-in-her-arms.jpg
 ---

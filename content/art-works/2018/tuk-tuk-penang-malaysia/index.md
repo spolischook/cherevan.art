@@ -2,7 +2,7 @@
 id: 276
 shopifyId: 8723272139082
 shopifyOptionId: 47772450160970
-order: 286
+order: 288
 title: Tuk Tuk. Penang, Malaysia
 slug: tuk-tuk-penang-malaysia
 url: art-works/tuk-tuk-penang-malaysia
@@ -18,6 +18,6 @@ materials:
 - ink
 - marker
 - paper
-price: 150
+price: 200
 mainImage: tuk_tuk_penang_malaysia.jpg
 ---

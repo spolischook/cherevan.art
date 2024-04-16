@@ -2,7 +2,7 @@
 id: 597
 shopifyId: 0
 shopifyOptionId: 0
-order: 1
+order: 2
 title: Red dragon
 slug: red-dragon
 url: art-works/red-dragon

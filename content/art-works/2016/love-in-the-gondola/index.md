@@ -2,7 +2,7 @@
 id: 193
 shopifyId: 0
 shopifyOptionId: 0
-order: 369
+order: 371
 title: Love in the gondola
 slug: love-in-the-gondola
 url: art-works/love-in-the-gondola
@@ -18,6 +18,6 @@ materials:
 - ink
 - marker
 - paper
-price: 150
+price: 200
 mainImage: love_in_gondola.jpg
 ---
