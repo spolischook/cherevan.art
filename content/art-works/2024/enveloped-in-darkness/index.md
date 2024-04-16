@@ -1,7 +1,7 @@
 ---
 id: 598
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 8769892778314
+shopifyOptionId: 47923800965450
 order: 1
 title: Enveloped in darkness
 slug: enveloped-in-darkness
