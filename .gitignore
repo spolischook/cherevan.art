@@ -30,6 +30,7 @@ public/
 /facebook/
 /graphics/
 _gen
+.~*
 
 # Local Netlify folder
 .netlify

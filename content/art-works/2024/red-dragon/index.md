@@ -1,7 +1,7 @@
 ---
 id: 597
 shopifyId: 8769893007690
-shopifyOptionId: 47923802538314
+shopifyOptionId: 47923802702154
 order: 2
 title: Red dragon
 slug: red-dragon
