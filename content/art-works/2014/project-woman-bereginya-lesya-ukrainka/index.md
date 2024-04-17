@@ -2,7 +2,7 @@
 id: 586
 shopifyId: 0
 shopifyOptionId: 0
-order: 422
+order: 423
 title: Project Woman Bereginya Lesya Ukrainka
 slug: project-woman-bereginya-lesya-ukrainka
 url: art-works/project-woman-bereginya-lesya-ukrainka

@@ -2,7 +2,7 @@
 id: 472
 shopifyId: 8723273744714
 shopifyOptionId: 47772454060362
-order: 93
+order: 94
 title: Sweet kiss
 slug: sweet-kiss
 url: art-works/sweet-kiss

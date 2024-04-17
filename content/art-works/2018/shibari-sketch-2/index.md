@@ -2,7 +2,7 @@
 id: 267
 shopifyId: 8723260047690
 shopifyOptionId: 47772418933066
-order: 297
+order: 298
 title: Shibari sketch 2
 slug: shibari-sketch-2
 url: art-works/shibari-sketch-2

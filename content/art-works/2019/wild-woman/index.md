@@ -2,7 +2,7 @@
 id: 345
 shopifyId: 0
 shopifyOptionId: 0
-order: 221
+order: 222
 title: Wild Woman
 slug: wild-woman
 url: art-works/wild-woman

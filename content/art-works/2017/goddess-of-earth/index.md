@@ -2,7 +2,7 @@
 id: 28
 shopifyId: 0
 shopifyOptionId: 0
-order: 567
+order: 568
 title: Goddess of Earth
 slug: goddess-of-earth
 url: art-works/goddess-of-earth
