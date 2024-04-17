@@ -2,7 +2,7 @@
 id: 103
 shopifyId: 0
 shopifyOptionId: 0
-order: 492
+order: 493
 title: Kiss me
 slug: kiss-me
 url: art-works/kiss-me

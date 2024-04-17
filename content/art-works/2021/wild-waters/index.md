@@ -2,7 +2,7 @@
 id: 564
 shopifyId: 0
 shopifyOptionId: 0
-order: 40
+order: 41
 title: Wild waters
 slug: wild-waters
 url: art-works/wild-waters

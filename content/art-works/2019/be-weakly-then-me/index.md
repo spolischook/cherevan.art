@@ -2,7 +2,7 @@
 id: 372
 shopifyId: 8723269321034
 shopifyOptionId: 47772443476298
-order: 194
+order: 195
 title: Be weakly then me
 slug: be-weakly-then-me
 url: art-works/be-weakly-then-me
