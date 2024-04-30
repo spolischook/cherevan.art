@@ -17,3 +17,5 @@ Seattle Center Exhibition Hall 301 Mercer Street Seattle, WA 98109
 
 
 https://www.seattleerotic.org/
+
+{{< gallery match="opening/*" sortOrder="asc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
