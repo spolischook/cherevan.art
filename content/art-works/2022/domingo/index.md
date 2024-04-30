@@ -9,7 +9,7 @@ url: art-works/domingo
 aliases: []
 categories:
 - graphics
-inStock: true
+inStock: false
 isVisible: true
 height: 57
 width: 38
