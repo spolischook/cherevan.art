@@ -3,10 +3,11 @@ id: 600
 shopifyId: 8771143336266
 shopifyOptionId: 47926653518154
 order: 12
-title: The world revolvers  around  you
-slug: the-world-revolvers-around-you
+title: The world revolves  around  you
+slug: the-world-revolves-around-you
 url: art-works/the-world-revolvers-around-you
-aliases: []
+aliases:
+- art-works/the-world-revolvers-around-you
 categories:
 - graphics
 inStock: true
@@ -18,5 +19,5 @@ materials:
 - ink
 - paper
 price: 450
-mainImage: the_world_revolvers_around_you.jpeg
+mainImage: the_world_revolves_around_you.jpeg
 ---
