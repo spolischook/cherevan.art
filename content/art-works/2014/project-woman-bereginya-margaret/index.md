@@ -10,7 +10,7 @@ aliases: []
 categories:
 - painting
 inStock: true
-isVisible: true
+isVisible: false
 height: 50
 width: 70
 date: 2014-01-01T00:00:00Z

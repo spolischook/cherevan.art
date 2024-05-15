@@ -10,7 +10,7 @@ aliases: []
 categories:
 - graphics
 inStock: false
-isVisible: false
+isVisible: true
 height: 50
 width: 70
 date: 2008-01-01T00:00:00Z

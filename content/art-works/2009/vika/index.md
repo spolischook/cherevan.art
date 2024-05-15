@@ -2,7 +2,7 @@
 id: 88
 shopifyId: 0
 shopifyOptionId: 0
-order: 508
+order: 509
 title: Vika
 slug: vika
 url: art-works/vika
@@ -11,7 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
-height: 65
+height: 60
 width: 40
 date: 2009-01-01T00:00:00Z
 materials:
