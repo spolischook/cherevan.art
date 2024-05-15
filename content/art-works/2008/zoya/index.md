@@ -10,8 +10,8 @@ aliases: []
 categories:
 - graphics
 inStock: false
-isVisible: false
-height: 65
+isVisible: true
+height: 60
 width: 40
 date: 2008-01-01T00:00:00Z
 materials:

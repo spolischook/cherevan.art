@@ -9,8 +9,8 @@ url: art-works/and-just-because-you-have-her-love-her-
 aliases: []
 categories:
 - graphics
-inStock: false
-isVisible: false
+inStock: true
+isVisible: true
 height: 70
 width: 50
 date: 2009-01-01T00:00:00Z
