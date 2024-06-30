@@ -2,7 +2,7 @@
 id: 120
 shopifyId: 0
 shopifyOptionId: 0
-order: 476
+order: 477
 title: Madonna and Child
 slug: madonna-and-child
 url: art-works/madonna-and-child

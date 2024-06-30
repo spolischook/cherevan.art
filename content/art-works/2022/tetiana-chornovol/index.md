@@ -2,7 +2,7 @@
 id: 557
 shopifyId: 0
 shopifyOptionId: 0
-order: 436
+order: 437
 title: Tetiana Chornovol
 slug: tetiana-chornovol
 url: art-works/tetiana-chornovol

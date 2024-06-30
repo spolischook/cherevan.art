@@ -2,7 +2,7 @@
 id: 425
 shopifyId: 0
 shopifyOptionId: 0
-order: 141
+order: 142
 title: Baby boy
 slug: baby-boy
 url: art-works/baby-boy

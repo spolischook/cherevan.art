@@ -2,7 +2,7 @@
 id: 544
 shopifyId: 8723263357258
 shopifyOptionId: 47772427977034
-order: 4
+order: 5
 title: She is free
 slug: she-is-free
 url: art-works/she-is-free

@@ -2,7 +2,7 @@
 id: 141
 shopifyId: 0
 shopifyOptionId: 0
-order: 453
+order: 454
 title: Girl with a pomegranate
 slug: girl-with-a-pomegranate
 url: art-works/girl-with-a-pomegranate
