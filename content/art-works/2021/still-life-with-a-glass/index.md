@@ -2,7 +2,7 @@
 id: 517
 shopifyId: 8723272040778
 shopifyOptionId: 47772449997130
-order: 85
+order: 86
 title: Still life with a glass
 slug: still-life-with-a-glass
 url: art-works/still-life-with-a-glass

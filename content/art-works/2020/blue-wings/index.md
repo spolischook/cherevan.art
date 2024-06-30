@@ -2,7 +2,7 @@
 id: 423
 shopifyId: 8723262832970
 shopifyOptionId: 47772425421130
-order: 143
+order: 144
 title: Blue wings
 slug: blue-wings
 url: art-works/blue-wings
