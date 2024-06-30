@@ -1,7 +1,7 @@
 ---
 id: 601
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9358913208650
+shopifyOptionId: 48789814608202
 order: 1
 title: Breakfast Under the Veil of Secrets
 slug: breakfast-under-the-veil-of-secrets
