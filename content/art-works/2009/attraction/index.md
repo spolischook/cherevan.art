@@ -2,7 +2,7 @@
 id: 86
 shopifyId: 0
 shopifyOptionId: 0
-order: 512
+order: 514
 title: Attraction
 slug: attraction
 url: art-works/attraction

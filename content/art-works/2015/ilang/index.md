@@ -2,7 +2,7 @@
 id: 165
 shopifyId: 0
 shopifyOptionId: 0
-order: 401
+order: 403
 title: Ilang
 slug: ilang
 url: art-works/ilang

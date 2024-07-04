@@ -2,7 +2,7 @@
 id: 260
 shopifyId: 8723260014922
 shopifyOptionId: 47772418801994
-order: 306
+order: 308
 title: Model
 slug: model
 url: art-works/model
