@@ -2,7 +2,7 @@
 id: 497
 shopifyId: 8723264733514
 shopifyOptionId: 47772431647050
-order: 69
+order: 71
 title: Minotavr
 slug: minotavr
 url: art-works/minotavr

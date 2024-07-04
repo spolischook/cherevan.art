@@ -2,7 +2,7 @@
 id: 588
 shopifyId: 0
 shopifyOptionId: 0
-order: 426
+order: 428
 title: Project Woman Bereginya Svitlana Marysik
 slug: project-woman-bereginya-svitlana-marysik
 url: art-works/project-woman-bereginya-svitlana-marysik

@@ -2,7 +2,7 @@
 id: 492
 shopifyId: 0
 shopifyOptionId: 0
-order: 74
+order: 76
 title: Shibari batterfly
 slug: shibari-batterfly
 url: art-works/shibari-batterfly

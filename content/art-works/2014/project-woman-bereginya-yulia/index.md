@@ -2,7 +2,7 @@
 id: 550
 shopifyId: 0
 shopifyOptionId: 0
-order: 430
+order: 432
 title: Project Woman Bereginya Yulia
 slug: project-woman-bereginya-yulia
 url: art-works/project-woman-bereginya-yulia

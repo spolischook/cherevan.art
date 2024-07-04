@@ -2,7 +2,7 @@
 id: 48
 shopifyId: 0
 shopifyOptionId: 0
-order: 549
+order: 551
 title: Girl with umbrella
 slug: girl-with-umbrella
 url: art-works/girl-with-umbrella

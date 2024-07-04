@@ -2,7 +2,7 @@
 id: 582
 shopifyId: 0
 shopifyOptionId: 0
-order: 420
+order: 422
 title: Project Woman Bereginya Lilit Morozuk
 slug: project-woman-bereginya-lilit-morozuk
 url: art-works/project-woman-bereginya-lilit-morozuk
