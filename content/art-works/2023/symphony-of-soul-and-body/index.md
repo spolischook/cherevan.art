@@ -2,7 +2,7 @@
 id: 592
 shopifyId: 8723269779786
 shopifyOptionId: 47772444459338
-order: 16
+order: 17
 title: Symphony of soul and body
 slug: symphony-of-soul-and-body
 url: art-works/symphony-of-soul-and-body
