@@ -1,7 +1,7 @@
 ---
 id: 603
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9373137502538
+shopifyOptionId: 48823380083018
 order: 1
 title: Fantasies of the poet
 slug: fantasies-of-the-poet
