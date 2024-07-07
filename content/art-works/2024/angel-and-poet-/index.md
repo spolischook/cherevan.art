@@ -1,7 +1,7 @@
 ---
 id: 602
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9372524183882
+shopifyOptionId: 48820651917642
 order: 2
 title: 'Angel and Poet '
 slug: angel-and-poet-
