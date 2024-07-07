@@ -2,7 +2,7 @@
 id: 603
 shopifyId: 0
 shopifyOptionId: 0
-order: 2
+order: 1
 title: Fantasies of the poet
 slug: fantasies-of-the-poet
 url: art-works/fantasies-of-the-poet
