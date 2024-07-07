@@ -2,7 +2,7 @@
 id: 545
 shopifyId: 8723261751626
 shopifyOptionId: 47772423487818
-order: 8
+order: 9
 title: Mafdet
 slug: mafdet
 url: art-works/mafdet
