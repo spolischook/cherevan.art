@@ -2,7 +2,7 @@
 id: 604
 shopifyId: 0
 shopifyOptionId: 0
-order: 1
+order: 3
 title: Get to know yourself
 slug: get-to-know-yourself
 url: art-works/get-to-know-yourself
