@@ -2,7 +2,7 @@
 id: 32
 shopifyId: 0
 shopifyOptionId: 0
-order: 568
+order: 573
 title: Wu (Soi milk)
 slug: wu-soi-milk
 url: art-works/wu-soi-milk

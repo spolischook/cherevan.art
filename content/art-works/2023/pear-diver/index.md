@@ -2,7 +2,7 @@
 id: 566
 shopifyId: 8723262275914
 shopifyOptionId: 47772424503626
-order: 12
+order: 17
 title: Pear diver
 slug: pear-diver
 url: art-works/pear-diver

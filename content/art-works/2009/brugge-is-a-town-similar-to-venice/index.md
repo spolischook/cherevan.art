@@ -2,7 +2,7 @@
 id: 97
 shopifyId: 0
 shopifyOptionId: 0
-order: 503
+order: 508
 title: Brugge is a town similar to Venice.
 slug: brugge-is-a-town-similar-to-venice
 url: art-works/brugge-is-a-town-similar-to-venice

@@ -1,0 +1,23 @@
+---
+id: 605
+shopifyId: 0
+shopifyOptionId: 0
+order: 1
+title: Preface_canvas
+slug: prefacecanvas
+url: art-works/prefacecanvas
+aliases: []
+categories:
+- painting
+inStock: true
+isVisible: true
+height: 125
+width: 70
+date: 2024-01-01T00:00:00Z
+materials:
+- acrylic
+- ' gold leaf'
+- ' canvas'
+price: 1000
+mainImage: preface_canvas_2.jpg
+---
