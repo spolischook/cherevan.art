@@ -1,7 +1,7 @@
 ---
 id: 608
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9374219796810
+shopifyOptionId: 48828482355530
 order: 4
 title: Sunrise naked
 slug: sunrise-naked

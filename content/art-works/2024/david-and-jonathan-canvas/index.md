@@ -1,7 +1,7 @@
 ---
 id: 606
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9374226514250
+shopifyOptionId: 48828508438858
 order: 2
 title: David and Jonathan canvas
 slug: david-and-jonathan-canvas
