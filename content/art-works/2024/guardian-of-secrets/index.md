@@ -1,7 +1,7 @@
 ---
 id: 607
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9374221238602
+shopifyOptionId: 48828490154314
 order: 3
 title: Guardian of secrets
 slug: guardian-of-secrets
