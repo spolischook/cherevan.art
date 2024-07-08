@@ -2,7 +2,7 @@
 id: 248
 shopifyId: 8723274727754
 shopifyOptionId: 47772455960906
-order: 322
+order: 327
 title: Tantira
 slug: tantira
 url: art-works/tantira

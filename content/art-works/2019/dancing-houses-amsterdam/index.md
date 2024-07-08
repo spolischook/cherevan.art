@@ -2,7 +2,7 @@
 id: 400
 shopifyId: 0
 shopifyOptionId: 0
-order: 170
+order: 175
 title: Dancing houses, Amsterdam
 slug: dancing-houses-amsterdam
 url: art-works/dancing-houses-amsterdam
