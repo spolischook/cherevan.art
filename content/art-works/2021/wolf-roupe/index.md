@@ -1,7 +1,7 @@
 ---
 id: 521
 shopifyId: 9452940919114
-shopifyOptionId: 49106742018378
+shopifyOptionId: 49106742247754
 order: 61
 title: Wolf roupe
 slug: wolf-roupe
