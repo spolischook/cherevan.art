@@ -1,7 +1,7 @@
 ---
 id: 615
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9452935840074
+shopifyOptionId: 49106700009802
 order: 8
 title: Radiant
 slug: radiant
