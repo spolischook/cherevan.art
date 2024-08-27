@@ -2,7 +2,7 @@
 id: 433
 shopifyId: 0
 shopifyOptionId: 0
-order: 142
+order: 149
 title: Portrait with a diadem
 slug: portrait-with-a-diadem
 url: art-works/portrait-with-a-diadem

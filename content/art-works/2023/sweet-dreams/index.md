@@ -2,7 +2,7 @@
 id: 591
 shopifyId: 8723263521098
 shopifyOptionId: 47772428239178
-order: 16
+order: 22
 title: Sweet dreams
 slug: sweet-dreams
 url: art-works/sweet-dreams

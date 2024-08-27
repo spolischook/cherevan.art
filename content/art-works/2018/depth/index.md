@@ -2,7 +2,7 @@
 id: 304
 shopifyId: 0
 shopifyOptionId: 0
-order: 270
+order: 277
 title: Depth
 slug: depth
 url: art-works/depth

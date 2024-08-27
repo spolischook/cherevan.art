@@ -2,7 +2,7 @@
 id: 599
 shopifyId: 8771096412490
 shopifyOptionId: 47926525821258
-order: 40
+order: 47
 title: Domingo
 slug: domingo
 url: art-works/domingo

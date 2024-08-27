@@ -2,7 +2,7 @@
 id: 325
 shopifyId: 8723274465610
 shopifyOptionId: 47772455600458
-order: 250
+order: 257
 title: Misha and Lisa
 slug: misha-and-lisa
 url: art-works/misha-and-lisa
