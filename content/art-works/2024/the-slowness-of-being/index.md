@@ -1,7 +1,7 @@
 ---
 id: 612
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9452936134986
+shopifyOptionId: 49106702369098
 order: 4
 title: The slowness of being
 slug: the-slowness-of-being

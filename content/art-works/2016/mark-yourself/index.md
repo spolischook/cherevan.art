@@ -1,7 +1,7 @@
 ---
 id: 190
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9452933251402
+shopifyOptionId: 49106674647370
 order: 393
 title: Mark yourself
 slug: mark-yourself
