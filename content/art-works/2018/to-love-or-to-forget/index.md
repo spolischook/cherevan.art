@@ -2,7 +2,7 @@
 id: 298
 shopifyId: 8723274498378
 shopifyOptionId: 47772455665994
-order: 276
+order: 283
 title: To love or to forget
 slug: to-love-or-to-forget
 url: art-works/to-love-or-to-forget
@@ -18,6 +18,6 @@ materials:
 - acrylic
 - ink
 - canvas
-price: 4200
+price: 3600
 mainImage: to_love_or_to_forget.jpg
 ---

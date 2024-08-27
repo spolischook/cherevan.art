@@ -2,7 +2,7 @@
 id: 429
 shopifyId: 0
 shopifyOptionId: 0
-order: 146
+order: 153
 title: Pillow challenge
 slug: pillow-challenge
 url: art-works/pillow-challenge

@@ -1,0 +1,22 @@
+---
+id: 614
+shopifyId: 0
+shopifyOptionId: 0
+order: 1
+title: The Bride
+slug: the-bride
+url: art-works/the-bride
+aliases: []
+categories:
+- graphics
+inStock: true
+isVisible: true
+height: 65
+width: 50
+date: 2024-01-01T00:00:00Z
+materials:
+- ink
+- paper
+price: 800
+mainImage: The_Bride.jpg
+---

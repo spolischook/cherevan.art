@@ -2,7 +2,7 @@
 id: 8
 shopifyId: 0
 shopifyOptionId: 0
-order: 597
+order: 606
 title: Love-bound
 slug: love-bound
 url: art-works/love-bound

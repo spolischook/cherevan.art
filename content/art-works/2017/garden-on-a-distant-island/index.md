@@ -2,7 +2,7 @@
 id: 205
 shopifyId: 0
 shopifyOptionId: 0
-order: 370
+order: 377
 title: Garden on a distant island
 slug: garden-on-a-distant-island
 url: art-works/garden-on-a-distant-island
