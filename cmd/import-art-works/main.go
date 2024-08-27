@@ -46,11 +46,19 @@ func main() {
 		found := false
 		for p, existing := range existingArtWorks {
 			if w.ID == existing.ID {
+				imagePath := filepath.Join(w.PageLeafPath(), w.ImageName)
+				_, err := tool.FindFileInDir(w.PageLeafPath(), w.ImageName)
+				imageExists := err == nil
+
 				existing.UpdateFrontMatter(w)
 				checkErr(gDrive.FetchMainImage(w))
 				checkErr(existing.Save())
 				delete(existingArtWorks, p)
 				found = true
+
+				if !imageExists {
+					tool.ScaleImage(imagePath, 1200)
+				}
 			}
 		}
 		if !found {
