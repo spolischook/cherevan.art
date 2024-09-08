@@ -2,7 +2,7 @@
 id: 614
 shopifyId: 9452933972298
 shopifyOptionId: 49106678645066
-order: 1
+order: 2
 title: The Bride
 slug: the-bride
 url: art-works/the-bride

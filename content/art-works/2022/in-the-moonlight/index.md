@@ -2,7 +2,7 @@
 id: 573
 shopifyId: 0
 shopifyOptionId: 0
-order: 59
+order: 60
 title: In the moonlight
 slug: in-the-moonlight
 url: art-works/in-the-moonlight

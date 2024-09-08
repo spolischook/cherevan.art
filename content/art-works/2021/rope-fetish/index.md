@@ -2,7 +2,7 @@
 id: 486
 shopifyId: 8723273384266
 shopifyOptionId: 47772453011786
-order: 95
+order: 96
 title: Rope fetish
 slug: rope-fetish
 url: art-works/rope-fetish

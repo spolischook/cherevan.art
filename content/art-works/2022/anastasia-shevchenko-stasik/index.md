@@ -2,7 +2,7 @@
 id: 559
 shopifyId: 0
 shopifyOptionId: 0
-order: 456
+order: 457
 title: Anastasia Shevchenko/ Stasik
 slug: anastasia-shevchenko-stasik
 url: art-works/anastasia-shevchenko-stasik
