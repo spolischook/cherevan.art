@@ -2,7 +2,7 @@
 id: 430
 shopifyId: 0
 shopifyOptionId: 0
-order: 152
+order: 153
 title: Sleepy bear
 slug: sleepy-bear
 url: art-works/sleepy-bear

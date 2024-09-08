@@ -2,7 +2,7 @@
 id: 543
 shopifyId: 8723264569674
 shopifyOptionId: 47772431253834
-order: 30
+order: 31
 title: Blue boy
 slug: blue-boy
 url: art-works/blue-boy

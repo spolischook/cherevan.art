@@ -2,7 +2,7 @@
 id: 424
 shopifyId: 8723265388874
 shopifyOptionId: 47772433121610
-order: 158
+order: 159
 title: Waiting for the tide
 slug: waiting-for-the-tide
 url: art-works/waiting-for-the-tide
