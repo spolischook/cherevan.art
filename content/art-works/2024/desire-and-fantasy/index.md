@@ -1,7 +1,7 @@
 ---
 id: 617
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9480300134730
+shopifyOptionId: 49211007467850
 order: 5
 title: Desire and fantasy
 slug: desire-and-fantasy
