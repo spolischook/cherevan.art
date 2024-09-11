@@ -2,7 +2,7 @@
 id: 232
 shopifyId: 0
 shopifyOptionId: 0
-order: 351
+order: 352
 title: Washing clothes on the Mahaweli river 2
 slug: washing-clothes-on-the-mahaweli-river-2
 url: art-works/washing-clothes-on-the-mahaweli-river-2

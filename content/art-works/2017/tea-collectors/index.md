@@ -2,7 +2,7 @@
 id: 230
 shopifyId: 8723269550410
 shopifyOptionId: 47772444098890
-order: 353
+order: 354
 title: Tea collectors
 slug: tea-collectors
 url: art-works/tea-collectors

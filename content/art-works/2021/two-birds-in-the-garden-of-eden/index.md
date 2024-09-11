@@ -2,7 +2,7 @@
 id: 523
 shopifyId: 8723260113226
 shopifyOptionId: 47772418998602
-order: 61
+order: 62
 title: Two birds in the Garden of Eden
 slug: two-birds-in-the-garden-of-eden
 url: art-works/two-birds-in-the-garden-of-eden
