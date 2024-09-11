@@ -2,7 +2,7 @@
 id: 617
 shopifyId: 0
 shopifyOptionId: 0
-order: 3
+order: 5
 title: Desire and fantasy
 slug: desire-and-fantasy
 url: art-works/desire-and-fantasy
