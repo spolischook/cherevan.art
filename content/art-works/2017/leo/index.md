@@ -2,7 +2,7 @@
 id: 254
 shopifyId: 8723267354954
 shopifyOptionId: 47772438757706
-order: 329
+order: 330
 title: Leo
 slug: leo
 url: art-works/leo

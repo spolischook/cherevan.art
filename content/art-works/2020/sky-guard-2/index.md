@@ -2,7 +2,7 @@
 id: 396
 shopifyId: 8723263652170
 shopifyOptionId: 47772428501322
-order: 187
+order: 188
 title: Sky guard 2
 slug: sky-guard-2
 url: art-works/sky-guard-2

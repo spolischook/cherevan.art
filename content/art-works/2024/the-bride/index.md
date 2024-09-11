@@ -8,6 +8,7 @@ slug: the-bride
 url: art-works/the-bride
 aliases: []
 categories:
+- shibari
 - graphics
 inStock: true
 isVisible: true

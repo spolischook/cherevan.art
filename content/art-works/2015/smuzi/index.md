@@ -2,7 +2,7 @@
 id: 577
 shopifyId: 0
 shopifyOptionId: 0
-order: 422
+order: 423
 title: smuzi
 slug: smuzi
 url: art-works/smuzi
