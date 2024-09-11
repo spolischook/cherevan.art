@@ -2,8 +2,9 @@ package shopify
 
 import (
 	"encoding/json"
-	"github.com/gin-gonic/gin"
 	"strconv"
+
+	"github.com/gin-gonic/gin"
 )
 
 func (h *Handler) GetProduct(c *gin.Context) {
@@ -15,7 +16,10 @@ func (h *Handler) GetProduct(c *gin.Context) {
 	id := c.Param("id")
 	spId, err := strconv.ParseInt(id, 10, 64)
 	if err != nil {
-		c.AbortWithStatusJSON(400, gin.H{"error": "invalid id"})
+		c.AbortWithStatusJSON(400, gin.H{
+			"error":   "invalid id",
+			"message": err.Error(),
+		})
 		return
 	}
 
