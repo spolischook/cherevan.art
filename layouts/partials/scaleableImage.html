@@ -1,0 +1,53 @@
+<!-- layouts/partials/scaleableImage.html -->
+<picture class="relative">
+    <source type="image/avif"
+                srcset="{{ .image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_360.avif" }} 360w,
+                    {{ .image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_375.avif" }} 375w,
+                    {{ .image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_450.avif" }} 450w,
+                    {{ .image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_750.avif" }} 750w,
+                    {{ .image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_768.avif" }} 768w"
+                    sizes="(min-width: 1080px) 456px, 
+                        (min-width: 768px) 768px, 
+                        (min-width: 750px) 750px, 
+                        (min-width: 450px) 450px, 
+                        (min-width: 375px) 375px, 
+                        (min-width: 360px) 360px, 
+                        calc(100vw - 24px)">
+        <source type="image/webp"
+                srcset="{{ .image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_360.webp" }} 360w,
+                    {{ .image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_375.webp" }} 375w,
+                    {{ .image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_450.webp" }} 450w,
+                    {{ .image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_750.webp" }} 750w,
+                    {{ .image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_768.webp" }} 768w"
+                    sizes="(min-width: 1080px) 456px, 
+                        (min-width: 768px) 768px, 
+                        (min-width: 750px) 750px, 
+                        (min-width: 450px) 450px, 
+                        (min-width: 375px) 375px, 
+                        (min-width: 360px) 360px, 
+                        calc(100vw - 24px)">
+    {{ $lowQualityImage := .image.Resize "100x" }}
+    {{ $lowQualityImageBase64 := $lowQualityImage.Content | base64Encode }}
+    <img class="object-cover w-full h-full"
+         style="aspect-ratio: {{.image.Width}}/{{.image.Height}}"
+         alt="{{ .page.Title }}"
+            {{ if ge .index 6 }}
+                src="{{.image.RelPermalink}}"
+            {{else}}
+                src="data:image/jpeg;base64,{{ $lowQualityImageBase64 }}"
+                onload="this.onload=null; this.src='{{.image.RelPermalink}}'"
+            {{end}}
+            srcset="{{ .image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_360.webp" }} 360w,
+            {{ .image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_375.webp" }} 375w,
+            {{ .image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_450.webp" }} 450w,
+            {{ .image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_750.webp" }} 750w,
+            {{ .image.RelPermalink | replaceRE "(?i)\\.(jpg|jpeg|png|gif|bmp|tiff)" "_768.webp" }} 768w"
+            sizes="(min-width: 1080px) 456px, 
+                (min-width: 768px) 768px, 
+                (min-width: 750px) 750px, 
+                (min-width: 450px) 450px, 
+                (min-width: 375px) 375px, 
+                (min-width: 360px) 360px, 
+                calc(100vw - 24px)"
+                {{ if ge .index 6 }}loading="lazy"{{ end }}>
+</picture>
