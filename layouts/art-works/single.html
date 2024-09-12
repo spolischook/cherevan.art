@@ -100,8 +100,6 @@
     <script src="{{ "js/shopify.js" | relURL }}"></script>
     <script>
         setupShopifyBuyButton(
-            '{{ .Site.Params.shopifyDomain }}',
-            '{{ .Site.Params.storefrontAccessToken }}',
             '{{ (printf "gid://shopify/Product/%d" .Params.shopifyId) | base64Encode }}',
             '{{ (printf "gid://shopify/ProductVariant/%d" .Params.shopifyOptionId) | base64Encode }}'
         );

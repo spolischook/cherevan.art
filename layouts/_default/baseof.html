@@ -76,6 +76,12 @@
     </div>
 </body>
 <script src="https://sdks.shopifycdn.com/js-buy-sdk/v2/latest/index.umd.min.js"></script>
+<script>
+    window.shopifyConfig = {
+        shopifyDomain: '{{ .Site.Params.shopifyDomain }}',
+        storefrontAccessToken: '{{ .Site.Params.storefrontAccessToken }}',
+    };
+</script>
 {{ block "scripts" . }}{{ end }}
 <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/610ab21a2b0c081249a0eb8ae/0983c1f02ae2be0d24e608ab7.js");</script>
 </html>
