@@ -1,9 +1,11 @@
 // assets/js/shopify.js
 
-function setupShopifyBuyButton(shopifyDomain, storefrontAccessToken, productId, productVariantId) {
+function setupShopifyBuyButton(productId, productVariantId) {
+    const shopifyConfig = window.shopifyConfig;
+
     const client = ShopifyBuy.buildClient({
-        domain: shopifyDomain,
-        storefrontAccessToken: storefrontAccessToken
+        domain: shopifyConfig.shopifyDomain,
+        storefrontAccessToken: shopifyConfig.storefrontAccessToken
     });
 
     let buyButton = document.getElementById('buy-button');
