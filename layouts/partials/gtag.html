@@ -1,0 +1,23 @@
+<script defer>
+    document.addEventListener('DOMContentLoaded', () => {
+        if (getCookieValue('cookieConsentMarketing') === 'true') {
+            // Create the script element for Google Tag Manager
+            const gtmScript = document.createElement('script');
+            gtmScript.async = true;
+            gtmScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-21CQLLSNPS';
+
+            // Insert the script element into the DOM
+            document.head.appendChild(gtmScript);
+
+            // Initialize Google Tag Manager
+            gtmScript.onload = function() {
+                window.dataLayer = window.dataLayer || [];
+                function gtag() {
+                    dataLayer.push(arguments);
+                }
+                gtag('js', new Date());
+                gtag('config', 'G-21CQLLSNPS');
+            };
+        }
+    });
+</script>
