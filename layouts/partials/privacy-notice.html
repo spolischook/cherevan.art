@@ -1,0 +1,89 @@
+<section 
+  id="consentForm"
+  class="fixed inset-0 hidden items-start justify-center xl:items-end bg-black bg-opacity-80 z-50 shadow-xl">
+    <div class="flex flex-col bg-white p-6 border-slate-500 shadow-lg max-w-xl mx-auto">
+        <h2 class="text-lg font-semibold mb-4">We value your privacy</h2>
+        <p class="text-sm text-gray-600 mb-4">
+            We use cookies and other technologies to personalize your experience, perform marketing, and collect analytics. <br>
+            By using our site, you agree to our Privacy Policy, including our cookie policy.
+        </p>
+        <ul class="flex pb-6">
+            <li class="mr-4 flex items-center">
+              <input 
+                class="text-eerie-900 bg-eerie-900 focus:ring-0"
+                type="checkbox" 
+                name="essential" 
+                id="essential"
+                checked 
+                disabled 
+              >
+              <label for="essential" class="ml-2">Essential</label>
+            </li>
+            <li class="mr-4 flex items-center">
+              <input 
+                class="text-tiger-300 focus:ring-0"
+                type="checkbox" 
+                name="marketing-cookies" 
+                id="marketing-cookies"
+                checked 
+              >
+              <label for="marketing-cookies" class="ml-2">Marketing</label>
+            </li>
+          </ul>
+        <div class="flex text-center space-x-2">
+            <a href="#" id="cookieDecline" class="flex-1 bg-white border border-eerie-800 text-eerie-700 px-4 py-2 hover:shadow-lg hover:shadow-eerie-900 duration-500">Decline</a>
+            <a href="#" id="cookieAccept" class="flex-1 bg-tiger-400  border border-tiger-300 text-white px-4 py-2 hover:shadow-lg hover:shadow-eerie-800 duration-500">Accept</a>
+        </div>
+    </div>
+</section>
+
+<script>
+    const marketingCheckbox = document.getElementById('marketing-cookies');
+
+    document.addEventListener('DOMContentLoaded', () => {
+        if (consentCookiesSet('cookieConsentEssential')) {
+            console.log('cookieConsentEssential exists');
+            // Perform actions if the cookie exists
+        } else {
+            // remove hidden class from consentForm and add flex class
+            document.getElementById('consentForm').classList.remove('hidden');
+            document.getElementById('consentForm').classList.add('flex');
+            console.log('cookieConsentEssential does not exist');
+            // Perform actions if the cookie does not exist
+        }
+        const acceptButton = document.getElementById('cookieAccept');
+        const declineButton = document.getElementById('cookieDecline');
+
+        acceptButton.addEventListener('click', (event) => {
+            event.preventDefault(); // Prevent the default link behavior
+            saveCookies();
+        });
+        declineButton.addEventListener('click', (event) => {
+            event.preventDefault(); // Prevent the default link behavior
+            marketingCheckbox.checked = false;
+            saveCookies();
+        });
+    });
+    function saveCookies() {
+        document.cookie = "cookieConsentEssential=true; path=/; max-age=" + (60 * 60 * 24 * 365) + ";"; // 1 year
+
+        // Set marketing cookie based on checkbox state
+        if (marketingCheckbox.checked) {
+            document.cookie = "cookieConsentMarketing=true; path=/; max-age=" + (60 * 60 * 24 * 365) + ";"; // 1 year
+        } else {
+            document.cookie = "cookieConsentMarketing=false; path=/; max-age=" + (60 * 60 * 24 * 365) + ";"; // 1 year
+        }
+
+        location.reload();
+    }
+    function consentCookiesSet(cookieName) {
+        const cookies = document.cookie.split(';');
+        for (let i = 0; i < cookies.length; i++) {
+            const cookie = cookies[i].trim();
+            if (cookie.startsWith(cookieName + '=')) {
+                return true;
+            }
+        }
+        return false;
+    }
+</script>

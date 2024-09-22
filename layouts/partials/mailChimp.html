@@ -1,0 +1,14 @@
+<script defer>
+    document.addEventListener('DOMContentLoaded', () => {
+        if (getCookieValue('cookieConsentMarketing') === 'true') {
+            // Create the script element
+            const script = document.createElement('script');
+            script.id = 'mcjs';
+            script.async = true;
+            script.src = 'https://chimpstatic.com/mcjs-connected/js/users/610ab21a2b0c081249a0eb8ae/0983c1f02ae2be0d24e608ab7.js';
+
+            // Insert the script element into the DOM
+            document.head.appendChild(script);
+        }
+    });
+</script>
