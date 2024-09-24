@@ -1,5 +1,5 @@
+{{- $GoogleContainerID := .gTag }}
 <script>
-    const GoogleContainerID = 'GTM-TK4NCM7C';
     // Define dataLayer and the gtag function.
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
@@ -14,14 +14,14 @@
     });
 </script>
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.GoogleContainerID }}">
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ $GoogleContainerID }}">
 </script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
 
     gtag('js', new Date());
-    gtag('config', {{ .Site.Params.GoogleContainerID }});
+    gtag('config', {{ $GoogleContainerID }});
 </script>
 
 <!-- Create one update function for each consent parameter -->

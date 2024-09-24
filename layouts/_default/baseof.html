@@ -15,7 +15,7 @@
         }
     </script>
     <!-- Google tag (gtag.js) -->
-    {{ partial "gtag.html" }}
+    {{ partial "gtag.html" (dict "gTag" .Site.Params.GoogleContainerID) }}
     {{/* MailChimp */}}
     {{ partial "mailChimp.html" }}
     <meta charset="UTF-8">
