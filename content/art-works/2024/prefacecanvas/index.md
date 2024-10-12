@@ -2,7 +2,7 @@
 id: 605
 shopifyId: 9374227857738
 shopifyOptionId: 48828512076106
-order: 1
+order: 7
 title: Preface_canvas
 slug: prefacecanvas
 url: art-works/prefacecanvas

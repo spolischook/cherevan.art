@@ -2,7 +2,7 @@
 id: 603
 shopifyId: 9373137502538
 shopifyOptionId: 48823380083018
-order: 5
+order: 13
 title: Fantasies of the poet
 slug: fantasies-of-the-poet
 url: art-works/fantasies-of-the-poet
@@ -18,8 +18,8 @@ date: 2024-01-01T00:00:00Z
 materials:
 - ink
 - paper
-price: 450
-mainImage: fantasies_of_the_poet.JPG
+price: 800
+mainImage: Fantasies_of_the_poet.jpg
 ---
 In the quiet of his study, by the dim candlelight, 
 Edgar sat at his desk, writing an erotic story filled with mystery and desire. 

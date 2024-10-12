@@ -2,7 +2,7 @@
 id: 590
 shopifyId: 8723265651018
 shopifyOptionId: 47772433449290
-order: 18
+order: 26
 title: The beauty and the beast
 slug: the-beauty-and-the-beast
 url: art-works/the-beauty-and-the-beast

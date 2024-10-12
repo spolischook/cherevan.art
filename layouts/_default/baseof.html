@@ -2,15 +2,22 @@
 <html lang="en" class="scroll-smooth">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-21CQLLSNPS"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-21CQLLSNPS');
+        function getCookieValue(cookieName) {
+            const cookies = document.cookie.split(';');
+            for (let i = 0; i < cookies.length; i++) {
+                const cookie = cookies[i].trim();
+                if (cookie.startsWith(cookieName + '=')) {
+                    return cookie.substring(cookieName.length + 1);
+                }
+            }
+            return null;
+        }
     </script>
+    <!-- Google tag (gtag.js) -->
+    {{ partial "gtag.html" (dict "gTag" .Site.Params.GoogleContainerID) }}
+    {{/* MailChimp */}}
+    {{ partial "mailChimp.html" }}
     <meta charset="UTF-8">
     <title>Tetiana Cherevan | Ukrainian painter</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
@@ -50,9 +57,13 @@
     <!-- Google Fonts -->
     <script src="/js/script.js" defer></script>
 </head>
+
 <body class="bg-slate-50">
     <div class="flex flex-col max-w-5xl px-3 sm:px-10 mx-auto min-h-screen bg-white shadow-lg">
         {{ $t := "Jan 02, 2006 3:04 PM Z07:00" }}
+
+        {{ partial "privacy-notice.html" }}
+
 
         <header class="py-4 pt-5 px-2">
             <nav class="flex justify-between">
@@ -76,6 +87,12 @@
     </div>
 </body>
 <script src="https://sdks.shopifycdn.com/js-buy-sdk/v2/latest/index.umd.min.js"></script>
+<script>
+    window.shopifyConfig = {
+        shopifyDomain: '{{ .Site.Params.shopifyDomain }}',
+        storefrontAccessToken: '{{ .Site.Params.storefrontAccessToken }}',
+    };
+</script>
 {{ block "scripts" . }}{{ end }}
-<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/610ab21a2b0c081249a0eb8ae/0983c1f02ae2be0d24e608ab7.js");</script>
+
 </html>
