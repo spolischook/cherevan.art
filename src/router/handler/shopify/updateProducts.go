@@ -23,6 +23,10 @@ func (h *Handler) UpdateProducts(c *gin.Context) {
 
 	// Get all products from Shopify
 	shopifyProducts, err := shopify.GetAllProducts(h.Client)
+	if err != nil {
+		c.AbortWithStatusJSON(500, gin.H{"error": err.Error()})
+		return
+	}
 
 	// Update products
 	for _, aw := range existingArtWorks {
@@ -59,7 +63,7 @@ func (h *Handler) UpdateProducts(c *gin.Context) {
 			}
 		}
 
-		if false == isNew {
+		if !isNew {
 			continue
 		}
 
@@ -70,7 +74,7 @@ func (h *Handler) UpdateProducts(c *gin.Context) {
 				500,
 				gin.H{
 					fmt.Sprintf(`error create %d %s:`, aw.ID, aw.Title): err.Error()},
-				)
+			)
 			return
 		}
 
@@ -90,8 +94,8 @@ func (h *Handler) UpdateProducts(c *gin.Context) {
 		// Create image
 		_, err = h.Client.Image.Create(createdProduct.ID, aw.ShopifyImage())
 		if err != nil {
-				c.AbortWithStatusJSON(http.StatusBadGateway, gin.H{"error": err.Error()})
-			}
+			c.AbortWithStatusJSON(http.StatusBadGateway, gin.H{"error": err.Error()})
+		}
 
 		aw.UpdateShopifyProduct(createdProduct)
 		createdProduct, err = h.Client.Product.Update(*createdProduct)

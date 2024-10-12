@@ -2,7 +2,7 @@
 id: 543
 shopifyId: 8723264569674
 shopifyOptionId: 47772431253834
-order: 23
+order: 32
 title: Blue boy
 slug: blue-boy
 url: art-works/blue-boy
@@ -19,6 +19,6 @@ materials:
 - ink
 - ' gold leaf'
 - ' paper'
-price: 450
+price: 750
 mainImage: blue_boy.jpeg
 ---

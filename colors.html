@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Custom Colors Visualization</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('tailwind.theme.json')
+                .then(response => response.json())
+                .then(config => {
+                    tailwind.config = { theme: config };
+
+                    const colors = tailwind.config.theme.extend.colors;
+                    const colorsContainer = document.getElementById('colors');
+
+                    for (const [colorName, shades] of Object.entries(colors)) {
+                        const colorGroup = document.createElement('div');
+                        colorGroup.className = 'color-group';
+
+                        const colorNameElement = document.createElement('div');
+                        colorNameElement.className = 'color-name';
+                        colorNameElement.textContent = colorName;
+                        colorGroup.appendChild(colorNameElement);
+
+                        for (const [shade, hex] of Object.entries(shades)) {
+                            const colorBlock = document.createElement('div');
+                            colorBlock.className = 'color-block';
+                            colorBlock.style.backgroundColor = hex;
+                            colorBlock.textContent = `${colorName}-${shade}`;
+                            colorGroup.appendChild(colorBlock);
+                        }
+
+                        colorsContainer.appendChild(colorGroup);
+                    }
+                })
+                .catch(error => console.error('Error loading Tailwind config:', error));
+        });
+    </script>
+    <style>
+        .color-block {
+            padding: 20px;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            border-radius: 4px;
+            margin: 5px;
+            display: inline-block;
+            width: 100px;
+        }
+
+        .color-group {
+            margin-bottom: 20px;
+        }
+
+        .color-name {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 p-10">
+
+    <h1 class="text-3xl font-bold mb-10">Tailwind Custom Colors Visualization</h1>
+
+    <div id="colors"></div>
+
+</body>
+
+</html>

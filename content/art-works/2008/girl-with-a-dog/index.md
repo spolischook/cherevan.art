@@ -2,7 +2,7 @@
 id: 65
 shopifyId: 0
 shopifyOptionId: 0
-order: 540
+order: 551
 title: Girl with a dog
 slug: girl-with-a-dog
 url: art-works/girl-with-a-dog
