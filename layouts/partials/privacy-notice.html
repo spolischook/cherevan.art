@@ -46,10 +46,11 @@
             // Perform actions if the cookie exists
         } else {
             // remove hidden class from consentForm and add flex class
-            document.getElementById('consentForm').classList.remove('hidden');
-            document.getElementById('consentForm').classList.add('flex');
-            console.log('cookieConsentEssential does not exist');
-            // Perform actions if the cookie does not exist
+            setTimeout(function() {
+                document.getElementById('consentForm').classList.remove('hidden');
+                document.getElementById('consentForm').classList.add('flex');
+                console.log('cookieConsentEssential does not exist');
+            }, 5000); // Delay of 5000 milliseconds (5 seconds)
         }
         const acceptButton = document.getElementById('cookieAccept');
         const declineButton = document.getElementById('cookieDecline');
