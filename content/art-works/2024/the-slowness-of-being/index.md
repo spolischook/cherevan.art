@@ -18,6 +18,6 @@ materials:
 - oil
 - ' acrylic'
 - ' canvas'
-price: 6000
+price: 6100
 mainImage: the_slowness_of_being.JPG
 ---

@@ -2,7 +2,7 @@
 id: 541
 shopifyId: 8723265716554
 shopifyOptionId: 47772433580362
-order: 34
+order: 36
 title: Siesta
 slug: siesta
 url: art-works/siesta
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - shibari
 - painting
-inStock: true
+inStock: false
 isVisible: true
 height: 60
 width: 85

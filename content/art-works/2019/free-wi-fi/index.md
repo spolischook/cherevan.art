@@ -2,7 +2,7 @@
 id: 337
 shopifyId: 0
 shopifyOptionId: 0
-order: 247
+order: 249
 title: Free Wi-Fi
 slug: free-wi-fi
 url: art-works/free-wi-fi

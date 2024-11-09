@@ -2,7 +2,7 @@
 id: 50
 shopifyId: 0
 shopifyOptionId: 0
-order: 566
+order: 568
 title: Freedom
 slug: freedom
 url: art-works/freedom
