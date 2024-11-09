@@ -2,7 +2,7 @@
 id: 57
 shopifyId: 0
 shopifyOptionId: 0
-order: 559
+order: 561
 title: Series "My friends"
 slug: series-my-friends
 url: art-works/series-my-friends

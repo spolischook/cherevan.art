@@ -2,7 +2,7 @@
 id: 474
 shopifyId: 8723272499530
 shopifyOptionId: 47772451111242
-order: 110
+order: 112
 title: David and Jonathan
 slug: david-and-jonathan
 url: art-works/david-and-jonathan

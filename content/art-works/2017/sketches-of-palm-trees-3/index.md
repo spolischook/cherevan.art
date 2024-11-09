@@ -2,7 +2,7 @@
 id: 206
 shopifyId: 0
 shopifyOptionId: 0
-order: 378
+order: 380
 title: Sketches of palm trees 3
 slug: sketches-of-palm-trees-3
 url: art-works/sketches-of-palm-trees-3

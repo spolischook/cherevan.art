@@ -2,7 +2,7 @@
 id: 169
 shopifyId: 8723266142538
 shopifyOptionId: 47772435218762
-order: 416
+order: 418
 title: Soey Chang
 slug: soey-chang
 url: art-works/soey-chang
@@ -17,6 +17,6 @@ date: 2015-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 5000
+price: 3500
 mainImage: soey_chang.jpg
 ---

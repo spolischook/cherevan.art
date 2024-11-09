@@ -2,7 +2,7 @@
 id: 613
 shopifyId: 0
 shopifyOptionId: 0
-order: 30
+order: 32
 title: La mujer grande
 slug: la-mujer-grande
 url: art-works/la-mujer-grande

@@ -2,7 +2,7 @@
 id: 544
 shopifyId: 8723263357258
 shopifyOptionId: 47772427977034
-order: 21
+order: 22
 title: She is free
 slug: she-is-free
 url: art-works/she-is-free
@@ -19,7 +19,7 @@ materials:
 - oil
 - ' acrylic'
 - ' canvas'
-price: 6000
+price: 8000
 mainImage: she_is_free.JPG
 ---
 The depiction of a woman with the head of a parrot holding a rope suggests strong volitional control in the context of sexual energy, defining subjectivity and self-actualization in her own sexual preferences. It symbolizes an individual process of liberation from societal stereotypes and even sexual taboos through active self-expression and defining personal boundaries.

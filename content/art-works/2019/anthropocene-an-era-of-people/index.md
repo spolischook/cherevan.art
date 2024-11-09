@@ -2,7 +2,7 @@
 id: 344
 shopifyId: 0
 shopifyOptionId: 0
-order: 241
+order: 243
 title: Anthropocene. An era of people.
 slug: anthropocene-an-era-of-people
 url: art-works/anthropocene-an-era-of-people
