@@ -1,6 +1,6 @@
 ---
 title: "Kira Performance"
-date: 2024-11-16 21:05:56
+date: 2024-11-12 21:05:56
 slug: 2024-11-16-kira-performance-estudio-de-arte
 draft: false
 location: "Studio de Arte Cherevan"
