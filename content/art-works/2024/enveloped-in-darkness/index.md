@@ -2,7 +2,7 @@
 id: 598
 shopifyId: 8769892778314
 shopifyOptionId: 47923801096522
-order: 18
+order: 19
 title: Enveloped in darkness
 slug: enveloped-in-darkness
 url: art-works/enveloped-in-darkness

@@ -2,7 +2,7 @@
 id: 525
 shopifyId: 8723272630602
 shopifyOptionId: 47772451307850
-order: 59
+order: 60
 title: Mistress Queen
 slug: mistress-queen
 url: art-works/mistress-queen

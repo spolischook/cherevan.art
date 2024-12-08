@@ -2,7 +2,7 @@
 id: 608
 shopifyId: 9374219796810
 shopifyOptionId: 48828482355530
-order: 12
+order: 13
 title: Sunrise naked
 slug: sunrise-naked
 url: art-works/sunrise-naked
