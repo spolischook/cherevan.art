@@ -2,7 +2,7 @@
 id: 556
 shopifyId: 0
 shopifyOptionId: 0
-order: 457
+order: 458
 title: Lesya Ganzha
 slug: lesya-ganzha
 url: art-works/lesya-ganzha

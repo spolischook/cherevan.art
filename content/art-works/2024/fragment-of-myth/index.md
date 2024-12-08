@@ -1,0 +1,23 @@
+---
+id: 621
+shopifyId: 0
+shopifyOptionId: 0
+order: 1
+title: Fragment of myth
+slug: fragment-of-myth
+url: art-works/fragment-of-myth
+aliases: []
+categories:
+- painting
+inStock: true
+isVisible: true
+height: 60
+width: 80
+date: 2024-01-01T00:00:00Z
+materials:
+- oil
+- ' acrylic'
+- ' canvas'
+price: 3500
+mainImage: fragment_of_myth.jpg
+---
