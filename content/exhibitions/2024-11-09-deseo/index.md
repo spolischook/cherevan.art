@@ -7,7 +7,7 @@ location: "Studio de Arte Cherevan"
 locationLink: "https://maps.app.goo.gl/rZNhnBKQuL4J9qPE6"
 eventDate: 2024-11-09 17:00:00
 afisha: "2024-11-09-deseo-poster.jpg"
-tags: ["exhibition", "solo"]
+tags: ["exhibition", "solo", "essential"]
 ---
 Taller en el Estudio de Arte de la artista Tetiana Cherevan
 З радістю запрошую вас на особливу подію, яка відбудеться в рамках Дня відкритих дверей для художників і керамістів цього листопада в сонячній Барселоні.
