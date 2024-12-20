@@ -2,7 +2,7 @@
 id: 611
 shopifyId: 9452936626506
 shopifyOptionId: 49106707906890
-order: 4
+order: 5
 title: The slowness of being 1
 slug: the-slowness-of-being-1
 url: art-works/the-slowness-of-being-1

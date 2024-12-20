@@ -2,7 +2,7 @@
 id: 621
 shopifyId: 0
 shopifyOptionId: 0
-order: 1
+order: 2
 title: Fragment of myth
 slug: fragment-of-myth
 url: art-works/fragment-of-myth

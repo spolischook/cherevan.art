@@ -2,7 +2,7 @@
 id: 620
 shopifyId: 0
 shopifyOptionId: 0
-order: 26
+order: 27
 title: On your body
 slug: on-your-body
 url: art-works/on-your-body

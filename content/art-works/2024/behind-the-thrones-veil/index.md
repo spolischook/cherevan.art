@@ -2,7 +2,7 @@
 id: 610
 shopifyId: 9452933710154
 shopifyOptionId: 49106677104970
-order: 5
+order: 6
 title: Behind the Throne's Veil
 slug: behind-the-thrones-veil
 url: art-works/behind-the-thrones-veil

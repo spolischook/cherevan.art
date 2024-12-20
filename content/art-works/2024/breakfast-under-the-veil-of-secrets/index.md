@@ -2,14 +2,14 @@
 id: 601
 shopifyId: 9358913208650
 shopifyOptionId: 48789814772042
-order: 18
+order: 19
 title: Breakfast Under the Veil of Secrets
 slug: breakfast-under-the-veil-of-secrets
 url: art-works/breakfast-under-the-veil-of-secrets
 aliases: []
 categories:
 - painting
-inStock: true
+inStock: false
 isVisible: true
 height: 70
 width: 150
