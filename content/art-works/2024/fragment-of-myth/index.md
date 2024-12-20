@@ -1,7 +1,7 @@
 ---
 id: 621
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9621386068298
+shopifyOptionId: 49746588631370
 order: 2
 title: Fragment of myth
 slug: fragment-of-myth
