@@ -1,7 +1,7 @@
 ---
 id: 445
 shopifyId: 9621385412938
-shopifyOptionId: 49746584994122
+shopifyOptionId: 49746585190730
 order: 143
 title: Мy angel
 slug: мy-angel
