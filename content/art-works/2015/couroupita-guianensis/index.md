@@ -2,7 +2,7 @@
 id: 158
 shopifyId: 0
 shopifyOptionId: 0
-order: 432
+order: 433
 title: Couroupita guianensis
 slug: couroupita-guianensis
 url: art-works/couroupita-guianensis
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - graphics
 inStock: true
-isVisible: false
+isVisible: true
 height: 35
 width: 50
 date: 2015-01-01T00:00:00Z

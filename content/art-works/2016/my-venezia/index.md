@@ -2,7 +2,7 @@
 id: 15
 shopifyId: 0
 shopifyOptionId: 0
-order: 604
+order: 605
 title: My Venezia
 slug: my-venezia
 url: art-works/my-venezia
