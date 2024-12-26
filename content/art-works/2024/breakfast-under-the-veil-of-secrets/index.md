@@ -2,7 +2,7 @@
 id: 601
 shopifyId: 9358913208650
 shopifyOptionId: 48789814772042
-order: 19
+order: 18
 title: Breakfast Under the Veil of Secrets
 slug: breakfast-under-the-veil-of-secrets
 url: art-works/breakfast-under-the-veil-of-secrets
