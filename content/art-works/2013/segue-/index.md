@@ -2,7 +2,7 @@
 id: 22
 shopifyId: 0
 shopifyOptionId: 0
-order: 598
+order: 594
 title: 'Segue '
 slug: segue-
 url: art-works/segue-
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 80
 width: 60
 date: 2013-01-01T00:00:00Z

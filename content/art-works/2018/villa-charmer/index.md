@@ -2,7 +2,7 @@
 id: 303
 shopifyId: 0
 shopifyOptionId: 0
-order: 284
+order: 281
 title: Villa charmer
 slug: villa-charmer
 url: art-works/villa-charmer
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: true
+location: ""
 height: 80
 width: 60
 date: 2018-01-01T00:00:00Z

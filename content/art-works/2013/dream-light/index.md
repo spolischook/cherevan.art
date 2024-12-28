@@ -2,7 +2,7 @@
 id: 142
 shopifyId: 0
 shopifyOptionId: 0
-order: 476
+order: 472
 title: Dream Light
 slug: dream-light
 url: art-works/dream-light
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 60
 width: 80
 date: 2013-01-01T00:00:00Z

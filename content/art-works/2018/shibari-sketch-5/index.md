@@ -2,7 +2,7 @@
 id: 264
 shopifyId: 8723264799050
 shopifyOptionId: 47772432007498
-order: 323
+order: 320
 title: Shibari sketch 5
 slug: shibari-sketch-5
 url: art-works/shibari-sketch-5
@@ -12,6 +12,7 @@ categories:
 - graphics
 inStock: true
 isVisible: false
+location: ""
 height: 19
 width: 19
 date: 2018-01-01T00:00:00Z

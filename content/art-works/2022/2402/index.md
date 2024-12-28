@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 42
 width: 30
 date: 2022-01-01T00:00:00Z

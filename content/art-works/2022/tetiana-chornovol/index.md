@@ -2,7 +2,7 @@
 id: 557
 shopifyId: 0
 shopifyOptionId: 0
-order: 460
+order: 456
 title: Tetiana Chornovol
 slug: tetiana-chornovol
 url: art-works/tetiana-chornovol
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: false
+location: ""
 height: 30
 width: 21
 date: 2022-01-01T00:00:00Z

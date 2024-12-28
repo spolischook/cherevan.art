@@ -2,7 +2,7 @@
 id: 51
 shopifyId: 0
 shopifyOptionId: 0
-order: 569
+order: 565
 title: White rose
 slug: white-rose
 url: art-works/white-rose
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 60
 width: 60
 date: 2006-01-01T00:00:00Z

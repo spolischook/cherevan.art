@@ -2,7 +2,7 @@
 id: 385
 shopifyId: 8723274400074
 shopifyOptionId: 47772455534922
-order: 204
+order: 201
 title: 'Children of the light '
 slug: children-of-the-light-
 url: art-works/children-of-the-light-
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: true
+location: ""
 height: 30
 width: 21
 date: 2019-01-01T00:00:00Z

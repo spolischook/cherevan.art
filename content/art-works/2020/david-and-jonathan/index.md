@@ -2,7 +2,7 @@
 id: 474
 shopifyId: 8723272499530
 shopifyOptionId: 47772451111242
-order: 114
+order: 111
 title: David and Jonathan
 slug: david-and-jonathan
 url: art-works/david-and-jonathan
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
+location: Ukraine/ workshop
 height: 150
 width: 70
 date: 2020-01-01T00:00:00Z

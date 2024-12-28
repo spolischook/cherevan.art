@@ -2,7 +2,7 @@
 id: 326
 shopifyId: 8723261063498
 shopifyOptionId: 47772422209866
-order: 262
+order: 259
 title: Kindred spirits
 slug: kindred-spirits
 url: art-works/kindred-spirits
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: false
+location: ""
 height: 30
 width: 21
 date: 2018-01-01T00:00:00Z

@@ -2,7 +2,7 @@
 id: 11
 shopifyId: 8723273646410
 shopifyOptionId: 47772453503306
-order: 609
+order: 605
 title: Tea with cat
 slug: tea-with-cat
 url: art-works/tea-with-cat
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: true
+location: ""
 height: 21
 width: 30
 date: 2016-01-01T00:00:00Z

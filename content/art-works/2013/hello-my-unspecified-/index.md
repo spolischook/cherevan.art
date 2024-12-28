@@ -2,7 +2,7 @@
 id: 140
 shopifyId: 0
 shopifyOptionId: 0
-order: 478
+order: 474
 title: 'Hello, my unspecified '
 slug: hello-my-unspecified-
 url: art-works/hello-my-unspecified-
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 60
 width: 80
 date: 2013-01-01T00:00:00Z

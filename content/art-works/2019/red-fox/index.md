@@ -2,7 +2,7 @@
 id: 391
 shopifyId: 0
 shopifyOptionId: 0
-order: 198
+order: 195
 title: Red Fox
 slug: red-fox
 url: art-works/red-fox
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: true
+location: ""
 height: 30
 width: 21
 date: 2019-01-01T00:00:00Z

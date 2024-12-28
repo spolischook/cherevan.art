@@ -2,7 +2,7 @@
 id: 146
 shopifyId: 0
 shopifyOptionId: 0
-order: 472
+order: 468
 title: Sunny hugs
 slug: sunny-hugs
 url: art-works/sunny-hugs
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 80
 width: 60
 date: 2014-01-01T00:00:00Z

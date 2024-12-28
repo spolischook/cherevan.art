@@ -2,7 +2,7 @@
 id: 383
 shopifyId: 8723274236234
 shopifyOptionId: 47772455076170
-order: 206
+order: 203
 title: An elusive goes around the world
 slug: an-elusive-goes-around-the-world
 url: art-works/an-elusive-goes-around-the-world
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: true
+location: ""
 height: 30
 width: 21
 date: 2019-01-01T00:00:00Z

@@ -2,7 +2,7 @@
 id: 14
 shopifyId: 0
 shopifyOptionId: 0
-order: 606
+order: 602
 title: Undina
 slug: undina
 url: art-works/undina
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 90
 width: 100
 date: 2011-01-01T00:00:00Z

@@ -2,7 +2,7 @@
 id: 460
 shopifyId: 8723271745866
 shopifyOptionId: 47772449210698
-order: 128
+order: 125
 title: Quarantine love story
 slug: quarantine-love-story
 url: art-works/quarantine-love-story
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: true
+location: Ukraine/ workshop
 height: 30
 width: 21
 date: 2020-01-01T00:00:00Z

@@ -2,7 +2,7 @@
 id: 351
 shopifyId: 0
 shopifyOptionId: 0
-order: 238
+order: 235
 title: it felt so good
 slug: it-felt-so-good
 url: art-works/it-felt-so-good
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 30
 width: 21
 date: 2019-01-01T00:00:00Z

@@ -2,7 +2,7 @@
 id: 24
 shopifyId: 0
 shopifyOptionId: 0
-order: 596
+order: 592
 title: My steps to you
 slug: my-steps-to-you
 url: art-works/my-steps-to-you
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 60
 width: 40
 date: 2013-01-01T00:00:00Z

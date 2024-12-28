@@ -2,7 +2,7 @@
 id: 63
 shopifyId: 0
 shopifyOptionId: 0
-order: 557
+order: 553
 title: Julia
 slug: julia
 url: art-works/julia
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: true
+location: ""
 height: 60
 width: 40
 date: 2008-01-01T00:00:00Z

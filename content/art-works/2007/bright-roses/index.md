@@ -2,7 +2,7 @@
 id: 56
 shopifyId: 0
 shopifyOptionId: 0
-order: 564
+order: 560
 title: Bright roses
 slug: bright-roses
 url: art-works/bright-roses
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 70
 width: 90
 date: 2007-01-01T00:00:00Z

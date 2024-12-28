@@ -2,7 +2,7 @@
 id: 152
 shopifyId: 0
 shopifyOptionId: 0
-order: 441
+order: 437
 title: 'Project Woman Bereginya Lesya '
 slug: project-woman-bereginya-lesya-
 url: art-works/project-woman-bereginya-lesya-
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: false
+location: ""
 height: 50
 width: 70
 date: 2014-01-01T00:00:00Z

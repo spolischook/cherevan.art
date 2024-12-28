@@ -2,7 +2,7 @@
 id: 358
 shopifyId: 8723269648714
 shopifyOptionId: 47772444229962
-order: 231
+order: 228
 title: Peafowl 2
 slug: peafowl-2
 url: art-works/peafowl-2
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
+location: ""
 height: 70
 width: 50
 date: 2019-01-01T00:00:00Z

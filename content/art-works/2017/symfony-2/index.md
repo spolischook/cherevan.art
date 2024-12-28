@@ -2,7 +2,7 @@
 id: 12
 shopifyId: 0
 shopifyOptionId: 0
-order: 608
+order: 604
 title: Symfony 2
 slug: symfony-2
 url: art-works/symfony-2
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 50
 width: 50
 date: 2017-01-01T00:00:00Z

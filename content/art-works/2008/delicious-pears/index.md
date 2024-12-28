@@ -2,7 +2,7 @@
 id: 9
 shopifyId: 0
 shopifyOptionId: 0
-order: 611
+order: 607
 title: Delicious pears
 slug: delicious-pears
 url: art-works/delicious-pears
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 70
 width: 80
 date: 2008-01-01T00:00:00Z

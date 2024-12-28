@@ -2,7 +2,7 @@
 id: 382
 shopifyId: 0
 shopifyOptionId: 0
-order: 207
+order: 204
 title: 'The flame forgets to burn '
 slug: the-flame-forgets-to-burn-
 url: art-works/the-flame-forgets-to-burn-
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: true
+location: ""
 height: 30
 width: 21
 date: 2019-01-01T00:00:00Z

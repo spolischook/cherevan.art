@@ -2,7 +2,7 @@
 id: 477
 shopifyId: 9452939608394
 shopifyOptionId: 49106734743882
-order: 111
+order: 108
 title: Wild waters 2
 slug: wild-waters-2
 url: art-works/wild-waters-2
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
+location: Ukraine/ workshop
 height: 70
 width: 150
 date: 2021-01-01T00:00:00Z

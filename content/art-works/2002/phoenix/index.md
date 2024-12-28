@@ -2,7 +2,7 @@
 id: 42
 shopifyId: 0
 shopifyOptionId: 0
-order: 578
+order: 574
 title: Phoenix
 slug: phoenix
 url: art-works/phoenix
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 50
 width: 35
 date: 2002-01-01T00:00:00Z

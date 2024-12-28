@@ -17,6 +17,7 @@ type ArtWork struct {
 	Categories      []string  `yaml:"categories" json:"categories"`
 	InStock         bool      `yaml:"inStock" json:"inStock"`
 	IsVisible       bool      `yaml:"isVisible" json:"isVisible"`
+	Location        string    `yaml:"location" json:"location"`
 	Height          int       `yaml:"height" json:"height"`
 	Width           int       `yaml:"width" json:"width"`
 	Date            time.Time `yaml:"date" json:"date"`

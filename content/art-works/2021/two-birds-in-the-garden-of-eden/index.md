@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
+location: Palma de Mallorca
 height: 70
 width: 150
 date: 2021-01-01T00:00:00Z

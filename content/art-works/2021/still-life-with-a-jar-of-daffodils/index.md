@@ -2,7 +2,7 @@
 id: 518
 shopifyId: 8723261620554
 shopifyOptionId: 47772423258442
-order: 106
+order: 103
 title: Still life with a jar of daffodils
 slug: still-life-with-a-jar-of-daffodils
 url: art-works/still-life-with-a-jar-of-daffodils
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
+location: Ukraine/ Print Pro
 height: 70
 width: 70
 date: 2021-01-01T00:00:00Z

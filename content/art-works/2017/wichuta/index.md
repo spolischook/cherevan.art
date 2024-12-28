@@ -2,7 +2,7 @@
 id: 244
 shopifyId: 8723267322186
 shopifyOptionId: 47772438659402
-order: 344
+order: 341
 title: Wichuta
 slug: wichuta
 url: art-works/wichuta
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
+location: ""
 height: 85
 width: 60
 date: 2017-01-01T00:00:00Z

@@ -2,7 +2,7 @@
 id: 561
 shopifyId: 0
 shopifyOptionId: 0
-order: 464
+order: 460
 title: Anastasia
 slug: anastasia
 url: art-works/anastasia
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: false
+location: ""
 height: 30
 width: 21
 date: 2022-01-01T00:00:00Z

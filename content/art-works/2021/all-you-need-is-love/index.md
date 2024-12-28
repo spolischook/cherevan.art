@@ -2,7 +2,7 @@
 id: 479
 shopifyId: 8723263226186
 shopifyOptionId: 47772427321674
-order: 109
+order: 106
 title: All you need is love
 slug: all-you-need-is-love
 url: art-works/all-you-need-is-love
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
+location: Ukraine/ home
 height: 70
 width: 70
 date: 2021-01-01T00:00:00Z

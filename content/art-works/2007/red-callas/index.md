@@ -2,7 +2,7 @@
 id: 54
 shopifyId: 0
 shopifyOptionId: 0
-order: 566
+order: 562
 title: Red callas
 slug: red-callas
 url: art-works/red-callas
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 70
 width: 90
 date: 2007-01-01T00:00:00Z

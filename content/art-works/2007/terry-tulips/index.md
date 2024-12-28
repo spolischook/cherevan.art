@@ -2,7 +2,7 @@
 id: 55
 shopifyId: 0
 shopifyOptionId: 0
-order: 565
+order: 561
 title: Terry tulips
 slug: terry-tulips
 url: art-works/terry-tulips
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 70
 width: 80
 date: 2007-01-01T00:00:00Z

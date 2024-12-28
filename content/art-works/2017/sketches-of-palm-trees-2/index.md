@@ -2,7 +2,7 @@
 id: 207
 shopifyId: 8723269157194
 shopifyOptionId: 47772443312458
-order: 381
+order: 378
 title: Sketches of palm trees 2
 slug: sketches-of-palm-trees-2
 url: art-works/sketches-of-palm-trees-2
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: false
+location: ""
 height: 30
 width: 21
 date: 2017-01-01T00:00:00Z

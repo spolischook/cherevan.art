@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: true
+location: Spain
 height: 56
 width: 38
 date: 2022-01-01T00:00:00Z

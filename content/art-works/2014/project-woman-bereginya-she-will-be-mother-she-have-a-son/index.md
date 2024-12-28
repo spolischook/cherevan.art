@@ -2,7 +2,7 @@
 id: 580
 shopifyId: 0
 shopifyOptionId: 0
-order: 440
+order: 436
 title: Project Woman Bereginya She will be mother she have a son
 slug: project-woman-bereginya-she-will-be-mother-she-have-a-son
 url: art-works/project-woman-bereginya-she-will-be-mother-she-have-a-son
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 70
 width: 50
 date: 2014-01-01T00:00:00Z

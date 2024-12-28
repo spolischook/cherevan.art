@@ -2,7 +2,7 @@
 id: 28
 shopifyId: 0
 shopifyOptionId: 0
-order: 592
+order: 588
 title: Goddess of Earth
 slug: goddess-of-earth
 url: art-works/goddess-of-earth
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
+location: ""
 height: 90
 width: 65
 date: 2017-01-01T00:00:00Z

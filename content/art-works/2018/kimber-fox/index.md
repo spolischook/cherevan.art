@@ -2,7 +2,7 @@
 id: 299
 shopifyId: 0
 shopifyOptionId: 0
-order: 288
+order: 285
 title: Kimber Fox
 slug: kimber-fox
 url: art-works/kimber-fox
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: true
+location: ""
 height: 85
 width: 60
 date: 2018-01-01T00:00:00Z

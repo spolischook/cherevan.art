@@ -2,7 +2,7 @@
 id: 250
 shopifyId: 8723270566218
 shopifyOptionId: 47772446720330
-order: 338
+order: 335
 title: Jatamart
 slug: jatamart
 url: art-works/jatamart
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
+location: ""
 height: 85
 width: 60
 date: 2017-01-01T00:00:00Z

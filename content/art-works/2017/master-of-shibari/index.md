@@ -2,7 +2,7 @@
 id: 252
 shopifyId: 8723259916618
 shopifyOptionId: 47772418736458
-order: 336
+order: 333
 title: Master of Shibari
 slug: master-of-shibari
 url: art-works/master-of-shibari
@@ -12,6 +12,7 @@ categories:
 - graphics
 inStock: true
 isVisible: true
+location: ""
 height: 30
 width: 21
 date: 2017-01-01T00:00:00Z

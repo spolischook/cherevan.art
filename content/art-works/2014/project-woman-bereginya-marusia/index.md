@@ -2,7 +2,7 @@
 id: 549
 shopifyId: 0
 shopifyOptionId: 0
-order: 452
+order: 448
 title: Project Woman Bereginya Marusia
 slug: project-woman-bereginya-marusia
 url: art-works/project-woman-bereginya-marusia
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 35
 width: 35
 date: 2014-01-01T00:00:00Z

@@ -2,7 +2,7 @@
 id: 197
 shopifyId: 0
 shopifyOptionId: 0
-order: 390
+order: 387
 title: Balance
 slug: balance
 url: art-works/balance
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 30
 width: 20
 date: 2017-01-01T00:00:00Z

@@ -2,7 +2,7 @@
 id: 510
 shopifyId: 8723274662218
 shopifyOptionId: 47772455895370
-order: 75
+order: 74
 title: There stars meet the sky
 slug: there-stars-meet-the-sky
 url: art-works/there-stars-meet-the-sky
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
+location: ""
 height: 85
 width: 60
 date: 2022-01-01T00:00:00Z

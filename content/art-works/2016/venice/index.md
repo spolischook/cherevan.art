@@ -2,7 +2,7 @@
 id: 191
 shopifyId: 0
 shopifyOptionId: 0
-order: 396
+order: 393
 title: Venice
 slug: venice
 url: art-works/venice
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 50
 width: 60
 date: 2016-01-01T00:00:00Z

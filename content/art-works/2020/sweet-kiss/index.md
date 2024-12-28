@@ -2,7 +2,7 @@
 id: 472
 shopifyId: 8723273744714
 shopifyOptionId: 47772454060362
-order: 116
+order: 113
 title: Sweet kiss
 slug: sweet-kiss
 url: art-works/sweet-kiss
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: true
+location: Spain
 height: 30
 width: 21
 date: 2020-01-01T00:00:00Z

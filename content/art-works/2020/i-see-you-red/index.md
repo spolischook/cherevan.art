@@ -2,7 +2,7 @@
 id: 418
 shopifyId: 8723263455562
 shopifyOptionId: 47772428108106
-order: 170
+order: 167
 title: I see you (red)
 slug: i-see-you-red
 url: art-works/i-see-you-red
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: true
+location: ""
 height: 30
 width: 21
 date: 2020-01-01T00:00:00Z

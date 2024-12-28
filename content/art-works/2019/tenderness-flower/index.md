@@ -2,7 +2,7 @@
 id: 389
 shopifyId: 0
 shopifyOptionId: 0
-order: 200
+order: 197
 title: Tenderness flower
 slug: tenderness-flower
 url: art-works/tenderness-flower
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: true
+location: ""
 height: 30
 width: 21
 date: 2019-01-01T00:00:00Z

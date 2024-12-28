@@ -2,7 +2,7 @@
 id: 426
 shopifyId: 0
 shopifyOptionId: 0
-order: 162
+order: 159
 title: Bohun
 slug: bohun
 url: art-works/bohun
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 30
 width: 21
 date: 2020-01-01T00:00:00Z

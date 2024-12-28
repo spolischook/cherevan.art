@@ -2,7 +2,7 @@
 id: 237
 shopifyId: 8723262079306
 shopifyOptionId: 47772423979338
-order: 351
+order: 348
 title: Sunset, Koh Samui
 slug: sunset-koh-samui
 url: art-works/sunset-koh-samui
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: false
+location: ""
 height: 20
 width: 30
 date: 2017-01-01T00:00:00Z

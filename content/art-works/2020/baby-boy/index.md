@@ -2,7 +2,7 @@
 id: 425
 shopifyId: 0
 shopifyOptionId: 0
-order: 163
+order: 160
 title: Baby boy
 slug: baby-boy
 url: art-works/baby-boy
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 21
 width: 30
 date: 2020-01-01T00:00:00Z

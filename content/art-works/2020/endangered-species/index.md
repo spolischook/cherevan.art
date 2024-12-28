@@ -2,7 +2,7 @@
 id: 438
 shopifyId: 8723263783242
 shopifyOptionId: 47772428763466
-order: 150
+order: 147
 title: Endangered species
 slug: endangered-species
 url: art-works/endangered-species
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
+location: ""
 height: 85
 width: 60
 date: 2020-01-01T00:00:00Z

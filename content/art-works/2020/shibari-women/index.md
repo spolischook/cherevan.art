@@ -2,7 +2,7 @@
 id: 444
 shopifyId: 8723270697290
 shopifyOptionId: 47772446818634
-order: 144
+order: 141
 title: Shibari women
 slug: shibari-women
 url: art-works/shibari-women
@@ -12,6 +12,7 @@ categories:
 - graphics
 inStock: true
 isVisible: true
+location: ""
 height: 30
 width: 21
 date: 2020-01-01T00:00:00Z

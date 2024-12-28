@@ -2,7 +2,7 @@
 id: 560
 shopifyId: 0
 shopifyOptionId: 0
-order: 463
+order: 459
 title: Lesya Litvinova
 slug: lesya-litvinova
 url: art-works/lesya-litvinova
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: false
+location: ""
 height: 30
 width: 21
 date: 2022-01-01T00:00:00Z

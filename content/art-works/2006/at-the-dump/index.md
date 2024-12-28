@@ -2,7 +2,7 @@
 id: 46
 shopifyId: 0
 shopifyOptionId: 0
-order: 574
+order: 570
 title: At the dump
 slug: at-the-dump
 url: art-works/at-the-dump
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 50
 width: 35
 date: 2006-01-01T00:00:00Z

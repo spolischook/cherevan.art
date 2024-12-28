@@ -2,7 +2,7 @@
 id: 386
 shopifyId: 8723270009162
 shopifyOptionId: 47772444983626
-order: 203
+order: 200
 title: Dreams about Paris
 slug: dreams-about-paris
 url: art-works/dreams-about-paris
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: true
+location: ""
 height: 30
 width: 21
 date: 2019-01-01T00:00:00Z

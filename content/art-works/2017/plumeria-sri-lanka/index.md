@@ -2,7 +2,7 @@
 id: 262
 shopifyId: 8723260997962
 shopifyOptionId: 47772422111562
-order: 325
+order: 322
 title: Plumeria, Sri Lanka
 slug: plumeria-sri-lanka
 url: art-works/plumeria-sri-lanka
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: false
+location: ""
 height: 21
 width: 30
 date: 2017-01-01T00:00:00Z

@@ -2,7 +2,7 @@
 id: 394
 shopifyId: 8723268239690
 shopifyOptionId: 47772440920394
-order: 195
+order: 192
 title: Lenbin
 slug: lenbin
 url: art-works/lenbin
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: true
+location: ""
 height: 22
 width: 15
 date: 2019-01-01T00:00:00Z

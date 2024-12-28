@@ -2,7 +2,7 @@
 id: 117
 shopifyId: 0
 shopifyOptionId: 0
-order: 503
+order: 499
 title: Series of female portraits
 slug: series-of-female-portraits
 url: art-works/series-of-female-portraits
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 60
 width: 40
 date: 2010-01-01T00:00:00Z

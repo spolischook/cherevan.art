@@ -2,7 +2,7 @@
 id: 357
 shopifyId: 8723264176458
 shopifyOptionId: 47772430172490
-order: 232
+order: 229
 title: Pain
 slug: pain
 url: art-works/pain
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
+location: ""
 height: 70
 width: 50
 date: 2019-01-01T00:00:00Z

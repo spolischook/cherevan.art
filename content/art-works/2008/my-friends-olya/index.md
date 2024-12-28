@@ -2,7 +2,7 @@
 id: 71
 shopifyId: 0
 shopifyOptionId: 0
-order: 549
+order: 545
 title: My friends, Olya
 slug: my-friends-olya
 url: art-works/my-friends-olya
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: true
+location: ""
 height: 42
 width: 32
 date: 2008-01-01T00:00:00Z

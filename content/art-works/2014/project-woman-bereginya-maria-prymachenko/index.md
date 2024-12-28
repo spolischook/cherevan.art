@@ -2,7 +2,7 @@
 id: 581
 shopifyId: 0
 shopifyOptionId: 0
-order: 442
+order: 438
 title: Project Woman Bereginya Maria Prymachenko
 slug: project-woman-bereginya-maria-prymachenko
 url: art-works/project-woman-bereginya-maria-prymachenko
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: false
+location: ""
 height: 70
 width: 50
 date: 2014-01-01T00:00:00Z

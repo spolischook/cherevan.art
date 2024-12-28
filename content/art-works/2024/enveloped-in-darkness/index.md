@@ -12,6 +12,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
+location: Spain
 height: 150
 width: 70
 date: 2024-01-01T00:00:00Z

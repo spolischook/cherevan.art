@@ -2,7 +2,7 @@
 id: 550
 shopifyId: 0
 shopifyOptionId: 0
-order: 453
+order: 449
 title: Project Woman Bereginya Yulia
 slug: project-woman-bereginya-yulia
 url: art-works/project-woman-bereginya-yulia
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 35
 width: 35
 date: 2014-01-01T00:00:00Z

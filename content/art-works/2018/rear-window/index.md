@@ -2,7 +2,7 @@
 id: 279
 shopifyId: 8723270173002
 shopifyOptionId: 47772445344074
-order: 308
+order: 305
 title: Rear window
 slug: rear-window
 url: art-works/rear-window
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: false
+location: ""
 height: 30
 width: 21
 date: 2018-01-01T00:00:00Z

@@ -2,7 +2,7 @@
 id: 219
 shopifyId: 8723264635210
 shopifyOptionId: 47772431515978
-order: 369
+order: 366
 title: Boats Koh Tao 2
 slug: boats-koh-tao-2
 url: art-works/boats-koh-tao-2
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: false
+location: ""
 height: 21
 width: 30
 date: 2017-01-01T00:00:00Z

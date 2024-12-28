@@ -2,7 +2,7 @@
 id: 306
 shopifyId: 8723268108618
 shopifyOptionId: 47772440822090
-order: 281
+order: 278
 title: I imagined you
 slug: i-imagined-you
 url: art-works/i-came-up-with-you
@@ -12,6 +12,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
+location: ""
 height: 80
 width: 60
 date: 2018-01-01T00:00:00Z

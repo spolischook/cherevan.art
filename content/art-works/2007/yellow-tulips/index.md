@@ -2,7 +2,7 @@
 id: 19
 shopifyId: 0
 shopifyOptionId: 0
-order: 601
+order: 597
 title: Yellow tulips
 slug: yellow-tulips
 url: art-works/yellow-tulips
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 60
 width: 70
 date: 2007-01-01T00:00:00Z

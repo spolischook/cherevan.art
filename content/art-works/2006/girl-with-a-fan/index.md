@@ -2,7 +2,7 @@
 id: 47
 shopifyId: 0
 shopifyOptionId: 0
-order: 573
+order: 569
 title: Girl with a fan
 slug: girl-with-a-fan
 url: art-works/girl-with-a-fan
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 50
 width: 35
 date: 2006-01-01T00:00:00Z

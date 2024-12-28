@@ -2,7 +2,7 @@
 id: 340
 shopifyId: 0
 shopifyOptionId: 0
-order: 248
+order: 245
 title: Find the key to yourself
 slug: find-the-key-to-yourself
 url: art-works/find-the-key-to-yourself
@@ -12,6 +12,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 35
 width: 25
 date: 2019-01-01T00:00:00Z

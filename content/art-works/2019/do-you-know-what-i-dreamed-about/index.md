@@ -2,7 +2,7 @@
 id: 339
 shopifyId: 0
 shopifyOptionId: 0
-order: 249
+order: 246
 title: Do you know what I dreamed about?
 slug: do-you-know-what-i-dreamed-about
 url: art-works/do-you-know-what-i-dreamed-about
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 35
 width: 25
 date: 2019-01-01T00:00:00Z

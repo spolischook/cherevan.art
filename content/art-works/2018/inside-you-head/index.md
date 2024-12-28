@@ -2,7 +2,7 @@
 id: 314
 shopifyId: 8723265126730
 shopifyOptionId: 47772432400714
-order: 274
+order: 271
 title: Inside you head
 slug: inside-you-head
 url: art-works/inside-you-head
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
+location: ""
 height: 80
 width: 60
 date: 2018-01-01T00:00:00Z

@@ -2,7 +2,7 @@
 id: 86
 shopifyId: 0
 shopifyOptionId: 0
-order: 535
+order: 531
 title: Attraction
 slug: attraction
 url: art-works/attraction
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 50
 width: 35
 date: 2009-01-01T00:00:00Z

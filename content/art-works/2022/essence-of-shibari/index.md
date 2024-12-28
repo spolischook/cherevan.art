@@ -2,7 +2,7 @@
 id: 576
 shopifyId: 0
 shopifyOptionId: 0
-order: 78
+order: 77
 title: Essence of shibari
 slug: essence-of-shibari
 url: art-works/essence-of-shibari
@@ -12,6 +12,7 @@ categories:
 - painting
 inStock: false
 isVisible: true
+location: ""
 height: 85
 width: 60
 date: 2022-01-01T00:00:00Z

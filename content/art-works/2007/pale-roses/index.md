@@ -2,7 +2,7 @@
 id: 52
 shopifyId: 0
 shopifyOptionId: 0
-order: 568
+order: 564
 title: Pale Roses
 slug: pale-roses
 url: art-works/pale-roses
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 70
 width: 90
 date: 2007-01-01T00:00:00Z

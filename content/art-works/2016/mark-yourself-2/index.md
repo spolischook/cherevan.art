@@ -2,7 +2,7 @@
 id: 189
 shopifyId: 0
 shopifyOptionId: 0
-order: 400
+order: 397
 title: Mark yourself 2
 slug: mark-yourself-2
 url: art-works/mark-yourself-2
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 35
 width: 50
 date: 2016-01-01T00:00:00Z

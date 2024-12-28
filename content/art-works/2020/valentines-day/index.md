@@ -2,7 +2,7 @@
 id: 411
 shopifyId: 8723260440906
 shopifyOptionId: 47772421357898
-order: 176
+order: 173
 title: Valentines Day
 slug: valentines-day
 url: art-works/valentines-day
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: false
+location: ""
 height: 30
 width: 21
 date: 2020-01-01T00:00:00Z

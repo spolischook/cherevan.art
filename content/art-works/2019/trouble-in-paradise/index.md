@@ -2,7 +2,7 @@
 id: 367
 shopifyId: 8723263160650
 shopifyOptionId: 47772427256138
-order: 222
+order: 219
 title: Trouble in paradise
 slug: trouble-in-paradise
 url: art-works/trouble-in-paradise
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
+location: ""
 height: 50
 width: 50
 date: 2019-01-01T00:00:00Z

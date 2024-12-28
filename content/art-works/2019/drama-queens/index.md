@@ -2,7 +2,7 @@
 id: 390
 shopifyId: 8723272237386
 shopifyOptionId: 47772450652490
-order: 199
+order: 196
 title: Drama Queens
 slug: drama-queens
 url: art-works/drama-queens
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: true
+location: ""
 height: 30
 width: 21
 date: 2019-01-01T00:00:00Z

@@ -2,7 +2,7 @@
 id: 148
 shopifyId: 0
 shopifyOptionId: 0
-order: 470
+order: 466
 title: Bike under the window
 slug: bike-under-the-window
 url: art-works/bike-under-the-window
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 50
 width: 60
 date: 2014-01-01T00:00:00Z

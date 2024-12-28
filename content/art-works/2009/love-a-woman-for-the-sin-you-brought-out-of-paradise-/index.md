@@ -2,7 +2,7 @@
 id: 92
 shopifyId: 0
 shopifyOptionId: 0
-order: 528
+order: 524
 title: Love a woman for the sin you brought out of paradise ...
 slug: love-a-woman-for-the-sin-you-brought-out-of-paradise-
 url: art-works/love-a-woman-for-the-sin-you-brought-out-of-paradise-
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: true
+location: ""
 height: 50
 width: 70
 date: 2009-01-01T00:00:00Z

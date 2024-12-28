@@ -2,7 +2,7 @@
 id: 371
 shopifyId: 8723265552714
 shopifyOptionId: 47772433318218
-order: 218
+order: 215
 title: Preface 2
 slug: preface-2
 url: art-works/preface-2
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: true
+location: ""
 height: 30
 width: 21
 date: 2019-01-01T00:00:00Z

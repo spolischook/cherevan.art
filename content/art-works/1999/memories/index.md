@@ -2,7 +2,7 @@
 id: 35
 shopifyId: 0
 shopifyOptionId: 0
-order: 585
+order: 581
 title: Memories
 slug: memories
 url: art-works/memories
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 50
 width: 35
 date: 1999-01-01T00:00:00Z

@@ -2,7 +2,7 @@
 id: 431
 shopifyId: 8723263881546
 shopifyOptionId: 47772428992842
-order: 157
+order: 154
 title: Sleepy bear 1
 slug: sleepy-bear-1
 url: art-works/sleepy-bear-1
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 30
 width: 21
 date: 2020-01-01T00:00:00Z

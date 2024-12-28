@@ -2,7 +2,7 @@
 id: 50
 shopifyId: 0
 shopifyOptionId: 0
-order: 570
+order: 566
 title: Freedom
 slug: freedom
 url: art-works/freedom
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 35
 width: 50
 date: 2006-01-01T00:00:00Z

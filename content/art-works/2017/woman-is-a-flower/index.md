@@ -2,7 +2,7 @@
 id: 10
 shopifyId: 8726450831690
 shopifyOptionId: 47785144287562
-order: 610
+order: 606
 title: Woman is a flower
 slug: woman-is-a-flower
 url: art-works/woman-is-a-flower
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: true
+location: ""
 height: 50
 width: 35
 date: 2017-01-01T00:00:00Z

@@ -2,7 +2,7 @@
 id: 409
 shopifyId: 0
 shopifyOptionId: 0
-order: 178
+order: 175
 title: Dragon birth
 slug: dragon-birth
 url: art-works/dragon-birth
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 85
 width: 60
 date: 2020-01-01T00:00:00Z

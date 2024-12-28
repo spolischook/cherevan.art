@@ -2,7 +2,7 @@
 id: 269
 shopifyId: 8723270402378
 shopifyOptionId: 47772446196042
-order: 318
+order: 315
 title: Тourists in Montmartre
 slug: тourists-in-montmartre
 url: art-works/тourists-in-montmartre
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: true
+location: ""
 height: 21
 width: 30
 date: 2018-01-01T00:00:00Z

@@ -2,7 +2,7 @@
 id: 187
 shopifyId: 0
 shopifyOptionId: 0
-order: 402
+order: 399
 title: Called fish
 slug: called-fish
 url: art-works/called-fish
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 50
 width: 60
 date: 2016-01-01T00:00:00Z

@@ -2,7 +2,7 @@
 id: 91
 shopifyId: 0
 shopifyOptionId: 0
-order: 529
+order: 525
 title: Love a woman for the night she gives you ...
 slug: love-a-woman-for-the-night-she-gives-you-
 url: art-works/love-a-woman-for-the-night-she-gives-you-
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: true
+location: ""
 height: 50
 width: 70
 date: 2009-01-01T00:00:00Z

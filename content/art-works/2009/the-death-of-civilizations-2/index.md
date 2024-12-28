@@ -2,7 +2,7 @@
 id: 110
 shopifyId: 0
 shopifyOptionId: 0
-order: 510
+order: 506
 title: The death of civilizations 2
 slug: the-death-of-civilizations-2
 url: art-works/the-death-of-civilizations-2
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 70
 width: 50
 date: 2009-01-01T00:00:00Z

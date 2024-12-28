@@ -2,7 +2,7 @@
 id: 74
 shopifyId: 0
 shopifyOptionId: 0
-order: 546
+order: 542
 title: Callas
 slug: callas
 url: art-works/callas
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 90
 width: 90
 date: 2008-01-01T00:00:00Z

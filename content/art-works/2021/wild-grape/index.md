@@ -2,7 +2,7 @@
 id: 499
 shopifyId: 8725100822858
 shopifyOptionId: 47779108028746
-order: 88
+order: 86
 title: Wild grape
 slug: wild-grape
 url: art-works/wild-grape
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
+location: Ukraine
 height: 100
 width: 100
 date: 2021-01-01T00:00:00Z

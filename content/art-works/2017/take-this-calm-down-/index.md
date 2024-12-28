@@ -2,7 +2,7 @@
 id: 289
 shopifyId: 0
 shopifyOptionId: 0
-order: 298
+order: 295
 title: 'Take this calm down '
 slug: take-this-calm-down-
 url: art-works/take-this-calm-down-
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: true
+location: ""
 height: 30
 width: 25
 date: 2017-01-01T00:00:00Z

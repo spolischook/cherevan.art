@@ -2,7 +2,7 @@
 id: 66
 shopifyId: 0
 shopifyOptionId: 0
-order: 554
+order: 550
 title: Porcelain cup
 slug: porcelain-cup
 url: art-works/porcelain-cup
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 60
 width: 50
 date: 2008-01-01T00:00:00Z

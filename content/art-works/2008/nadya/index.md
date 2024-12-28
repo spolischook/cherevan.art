@@ -2,7 +2,7 @@
 id: 61
 shopifyId: 0
 shopifyOptionId: 0
-order: 559
+order: 555
 title: Nadya
 slug: nadya
 url: art-works/nadya
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: true
+location: ""
 height: 60
 width: 40
 date: 2008-01-01T00:00:00Z

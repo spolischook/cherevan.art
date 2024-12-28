@@ -2,7 +2,7 @@
 id: 465
 shopifyId: 8723271516490
 shopifyOptionId: 47772448751946
-order: 123
+order: 120
 title: Sultan Cave suites
 slug: sultan-cave-suites
 url: art-works/sultan-cave-suites
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: false
+location: Ukraine/ workshop
 height: 30
 width: 21
 date: 2020-01-01T00:00:00Z

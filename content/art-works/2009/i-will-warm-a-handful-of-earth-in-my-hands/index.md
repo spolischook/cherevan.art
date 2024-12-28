@@ -2,7 +2,7 @@
 id: 2
 shopifyId: 0
 shopifyOptionId: 0
-order: 618
+order: 614
 title: I will warm a handful of earth in my hands
 slug: i-will-warm-a-handful-of-earth-in-my-hands
 url: art-works/i-will-warm-a-handful-of-earth-in-my-hands
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 60
 width: 50
 date: 2009-01-01T00:00:00Z

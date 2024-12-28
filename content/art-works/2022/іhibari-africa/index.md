@@ -2,7 +2,7 @@
 id: 508
 shopifyId: 0
 shopifyOptionId: 0
-order: 80
+order: 78
 title: Іhibari Africa
 slug: іhibari-africa
 url: art-works/shibari-africa
@@ -13,6 +13,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 40
 width: 30
 date: 2022-01-01T00:00:00Z

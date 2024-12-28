@@ -2,7 +2,7 @@
 id: 179
 shopifyId: 8723275383114
 shopifyOptionId: 47772456976714
-order: 410
+order: 407
 title: A breath of rose
 slug: a-breath-of-rose
 url: art-works/a-breath-of-rose
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
+location: ""
 height: 70
 width: 50
 date: 2016-01-01T00:00:00Z

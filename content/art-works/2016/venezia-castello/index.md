@@ -2,7 +2,7 @@
 id: 196
 shopifyId: 8723260768586
 shopifyOptionId: 47772421783882
-order: 391
+order: 388
 title: Venezia-Castello
 slug: venezia-castello
 url: art-works/venezia-castello
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: false
+location: ""
 height: 21
 width: 30
 date: 2016-01-01T00:00:00Z

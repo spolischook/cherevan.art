@@ -2,7 +2,7 @@
 id: 144
 shopifyId: 8726451618122
 shopifyOptionId: 47785147171146
-order: 474
+order: 470
 title: I'll give you flowers
 slug: ill-give-you-flowers
 url: art-works/ill-give-you-flowers
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
+location: ""
 height: 80
 width: 60
 date: 2013-01-01T00:00:00Z

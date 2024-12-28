@@ -2,7 +2,7 @@
 id: 113
 shopifyId: 0
 shopifyOptionId: 0
-order: 507
+order: 503
 title: Inna Musorina (sketch)
 slug: inna-musorina-sketch
 url: art-works/inna-musorina-sketch
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 50
 width: 38
 date: 2010-01-01T00:00:00Z

@@ -21,6 +21,7 @@ type inventory struct {
 	Materials int
 	Price     int
 	ImageName int
+	Location  int
 }
 type inventoryHeaders []string
 
@@ -37,6 +38,7 @@ func NewCsvInventory(headers inventoryHeaders) *inventory {
 		Materials: headers.MustGetIndex("Materials en"),
 		Price:     headers.MustGetIndex("Price USD"),
 		ImageName: headers.MustGetIndex("Image name"),
+		Location:  headers.MustGetIndex("Location"),
 	}
 }
 
@@ -46,6 +48,7 @@ func (inv inventory) ParseRow(row []string) ArtWork {
 	cat := row[inv.Category]
 	inStock := row[inv.InStock]
 	isVisible := row[inv.IsVisible]
+	location := row[inv.Location]
 	height := row[inv.Height]
 	width := row[inv.Width]
 	year := row[inv.Year]
@@ -62,6 +65,7 @@ func (inv inventory) ParseRow(row []string) ArtWork {
 		Categories: parseCategories(cat),
 		InStock:    parseBool(inStock),
 		IsVisible:  parseBool(isVisible),
+		Location:   location,
 		Height:     parseInt(height),
 		Width:      parseInt(width),
 		Date:       date,

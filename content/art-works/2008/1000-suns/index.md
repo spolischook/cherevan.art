@@ -2,7 +2,7 @@
 id: 72
 shopifyId: 0
 shopifyOptionId: 0
-order: 548
+order: 544
 title: 1000 suns
 slug: 1000-suns
 url: art-works/1000-suns
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 60
 width: 50
 date: 2008-01-01T00:00:00Z

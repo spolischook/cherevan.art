@@ -2,7 +2,7 @@
 id: 124
 shopifyId: 0
 shopifyOptionId: 0
-order: 496
+order: 492
 title: Versailles gardens
 slug: versailles-gardens
 url: art-works/versailles-gardens
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 60
 width: 80
 date: 2010-01-01T00:00:00Z

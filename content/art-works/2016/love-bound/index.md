@@ -2,7 +2,7 @@
 id: 8
 shopifyId: 0
 shopifyOptionId: 0
-order: 612
+order: 608
 title: Love-bound
 slug: love-bound
 url: art-works/love-bound
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 90
 width: 60
 date: 2016-01-01T00:00:00Z

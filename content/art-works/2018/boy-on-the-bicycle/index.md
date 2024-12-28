@@ -2,7 +2,7 @@
 id: 277
 shopifyId: 0
 shopifyOptionId: 0
-order: 310
+order: 307
 title: Boy on the bicycle
 slug: boy-on-the-bicycle
 url: art-works/boy-on-the-bicycle
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 21
 width: 30
 date: 2018-01-01T00:00:00Z

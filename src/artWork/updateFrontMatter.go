@@ -20,4 +20,5 @@ func (aw *ArtWork) UpdateFrontMatter(a2 ArtWork) {
 	aw.Materials = a2.Materials
 	aw.Price = a2.Price
 	aw.ImageName = a2.ImageName
+	aw.Location = a2.Location
 }

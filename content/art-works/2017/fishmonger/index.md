@@ -2,7 +2,7 @@
 id: 29
 shopifyId: 8723260309834
 shopifyOptionId: 47772421161290
-order: 591
+order: 587
 title: Fishmonger
 slug: fishmonger
 url: art-works/fishmonger
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
+location: ""
 height: 90
 width: 65
 date: 2017-01-01T00:00:00Z

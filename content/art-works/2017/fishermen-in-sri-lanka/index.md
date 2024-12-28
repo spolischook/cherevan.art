@@ -2,7 +2,7 @@
 id: 227
 shopifyId: 8723266240842
 shopifyOptionId: 47772435317066
-order: 361
+order: 358
 title: Fishermen in Sri Lanka
 slug: fishermen-in-sri-lanka
 url: art-works/fishermen-in-sri-lanka
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: false
+location: ""
 height: 30
 width: 30
 date: 2017-01-01T00:00:00Z

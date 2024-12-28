@@ -2,7 +2,7 @@
 id: 69
 shopifyId: 0
 shopifyOptionId: 0
-order: 551
+order: 547
 title: Kiss
 slug: kiss
 url: art-works/kiss
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 60
 width: 50
 date: 2008-01-01T00:00:00Z

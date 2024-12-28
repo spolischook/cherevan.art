@@ -2,7 +2,7 @@
 id: 235
 shopifyId: 8723263422794
 shopifyOptionId: 47772428042570
-order: 353
+order: 350
 title: Sunset after the rain, Koh Samui
 slug: sunset-after-the-rain-koh-samui
 url: art-works/sunset-after-the-rain-koh-samui
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
+location: ""
 height: 20
 width: 30
 date: 2017-01-01T00:00:00Z

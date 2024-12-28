@@ -2,7 +2,7 @@
 id: 453
 shopifyId: 8723268534602
 shopifyOptionId: 47772442132810
-order: 135
+order: 132
 title: See the future
 slug: see-the-future
 url: art-works/see-the-future
@@ -10,7 +10,8 @@ aliases: []
 categories:
 - graphics
 inStock: true
-isVisible: false
+isVisible: true
+location: Spain
 height: 30
 width: 21
 date: 2019-01-01T00:00:00Z

@@ -2,7 +2,7 @@
 id: 441
 shopifyId: 8723263848778
 shopifyOptionId: 47772428894538
-order: 147
+order: 144
 title: Gun and roses 1
 slug: gun-and-roses-1
 url: art-works/gun-and-roses-1
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: true
+location: ""
 height: 30
 width: 21
 date: 2020-01-01T00:00:00Z

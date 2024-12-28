@@ -2,7 +2,7 @@
 id: 154
 shopifyId: 0
 shopifyOptionId: 0
-order: 436
+order: 432
 title: Project Woman Bereginya Natalia_in_balaclava
 slug: project-woman-bereginya-nataliainbalaclava
 url: art-works/project-woman-bereginya-nataliainbalaclava
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: false
+location: ""
 height: 50
 width: 70
 date: 2014-01-01T00:00:00Z

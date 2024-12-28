@@ -2,7 +2,7 @@
 id: 4
 shopifyId: 0
 shopifyOptionId: 0
-order: 616
+order: 612
 title: 8:30 a.m.
 slug: 830-am
 url: art-works/830-am
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 80
 width: 60
 date: 2016-01-01T00:00:00Z

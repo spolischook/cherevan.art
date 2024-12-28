@@ -2,7 +2,7 @@
 id: 21
 shopifyId: 0
 shopifyOptionId: 0
-order: 599
+order: 595
 title: My eyes not love you
 slug: my-eyes-not-love-you
 url: art-works/my-eyes-not-love-you
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 90
 width: 80
 date: 2013-01-01T00:00:00Z

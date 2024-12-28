@@ -2,7 +2,7 @@
 id: 436
 shopifyId: 8723272401226
 shopifyOptionId: 47772450849098
-order: 152
+order: 149
 title: If the river wants to become a sea
 slug: if-the-river-wants-to-become-a-sea
 url: art-works/if-the-river-wants-to-become-a-sea
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
+location: ""
 height: 85
 width: 60
 date: 2020-01-01T00:00:00Z

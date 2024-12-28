@@ -2,7 +2,7 @@
 id: 40
 shopifyId: 0
 shopifyOptionId: 0
-order: 580
+order: 576
 title: Dreams
 slug: dreams
 url: art-works/dreams
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 50
 width: 35
 date: 2002-01-01T00:00:00Z

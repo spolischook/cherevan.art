@@ -2,7 +2,7 @@
 id: 45
 shopifyId: 0
 shopifyOptionId: 0
-order: 575
+order: 571
 title: Passion
 slug: passion
 url: art-works/passion
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 50
 width: 80
 date: 2005-01-01T00:00:00Z

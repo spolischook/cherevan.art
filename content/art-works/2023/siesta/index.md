@@ -12,6 +12,7 @@ categories:
 - painting
 inStock: false
 isVisible: true
+location: ""
 height: 60
 width: 85
 date: 2023-01-01T00:00:00Z

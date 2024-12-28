@@ -2,7 +2,7 @@
 id: 37
 shopifyId: 0
 shopifyOptionId: 0
-order: 583
+order: 579
 title: Pepper
 slug: pepper
 url: art-works/pepper
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 50
 width: 70
 date: 1999-01-01T00:00:00Z

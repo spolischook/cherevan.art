@@ -2,7 +2,7 @@
 id: 487
 shopifyId: 0
 shopifyOptionId: 0
-order: 100
+order: 97
 title: Submission
 slug: submission
 url: art-works/submission
@@ -12,6 +12,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 32
 width: 26
 date: 2021-01-01T00:00:00Z

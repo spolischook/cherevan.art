@@ -17,7 +17,7 @@
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 
     <div id="filterButtons" class="flex space-x-0 mb-2 md:flex-row flex-col md:space-x-2">
-        <button class="filterButton selected" aria-label="all art works" data-filter="all">All (<span>0</span>)</button>
+        <button class="filterButton selected" aria-label="all art works" data-filter="all">Artworks (<span>0</span>)</button>
         <button class="filterButton" aria-label="paper art works" data-filter="graphics">Graphics (<span>0</span>)</button>
         <button class="filterButton" aria-label="paintings, canvases" data-filter="paintings">Paintings (<span>0</span>)</button>
         <div class="border-l-1 border-w-1 border border-slate-300 hidden sm:block"></div>
@@ -25,15 +25,15 @@
         <button class="filterButton" aria-label="shibari art works" data-filter="shibari">Shibari (<span>0</span>)</button>
 <!--        <button class="filterButton selected" aria-label="essential" data-filter="essential">Essential (<span>0</span>)</button>-->
         <div class="flex space-x-0">
-            <button class="filterButton selected" aria-label="in_stock" data-filter="in_stock">Available (<span>0</span>)</button>
-            <button class="filterButton" aria-label="sold" data-filter="sold">Sold (<span>0</span>)</button>
+            <button class="filterButton w-1/2 selected" aria-label="in_stock" data-filter="in_stock">Available (<span>0</span>)</button>
+            <button class="filterButton w-1/2" aria-label="sold" data-filter="sold">Sold (<span>0</span>)</button>
         </div>
         <label for="location" class="sr-only">Location</label>
         <select id="location" name="location" class="filterButton" data-filter="location">
-            <option value="">All locations ▼</option>
-            <option value="">Ukraine</option>
-            <option value="">Spain</option>
-            <option value="">Palma de Mallorca</option>
+            <option value="">Locations</option>
+            <option value="Ukraine">Ukraine</option>
+            <option value="Spain">Spain</option>
+            <option value="Palma de Mallorca">Palma de Mallorca&nbsp&nbsp&nbsp&nbsp&nbsp</option>
             <!-- Add options dynamically here -->
         </select>
         <!-- Add more buttons as needed -->
@@ -96,6 +96,9 @@
             }
             toggle() {
                 this.element.classList.toggle('selected');
+                this.fireFilterToggled();
+            }
+            fireFilterToggled() {
                 const event = new CustomEvent('filterToggled', { detail: this });
                 this.element.dispatchEvent(event);
             }
@@ -129,9 +132,16 @@
                 this.mutuallyExclusiveFilters = ['all', 'paintings', 'graphics'];
                 this.filters = filters;
                 this.filters.forEach(filter => {
-                    filter.element.addEventListener('click', () => {
-                        filter.toggle();
-                    });
+                    if (filter.element.tagName === 'SELECT') {
+                        filter.element.addEventListener('change', () => {
+                            filter.activate();
+                            filter.fireFilterToggled();
+                        });
+                    } else {
+                        filter.element.addEventListener('click', () => {
+                            filter.toggle();
+                        });
+                    }
                     filter.element.addEventListener('filterToggled', (event) => {
                         this.filterItems(event.detail, items);
                     });
@@ -148,7 +158,7 @@
                             filter.deactivate();
                         }
                     });
-                    filter.activate()
+                    filter.activate();
                 }
                 if (['sold', 'in_stock'].includes(filter.name())) {
                     this.filters.forEach(filter => {
@@ -156,7 +166,7 @@
                             filter.deactivate();
                         }
                     });
-                    filter.activate()
+                    filter.activate();
                 }
                 const activeFilters = this.getActiveFilters();
                 if (activeFilters.length === 0) {
@@ -211,7 +221,7 @@
             document.querySelector('#location'),
             item => {
                 const selectedLocation = document.querySelector('#location').value;
-                return selectedLocation === '' || item.params.location === selectedLocation;
+                return item.params.location && item.params.location.includes(selectedLocation);
             }
         );
 
@@ -231,6 +241,7 @@
             // essentialFilter,
             inStockFilter,
             soldFilter,
+            locationFilter,
         ]);
 
         var url = new URL(window.location);

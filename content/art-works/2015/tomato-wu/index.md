@@ -2,7 +2,7 @@
 id: 33
 shopifyId: 0
 shopifyOptionId: 0
-order: 587
+order: 583
 title: Tomato Wu
 slug: tomato-wu
 url: art-works/tomato-wu
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 30
 width: 20
 date: 2015-01-01T00:00:00Z

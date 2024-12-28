@@ -2,7 +2,7 @@
 id: 552
 shopifyId: 0
 shopifyOptionId: 0
-order: 455
+order: 451
 title: Project Woman Bereginya Yagidka
 slug: project-woman-bereginya-yagidka
 url: art-works/project-woman-bereginya-yagidka
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 35
 width: 35
 date: 2014-01-01T00:00:00Z

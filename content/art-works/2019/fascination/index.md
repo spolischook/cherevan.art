@@ -2,7 +2,7 @@
 id: 388
 shopifyId: 0
 shopifyOptionId: 0
-order: 201
+order: 198
 title: Fascination
 slug: fascination
 url: art-works/fascination
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 30
 width: 21
 date: 2019-01-01T00:00:00Z

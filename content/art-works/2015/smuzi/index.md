@@ -2,7 +2,7 @@
 id: 577
 shopifyId: 0
 shopifyOptionId: 0
-order: 427
+order: 424
 title: smuzi
 slug: smuzi
 url: art-works/smuzi
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: true
+location: ""
 height: 60
 width: 85
 date: 2015-01-01T00:00:00Z

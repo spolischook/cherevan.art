@@ -2,7 +2,7 @@
 id: 278
 shopifyId: 0
 shopifyOptionId: 0
-order: 309
+order: 306
 title: Thai bird who knows how to speak
 slug: thai-bird-who-knows-how-to-speak
 url: art-works/thai-bird-who-knows-how-to-speak
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 30
 width: 21
 date: 2018-01-01T00:00:00Z

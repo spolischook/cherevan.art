@@ -2,7 +2,7 @@
 id: 186
 shopifyId: 8723271352650
 shopifyOptionId: 47772448424266
-order: 403
+order: 400
 title: Self portrait 2016
 slug: self-portrait-2016
 url: art-works/self-portrait-2016
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: false
+location: ""
 height: 40
 width: 30
 date: 2016-01-01T00:00:00Z

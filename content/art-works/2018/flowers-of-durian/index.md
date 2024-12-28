@@ -2,7 +2,7 @@
 id: 284
 shopifyId: 8723260145994
 shopifyOptionId: 47772419227978
-order: 303
+order: 300
 title: Flowers of durian
 slug: flowers-of-durian
 url: art-works/flowers-of-durian
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: false
+location: ""
 height: 30
 width: 21
 date: 2018-01-01T00:00:00Z

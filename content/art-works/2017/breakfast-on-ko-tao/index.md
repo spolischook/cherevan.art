@@ -2,7 +2,7 @@
 id: 209
 shopifyId: 0
 shopifyOptionId: 0
-order: 379
+order: 376
 title: Breakfast on Ko Tao
 slug: breakfast-on-ko-tao
 url: art-works/breakfast-on-ko-tao
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 30
 width: 21
 date: 2017-01-01T00:00:00Z

@@ -2,7 +2,7 @@
 id: 85
 shopifyId: 0
 shopifyOptionId: 0
-order: 536
+order: 532
 title: Nadine
 slug: nadine
 url: art-works/nadine
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 65
 width: 40
 date: 2009-01-01T00:00:00Z

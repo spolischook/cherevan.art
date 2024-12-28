@@ -2,7 +2,7 @@
 id: 457
 shopifyId: 8723263586634
 shopifyOptionId: 47772428370250
-order: 131
+order: 128
 title: Ballet 2
 slug: ballet-2
 url: art-works/ballet-2
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: false
+location: Spain
 height: 22
 width: 22
 date: 2020-01-01T00:00:00Z

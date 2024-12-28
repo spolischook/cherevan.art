@@ -2,7 +2,7 @@
 id: 547
 shopifyId: 0
 shopifyOptionId: 0
-order: 450
+order: 446
 title: Project Woman Bereginya Kateryna
 slug: project-woman-bereginya-kateryna
 url: art-works/project-woman-bereginya-kateryna
@@ -11,6 +11,7 @@ categories:
 - graphics
 inStock: false
 isVisible: false
+location: ""
 height: 35
 width: 35
 date: 2014-01-01T00:00:00Z

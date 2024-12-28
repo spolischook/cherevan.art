@@ -2,7 +2,7 @@
 id: 121
 shopifyId: 0
 shopifyOptionId: 0
-order: 499
+order: 495
 title: Love is a choice, triptych
 slug: love-is-a-choice-triptych
 url: art-works/love-is-a-choice-triptych
@@ -11,6 +11,7 @@ categories:
 - painting
 inStock: false
 isVisible: false
+location: ""
 height: 80
 width: 70
 date: 2010-01-01T00:00:00Z

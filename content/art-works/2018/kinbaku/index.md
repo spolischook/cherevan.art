@@ -2,7 +2,7 @@
 id: 300
 shopifyId: 0
 shopifyOptionId: 0
-order: 287
+order: 284
 title: Kinbaku
 slug: kinbaku
 url: art-works/kinbaku
@@ -12,6 +12,7 @@ categories:
 - painting
 inStock: false
 isVisible: true
+location: ""
 height: 60
 width: 60
 date: 2018-01-01T00:00:00Z
