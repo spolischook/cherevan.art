@@ -9,15 +9,15 @@ url: art-works/self-portrait-2009
 aliases: []
 categories:
 - graphics
-inStock: false
-isVisible: false
-location: ""
+inStock: true
+isVisible: true
+location: Ukraine/Mango
 height: 35
 width: 50
 date: 2009-01-01T00:00:00Z
 materials:
 - paper
 - acrylic
-price: -1
+price: 450
 mainImage: self_portrait.jpg
 ---

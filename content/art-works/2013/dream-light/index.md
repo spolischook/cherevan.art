@@ -9,15 +9,15 @@ url: art-works/dream-light
 aliases: []
 categories:
 - painting
-inStock: false
-isVisible: false
-location: ""
+inStock: true
+isVisible: true
+location: Ukraine/Home
 height: 60
 width: 80
 date: 2013-01-01T00:00:00Z
 materials:
 - oil
 - canvas
-price: -1
+price: 2000
 mainImage: dream_light.jpg
 ---

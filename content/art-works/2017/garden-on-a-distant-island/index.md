@@ -9,15 +9,15 @@ url: art-works/garden-on-a-distant-island
 aliases: []
 categories:
 - graphics
-inStock: false
-isVisible: false
-location: ""
+inStock: true
+isVisible: true
+location: Ukraine/Home
 height: 30
 width: 21
 date: 2017-01-01T00:00:00Z
 materials:
 - ink
 - paper
-price: -1
+price: 500
 mainImage: garden_on_a_distant_island.jpg
 ---
