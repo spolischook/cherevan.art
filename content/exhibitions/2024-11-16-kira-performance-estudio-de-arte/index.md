@@ -7,7 +7,7 @@ location: "Studio de Arte Cherevan"
 locationLink: "https://maps.app.goo.gl/rZNhnBKQuL4J9qPE6"
 eventDate: 2024-11-16 18:30:00
 afisha: "2024-11-16-poster.jpeg"
-tags: ["shibari", "performance", "side-project"]
+tags: ["shibari", "performance"]
 ---
 This Saturday, our studio will welcome a Shibari master @kira_viksman for a unique performance introducing the art of Shibari.
 It will be a refined, seductive show, where each movement and knot reveals the sensuality and depth of this art. 
