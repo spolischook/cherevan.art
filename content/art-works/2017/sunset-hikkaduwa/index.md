@@ -2,7 +2,7 @@
 id: 234
 shopifyId: 8723273974090
 shopifyOptionId: 47772454322506
-order: 353
+order: 350
 title: Sunset, Hikkaduwa
 slug: sunset-hikkaduwa
 url: art-works/sunset-hikkaduwa
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - painting
 inStock: true
-isVisible: false
+isVisible: true
 location: ""
 height: 20
 width: 30

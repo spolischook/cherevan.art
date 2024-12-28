@@ -2,7 +2,7 @@
 id: 125
 shopifyId: 0
 shopifyOptionId: 0
-order: 493
+order: 489
 title: God, don't judge! - You were not - Woman on earth!
 slug: god-dont-judge-you-were-not-woman-on-earth
 url: art-works/god-dont-judge-you-were-not-woman-on-earth
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - painting
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 90
 width: 80

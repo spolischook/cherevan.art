@@ -11,7 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
-location: ""
+location: Ukraine/Home
 height: 150
 width: 70
 date: 2019-01-01T00:00:00Z

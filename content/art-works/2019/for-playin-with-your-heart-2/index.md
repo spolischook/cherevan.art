@@ -2,7 +2,7 @@
 id: 403
 shopifyId: 8723273122122
 shopifyOptionId: 47772452389194
-order: 184
+order: 183
 title: For play’in with your heart 2
 slug: for-playin-with-your-heart-2
 url: art-works/for-playin-with-your-heart-2
@@ -11,7 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
-location: ""
+location: Ukraine/ Print Pro
 height: 80
 width: 60
 date: 2019-01-01T00:00:00Z

@@ -2,7 +2,7 @@
 id: 362
 shopifyId: 8723261423946
 shopifyOptionId: 47772422963530
-order: 226
+order: 225
 title: Tenderness
 slug: tenderness
 url: art-works/tenderness
@@ -11,7 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
-location: ""
+location: Ukraine/PrintPro
 height: 70
 width: 50
 date: 2019-01-01T00:00:00Z

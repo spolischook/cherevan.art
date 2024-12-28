@@ -2,7 +2,7 @@
 id: 346
 shopifyId: 0
 shopifyOptionId: 0
-order: 242
+order: 241
 title: Two worlds
 slug: two-worlds
 url: art-works/two-worlds
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - painting
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 50
 width: 50

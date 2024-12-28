@@ -2,7 +2,7 @@
 id: 242
 shopifyId: 8723265618250
 shopifyOptionId: 47772433383754
-order: 345
+order: 342
 title: Intimate
 slug: intimate
 url: art-works/intimate
@@ -11,7 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
-location: ""
+location: Ukraine/Home
 height: 60
 width: 80
 date: 2017-01-01T00:00:00Z

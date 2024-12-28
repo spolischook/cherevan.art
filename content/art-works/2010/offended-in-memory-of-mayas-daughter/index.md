@@ -2,7 +2,7 @@
 id: 112
 shopifyId: 0
 shopifyOptionId: 0
-order: 506
+order: 502
 title: Offended (in memory of Maya's daughter)
 slug: offended-in-memory-of-mayas-daughter
 url: art-works/offended-in-memory-of-mayas-daughter

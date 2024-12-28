@@ -2,7 +2,7 @@
 id: 515
 shopifyId: 8723269747018
 shopifyOptionId: 47772444393802
-order: 71
+order: 72
 title: "24.02"
 slug: "2402"
 url: art-works/2402

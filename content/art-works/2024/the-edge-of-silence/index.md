@@ -2,7 +2,7 @@
 id: 616
 shopifyId: 9472997917002
 shopifyOptionId: 49180831220042
-order: 2
+order: 3
 title: The edge of Silence
 slug: the-edge-of-silence
 url: art-works/the-edge-of-silence

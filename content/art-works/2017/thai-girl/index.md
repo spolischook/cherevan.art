@@ -2,7 +2,7 @@
 id: 240
 shopifyId: 0
 shopifyOptionId: 0
-order: 347
+order: 344
 title: Thai girl
 slug: thai-girl
 url: art-works/thai-girl
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - painting
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 30
 width: 20

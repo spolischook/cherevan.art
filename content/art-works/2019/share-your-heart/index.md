@@ -2,7 +2,7 @@
 id: 360
 shopifyId: 8723267715402
 shopifyOptionId: 47772439773514
-order: 228
+order: 227
 title: Share your heart
 slug: share-your-heart
 url: art-works/share-your-heart
@@ -11,7 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
-location: ""
+location: Spain
 height: 70
 width: 50
 date: 2019-01-01T00:00:00Z

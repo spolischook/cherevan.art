@@ -2,7 +2,7 @@
 id: 287
 shopifyId: 0
 shopifyOptionId: 0
-order: 299
+order: 296
 title: The world has dissolved in you
 slug: the-world-has-dissolved-in-you
 url: art-works/the-world-has-dissolved-in-you
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - painting
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 30
 width: 25

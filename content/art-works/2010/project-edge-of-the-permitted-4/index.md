@@ -2,7 +2,7 @@
 id: 126
 shopifyId: 0
 shopifyOptionId: 0
-order: 492
+order: 488
 title: Project «Edge of the permitted» 4
 slug: project-edge-of-the-permitted-4
 url: art-works/project-edge-of-the-permitted-4
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - painting
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 80
 width: 90

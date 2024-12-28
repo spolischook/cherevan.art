@@ -2,7 +2,7 @@
 id: 569
 shopifyId: 8723275284810
 shopifyOptionId: 47772456812874
-order: 51
+order: 52
 title: Shibari movement
 slug: shibari-movement
 url: art-works/shibari-movement
@@ -12,7 +12,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
-location: Spain
+location: Palma de Mallorca
 height: 60
 width: 60
 date: 2022-01-01T00:00:00Z

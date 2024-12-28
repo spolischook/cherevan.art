@@ -2,14 +2,14 @@
 id: 373
 shopifyId: 9358913503562
 shopifyOptionId: 48789815198026
-order: 215
+order: 214
 title: Satisfaction
 slug: satisfaction
 url: art-works/satisfaction
 aliases: []
 categories:
 - graphics
-inStock: true
+inStock: false
 isVisible: true
 location: ""
 height: 30

@@ -2,7 +2,7 @@
 id: 348
 shopifyId: 8725100101962
 shopifyOptionId: 47779097837898
-order: 240
+order: 239
 title: Double dark theory
 slug: double-dark-theory
 url: art-works/double-dark-theory
@@ -11,7 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
-location: ""
+location: Ukraine/Home
 height: 80
 width: 60
 date: 2019-01-01T00:00:00Z

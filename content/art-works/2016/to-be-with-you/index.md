@@ -2,7 +2,7 @@
 id: 183
 shopifyId: 0
 shopifyOptionId: 0
-order: 405
+order: 402
 title: To be with you
 slug: to-be-with-you
 url: art-works/to-be-with-you
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - painting
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 60
 width: 50

@@ -2,7 +2,7 @@
 id: 176
 shopifyId: 0
 shopifyOptionId: 0
-order: 412
+order: 409
 title: Japanese koi fish
 slug: japanese-koi-fish
 url: art-works/japanese-koi-fish
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - painting
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 60
 width: 60

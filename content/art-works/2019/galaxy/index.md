@@ -2,7 +2,7 @@
 id: 352
 shopifyId: 0
 shopifyOptionId: 0
-order: 236
+order: 235
 title: Galaxy
 slug: galaxy
 url: art-works/galaxy
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - painting
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 80
 width: 60

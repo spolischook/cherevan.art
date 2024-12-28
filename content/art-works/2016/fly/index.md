@@ -2,7 +2,7 @@
 id: 180
 shopifyId: 0
 shopifyOptionId: 0
-order: 408
+order: 405
 title: Fly
 slug: fly
 url: art-works/fly
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - painting
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 50
 width: 60

@@ -2,7 +2,7 @@
 id: 248
 shopifyId: 8723274727754
 shopifyOptionId: 47772455960906
-order: 339
+order: 336
 title: Tantira
 slug: tantira
 url: art-works/tantira
@@ -11,7 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
-location: ""
+location: Ukraine/Home
 height: 85
 width: 60
 date: 2017-01-01T00:00:00Z
@@ -19,6 +19,6 @@ materials:
 - acrylic
 - ink
 - canvas
-price: 3500
+price: 2500
 mainImage: tantira.jpg
 ---

@@ -2,7 +2,7 @@
 id: 570
 shopifyId: 7160661049449
 shopifyOptionId: 41114772471913
-order: 52
+order: 53
 title: Shibari with bamboo
 slug: shibari-with-bamboo
 url: art-works/shibari-with-bamboo
@@ -12,7 +12,7 @@ categories:
 - painting
 inStock: false
 isVisible: true
-location: ""
+location: Palma de Mallorca
 height: 60
 width: 60
 date: 2022-01-01T00:00:00Z

@@ -2,7 +2,7 @@
 id: 307
 shopifyId: 8723265454410
 shopifyOptionId: 47772433187146
-order: 279
+order: 276
 title: 'Play with Diana '
 slug: play-with-diana-
 url: art-works/play-with-diana-
@@ -11,7 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
-location: ""
+location: Ukraine/ Print Pro
 height: 80
 width: 60
 date: 2018-01-01T00:00:00Z

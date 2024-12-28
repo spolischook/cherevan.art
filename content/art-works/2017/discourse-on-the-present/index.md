@@ -2,7 +2,7 @@
 id: 257
 shopifyId: 8723273220426
 shopifyOptionId: 47772452782410
-order: 329
+order: 326
 title: Discourse on the present
 slug: discourse-on-the-present
 url: art-works/discourse-on-the-present
@@ -11,7 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
-location: ""
+location: Ukraine/Home
 height: 90
 width: 80
 date: 2017-01-01T00:00:00Z

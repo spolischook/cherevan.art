@@ -2,7 +2,7 @@
 id: 328
 shopifyId: 8723268862282
 shopifyOptionId: 47772442689866
-order: 259
+order: 257
 title: Golden rain
 slug: golden-rain
 url: art-works/golden-rain
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - graphics
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 70
 width: 50

@@ -2,7 +2,7 @@
 id: 14
 shopifyId: 0
 shopifyOptionId: 0
-order: 604
+order: 600
 title: Undina
 slug: undina
 url: art-works/undina

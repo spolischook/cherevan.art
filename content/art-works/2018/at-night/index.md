@@ -2,7 +2,7 @@
 id: 286
 shopifyId: 0
 shopifyOptionId: 0
-order: 300
+order: 297
 title: At night
 slug: at-night
 url: art-works/at-night
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - painting
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 30
 width: 25

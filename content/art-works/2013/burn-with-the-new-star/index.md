@@ -2,7 +2,7 @@
 id: 23
 shopifyId: 0
 shopifyOptionId: 0
-order: 595
+order: 591
 title: Burn with the new star
 slug: burn-with-the-new-star
 url: art-works/burn-with-the-new-star

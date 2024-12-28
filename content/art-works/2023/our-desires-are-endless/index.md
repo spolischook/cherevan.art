@@ -2,7 +2,7 @@
 id: 567
 shopifyId: 8723262046538
 shopifyOptionId: 47772423913802
-order: 31
+order: 32
 title: Our desires are endless
 slug: our-desires-are-endless
 url: art-works/our-desires-are-endless

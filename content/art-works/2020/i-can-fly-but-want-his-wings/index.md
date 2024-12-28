@@ -2,7 +2,7 @@
 id: 341
 shopifyId: 8723263553866
 shopifyOptionId: 47772428304714
-order: 246
+order: 245
 title: I can fly but want his wings
 slug: i-can-fly-but-want-his-wings
 url: art-works/i-can-fly-but-want-his-wings
@@ -10,8 +10,8 @@ aliases: []
 categories:
 - graphics
 inStock: true
-isVisible: false
-location: ""
+isVisible: true
+location: Spain
 height: 30
 width: 21
 date: 2020-01-01T00:00:00Z

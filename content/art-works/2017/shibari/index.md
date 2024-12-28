@@ -2,7 +2,7 @@
 id: 255
 shopifyId: 0
 shopifyOptionId: 0
-order: 332
+order: 329
 title: Shibari
 slug: shibari
 url: art-works/shibari
@@ -11,7 +11,7 @@ categories:
 - shibari
 - painting
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 120
 width: 80

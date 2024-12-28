@@ -2,7 +2,7 @@
 id: 29
 shopifyId: 8723260309834
 shopifyOptionId: 47772421161290
-order: 589
+order: 585
 title: Fishmonger
 slug: fishmonger
 url: art-works/fishmonger

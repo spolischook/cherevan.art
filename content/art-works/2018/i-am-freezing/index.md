@@ -2,7 +2,7 @@
 id: 305
 shopifyId: 8723275088202
 shopifyOptionId: 47772456616266
-order: 281
+order: 278
 title: I am freezing
 slug: i-am-freezing
 url: art-works/i-am-freezing
@@ -11,7 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
-location: ""
+location: Ukraine/ Print Pro
 height: 80
 width: 60
 date: 2018-01-01T00:00:00Z

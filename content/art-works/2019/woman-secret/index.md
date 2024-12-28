@@ -2,7 +2,7 @@
 id: 406
 shopifyId: 9452939706698
 shopifyOptionId: 49106735268170
-order: 180
+order: 179
 title: Woman secret
 slug: woman-secret
 url: art-works/woman-secret
@@ -10,8 +10,8 @@ aliases: []
 categories:
 - graphics
 inStock: true
-isVisible: false
-location: ""
+isVisible: true
+location: Ukraine
 height: 30
 width: 21
 date: 2019-01-01T00:00:00Z

@@ -2,7 +2,7 @@
 id: 123
 shopifyId: 0
 shopifyOptionId: 0
-order: 495
+order: 491
 title: She wore flowers in her hair
 slug: she-wore-flowers-in-her-hair
 url: art-works/she-wore-flowers-in-her-hair
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - painting
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 80
 width: 60

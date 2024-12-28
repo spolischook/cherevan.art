@@ -2,7 +2,7 @@
 id: 407
 shopifyId: 8723271385418
 shopifyOptionId: 47772448555338
-order: 179
+order: 178
 title: Hand dance
 slug: hand-dance
 url: art-works/hand-dance
@@ -11,7 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
-location: ""
+location: Spain
 height: 85
 width: 60
 date: 2020-01-01T00:00:00Z

@@ -2,7 +2,7 @@
 id: 288
 shopifyId: 0
 shopifyOptionId: 0
-order: 298
+order: 295
 title: Moonlight
 slug: moonlight
 url: art-works/moonlight
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - painting
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 30
 width: 25

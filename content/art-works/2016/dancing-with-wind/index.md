@@ -2,7 +2,7 @@
 id: 178
 shopifyId: 0
 shopifyOptionId: 0
-order: 410
+order: 407
 title: Dancing with wind
 slug: dancing-with-wind
 url: art-works/dancing-with-wind
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - painting
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 60
 width: 50

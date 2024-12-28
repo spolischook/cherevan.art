@@ -2,7 +2,7 @@
 id: 439
 shopifyId: 8723275448650
 shopifyOptionId: 47772457042250
-order: 148
+order: 149
 title: Gun and roses 3
 slug: gun-and-roses-3
 url: art-works/gun-and-roses-3
@@ -11,7 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: true
-location: ""
+location: Spain
 height: 30
 width: 21
 date: 2020-01-01T00:00:00Z

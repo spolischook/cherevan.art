@@ -2,7 +2,7 @@
 id: 375
 shopifyId: 0
 shopifyOptionId: 0
-order: 213
+order: 212
 title: My freedom is at your feet
 slug: my-freedom-is-at-your-feet
 url: art-works/my-freedom-is-at-your-feet
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - graphics
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 30
 width: 21

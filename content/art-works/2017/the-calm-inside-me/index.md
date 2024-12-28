@@ -2,7 +2,7 @@
 id: 202
 shopifyId: 8723267617098
 shopifyOptionId: 47772439576906
-order: 330
+order: 327
 title: The calm inside me
 slug: the-calm-inside-me
 url: art-works/the-calm-inside-me
@@ -11,7 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
-location: ""
+location: Ukraine/Home
 height: 90
 width: 80
 date: 2017-01-01T00:00:00Z

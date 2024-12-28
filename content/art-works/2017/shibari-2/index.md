@@ -2,7 +2,7 @@
 id: 256
 shopifyId: 8723265323338
 shopifyOptionId: 47772433023306
-order: 331
+order: 328
 title: Shibari 2
 slug: shibari-2
 url: art-works/shibari-2
@@ -12,7 +12,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
-location: ""
+location: Spain
 height: 120
 width: 80
 date: 2017-01-01T00:00:00Z

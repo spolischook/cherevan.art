@@ -2,7 +2,7 @@
 id: 367
 shopifyId: 8723263160650
 shopifyOptionId: 47772427256138
-order: 221
+order: 220
 title: Trouble in paradise
 slug: trouble-in-paradise
 url: art-works/trouble-in-paradise
@@ -11,13 +11,13 @@ categories:
 - painting
 inStock: true
 isVisible: true
-location: ""
+location: Ukraine/PrintPro
 height: 50
 width: 50
 date: 2019-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 600
+price: 500
 mainImage: trouble_in_paradaise_1.jpg
 ---

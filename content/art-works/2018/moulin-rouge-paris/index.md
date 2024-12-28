@@ -2,7 +2,7 @@
 id: 272
 shopifyId: 0
 shopifyOptionId: 0
-order: 314
+order: 311
 title: Moulin Rouge, Paris
 slug: moulin-rouge-paris
 url: art-works/moulin-rouge-paris
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - graphics
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 21
 width: 30

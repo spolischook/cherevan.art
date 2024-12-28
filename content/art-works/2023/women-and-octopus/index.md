@@ -2,7 +2,7 @@
 id: 623
 shopifyId: 0
 shopifyOptionId: 0
-order: 33
+order: 34
 title: Women and octopus
 slug: women-and-octopus
 url: art-works/women-and-octopus

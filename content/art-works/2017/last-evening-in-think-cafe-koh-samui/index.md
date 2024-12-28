@@ -2,7 +2,7 @@
 id: 239
 shopifyId: 0
 shopifyOptionId: 0
-order: 348
+order: 345
 title: Last evening in Think cafe, Koh Samui
 slug: last-evening-in-think-cafe-koh-samui
 url: art-works/last-evening-in-think-cafe-koh-samui
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - painting
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 90
 width: 100

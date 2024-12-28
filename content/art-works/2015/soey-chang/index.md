@@ -2,7 +2,7 @@
 id: 169
 shopifyId: 8723266142538
 shopifyOptionId: 47772435218762
-order: 419
+order: 416
 title: Soey Chang
 slug: soey-chang
 url: art-works/soey-chang
@@ -11,7 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
-location: ""
+location: Ukraine/Print Pro
 height: 60
 width: 80
 date: 2015-01-01T00:00:00Z

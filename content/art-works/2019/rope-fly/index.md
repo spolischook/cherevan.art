@@ -2,7 +2,7 @@
 id: 374
 shopifyId: 8723268927818
 shopifyOptionId: 47772442820938
-order: 214
+order: 213
 title: Rope fly
 slug: rope-fly
 url: art-works/rope-fly
@@ -12,7 +12,7 @@ categories:
 - graphics
 inStock: true
 isVisible: true
-location: ""
+location: Spain
 height: 30
 width: 21
 date: 2019-01-01T00:00:00Z

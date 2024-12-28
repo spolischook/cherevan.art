@@ -2,7 +2,7 @@
 id: 215
 shopifyId: 8726451650890
 shopifyOptionId: 47785147302218
-order: 372
+order: 369
 title: Fish Samui
 slug: fish-samui
 url: art-works/fish-samui
@@ -11,7 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: true
-location: ""
+location: Ukraine/Mango
 height: 50
 width: 35
 date: 2017-01-01T00:00:00Z
@@ -20,6 +20,6 @@ materials:
 - marker
 - paper
 - watercolor
-price: 2000
+price: 1200
 mainImage: samui_fish.jpg
 ---

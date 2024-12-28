@@ -2,7 +2,7 @@
 id: 225
 shopifyId: 0
 shopifyOptionId: 0
-order: 362
+order: 359
 title: Prayer to the Gods
 slug: prayer-to-the-gods
 url: art-works/prayer-to-the-gods
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - graphics
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 35
 width: 50

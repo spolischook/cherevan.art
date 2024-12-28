@@ -2,7 +2,7 @@
 id: 345
 shopifyId: 0
 shopifyOptionId: 0
-order: 243
+order: 242
 title: Wild Woman
 slug: wild-woman
 url: art-works/wild-woman
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - painting
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 80
 width: 60

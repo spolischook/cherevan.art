@@ -2,7 +2,7 @@
 id: 596
 shopifyId: 8723260244298
 shopifyOptionId: 47772419359050
-order: 78
+order: 79
 title: Magical teleportation
 slug: magical-teleportation
 url: art-works/magical-teleportation

@@ -2,7 +2,7 @@
 id: 363
 shopifyId: 0
 shopifyOptionId: 0
-order: 225
+order: 224
 title: Subtleties
 slug: subtleties
 url: art-works/subtleties
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - painting
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 70
 width: 50

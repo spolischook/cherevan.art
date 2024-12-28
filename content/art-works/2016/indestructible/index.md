@@ -2,7 +2,7 @@
 id: 185
 shopifyId: 0
 shopifyOptionId: 0
-order: 403
+order: 400
 title: Indestructible
 slug: indestructible
 url: art-works/indestructible
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - painting
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 60
 width: 40

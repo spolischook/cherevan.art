@@ -2,7 +2,7 @@
 id: 297
 shopifyId: 8723267256650
 shopifyOptionId: 47772438593866
-order: 289
+order: 286
 title: Cherchez la femme
 slug: cherchez-la-femme
 url: art-works/cherchez-la-femme
@@ -11,7 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
-location: ""
+location: Ukraine/ Print Pro
 height: 85
 width: 60
 date: 2018-01-01T00:00:00Z

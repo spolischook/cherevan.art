@@ -1,0 +1,24 @@
+---
+id: 173
+shopifyId: 0
+shopifyOptionId: 0
+order: 412
+title: Self portrait 2015
+slug: self-portrait-2015
+url: art-works/self-portrait-2015
+aliases: []
+categories:
+- painting
+inStock: true
+isVisible: true
+location: Ukraine/Home
+height: 50
+width: 35
+date: 2015-01-01T00:00:00Z
+materials:
+- acrylic
+- marker
+- paper
+price: 300
+mainImage: self_portrait_2015.jpg
+---

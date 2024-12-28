@@ -2,7 +2,7 @@
 id: 122
 shopifyId: 0
 shopifyOptionId: 0
-order: 496
+order: 492
 title: Purpure dreams
 slug: purpure-dreams
 url: art-works/purpure-dreams
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - painting
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 50
 width: 70

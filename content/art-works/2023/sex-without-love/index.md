@@ -2,7 +2,7 @@
 id: 533
 shopifyId: 0
 shopifyOptionId: 0
-order: 48
+order: 49
 title: Sex without love
 slug: sex-without-love
 url: art-works/sex-without-love
@@ -12,7 +12,7 @@ categories:
 - graphics
 inStock: false
 isVisible: true
-location: Spain
+location: ""
 height: 30
 width: 21
 date: 2023-01-01T00:00:00Z

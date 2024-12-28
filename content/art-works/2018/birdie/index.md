@@ -2,7 +2,7 @@
 id: 294
 shopifyId: 0
 shopifyOptionId: 0
-order: 292
+order: 289
 title: Birdie
 slug: birdie
 url: art-works/birdie
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - painting
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 85
 width: 60

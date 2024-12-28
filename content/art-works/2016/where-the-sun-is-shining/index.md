@@ -2,7 +2,7 @@
 id: 184
 shopifyId: 0
 shopifyOptionId: 0
-order: 404
+order: 401
 title: Where the Sun is Shining
 slug: where-the-sun-is-shining
 url: art-works/where-the-sun-is-shining
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - painting
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 50
 width: 60

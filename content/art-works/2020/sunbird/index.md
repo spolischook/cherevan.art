@@ -2,7 +2,7 @@
 id: 410
 shopifyId: 8726450995530
 shopifyOptionId: 47785144779082
-order: 176
+order: 175
 title: Sunbird
 slug: sunbird
 url: art-works/sunbird
@@ -11,13 +11,13 @@ categories:
 - painting
 inStock: true
 isVisible: true
-location: ""
+location: Ukraine/ Print Pro
 height: 60
 width: 85
 date: 2020-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 5000
+price: 3500
 mainImage: sunbird_2.jpg
 ---

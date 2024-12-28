@@ -2,7 +2,7 @@
 id: 408
 shopifyId: 8723261129034
 shopifyOptionId: 47772422275402
-order: 178
+order: 177
 title: Cooling in her shadow
 slug: cooling-in-her-shadow
 url: art-works/cooling-in-her-shadow
@@ -11,7 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
-location: ""
+location: Spain
 height: 85
 width: 60
 date: 2020-01-01T00:00:00Z

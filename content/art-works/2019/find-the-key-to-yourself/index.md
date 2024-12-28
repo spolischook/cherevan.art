@@ -2,7 +2,7 @@
 id: 340
 shopifyId: 0
 shopifyOptionId: 0
-order: 247
+order: 246
 title: Find the key to yourself
 slug: find-the-key-to-yourself
 url: art-works/find-the-key-to-yourself
@@ -11,7 +11,7 @@ categories:
 - shibari
 - graphics
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 35
 width: 25

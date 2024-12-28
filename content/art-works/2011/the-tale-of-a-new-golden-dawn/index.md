@@ -2,7 +2,7 @@
 id: 130
 shopifyId: 0
 shopifyOptionId: 0
-order: 488
+order: 484
 title: The tale of a new golden dawn
 slug: the-tale-of-a-new-golden-dawn
 url: art-works/the-tale-of-a-new-golden-dawn
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - painting
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 80
 width: 70

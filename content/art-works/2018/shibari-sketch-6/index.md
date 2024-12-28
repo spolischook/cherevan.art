@@ -2,7 +2,7 @@
 id: 263
 shopifyId: 8723266699594
 shopifyOptionId: 47772436889930
-order: 323
+order: 320
 title: Shibari sketch 6
 slug: shibari-sketch-6
 url: art-works/shibari-sketch-6
@@ -11,8 +11,8 @@ categories:
 - shibari
 - graphics
 inStock: true
-isVisible: false
-location: ""
+isVisible: true
+location: Spain
 height: 19
 width: 19
 date: 2018-01-01T00:00:00Z

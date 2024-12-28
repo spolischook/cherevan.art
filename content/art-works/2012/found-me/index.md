@@ -2,7 +2,7 @@
 id: 132
 shopifyId: 0
 shopifyOptionId: 0
-order: 486
+order: 482
 title: Found me
 slug: found-me
 url: art-works/found-me
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - painting
 inStock: false
-isVisible: false
+isVisible: true
 location: ""
 height: 80
 width: 60
