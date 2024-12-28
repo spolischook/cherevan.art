@@ -2,7 +2,7 @@
 id: 184
 shopifyId: 0
 shopifyOptionId: 0
-order: 402
+order: 404
 title: Where the Sun is Shining
 slug: where-the-sun-is-shining
 url: art-works/where-the-sun-is-shining

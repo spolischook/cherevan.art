@@ -2,7 +2,7 @@
 id: 445
 shopifyId: 9621385412938
 shopifyOptionId: 49746585190730
-order: 140
+order: 142
 title: Мy angel
 slug: мy-angel
 url: art-works/мy-angel
@@ -11,7 +11,7 @@ categories:
 - graphics
 inStock: true
 isVisible: true
-location: ""
+location: Spain
 height: 21
 width: 30
 date: 2019-01-01T00:00:00Z

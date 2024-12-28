@@ -2,7 +2,7 @@
 id: 541
 shopifyId: 8723265716554
 shopifyOptionId: 47772433580362
-order: 38
+order: 40
 title: Siesta
 slug: siesta
 url: art-works/siesta

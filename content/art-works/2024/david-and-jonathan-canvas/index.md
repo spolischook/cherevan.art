@@ -11,7 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
-location: Spain
+location: Germany
 height: 125
 width: 70
 date: 2024-01-01T00:00:00Z

@@ -2,7 +2,7 @@
 id: 530
 shopifyId: 9374232805706
 shopifyOptionId: 48828532883786
-order: 54
+order: 56
 title: Сontract with the devil
 slug: сontract-with-the-devil
 url: art-works/сontract-with-the-devil

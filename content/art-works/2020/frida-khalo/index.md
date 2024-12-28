@@ -2,7 +2,7 @@
 id: 471
 shopifyId: 0
 shopifyOptionId: 0
-order: 114
+order: 116
 title: Frida Khalo
 slug: frida-khalo
 url: art-works/frida-khalo

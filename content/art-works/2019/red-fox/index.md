@@ -2,7 +2,7 @@
 id: 391
 shopifyId: 0
 shopifyOptionId: 0
-order: 195
+order: 197
 title: Red Fox
 slug: red-fox
 url: art-works/red-fox

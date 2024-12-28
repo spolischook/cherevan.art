@@ -2,7 +2,7 @@
 id: 479
 shopifyId: 8723263226186
 shopifyOptionId: 47772427321674
-order: 106
+order: 108
 title: All you need is love
 slug: all-you-need-is-love
 url: art-works/all-you-need-is-love
