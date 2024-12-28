@@ -16,26 +16,57 @@
 
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 
-    <div id="filterButtons" class="flex space-x-0 mb-2 md:flex-row flex-col md:space-x-2">
-        <button class="filterButton selected" aria-label="all art works" data-filter="all">Artworks (<span>0</span>)</button>
-        <button class="filterButton" aria-label="paper art works" data-filter="graphics">Graphics (<span>0</span>)</button>
-        <button class="filterButton" aria-label="paintings, canvases" data-filter="paintings">Paintings (<span>0</span>)</button>
+    <div id="filterButtons" class="flex space-x-0 mb-2 lg:flex-row flex-col md:space-x-2">
+        <button class="filterButton enabled" aria-label="all art works" data-filter="all">
+            <span class="indicator"></span>
+            <span class="surface" aria-label="solo exhibitions">
+                Artworks
+            </span>
+        </button>
+        <button class="filterButton" aria-label="paper art works" data-filter="graphics">
+            <span class="indicator"></span>
+            <span class="surface">
+                Graphics
+            </span>
+        </button>
+        <button class="filterButton" aria-label="paintings, canvases" data-filter="paintings">
+            <span class="indicator"></span>
+            <span class="surface">
+                Paintings
+            </span>
+        </button>
         <div class="border-l-1 border-w-1 border border-slate-300 hidden sm:block"></div>
         <div class="border-l-1 border-w-1 border border-slate-300 hidden sm:block"></div>
-        <button class="filterButton" aria-label="shibari art works" data-filter="shibari">Shibari (<span>0</span>)</button>
-<!--        <button class="filterButton selected" aria-label="essential" data-filter="essential">Essential (<span>0</span>)</button>-->
-        <div class="flex space-x-0">
-            <button class="filterButton w-1/2 selected" aria-label="in_stock" data-filter="in_stock">Available (<span>0</span>)</button>
-            <button class="filterButton w-1/2" aria-label="sold" data-filter="sold">Sold (<span>0</span>)</button>
+        <button class="filterButton" aria-label="shibari art works" data-filter="shibari">
+            <span class="indicator"></span>
+            <span class="surface">
+                Shibari
+            </span>
+        </button>
+<!--        <button class="filterButton enabled" aria-label="essential" data-filter="essential">Essential</button>-->
+        <div class="flex space-x-0 min-w-40">
+            <button class="filterButton lg:w-3/5 w-1/2 enabled" aria-label="in_stock" data-filter="in_stock">
+                <span class="indicator w-2"></span>
+                <span class="surface">
+                    Available
+                </span>
+            </button>
+            <button class="filterButton lg:w-2/5 w-1/2" aria-label="sold" data-filter="sold">
+                <span class="indicator"></span>
+                <span class="surface flex-grow items-center text-center">
+                    Sold
+                </span>
+            </button>
         </div>
         <label for="location" class="sr-only">Location</label>
         <select id="location" name="location" class="filterButton" data-filter="location">
             <option value="">Locations</option>
             <option value="Ukraine">Ukraine</option>
             <option value="Spain">Spain</option>
-            <option value="Palma de Mallorca">Palma de Mallorca&nbsp&nbsp&nbsp&nbsp&nbsp</option>
+            <option value="Palma de Mallorca">Palma de Mallorca</option>
             <!-- Add options dynamically here -->
         </select>
+
         <!-- Add more buttons as needed -->
     </div>
     <div class="grid">
@@ -88,14 +119,14 @@
         class Filter {
             constructor(element, filterFn) {
                 this.element = element;
-                this.counter = this.element.querySelector('span');
+                this.counter = this.element.querySelector('.surface span');
                 this.filterFn = filterFn;
             }
             isActive() {
-                return this.element.classList.contains('selected');
+                return this.element.classList.contains('enabled');
             }
             toggle() {
-                this.element.classList.toggle('selected');
+                this.element.classList.toggle('enabled');
                 this.fireFilterToggled();
             }
             fireFilterToggled() {
@@ -106,18 +137,21 @@
                 return this.element.dataset.filter;
             }
             deactivate() {
-                this.element.classList.remove('selected');
+                this.element.classList.remove('enabled');
             }
             activate() {
-                this.element.classList.add('selected');
+                this.element.classList.add('enabled');
             }
             setCounterFromItems(items) {
+                if (!this.counter) { return; }
                 this.counter.innerText = items.filter(this.filterFn).length;
             }
             setCounter(value) {
+                if (!this.counter) { return; }
                 this.counter.innerText = value;
             }
             incrementCounter() {
+                if (!this.counter) { return; }
                 this.counter.innerText = parseInt(this.counter.innerText) + 1;
             }
         }
@@ -134,7 +168,11 @@
                 this.filters.forEach(filter => {
                     if (filter.element.tagName === 'SELECT') {
                         filter.element.addEventListener('change', () => {
-                            filter.activate();
+                            if (filter.element.value === '') {
+                                filter.deactivate();
+                            } else {
+                                filter.activate();
+                            }
                             filter.fireFilterToggled();
                         });
                     } else {

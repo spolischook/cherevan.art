@@ -55,10 +55,18 @@ article > h1 {
   @apply text-tiger-300;
 }
 
-.filterButton {
-  @apply px-3 py-1 bg-tan-800 hover:shadow-2xl duration-300 min-h-[48px]
-}
-
-#filterButtons button.selected {
-  @apply bg-beaver-400 text-white
-}
+  .filterButton {
+    @apply pr-3 py-0 bg-tan-800 hover:shadow-2xl min-h-[48px] flex justify-items-start items-stretch space-x-2 border-2 border-tan-800 transition-all duration-500;
+  }
+  .filterButton.enabled {
+    @apply bg-beaver-400 text-white
+  }
+  .filterButton .indicator {
+    @apply w-2 bg-transparent
+  }
+  .filterButton .surface {
+    @apply flex items-center space-x-2
+  }
+  .filterButton.enabled .indicator {
+    @apply bg-green-600 transition-all duration-1000
+  }
