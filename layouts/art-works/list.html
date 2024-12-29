@@ -235,6 +235,7 @@
                         params.set(filter.name(), 'true');
                     }
                 });
+                params.set('tag', 'essential'); // hack for Tiana, as she wants to see only essential items
                 history.replaceState(null, '', '?' + params.toString());
             }
 
