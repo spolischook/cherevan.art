@@ -12,18 +12,18 @@
 {{ $soloN := 0 }}
 {{ $esentialN := 0 }}
 {{ range .Site.RegularPages }}
-{{ if (in .Params.tags "exhibition") }}
-{{ $pages = $pages | append . }}
-{{ end }}
-{{ if (in .Params.tags "group exhibition") }}
-{{ $groupN = add $groupN 1 }}
-{{ end }}
-{{ if (in .Params.tags "solo exhibition") }}
-{{ $soloN = add $soloN 1 }}
-{{ end }}
-{{ if (in .Params.tags "essential") }}
-{{ $esentialN = add $esentialN 1 }}
-{{ end }}
+    {{ if (in .Params.tags "exhibition") }}
+        {{ $pages = $pages | append . }}
+    {{ end }}
+    {{ if (in .Params.tags "group exhibition") }}
+        {{ $groupN = add $groupN 1 }}
+    {{ end }}
+    {{ if (in .Params.tags "solo exhibition") }}
+        {{ $soloN = add $soloN 1 }}
+    {{ end }}
+    {{ if (in .Params.tags "essential") }}
+        {{ $esentialN = add $esentialN 1 }}
+    {{ end }}
 {{ end }}
 
 <section class="">
