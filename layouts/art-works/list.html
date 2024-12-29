@@ -182,8 +182,10 @@
                     }
                     filter.element.addEventListener('filterToggled', (event) => {
                         this.filterItems(event.detail, items);
+                        this.updateURLParameters();
                     });
                 });
+                this.setInitialFiltersFromURL();
             }
             getActiveFilters() {
                 return this.filters.filter(filter => filter.isActive());
@@ -221,6 +223,34 @@
                     }
                 });
                 msnry.layout();
+            }
+
+            updateURLParameters() {
+                const activeFilters = this.getActiveFilters();
+                const params = new URLSearchParams();
+                activeFilters.forEach(filter => {
+                    if (filter.element.tagName === 'SELECT') {
+                        params.set(filter.name(), filter.element.value);
+                    } else {
+                        params.set(filter.name(), 'true');
+                    }
+                });
+                history.replaceState(null, '', '?' + params.toString());
+            }
+
+            setInitialFiltersFromURL() {
+                const params = new URLSearchParams(window.location.search);
+                this.filters.forEach(filter => {
+                    if (params.has(filter.name())) {
+                        if (filter.element.tagName === 'SELECT') {
+                            filter.element.value = params.get(filter.name());
+                            filter.activate();
+                        } else {
+                            filter.activate();
+                        }
+                        filter.fireFilterToggled();
+                    }
+                });
             }
         }
 
