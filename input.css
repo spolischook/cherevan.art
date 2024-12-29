@@ -78,3 +78,7 @@ select.filterButton option {
 .filterButton.enabled .indicator {
   @apply bg-green-600 transition-all duration-1000
 }
+
+.text-between-sm-md {
+  font-size: 1rem; /* 14px */
+}

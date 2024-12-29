@@ -6,6 +6,17 @@
     {{ end }}
         {{ $artWorks := $pages | shuffle | first 3 }}
 
+    {{ $groupExhibitions := slice }}
+    {{ $soloExhibitions := slice }}
+
+    {{ range .Site.RegularPages }}
+        {{ if and (in .Params.tags "group exhibition") (in .Params.tags "essential") }}
+            {{ $groupExhibitions = $groupExhibitions | append . }}
+        {{ end }}
+        {{ if and (in .Params.tags "solo exhibition") (in .Params.tags "essential") }}
+            {{ $soloExhibitions = $soloExhibitions | append . }}
+        {{ end }}
+    {{ end }}
 
     <section class="flex flex-col sm:flex-row sm:space-x-8 space-y-6 sm:space-y-0">
         <article class="sm:w-[80%] sm:mb-10 px-2">
@@ -13,13 +24,56 @@
             <div class="text-xl font-sans leading-loose indent-8">
                 {{ .Content }}
             </div>
+            <div class="text-xl font-sans leading-loose indent-8">
+                <h2 class="mb-2 2text-xl font-semibold text-gray-900 dark:text-white">Group Exhibitions</h2>
+                <ul class="list-disc list-inside w-full">
+                    {{ range $groupExhibitions }}
+                        <li class="p-0 m-0">
+                            <a class="text-black no-underline hover:underline text-between-sm-md" href="{{ .RelPermalink }}">{{.Params.eventDate | dateFormat "2006" }} {{ .Title }}, {{ .Params.location }}</a>
+                        </li>
+                    {{ end }}
+
+                </ul>
+            </div>
+            <div class="text-xl font-sans leading-loose indent-8">
+                <h2 class="mb-2 2text-xl font-semibold text-gray-900 dark:text-white">Solo Exhibitions</h2>
+                <ul class="max-w-md space-y-0.50 list-disc list-inside">
+                    {{ range $soloExhibitions }}
+                        <li>
+                            <a class="text-black no-underline hover:underline text-between-sm-md" href="{{ .RelPermalink }}">{{.Params.eventDate | dateFormat "2006" }} {{ .Title }}, {{ .Params.location }}</a>
+                        </li>
+                    {{ end }}
+
+                </ul>
+            </div>
         </article>
         <section class="flex flex-col sm:w-[20%]">
             <h2 class="font-bold text-xl">Art Works</h2>
             <h3 class="text-gray-500 text-sm mb-5">that you might like...</h3>
             <div class="flex flex-col">
-                {{ partial "art-works/sidebar.html" (dict "count" 4 "pages" .Site.Pages) }}
+                {{ partial "art-works/sidebar.html" (dict "count" 8 "pages" .Site.Pages) }}
             </div>
         </section>
     </section>
 {{ end }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

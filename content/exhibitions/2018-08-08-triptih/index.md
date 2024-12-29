@@ -3,7 +3,7 @@ title: "Just Feelings"
 date: 2018-08-08 21:05:56
 slug: 2018-triptih
 draft: false
-location: "Triptych Art, Kyiv, Andriivskyi Descent"
+location: "Triptych Art, Kyiv"
 locationLink: "https://maps.app.goo.gl/APyPRUtb3mo5Bo3DA"
 eventDate: 2018-08-08 19:00:00
 afisha: '2018-08-08-triptih-poster2.jpg'
