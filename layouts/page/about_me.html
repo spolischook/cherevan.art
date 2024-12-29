@@ -37,7 +37,7 @@
             </div>
             <div class="text-xl font-sans leading-loose indent-8">
                 <h2 class="mb-2 2text-xl font-semibold text-gray-900 dark:text-white">Solo Exhibitions</h2>
-                <ul class="max-w-md space-y-0.50 list-disc list-inside">
+                <ul class="space-y-0.50 list-disc list-inside">
                     {{ range $soloExhibitions }}
                         <li>
                             <a class="text-black no-underline hover:underline text-between-sm-md" href="{{ .RelPermalink }}">{{.Params.eventDate | dateFormat "2006" }} {{ .Title }}, {{ .Params.location }}</a>
@@ -51,7 +51,7 @@
             <h2 class="font-bold text-xl">Art Works</h2>
             <h3 class="text-gray-500 text-sm mb-5">that you might like...</h3>
             <div class="flex flex-col">
-                {{ partial "art-works/sidebar.html" (dict "count" 8 "pages" .Site.Pages) }}
+                {{ partial "art-works/sidebar.html" (dict "count" 7 "pages" .Site.Pages) }}
             </div>
         </section>
     </section>

@@ -80,10 +80,32 @@
             {{ block "main" . }}{{ end }}
         </main>
 
-        <footer class="py-4 text-xs">
-            <a href="/link-tree" class="hover:underline">
-                Copyright © 1995 - {{ now.Year }}Tetiana Cherevan
+        <footer class="py-4 text-xs flex flex-col lg:flex-row lg:justify-between">
+            <a href="/link-tree" class="mt-3 lg:mt-0 order-last lg:order-none hover:underline flex items-center justify-center">
+                Copyright © 1995 - {{ now.Year }} Tetiana Cherevan | All Rights Reserved
             </a>
+            <div class="flex flex-row justify-center lg:justify-start items-center space-x-2">
+                <p class="text-[1rem]">Social Networks:</p>
+                <a href="https://www.instagram.com/tetianacherevan/" target="_blank" title="Live Instagram account">
+                    <img src="/images/instagram-svgrepo-com.png" alt="Live Instagram account">
+                </a>
+                <a href="https://www.instagram.com/shibari.artkingdom/" target="_blank" title="Shibari Instagram">
+                    <img src="/images/instagram-svgrepo-com.png" alt="Shibari Instagram">
+                </a>
+                <a href="https://www.facebook.com/tetiana.cherevan" target="_blank" title="Facebook">
+                    <img src="/images/facebook-svgrepo-com.png" alt="Facebook">
+                </a>
+                <p class="pl-6 text-[1rem]">Shops: </p>
+                <a href="https://www.etsy.com/shop/CherevanArtGallery" target="_blank" title="Etsy">
+                    <img src="/images/etsy-svgrepo-com.png" alt="Etsy">
+                </a>
+                <a href="https://www.artfinder.com/artist/tetiana-cherevan/" target="_blank" title="Art Finder">
+                    <img src="/images/art-finder.png" alt="Art Finder">
+                </a>
+                <a href="https://www.artsy.net/artist/tetiana-cherevan" target="_blank" title="Artsy.net">
+                    <img src="/images/artsy.png" alt="Artsy">
+                </a>
+            </div>
         </footer>
     </div>
 </body>
