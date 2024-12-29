@@ -10,7 +10,7 @@ aliases: []
 categories:
 - shibari
 - painting
-inStock: false
+inStock: true
 isVisible: true
 location: Palma de Mallorca
 height: 60
