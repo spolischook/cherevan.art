@@ -3,7 +3,7 @@
     <meta property="og:title"              content="{{.Title}}" />
     {{ if .Params.afisha }}
         {{ $image := .Resources.GetMatch .Params.afisha }}
-        <meta property="og:image"              content="{{$image.RelPermalink}}" />
+        <meta property="og:image"              content="{{ $.Site.BaseURL }}/{{$image.RelPermalink}}" />
     {{ end }}
         {{- $description := .Content | plainify | truncate 155 -}}
     <meta property="description" content="{{ partial "entities_text.html" (dict "Text" $description) }}">

@@ -4,7 +4,7 @@
     <meta property="og:title"              content="{{.Title}}" />
     {{ if .Params.mainImage }}
         {{ $image := .Resources.GetMatch .Params.mainImage }}
-        <meta property="og:image"              content="{{$image.RelPermalink}}" />
+        <meta property="og:image"              content="{{ $.Site.BaseURL }}/{{$image.RelPermalink}}" />
     {{ end }}
     <meta property="description"           content="{{ delimit .Params.materials ", " }} |  {{.Params.Width}}X{{.Params.Height}}cm | {{dateFormat "2006" .Params.date}}">
 {{ end }}
