@@ -34,7 +34,8 @@
                         <li>- {{ . }}</li>
                     {{ end }}
                 </ul>
-                <ul class="pt-5 text-blackish">
+                {{ if .Params.inStock }}
+                    <ul class="pt-5 text-blackish">
                     <li>
                         <svg class="w-5 h-5 float-left mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
                             <path d="M9.057 20.47l-6.764-6.763a1 1 0 011.414-1.414l5.236 5.236 11.3-13.18a1.001 1.001 0 111.518 1.3L9.057 20.47z"></path>
@@ -47,7 +48,15 @@
                         </svg>
                         Returns accepted
                     </li>
+                    <li>
+                        <svg class="w-5 h-5 float-left mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                            <path d="M9.057 20.47l-6.764-6.763a1 1 0 011.414-1.414l5.236 5.236 11.3-13.18a1.001 1.001 0 111.518 1.3L9.057 20.47z"></path>
+                        </svg>
+                        Free delivery
+                    </li>
                 </ul>
+                {{ end }}
+
                 <div id="buy-button-spinner" class="text-center mt-6">
                     <div role="status">
                         <svg aria-hidden="true" class="inline w-8 h-8 text-gray-200 animate-spin fill-tiger-300" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -101,7 +110,8 @@
     <script>
         setupShopifyBuyButton(
             '{{ (printf "gid://shopify/Product/%d" .Params.shopifyId) | base64Encode }}',
-            '{{ (printf "gid://shopify/ProductVariant/%d" .Params.shopifyOptionId) | base64Encode }}'
+            '{{ (printf "gid://shopify/ProductVariant/%d" .Params.shopifyOptionId) | base64Encode }}',
+            {{ .Params.inStock }},
         );
     </script>
 {{ end }}

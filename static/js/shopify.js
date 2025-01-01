@@ -1,6 +1,6 @@
 // assets/js/shopify.js
 
-function setupShopifyBuyButton(productId, productVariantId) {
+function setupShopifyBuyButton(productId, productVariantId, isInStock) {
     const shopifyConfig = window.shopifyConfig;
 
     const client = ShopifyBuy.buildClient({
@@ -19,15 +19,20 @@ function setupShopifyBuyButton(productId, productVariantId) {
             (typeof window.performance != "undefined" &&
                 window.performance.navigation.type === 2);
         if (historyTraversal) {
-            setupBuyButton();
+            setupBuyButton(isInStock);
         }
     });
 
-    function setupBuyButton() {
+    function setupBuyButton(isInStock) {
         buyButton.classList.add('hidden');
         buyButtonProcess.classList.add('hidden');
         buyButtonSpinner.classList.remove('hidden');
         unavailableToBuyButton.classList.add('hidden');
+        if (!isInStock) {
+            buyButtonSpinner.classList.add('hidden');
+            unavailableToBuyButton.classList.remove('hidden');
+            return;
+        }
 
         client.product.fetch(productId).then((product) => {
             buyButtonSpinner.classList.add('hidden');
@@ -41,7 +46,7 @@ function setupShopifyBuyButton(productId, productVariantId) {
         });
     }
 
-    setupBuyButton();
+    setupBuyButton(isInStock);
 
     buyButton.addEventListener('click', function() {
         buyButton.classList.add('hidden');
