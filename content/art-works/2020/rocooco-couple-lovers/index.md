@@ -1,7 +1,7 @@
 ---
 id: 469
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9631301468490
+shopifyOptionId: 49792004292938
 order: 119
 title: Rocooco couple lovers
 slug: rocooco-couple-lovers

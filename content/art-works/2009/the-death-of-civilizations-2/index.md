@@ -1,7 +1,7 @@
 ---
 id: 110
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9631299207498
+shopifyOptionId: 49791984173386
 order: 504
 title: The death of civilizations 2
 slug: the-death-of-civilizations-2

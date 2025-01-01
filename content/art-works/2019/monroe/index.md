@@ -1,7 +1,7 @@
 ---
 id: 335
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9631300026698
+shopifyOptionId: 49791991841098
 order: 251
 title: Monroe
 slug: monroe

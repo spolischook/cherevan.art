@@ -1,7 +1,7 @@
 ---
 id: 331
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9631304745290
+shopifyOptionId: 49792016286026
 order: 254
 title: Madonna 2
 slug: madonna-2

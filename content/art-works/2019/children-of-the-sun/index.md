@@ -1,7 +1,7 @@
 ---
 id: 338
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9631302287690
+shopifyOptionId: 49792007569738
 order: 248
 title: Children of the sun
 slug: children-of-the-sun

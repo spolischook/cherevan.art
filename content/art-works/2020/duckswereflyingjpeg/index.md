@@ -1,7 +1,7 @@
 ---
 id: 626
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9631299666250
+shopifyOptionId: 49791987843402
 order: 88
 title: ducks_were_flying.jpeg
 slug: duckswereflyingjpeg

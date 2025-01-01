@@ -1,7 +1,7 @@
 ---
 id: 162
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9631299240266
+shopifyOptionId: 49791984238922
 order: 423
 title: Cashew
 slug: cashew

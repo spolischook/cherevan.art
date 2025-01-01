@@ -1,7 +1,7 @@
 ---
 id: 484
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9631302582602
+shopifyOptionId: 49792009306442
 order: 103
 title: Shibari suspension
 slug: shibari-suspension

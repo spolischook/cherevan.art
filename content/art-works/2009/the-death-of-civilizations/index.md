@@ -1,7 +1,7 @@
 ---
 id: 111
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9631303827786
+shopifyOptionId: 49792013402442
 order: 503
 title: The death of civilizations
 slug: the-death-of-civilizations

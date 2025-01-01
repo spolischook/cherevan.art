@@ -1,7 +1,7 @@
 ---
 id: 90
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9631299436874
+shopifyOptionId: 49791986237770
 order: 525
 title: Self portrait 2009
 slug: self-portrait-2009

@@ -1,7 +1,7 @@
 ---
 id: 278
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9631299371338
+shopifyOptionId: 49791985680714
 order: 305
 title: Thai bird who knows how to speak
 slug: thai-bird-who-knows-how-to-speak

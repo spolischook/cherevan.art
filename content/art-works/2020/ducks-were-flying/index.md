@@ -1,7 +1,7 @@
 ---
 id: 626
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9631300649290
+shopifyOptionId: 49791995969866
 order: 88
 title: Ducks were flying
 slug: ducks-were-flying

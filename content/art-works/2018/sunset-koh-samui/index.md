@@ -1,7 +1,7 @@
 ---
 id: 274
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9631300452682
+shopifyOptionId: 49791994822986
 order: 309
 title: Sunset Koh Samui
 slug: sunset-koh-samui

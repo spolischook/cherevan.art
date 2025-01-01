@@ -1,7 +1,7 @@
 ---
 id: 173
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9631300518218
+shopifyOptionId: 49791995642186
 order: 412
 title: Self portrait 2015
 slug: self-portrait-2015

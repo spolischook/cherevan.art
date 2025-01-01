@@ -1,7 +1,7 @@
 ---
 id: 570
-shopifyId: 7160661049449
-shopifyOptionId: 41114772471913
+shopifyId: 9631300092234
+shopifyOptionId: 49791992070474
 order: 53
 title: Shibari with bamboo
 slug: shibari-with-bamboo

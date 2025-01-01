@@ -1,7 +1,7 @@
 ---
 id: 158
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9631300780362
+shopifyOptionId: 49791997149514
 order: 427
 title: Couroupita guianensis
 slug: couroupita-guianensis

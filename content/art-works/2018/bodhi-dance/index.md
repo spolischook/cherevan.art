@@ -1,7 +1,7 @@
 ---
 id: 311
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9631302189386
+shopifyOptionId: 49792007438666
 order: 274
 title: Bodhi Dance
 slug: bodhi-dance

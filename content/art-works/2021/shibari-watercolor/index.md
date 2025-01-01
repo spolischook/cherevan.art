@@ -1,7 +1,7 @@
 ---
 id: 483
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 9631301271882
+shopifyOptionId: 49792002031946
 order: 104
 title: Shibari watercolor
 slug: shibari-watercolor
