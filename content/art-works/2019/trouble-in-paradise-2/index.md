@@ -9,9 +9,9 @@ url: art-works/trouble-in-paradise-2
 aliases: []
 categories:
 - painting
-inStock: true
+inStock: false
 isVisible: true
-location: Ukraine/PrintPro
+location: ""
 height: 50
 width: 50
 date: 2019-01-01T00:00:00Z
