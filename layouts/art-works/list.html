@@ -235,8 +235,6 @@
                         params.set(filter.name(), 'true');
                     }
                 });
-                params.set('tag', 'essential'); // hack for Tiana, as she wants to see only essential items
-                history.replaceState(null, '', '?' + params.toString());
             }
 
             setInitialFiltersFromURL() {
@@ -274,10 +272,12 @@
             document.querySelector('.filterButton[data-filter="graphics"]'),
             item => item.params.categories.includes('graphics')
         );
-        // const essentialFilter = new Filter(
-        //     document.querySelector('.filterButton[data-filter="essential"]'),
-        //     item => item.params.isvisible
-        // );
+        const essentialFilter = new Filter(
+            document.createElement('div'),
+            item => item.params.isvisible
+        );
+        essentialFilter.isActive = () => (new URLSearchParams(window.location.search)).get('tag');
+
         const inStockFilter = new Filter(
             document.querySelector('.filterButton[data-filter="in_stock"]'),
             item => item.params.instock
@@ -298,7 +298,7 @@
         shibariFilter.setCounterFromItems(items);
         paintingsFilter.setCounterFromItems(items);
         graphicsFilter.setCounterFromItems(items);
-        // essentialFilter.setCounterFromItems(items);
+        essentialFilter.setCounterFromItems(items);
         inStockFilter.setCounterFromItems(items);
         soldFilter.setCounterFromItems(items);
 
@@ -307,7 +307,7 @@
             shibariFilter,
             paintingsFilter,
             graphicsFilter,
-            // essentialFilter,
+            essentialFilter,
             inStockFilter,
             soldFilter,
             locationFilter,
