@@ -276,7 +276,8 @@
             document.createElement('div'),
             item => item.params.isvisible
         );
-        essentialFilter.isActive = () => (new URLSearchParams(window.location.search)).get('tag');
+        essentialFilter.isActive = () => 'essential' === (new URLSearchParams(window.location.search)).get('tag');
+        essentialFilter.name = () => 'essential';
 
         const inStockFilter = new Filter(
             document.querySelector('.filterButton[data-filter="in_stock"]'),
