@@ -5,7 +5,7 @@ slug: 2022-women-defenders
 draft: false
 tags: ["side project"]
 ---
-## Проект "Захисниці України"
+## Проєкт "Захисниці України"
 
 
 https://women-defenders.cherevan.art/
