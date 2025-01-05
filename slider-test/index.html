@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Play with columns</title>
+</head>
+<body class="min-h-screen flex flex-col">
+<!-- Header -->
+<header class="bg-gray-800 text-white h-[60px] flex items-center px-6">
+  <h1 class="text-xl font-semibold">Header</h1>
+</header>
+
+<!-- Main content -->
+<div class="flex-grow p-5">
+<!--  <div class="grid grid-cols-2 gap-5 h-[calc(100vh-120px)]">-->
+  <div class="grid grid-cols-2 gap-5">
+    <!-- Left Column -->
+    <div id="leftColumn" class="p-4">
+      <div class="space-y-4">
+        <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-gray-800">Item 1</h3>
+          <p class="text-gray-600 mt-2">Content for item 1</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-gray-800">Item 2</h3>
+          <p class="text-gray-600 mt-2">Content for item 2</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-gray-800">Item 3</h3>
+          <p class="text-gray-600 mt-2">Content for item 3</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-gray-800">Item 4</h3>
+          <p class="text-gray-600 mt-2">Content for item 4</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-gray-800">Item 5</h3>
+          <p class="text-gray-600 mt-2">Content for item 5</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-gray-800">Item 6</h3>
+          <p class="text-gray-600 mt-2">Content for item 6</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-gray-800">Item 7</h3>
+          <p class="text-gray-600 mt-2">Content for item 7</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-gray-800">Item 8</h3>
+          <p class="text-gray-600 mt-2">Content for item 8</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-gray-800">Item 9</h3>
+          <p class="text-gray-600 mt-2">Content for item 9</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-gray-800">Item 10</h3>
+          <p class="text-gray-600 mt-2">Content for item 10</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-gray-800">Item 11</h3>
+          <p class="text-gray-600 mt-2">Content for item 11</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-gray-800">Item 12</h3>
+          <p class="text-gray-600 mt-2">Content for item 12</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-gray-800">Item 13</h3>
+          <p class="text-gray-600 mt-2">Content for item 13</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-gray-800">Item 14</h3>
+          <p class="text-gray-600 mt-2">Content for item 14</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-gray-800">Item 15</h3>
+          <p class="text-gray-600 mt-2">Content for item 15</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-gray-800">Item 16</h3>
+          <p class="text-gray-600 mt-2">Content for item 16</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">
+          <h3 class="font-semibold text-gray-800">Item 17</h3>
+          <p class="text-gray-600 mt-2">Content for item 17</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="relative w-full" id="rightColumnWrapper">
+      <div id="rightColumn" class="p-4">
+        <div class="space-y-4">
+          <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">
+            <h3 class="font-semibold text-gray-800">Section A</h3>
+            <p class="text-gray-600 mt-2">Content for section A</p>
+          </div>
+          <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">
+            <h3 class="font-semibold text-gray-800">Section B</h3>
+            <p class="text-gray-600 mt-2">Content for section B</p>
+          </div>
+          <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">
+            <h3 class="font-semibold text-gray-800">Section C</h3>
+            <p class="text-gray-600 mt-2">Content for section C</p>
+          </div>
+          <!--        <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">-->
+          <!--          <h3 class="font-semibold text-gray-800">Section D</h3>-->
+          <!--          <p class="text-gray-600 mt-2">Content for section D</p>-->
+          <!--        </div>-->
+          <!--        <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">-->
+          <!--          <h3 class="font-semibold text-gray-800">Section E</h3>-->
+          <!--          <p class="text-gray-600 mt-2">Content for section E</p>-->
+          <!--        </div>-->
+          <!--        <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">-->
+          <!--          <h3 class="font-semibold text-gray-800">Section F</h3>-->
+          <!--          <p class="text-gray-600 mt-2">Content for section F</p>-->
+          <!--        </div>-->
+          <!--        <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">-->
+          <!--          <h3 class="font-semibold text-gray-800">Section G</h3>-->
+          <!--          <p class="text-gray-600 mt-2">Content for section G</p>-->
+          <!--        </div>-->
+          <!--        <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow">-->
+          <!--          <h3 class="font-semibold text-gray-800">Section H</h3>-->
+          <!--          <p class="text-gray-600 mt-2">Content for section H</p>-->
+          <!--        </div>-->
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-gray-800 text-white h-[360px] flex items-center px-6">
+  <p>Footer</p>
+</footer>
+
+<script>
+  const leftColumn = document.getElementById('leftColumn');
+  const rightColumnWrapper = document.getElementById('rightColumnWrapper');
+  const rightColumn = document.getElementById('rightColumn');
+
+  function createScrollTracker(element) {
+    let isMouseOver = false;
+
+    element.addEventListener('mouseenter', () => {
+      isMouseOver = true;
+      console.log(`Mouse entered ${element.id}`);
+    });
+
+    element.addEventListener('mouseleave', () => {
+      isMouseOver = false;
+      console.log(`Mouse left ${element.id}`);
+    });
+
+    return () => isMouseOver; // Returns function that checks current state
+  }
+
+  function isElementAtOrAboveTop(element) {
+    const rect = element.getBoundingClientRect();
+    const elementTop = rect.top;
+
+    // Check if element's top edge is at or above viewport top (0)
+    const isAtOrAboveTop = elementTop <= 0;
+
+    console.log({
+      elementId: element.id,
+      elementTop,
+      isAtOrAboveTop
+    });
+
+    return isAtOrAboveTop;
+  }
+  function hasElementReachedWrapperBottom(element) {
+    const elementRect = element.getBoundingClientRect();
+    const wrapperRect = element.parentElement.getBoundingClientRect();
+
+    const elementBottom = elementRect.bottom;
+    const wrapperBottom = wrapperRect.bottom;
+
+    // Check if element's bottom edge has reached wrapper's bottom
+    const hasReachedBottom = elementBottom >= wrapperBottom;
+
+    console.log({
+      elementId: element.id,
+      elementBottom,
+      wrapperBottom,
+      hasReachedBottom,
+      difference: wrapperBottom - elementBottom
+    });
+
+    return hasReachedBottom;
+  }
+  function isElementBottomBelowViewport(element) {
+    const rect = element.getBoundingClientRect();
+    return rect.bottom > window.innerHeight;
+  }
+
+  const isOverLeftColumn = createScrollTracker(rightColumnWrapper);
+
+  document.addEventListener('wheel', (e) => {
+    const isRightColumnAtTop = isElementAtOrAboveTop(rightColumnWrapper);
+    const isRightColumnAtBottom = hasElementReachedWrapperBottom(rightColumn);
+    if (isRightColumnAtBottom) {
+      rightColumn.style.position = 'absolute';
+      rightColumn.style.top = 'auto';
+      rightColumn.style.bottom = '0';
+    } else if (isRightColumnAtTop) {
+      rightColumn.style.position = 'fixed';
+      rightColumn.style.top = '0';
+      rightColumn.style.bottom = 'auto';
+    } else  {
+      rightColumn.style.position = 'relative';
+    }
+
+    console.log({
+      elementId: leftColumn.id,
+      isRightColumnAtTop: isRightColumnAtTop,
+      isRightColumnAtBottom: isRightColumnAtBottom,
+    });
+  }, { passive: false });
+</script>
+</body>
+</html>
