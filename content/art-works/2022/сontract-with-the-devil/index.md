@@ -1,7 +1,7 @@
 ---
 id: 530
 shopifyId: 9999665529162
-shopifyOptionId: 50053869437258
+shopifyOptionId: 50053869470026
 order: 60
 title: Сontract with the devil
 slug: сontract-with-the-devil

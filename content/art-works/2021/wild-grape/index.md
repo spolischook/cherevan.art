@@ -1,7 +1,7 @@
 ---
 id: 499
 shopifyId: 9999666151754
-shopifyOptionId: 50053870682442
+shopifyOptionId: 50053870715210
 order: 91
 title: Wild grape
 slug: wild-grape
