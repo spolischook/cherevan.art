@@ -1,7 +1,7 @@
 ---
 id: 622
-shopifyId: 9621383971146
-shopifyOptionId: 49746577129802
+shopifyId: 9999664054602
+shopifyOptionId: 50053864358218
 order: 22
 title: The Taste of Pleasure
 slug: the-taste-of-pleasure

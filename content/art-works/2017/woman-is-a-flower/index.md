@@ -1,7 +1,7 @@
 ---
 id: 10
-shopifyId: 8726450831690
-shopifyOptionId: 47785144287562
+shopifyId: 9999665561930
+shopifyOptionId: 50053869502794
 order: 606
 title: Woman is a flower
 slug: woman-is-a-flower

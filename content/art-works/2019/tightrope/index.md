@@ -1,7 +1,7 @@
 ---
 id: 369
-shopifyId: 8723269681482
-shopifyOptionId: 47772444328266
+shopifyId: 9999667953994
+shopifyOptionId: 50053877825866
 order: 220
 title: Tightrope
 slug: tightrope

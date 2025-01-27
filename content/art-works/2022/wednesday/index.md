@@ -1,7 +1,7 @@
 ---
 id: 538
-shopifyId: 8723262177610
-shopifyOptionId: 47772424143178
+shopifyId: 9999663628618
+shopifyOptionId: 50053863702858
 order: 44
 title: Wednesday
 slug: wednesday

@@ -1,7 +1,7 @@
 ---
 id: 406
-shopifyId: 9452939706698
-shopifyOptionId: 49106735268170
+shopifyId: 9999666413898
+shopifyOptionId: 50053873107274
 order: 181
 title: Woman secret
 slug: woman-secret

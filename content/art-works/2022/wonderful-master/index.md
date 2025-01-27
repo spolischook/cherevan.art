@@ -1,7 +1,7 @@
 ---
 id: 535
-shopifyId: 9452935250250
-shopifyOptionId: 49106696667466
+shopifyId: 9999666610506
+shopifyOptionId: 50053873336650
 order: 48
 title: Wonderful master
 slug: wonderful-master

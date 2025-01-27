@@ -1,7 +1,7 @@
 ---
 id: 243
-shopifyId: 8723264045386
-shopifyOptionId: 47772429910346
+shopifyId: 9999662580042
+shopifyOptionId: 50053861507402
 order: 343
 title: We are the Gods 2
 slug: we-are-the-gods-2

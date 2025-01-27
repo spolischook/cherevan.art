@@ -1,7 +1,7 @@
 ---
 id: 30
-shopifyId: 8723268665674
-shopifyOptionId: 47772442198346
+shopifyId: 9999664873802
+shopifyOptionId: 50053868519754
 order: 586
 title: Wifislimangel
 slug: wifislimangel
