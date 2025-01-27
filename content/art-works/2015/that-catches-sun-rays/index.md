@@ -2,7 +2,7 @@
 id: 159
 shopifyId: 9631300944202
 shopifyOptionId: 49792000065866
-order: 426
+order: 428
 title: That catches sun rays
 slug: that-catches-sun-rays
 url: art-works/that-catches-sun-rays

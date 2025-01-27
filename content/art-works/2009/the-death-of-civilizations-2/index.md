@@ -2,7 +2,7 @@
 id: 110
 shopifyId: 9631299207498
 shopifyOptionId: 49791984173386
-order: 504
+order: 506
 title: The death of civilizations 2
 slug: the-death-of-civilizations-2
 url: art-works/the-death-of-civilizations-2

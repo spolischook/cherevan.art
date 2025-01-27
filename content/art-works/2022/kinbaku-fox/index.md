@@ -2,7 +2,7 @@
 id: 534
 shopifyId: 8723263488330
 shopifyOptionId: 47772428173642
-order: 48
+order: 49
 title: Kinbaku fox
 slug: kinbaku-fox
 url: art-works/kinbaku-fox

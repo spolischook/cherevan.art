@@ -2,7 +2,7 @@
 id: 395
 shopifyId: 0
 shopifyOptionId: 0
-order: 191
+order: 193
 title: Sky guard
 slug: sky-guard
 url: art-works/sky-guard

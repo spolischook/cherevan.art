@@ -2,7 +2,7 @@
 id: 74
 shopifyId: 0
 shopifyOptionId: 0
-order: 540
+order: 542
 title: Callas
 slug: callas
 url: art-works/callas

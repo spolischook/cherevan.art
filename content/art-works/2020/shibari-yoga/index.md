@@ -2,7 +2,7 @@
 id: 491
 shopifyId: 8723272532298
 shopifyOptionId: 47772451209546
-order: 96
+order: 98
 title: Shibari yoga
 slug: shibari-yoga
 url: art-works/shibari-yoga

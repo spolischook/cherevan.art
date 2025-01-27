@@ -2,7 +2,7 @@
 id: 162
 shopifyId: 9631299240266
 shopifyOptionId: 49791984238922
-order: 423
+order: 425
 title: Cashew
 slug: cashew
 url: art-works/cashew

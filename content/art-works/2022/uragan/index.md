@@ -2,7 +2,7 @@
 id: 553
 shopifyId: 0
 shopifyOptionId: 0
-order: 450
+order: 452
 title: Uragan
 slug: uragan
 url: art-works/uragan

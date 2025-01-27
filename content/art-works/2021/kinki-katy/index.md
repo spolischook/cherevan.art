@@ -2,7 +2,7 @@
 id: 489
 shopifyId: 0
 shopifyOptionId: 0
-order: 98
+order: 100
 title: kinki katy
 slug: kinki-katy
 url: art-works/kinki-katy
