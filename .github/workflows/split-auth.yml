@@ -1,0 +1,33 @@
+name: Split Auth Module
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'google-auth/**'
+      
+jobs:
+  split-auth:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Fetch all history for proper splitting
+          
+      - name: Install splitsh-lite
+        run: |
+          wget https://github.com/splitsh/lite/releases/download/v1.0.1/lite_linux_amd64.tar.gz
+          tar -zxvf lite_linux_amd64.tar.gz
+          chmod +x splitsh-lite
+          
+      - name: Split auth repository
+        run: |
+          SHA=$(./splitsh-lite --prefix=google-auth/)
+          echo "SPLIT_SHA=$SHA" >> $GITHUB_ENV
+          
+      - name: Push to auth repository
+        env:
+          MONOREPO_SPLIT_TOKEN: ${{ secrets.MONOREPO_SPLIT_TOKEN }}
+        run: |
+          git remote add auth https://oauth2:${MONOREPO_SPLIT_TOKEN}@github.com/spolischook/cherevan.art_auth.git
+          git push auth ${SPLIT_SHA}:refs/heads/main -f
