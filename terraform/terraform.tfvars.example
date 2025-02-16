@@ -1,0 +1,11 @@
+# AWS Configuration
+aws_profile = "your-profile"
+aws_region  = "eu-central-1"
+
+# Google OAuth Configuration
+google_client_id     = "your-client-id"
+google_client_secret = "your-client-secret"
+google_redirect_url  = "https://auth.cherevan.art/callback"
+
+# Domain Configuration
+domain_name = "auth.cherevan.art"
