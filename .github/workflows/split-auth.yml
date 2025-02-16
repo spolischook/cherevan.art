@@ -6,9 +6,6 @@ on:
     paths:
       - 'google-auth/**'
 
-permissions:
-  contents: write
-      
 jobs:
   split-auth:
     runs-on: ubuntu-latest
@@ -16,27 +13,26 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0  # Fetch all history for proper splitting
-          token: ${{ secrets.GITHUB_TOKEN }}
-          
+
       - name: Install splitsh-lite
         run: |
           wget https://github.com/splitsh/lite/releases/download/v1.0.1/lite_linux_amd64.tar.gz
           tar -zxvf lite_linux_amd64.tar.gz
           chmod +x splitsh-lite
-          
+
       - name: Configure Git
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
-          
+
       - name: Split auth repository
         run: |
           SHA=$(./splitsh-lite --prefix=google-auth/)
           echo "SPLIT_SHA=$SHA" >> $GITHUB_ENV
-          
+
       - name: Push to auth repository
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MONOREPO_SPLIT_TOKEN: ${{ secrets.MONOREPO_SPLIT_TOKEN }}
         run: |
-          git remote add auth "https://x-access-token:${GITHUB_TOKEN}@github.com/spolischook/cherevan.art_auth.git"
+          git remote add auth https://${MONOREPO_SPLIT_TOKEN}@github.com/spolischook/cherevan.art_auth.git
           git push auth ${SPLIT_SHA}:refs/heads/main -f
