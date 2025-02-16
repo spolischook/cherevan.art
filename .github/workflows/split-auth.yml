@@ -29,5 +29,5 @@ jobs:
         env:
           MONOREPO_SPLIT_TOKEN: ${{ secrets.MONOREPO_SPLIT_TOKEN }}
         run: |
-          git remote add auth https://oauth2:${MONOREPO_SPLIT_TOKEN}@github.com/spolischook/cherevan.art_auth.git
+          git remote add auth https://${{ secrets.MONOREPO_SPLIT_TOKEN }}@github.com/spolischook/cherevan.art_auth.git
           git push auth ${SPLIT_SHA}:refs/heads/main -f
