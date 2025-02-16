@@ -20,19 +20,25 @@ jobs:
           tar -zxvf lite_linux_amd64.tar.gz
           chmod +x splitsh-lite
 
-      - name: Configure Git
-        run: |
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
-
       - name: Split auth repository
         run: |
           SHA=$(./splitsh-lite --prefix=google-auth/)
           echo "SPLIT_SHA=$SHA" >> $GITHUB_ENV
 
-      - name: Push to auth repository
+      - name: Configure SSH
         env:
-          MONOREPO_SPLIT_TOKEN: ${{ secrets.MONOREPO_SPLIT_TOKEN }}
+          DEPLOY_KEY: ${{ secrets.SPLIT_DEPLOY_KEY }}
         run: |
-          git remote add auth https://${MONOREPO_SPLIT_TOKEN}@github.com/spolischook/cherevan.art_auth.git
+          mkdir -p ~/.ssh
+          echo "$DEPLOY_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          cat >> ~/.ssh/config << EOF
+          Host github.com
+            IdentityFile ~/.ssh/deploy_key
+            StrictHostKeyChecking no
+          EOF
+
+      - name: Push to auth repository
+        run: |
+          git remote add auth git@github.com:spolischook/cherevan.art_auth.git
           git push auth ${SPLIT_SHA}:refs/heads/main -f
