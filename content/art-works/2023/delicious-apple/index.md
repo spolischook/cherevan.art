@@ -2,7 +2,7 @@
 id: 546
 shopifyId: 8723262210378
 shopifyOptionId: 47772424405322
-order: 27
+order: 29
 title: Delicious apple
 slug: delicious-apple
 url: art-works/delicious-apple

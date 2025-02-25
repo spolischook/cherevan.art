@@ -2,7 +2,7 @@
 id: 626
 shopifyId: 9631299666250
 shopifyOptionId: 49791988072778
-order: 90
+order: 92
 title: Ducks were flying
 slug: ducks-were-flying
 url: art-works/duckswereflyingjpeg

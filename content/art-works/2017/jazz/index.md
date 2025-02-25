@@ -2,7 +2,7 @@
 id: 241
 shopifyId: 8723273941322
 shopifyOptionId: 47772454256970
-order: 345
+order: 347
 title: Jazz
 slug: jazz
 url: art-works/jazz

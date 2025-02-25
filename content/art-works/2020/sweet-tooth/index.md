@@ -2,7 +2,7 @@
 id: 435
 shopifyId: 0
 shopifyOptionId: 0
-order: 155
+order: 157
 title: Sweet tooth
 slug: sweet-tooth
 url: art-works/sweet-tooth

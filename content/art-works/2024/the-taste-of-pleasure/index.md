@@ -2,7 +2,7 @@
 id: 622
 shopifyId: 9999664054602
 shopifyOptionId: 50053864522058
-order: 22
+order: 24
 title: The Taste of Pleasure
 slug: the-taste-of-pleasure
 url: art-works/the-taste-of-pleasure

@@ -2,7 +2,7 @@
 id: 570
 shopifyId: 9631300092234
 shopifyOptionId: 49791992103242
-order: 54
+order: 56
 title: Shibari with bamboo
 slug: shibari-with-bamboo
 url: art-works/shibari-with-bamboo

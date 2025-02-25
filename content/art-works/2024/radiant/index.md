@@ -2,7 +2,7 @@
 id: 615
 shopifyId: 9452935840074
 shopifyOptionId: 49106700271946
-order: 12
+order: 14
 title: Radiant
 slug: radiant
 url: art-works/radiant

@@ -2,7 +2,7 @@
 id: 589
 shopifyId: 8723261194570
 shopifyOptionId: 47779104620874
-order: 24
+order: 26
 title: Soul's Touch
 slug: souls-touch
 url: art-works/souls-touch

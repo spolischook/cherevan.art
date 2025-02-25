@@ -2,7 +2,7 @@
 id: 606
 shopifyId: 9374226514250
 shopifyOptionId: 48828508438858
-order: 10
+order: 12
 title: David and Jonathan canvas
 slug: david-and-jonathan-canvas
 url: art-works/david-and-jonathan-canvas

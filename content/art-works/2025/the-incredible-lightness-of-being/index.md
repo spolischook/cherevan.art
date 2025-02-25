@@ -2,7 +2,7 @@
 id: 627
 shopifyId: 9999666184522
 shopifyOptionId: 50053870780746
-order: 1
+order: 3
 title: The incredible lightness of being
 slug: the-incredible-lightness-of-being
 url: art-works/the-incredible-lightness-of-being
@@ -19,6 +19,6 @@ materials:
 - oil
 - ' acrylic'
 - ' canvas'
-price: 8000
+price: 8500
 mainImage: the_incredible_lightness_of_being.jpg
 ---

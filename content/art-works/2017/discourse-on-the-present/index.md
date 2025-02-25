@@ -2,7 +2,7 @@
 id: 257
 shopifyId: 8723273220426
 shopifyOptionId: 47772452782410
-order: 328
+order: 330
 title: Discourse on the present
 slug: discourse-on-the-present
 url: art-works/discourse-on-the-present
@@ -20,6 +20,6 @@ materials:
 - ink
 - marker
 - canvas
-price: 5200
+price: 6800
 mainImage: discourse_on_the_present.jpg
 ---

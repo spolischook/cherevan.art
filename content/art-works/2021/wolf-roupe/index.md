@@ -2,7 +2,7 @@
 id: 521
 shopifyId: 9999665856842
 shopifyOptionId: 50053870125386
-order: 72
+order: 74
 title: Wolf roupe
 slug: wolf-roupe
 url: art-works/wolf-roupe

@@ -2,7 +2,7 @@
 id: 484
 shopifyId: 9631302582602
 shopifyOptionId: 49792010158410
-order: 105
+order: 107
 title: Shibari suspension
 slug: shibari-suspension
 url: art-works/shibari-suspension

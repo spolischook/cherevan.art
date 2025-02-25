@@ -2,7 +2,7 @@
 id: 478
 shopifyId: 9999663694154
 shopifyOptionId: 50053864063306
-order: 112
+order: 114
 title: We become ideal puzzles
 slug: we-become-ideal-puzzles
 url: art-works/we-become-ideal-puzzles
@@ -19,6 +19,6 @@ materials:
 - acrylic
 - oil
 - canvas
-price: 6000
+price: 10000
 mainImage: we_become_ideal_puzzles.jpg
 ---

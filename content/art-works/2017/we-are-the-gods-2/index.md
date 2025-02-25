@@ -2,7 +2,7 @@
 id: 243
 shopifyId: 9999662580042
 shopifyOptionId: 50053861540170
-order: 343
+order: 345
 title: We are the Gods 2
 slug: we-are-the-gods-2
 url: art-works/we-are-the-gods-2

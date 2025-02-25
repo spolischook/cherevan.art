@@ -2,7 +2,7 @@
 id: 594
 shopifyId: 0
 shopifyOptionId: 0
-order: 64
+order: 66
 title: Cant smile in black
 slug: cant-smile-in-black
 url: art-works/cant-smile-in-black
