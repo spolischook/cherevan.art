@@ -10,7 +10,7 @@ aliases: []
 categories:
 - graphics
 inStock: true
-isVisible: true
+isVisible: false
 location: Ukraine
 height: 30
 width: 21

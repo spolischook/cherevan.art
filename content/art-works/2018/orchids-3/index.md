@@ -2,7 +2,7 @@
 id: 282
 shopifyId: 8723266601290
 shopifyOptionId: 47772436824394
-order: 305
+order: 304
 title: Orchids 3
 slug: orchids-3
 url: art-works/orchids-3
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - graphics
 inStock: true
-isVisible: true
+isVisible: false
 location: Ukraine/Home
 height: 30
 width: 21

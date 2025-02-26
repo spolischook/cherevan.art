@@ -2,7 +2,7 @@
 id: 271
 shopifyId: 0
 shopifyOptionId: 0
-order: 316
+order: 315
 title: Moulin Rouge at night, Paris
 slug: moulin-rouge-at-night-paris
 url: art-works/moulin-rouge-at-night-paris
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - graphics
 inStock: false
-isVisible: true
+isVisible: false
 location: ""
 height: 21
 width: 30

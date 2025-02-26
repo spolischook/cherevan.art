@@ -2,7 +2,7 @@
 id: 554
 shopifyId: 0
 shopifyOptionId: 0
-order: 455
+order: 454
 title: Eva Tur
 slug: eva-tur
 url: art-works/eva-tur

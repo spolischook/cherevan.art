@@ -2,7 +2,7 @@
 id: 338
 shopifyId: 9631302287690
 shopifyOptionId: 49792007799114
-order: 252
+order: 251
 title: Children of the sun
 slug: children-of-the-sun
 url: art-works/children-of-the-sun
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - painting
 inStock: true
-isVisible: true
+isVisible: false
 location: Ukraine
 height: 60
 width: 60

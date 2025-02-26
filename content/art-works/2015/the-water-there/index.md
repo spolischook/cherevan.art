@@ -2,7 +2,7 @@
 id: 160
 shopifyId: 9999664382282
 shopifyOptionId: 50053864915274
-order: 429
+order: 428
 title: The water there
 slug: the-water-there
 url: art-works/the-water-there
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - pastel
 inStock: true
-isVisible: true
+isVisible: false
 location: Ukraine/Mango
 height: 70
 width: 50

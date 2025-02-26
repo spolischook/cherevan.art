@@ -11,7 +11,7 @@ categories:
 - shibari
 - graphics
 inStock: false
-isVisible: true
+isVisible: false
 location: ""
 height: 21
 width: 30

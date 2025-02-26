@@ -2,7 +2,7 @@
 id: 291
 shopifyId: 0
 shopifyOptionId: 0
-order: 296
+order: 295
 title: On a branch, the bird as if in a cage
 slug: on-a-branch-the-bird-as-if-in-a-cage
 url: art-works/on-a-branch-the-bird-as-if-in-a-cage
@@ -20,6 +20,6 @@ materials:
 - oil
 - acrylic
 - canvas
-price: 2000
+price: -1
 mainImage: on_a_branch_the_bird_as_if_in_a_cage.jpg
 ---

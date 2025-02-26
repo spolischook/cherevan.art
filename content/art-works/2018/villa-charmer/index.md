@@ -2,7 +2,7 @@
 id: 303
 shopifyId: 0
 shopifyOptionId: 0
-order: 284
+order: 283
 title: Villa charmer
 slug: villa-charmer
 url: art-works/villa-charmer
@@ -18,6 +18,6 @@ date: 2018-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 1200
+price: -1
 mainImage: villa_charmer.jpg
 ---

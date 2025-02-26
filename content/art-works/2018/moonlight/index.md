@@ -2,7 +2,7 @@
 id: 288
 shopifyId: 0
 shopifyOptionId: 0
-order: 299
+order: 298
 title: Moonlight
 slug: moonlight
 url: art-works/moonlight
@@ -19,6 +19,6 @@ materials:
 - acrylic
 - ink
 - canvas
-price: 250
+price: -1
 mainImage: moonlight.jpg
 ---

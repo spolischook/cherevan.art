@@ -2,7 +2,7 @@
 id: 261
 shopifyId: 8723274039626
 shopifyOptionId: 47772454781258
-order: 326
+order: 325
 title: Model with cat
 slug: model-with-cat
 url: art-works/model-with-cat
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - graphics
 inStock: true
-isVisible: true
+isVisible: false
 location: Ukraine/Mango
 height: 30
 width: 21

@@ -11,7 +11,7 @@ aliases:
 categories:
 - graphics
 inStock: true
-isVisible: true
+isVisible: false
 location: Spain
 height: 56
 width: 38

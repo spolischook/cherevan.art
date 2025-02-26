@@ -2,7 +2,7 @@
 id: 304
 shopifyId: 0
 shopifyOptionId: 0
-order: 283
+order: 282
 title: Depth
 slug: depth
 url: art-works/depth
@@ -18,6 +18,6 @@ date: 2018-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 1200
+price: -1
 mainImage: depth.jpg
 ---

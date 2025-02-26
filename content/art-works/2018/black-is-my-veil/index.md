@@ -2,7 +2,7 @@
 id: 296
 shopifyId: 0
 shopifyOptionId: 0
-order: 291
+order: 290
 title: Black is my veil
 slug: black-is-my-veil
 url: art-works/black-is-my-veil
@@ -19,6 +19,6 @@ materials:
 - acrylic
 - ink
 - canvas
-price: 1200
+price: -1
 mainImage: black_is_my_veil.jpg
 ---

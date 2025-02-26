@@ -19,6 +19,6 @@ materials:
 - acrylic
 - oil
 - canvas
-price: 6000
+price: 7500
 mainImage: your_oceans_tides.JPG
 ---

@@ -2,7 +2,7 @@
 id: 270
 shopifyId: 8723270074698
 shopifyOptionId: 47772445114698
-order: 317
+order: 316
 title: I met You in the park Jardin de Palais Roya
 slug: i-met-you-in-the-park-jardin-de-palais-roya
 url: art-works/i-met-you-in-the-park-jardin-de-palais-roya
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - graphics
 inStock: true
-isVisible: true
+isVisible: false
 location: Spain
 height: 30
 width: 21

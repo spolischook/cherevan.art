@@ -2,7 +2,7 @@
 id: 290
 shopifyId: 0
 shopifyOptionId: 0
-order: 297
+order: 296
 title: Blue horse
 slug: blue-horse
 url: art-works/blue-horse

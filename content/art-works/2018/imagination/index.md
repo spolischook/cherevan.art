@@ -2,7 +2,7 @@
 id: 280
 shopifyId: 8723271450954
 shopifyOptionId: 47772448620874
-order: 307
+order: 306
 title: Imagination
 slug: imagination
 url: art-works/imagination
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - graphics
 inStock: true
-isVisible: true
+isVisible: false
 location: Spain
 height: 30
 width: 21

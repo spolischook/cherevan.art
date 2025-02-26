@@ -2,7 +2,7 @@
 id: 286
 shopifyId: 0
 shopifyOptionId: 0
-order: 301
+order: 300
 title: At night
 slug: at-night
 url: art-works/at-night
@@ -19,6 +19,6 @@ materials:
 - acrylic
 - ink
 - canvas
-price: 250
+price: -1
 mainImage: at_night.jpg
 ---

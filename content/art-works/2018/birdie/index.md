@@ -2,7 +2,7 @@
 id: 294
 shopifyId: 0
 shopifyOptionId: 0
-order: 293
+order: 292
 title: Birdie
 slug: birdie
 url: art-works/birdie
@@ -20,6 +20,6 @@ materials:
 - oil
 - ink
 - canvas
-price: 1500
+price: -1
 mainImage: birdie.jpg
 ---

@@ -2,7 +2,7 @@
 id: 260
 shopifyId: 8723260014922
 shopifyOptionId: 47772418801994
-order: 327
+order: 326
 title: Model
 slug: model
 url: art-works/model
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - graphics
 inStock: true
-isVisible: true
+isVisible: false
 location: Ukraine/Mango
 height: 30
 width: 21

@@ -2,7 +2,7 @@
 id: 337
 shopifyId: 9631300387146
 shopifyOptionId: 49791994790218
-order: 253
+order: 252
 title: Free Wi-Fi
 slug: free-wi-fi
 url: art-works/free-wi-fi
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - painting
 inStock: true
-isVisible: true
+isVisible: false
 location: Ukraine
 height: 60
 width: 60

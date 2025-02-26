@@ -2,7 +2,7 @@
 id: 289
 shopifyId: 0
 shopifyOptionId: 0
-order: 298
+order: 297
 title: 'Take this calm down '
 slug: take-this-calm-down-
 url: art-works/take-this-calm-down-
@@ -19,6 +19,6 @@ materials:
 - acrylic
 - ink
 - canvas
-price: 250
+price: -1
 mainImage: take_this_calm_down.jpg
 ---

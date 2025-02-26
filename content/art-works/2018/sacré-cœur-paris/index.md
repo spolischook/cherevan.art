@@ -2,7 +2,7 @@
 id: 319
 shopifyId: 0
 shopifyOptionId: 0
-order: 270
+order: 269
 title: Sacré-Cœur, Paris
 slug: sacré-cœur-paris
 url: art-works/sacred-heart-of-montmartre
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - graphics
 inStock: false
-isVisible: true
+isVisible: false
 location: Spain
 height: 30
 width: 21

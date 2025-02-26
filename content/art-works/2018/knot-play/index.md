@@ -2,7 +2,7 @@
 id: 302
 shopifyId: 8723273318730
 shopifyOptionId: 47772452913482
-order: 285
+order: 284
 title: Knot play
 slug: knot-play
 url: art-works/knot-play
@@ -20,6 +20,6 @@ materials:
 - acrylic
 - oil
 - canvas
-price: 1400
+price: 2100
 mainImage: knot_play.jpg
 ---

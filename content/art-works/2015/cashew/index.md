@@ -2,7 +2,7 @@
 id: 162
 shopifyId: 9631299240266
 shopifyOptionId: 49791984435530
-order: 427
+order: 426
 title: Cashew
 slug: cashew
 url: art-works/cashew
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - graphics
 inStock: true
-isVisible: true
+isVisible: false
 location: Ukraine/Home
 height: 21
 width: 30

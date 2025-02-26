@@ -2,7 +2,7 @@
 id: 293
 shopifyId: 0
 shopifyOptionId: 0
-order: 294
+order: 293
 title: I would have wings
 slug: i-would-have-wings
 url: art-works/i-would-have-wings
@@ -20,6 +20,6 @@ materials:
 - oil
 - ink
 - canvas
-price: 800
+price: -1
 mainImage: i_would_have_wings.jpg
 ---

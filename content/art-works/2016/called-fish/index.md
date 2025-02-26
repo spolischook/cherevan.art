@@ -2,7 +2,7 @@
 id: 187
 shopifyId: 0
 shopifyOptionId: 0
-order: 402
+order: 401
 title: Called fish
 slug: called-fish
 url: art-works/called-fish
