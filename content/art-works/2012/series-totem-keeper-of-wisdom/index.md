@@ -1,11 +1,11 @@
 ---
-id: 631
+id: 632
 shopifyId: 0
 shopifyOptionId: 0
-order: 477
-title: I am lost no more
-slug: i-am-lost-no-more
-url: art-works/i-am-lost-no-more
+order: 476
+title: 'Series: Totem. Keeper of Wisdom'
+slug: series-totem-keeper-of-wisdom
+url: art-works/series-totem-keeper-of-wisdom
 aliases: []
 categories:
 - graphics
@@ -19,5 +19,5 @@ materials:
 - acrylic
 - paper
 price: -1
-mainImage: i_am_lost_no_more.jpg
+mainImage: series_totem_keeper_of_wisdom.jpg
 ---
