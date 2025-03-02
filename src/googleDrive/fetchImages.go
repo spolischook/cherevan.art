@@ -4,7 +4,9 @@ import (
 	"fmt"
 	"github.com/cherevan.art/src/artWork"
 	"github.com/cherevan.art/src/tool"
+	"github.com/kpango/glg"
 	"google.golang.org/api/drive/v3"
+	"strings"
 )
 
 const paintingsFolderId = "1NA3FqpicdYnl7RS7-YDks0oh6eLNFTcp"
@@ -69,30 +71,73 @@ func (s Service) FetchMainImage(aw artWork.ArtWork) error {
 		return nil
 	}
 
-	// if ArtWork.Categories contains "painting" then use paintingsFolderId
-	// else use graphicsFolderId
+	// First check materials to determine if it's a painting or graphics
 	var dirId string
-	for _, cat := range aw.Categories {
-		if cat == "painting" {
-			dirId = paintingsFolderId
+	isPainting := false
+	isGraphics := false
+
+	for _, material := range aw.Materials {
+		material = strings.ToLower(material)
+		if strings.Contains(material, "canvas") || strings.Contains(material, "oil") {
+			isPainting = true
 			break
 		}
-		if cat == "graphics" {
-			dirId = graphicsFolderId
-			break
-		}
-		if cat == "pastel" {
-			dirId = graphicsFolderId
+		if strings.Contains(material, "paper") || strings.Contains(material, "cardboard") {
+			isGraphics = true
 			break
 		}
 	}
 
+	// If materials don't give us a clear answer, check categories
+	if !isPainting && !isGraphics {
+		for _, cat := range aw.Categories {
+			cat = strings.ToLower(cat)
+			if cat == "painting" {
+				isPainting = true
+				break
+			}
+			if cat == "graphics" || cat == "pastel" {
+				isGraphics = true
+				break
+			}
+		}
+	}
+
+	// Set the directory based on our findings
+	if isPainting {
+		dirId = paintingsFolderId
+	} else if isGraphics {
+		dirId = graphicsFolderId
+	} else {
+		// Default to graphics if we can't determine
+		dirId = graphicsFolderId
+	}
+
 	err = s.DownloadFile(aw.ImageName, dirId, aw.PageLeafPath())
 	if err != nil {
-		err = s.DownloadFile(aw.ImageName, berehyniFolderId, aw.PageLeafPath())
+		if dirId == graphicsFolderId {
+			err = s.DownloadFile(aw.ImageName, paintingsFolderId, aw.PageLeafPath())
+		}
+		if err != nil {
+			err = s.DownloadFile(aw.ImageName, berehyniFolderId, aw.PageLeafPath())
+		}
+		if err != nil {
+			err = s.DownloadFile(aw.ImageName, womenDefendersFolderId, aw.PageLeafPath())
+		}
 	}
+
 	if err != nil {
-		err = s.DownloadFile(aw.ImageName, womenDefendersFolderId, aw.PageLeafPath())
+		glg.Errorf("Failed to find artwork '%s' (%s). Searched in:", aw.Title, aw.ImageName)
+		if isPainting {
+			glg.Errorf("- Paintings folder (based on materials: %v)", aw.Materials)
+		} else if isGraphics {
+			glg.Errorf("- Graphics folder (based on materials: %v)", aw.Materials)
+		} else {
+			glg.Errorf("- Graphics folder (default, no material match found in: %v)", aw.Materials)
+		}
+		glg.Errorf("- Bereyhni folder")
+		glg.Errorf("- Women Defenders folder")
+		glg.Errorf("Categories: %v", aw.Categories)
 	}
 
 	return err

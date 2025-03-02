@@ -40,20 +40,23 @@ func (s Service) DownloadFile(fileName, dirId, destDir string) error {
 		fmt.Sprintf("name='%s' and '%s' in parents", fileName, dirId),
 	).Do()
 	if err != nil {
+		glg.Errorf("Google Drive API error while searching for file '%s': %v", fileName, err)
 		return err
 	}
 
 	if len(r.Files) == 0 {
+		glg.Warnf("File '%s' not found in directory ID: %s", fileName, dirId)
 		return fmt.Errorf(`file "%s" not found`, fileName)
 	}
 
 	if len(r.Files) > 1 {
-		glg.Fatalf("multiple files found for file: %s", fileName)
+		glg.Fatalf("Multiple files found with name '%s' in directory ID: %s", fileName, dirId)
 	}
 
 	i := r.Files[0]
 	resp, err := s.Files.Get(i.Id).Download()
 	if err != nil {
+		glg.Errorf("Failed to download file '%s': %v", fileName, err)
 		return err
 	}
 	defer resp.Body.Close()
@@ -61,19 +64,23 @@ func (s Service) DownloadFile(fileName, dirId, destDir string) error {
 	// create directory if it not exists
 	err = os.MkdirAll(destDir, 0755)
 	if err != nil {
+		glg.Errorf("Failed to create directory '%s': %v", destDir, err)
 		return err
 	}
 
-	out, err := os.Create(filepath.Join(destDir, i.Name))
+	destPath := filepath.Join(destDir, i.Name)
+	out, err := os.Create(destPath)
 	if err != nil {
+		glg.Errorf("Failed to create output file '%s': %v", destPath, err)
 		return err
 	}
 	defer out.Close()
 
 	_, err = io.Copy(out, resp.Body)
 	if err != nil {
+		glg.Errorf("Failed to write file contents for '%s': %v", fileName, err)
 		return err
 	}
 
-	return nil
+	return err
 }
