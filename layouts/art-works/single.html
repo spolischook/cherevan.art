@@ -28,6 +28,7 @@
                     <div class="text-gray-500 text-sm pb-6">Local taxes included (where applicable)</div>
                 {{ end }}
                 <div class="pb-2 text-xl"><span class="font-bold">Size: </span>{{ .Params.width }}&nbspX&nbsp{{ .Params.height }}&nbspcm</div>
+                <div class="pb-2 text-xl"><span class="font-bold">Year: </span>{{dateFormat "2006" .Params.date}}</div>
                 <div class="text-xl font-bold">Materials:</div>
                 <ul class="text-xl pb-2">
                     {{ range .Params.materials }}
