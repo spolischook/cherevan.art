@@ -30,11 +30,11 @@
     }
     </style>
     <article class="flex flex-col">
-        <section class="flex flex-col sm:flex-row sm:space-x-8 sm:art-fixed-height sm:overflow-hidden">
+        <section class="art-columns-container flex flex-col sm:flex-row sm:space-x-8 sm:art-fixed-height sm:overflow-hidden">
             <!-- Gallery column (left) with no scrollbar -->
             <div class="sm:w-1/2 sm:overflow-hidden pr-4">
                 <!-- Desktop Gallery (visible only on desktop, with scrollbar) -->
-                <div class="desktop-gallery hidden sm:block sm:h-full sm:overflow-y-auto sm:no-scrollbar pr-1">
+                <div class="desktop-gallery hidden sm:block pr-1">
                     <!-- Main image first -->
                     {{ with .Resources.GetMatch .Params.mainImage }}
                         <div class="mb-4">
@@ -65,7 +65,7 @@
                     <!-- Video if present -->
                     {{ if .Params.videoUrl }}
                         <div class="mb-4 relative aspect-video w-full">
-                            <iframe class="absolute inset-0 w-full h-full" src="{{ .Params.videoUrl }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe title="Video {{.Title}}" class="absolute inset-0 w-full h-full" src="{{ .Params.videoUrl }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     {{ end }}
                 </div>
@@ -75,7 +75,7 @@
             </div>
 
             <!-- Info column (right) with scrollbar and sticky positioning -->
-            <div class="sm:w-1/2 sm:h-full sm:overflow-y-auto sm:sticky sm:top-0 pl-4">
+            <div class="sm:w-1/2 sm:top-0 pl-4">
                 <h1 class="text-4xl font-bold pb-2 text-tiger-300">{{ .Title }}</h1>
                 {{ if and (lt 1 .Params.Price) .Params.inStock }}
                     <div class="text-2xl font-bold">€&nbsp{{ lang.FormatNumberCustom 2 .Params.Price }}</div>
