@@ -23,7 +23,6 @@ function processDirectory(directory) {
             } else {
                 if (isImage(file)) {
                     try {
-                        const image = sharp(absolutePath);
                         const formats = ['webp', 'avif'];
                         const sizes = [360, 375, 450, 750, 768];
 
@@ -31,11 +30,13 @@ function processDirectory(directory) {
                             sizes.forEach(size => {
                                 const resizedImagePath = path.join(directory, path.basename(file, path.extname(file)) + `_${size}.${format}`);
                                 if (!fs.existsSync(resizedImagePath)) {
-                                    image
+                                    sharp(absolutePath)
+                                        .rotate()
                                         .resize(size)
                                         .toFormat(format)
-                                        .toFile(resizedImagePath);
-                                    console.log('Processed: ' + resizedImagePath);
+                                        .toFile(resizedImagePath)
+                                        .then(() => console.log('Processed: ' + resizedImagePath))
+                                        .catch(err => console.error(`Error processing file ${absolutePath}: ${err.message}`));
                                 }
                             });
                         });
@@ -48,6 +49,7 @@ function processDirectory(directory) {
         });
     });
 }
+
 function isImage(file) {
     const ext = path.extname(file).toLowerCase();
     return ext === ".jpg" || ext === ".png" || ext === ".jpeg";

@@ -1,7 +1,11 @@
-{{ $lowQualityImage := .image.Resize "50x" }}
+{{ $mainImage := .image }}
+{{ with .Resources.GetMatch (printf "%s_750.avif" (replaceRE "\\.[^.]+$" "" .image.Name)) }}
+  {{ $mainImage = . }}
+{{ end }}
+{{ $lowQualityImage := $mainImage.Resize "50x" }}
 {{ $lowQualityImageBase64 := $lowQualityImage.Content | base64Encode }}
-{{ $imageWidth := .image.Width }}
-{{ $imageHeight := .image.Height }}
+{{ $imageWidth := $mainImage.Width }}
+{{ $imageHeight := $mainImage.Height }}
 
 <div class="relative"
      style="

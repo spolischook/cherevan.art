@@ -1,0 +1,95 @@
+<!-- Mobile Only Gallery Partial -->
+{{ $fragmentsDir := (printf "content/art-works/%s/%s/fragments" (dateFormat "2006" .Params.date) .Slug) }}
+
+{{ if fileExists $fragmentsDir }}
+  {{ $fragments := readDir $fragmentsDir }}
+  {{ if gt (len $fragments) 0 }}
+    {{ $page := . }}
+
+    <!-- Mobile Gallery with OwlCarousel -->
+    <div class="sm:hidden w-full mt-8">
+      <div id="mobile-gallery" class="owl-carousel owl-theme">
+        <!-- Main image first -->
+        {{ with .Resources.GetMatch .Params.mainImage }}
+          <div class="item">
+            {{ partial "art-works/picture.html" (dict "image" . "title" $page.Title "inStock" $page.Params.inStock "index" 0) }}
+          </div>
+        {{ end }}
+        
+        <!-- Fragment images -->
+        {{ range $i, $img := $fragments }}
+          {{/* Only use original images, not processed ones */}}
+          {{ if not (findRE "_[0-9]+\\.(avif|webp|jpg|jpeg|png)$" $img.Name) }}
+            {{ $res := $page.Resources.GetMatch (printf "fragments/%s" $img.Name) }}
+            {{ if and $res (hasPrefix $res.MediaType.Type "image/") }}
+              <div class="item">
+                {{ partial "art-works/picture.html" (dict "image" $res "title" $page.Title "inStock" $page.Params.inStock "index" $i) }}
+              </div>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        
+        <!-- Video if present -->
+        {{ if .Params.videoUrl }}
+          <div class="item video-container">
+            <div class="relative aspect-video w-full">
+              <iframe class="absolute inset-0 w-full h-full" src="{{ .Params.videoUrl }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+
+    <!-- Desktop: Only show main image -->
+    <div class="hidden sm:block">
+      {{ with .Resources.GetMatch .Params.mainImage }}
+        {{ partial "art-works/picture.html" (dict "image" . "title" $page.Title "inStock" $page.Params.inStock "index" 0) }}
+      {{ end }}
+    </div>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Initialize Owl Carousel for mobile
+      if (window.innerWidth < 640) { // Tailwind 'sm' breakpoint
+        $('#mobile-gallery').owlCarousel({
+          items: 1,
+          loop: true,
+          margin: 10,
+          nav: true,
+          dots: true,
+          autoHeight: true,
+          navText: [
+            '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>',
+            '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>'
+          ]
+        });
+      }
+
+      // Handle window resize
+      window.addEventListener('resize', function() {
+        const gallery = $('#mobile-gallery');
+        if (window.innerWidth < 640) {
+          if (!gallery.hasClass('owl-loaded')) {
+            gallery.owlCarousel({
+              items: 1,
+              loop: true,
+              margin: 10,
+              nav: true,
+              dots: true,
+              autoHeight: true,
+              navText: [
+                '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>',
+                '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>'
+              ]
+            });
+          }
+        } else {
+          if (gallery.hasClass('owl-loaded')) {
+            gallery.trigger('destroy.owl.carousel');
+          }
+        }
+      });
+    });
+    </script>
+  {{ end }}
+{{ end }}

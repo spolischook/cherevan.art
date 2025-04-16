@@ -13,12 +13,13 @@
     <article class="flex flex-col">
         <section class="flex flex-col sm:flex-row sm:space-x-8">
             <div class="sm:w-1/2">
-                {{ $image := .Resources.GetMatch .Params.mainImage }}
+                <!-- {{ $image := .Resources.GetMatch .Params.mainImage }}
                 {{ if $image }}
                     {{ partial "art-works/picture.html" (dict "image" $image "title" .Title "inStock" .Params.inStock "index" 0) }}
                 {{ else }}
                     <div class=""></div>
-                {{ end }}
+                {{ end }} -->
+                {{ partial "art-works/mobile-gallery.html" . }}
             </div>
 
             <div class="sm:w-1/2">
