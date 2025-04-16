@@ -40,13 +40,6 @@
       </div>
     </div>
 
-    <!-- Desktop: Only show main image -->
-    <div class="hidden sm:block">
-      {{ with .Resources.GetMatch .Params.mainImage }}
-        {{ partial "art-works/picture.html" (dict "image" . "title" $page.Title "inStock" $page.Params.inStock "index" 0) }}
-      {{ end }}
-    </div>
-
     <script>
     document.addEventListener('DOMContentLoaded', function() {
       // Initialize Owl Carousel for mobile
