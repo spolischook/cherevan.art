@@ -1,2 +1,3 @@
-Use Hogo static website generator to build the website
+Use Hogo static website generator to build the website, 
+but do not run the Hugo commands, as I run it manually anyway.  
 Use Tailwind classes for layout

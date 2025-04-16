@@ -10,19 +10,87 @@
 {{ end }}
 
 {{ define "main" }}
+    {{/* Styles for independent scrollable columns and desktop/mobile switching */}}
+    <style>
+    @media (min-width: 640px) {
+      .art-columns-container {
+        height: calc(100vh - 120px); /* Adjust based on your header height */
+        overflow: hidden;
+      }
+      
+      .art-column {
+        height: 100%;
+        overflow-y: auto;
+        position: relative;
+        padding-right: 1rem;
+        /* Firefox scrollbar styling */
+        scrollbar-width: thin;
+        scrollbar-color: rgba(156, 163, 175, 0.5) transparent;
+      }
+      
+      /* Chrome/Safari scrollbar styling */
+      .art-column::-webkit-scrollbar {
+        width: 6px;
+      }
+      
+      .art-column::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      
+      .art-column::-webkit-scrollbar-thumb {
+        background-color: rgba(156, 163, 175, 0.5);
+        border-radius: 20px;
+      }
+
+
+    </style>
     <article class="flex flex-col">
-        <section class="flex flex-col sm:flex-row sm:space-x-8">
-            <div class="sm:w-1/2">
-                <!-- {{ $image := .Resources.GetMatch .Params.mainImage }}
-                {{ if $image }}
-                    {{ partial "art-works/picture.html" (dict "image" $image "title" .Title "inStock" .Params.inStock "index" 0) }}
-                {{ else }}
-                    <div class=""></div>
-                {{ end }} -->
+        <section class="flex flex-col sm:flex-row sm:space-x-8 art-columns-container">
+            <!-- Gallery column (left) -->
+            <div class="sm:w-1/2 art-column gallery-column">
+                <!-- Desktop Gallery (visible only on desktop) -->
+                <div class="desktop-gallery hidden sm:block">
+                    <!-- Main image first -->
+                    {{ with .Resources.GetMatch .Params.mainImage }}
+                        <div class="mb-4">
+                            {{ partial "art-works/picture.html" (dict "image" . "title" $.Title "inStock" $.Params.inStock "index" 0) }}
+                        </div>
+                    {{ end }}
+                    
+                    <!-- Fragment images - copied from mobile gallery approach that works -->
+                    {{ $fragmentsDir := (printf "content/art-works/%s/%s/fragments" (dateFormat "2006" .Params.date) .Slug) }}
+                    {{ if fileExists $fragmentsDir }}
+                        {{ $fragments := readDir $fragmentsDir }}
+                        {{ if gt (len $fragments) 0 }}
+                            {{ $page := . }}
+                            {{ range $i, $img := $fragments }}
+                                {{/* Only use original images, not processed ones */}}
+                                {{ if not (findRE "_[0-9]+\\.(avif|webp|jpg|jpeg|png)$" $img.Name) }}
+                                    {{ $res := $page.Resources.GetMatch (printf "fragments/%s" $img.Name) }}
+                                    {{ if and $res (hasPrefix $res.MediaType.Type "image/") }}
+                                        <div class="mb-4">
+                                            {{ partial "art-works/picture.html" (dict "image" $res "title" $page.Title "inStock" $page.Params.inStock "index" $i) }}
+                                        </div>
+                                    {{ end }}
+                                {{ end }}
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                    
+                    <!-- Video if present -->
+                    {{ if .Params.videoUrl }}
+                        <div class="mb-4 relative aspect-video w-full">
+                            <iframe class="absolute inset-0 w-full h-full" src="{{ .Params.videoUrl }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    {{ end }}
+                </div>
+                
+                <!-- Mobile Gallery (visible only on mobile) -->
                 {{ partial "art-works/mobile-gallery.html" . }}
             </div>
 
-            <div class="sm:w-1/2">
+            <!-- Info column (right) -->
+            <div class="sm:w-1/2 art-column info-column">
                 <h1 class="text-4xl font-bold pb-2 text-tiger-300">{{ .Title }}</h1>
                 {{ if and (lt 1 .Params.Price) .Params.inStock }}
                     <div class="text-2xl font-bold">€&nbsp{{ lang.FormatNumberCustom 2 .Params.Price }}</div>
@@ -82,7 +150,7 @@
             </div>
         </section>
 
-        <section class="flex flex-col"></section>
+        <section class="flex flex-col">
             <h2 class="font-bold text-xl mt-3">Similar Art Works</h2>
             <ul class="flex space-x-2 list-none">
                 {{ range .Params.categories }}
