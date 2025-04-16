@@ -10,46 +10,31 @@
 {{ end }}
 
 {{ define "main" }}
-    {{/* Styles for independent scrollable columns and desktop/mobile switching */}}
+    {{/* Only minimal custom styling needed */}}
     <style>
     @media (min-width: 640px) {
-      .art-columns-container {
-        height: calc(100vh - 120px); /* Adjust based on your header height */
-        overflow: hidden;
+      .art-fixed-height {
+        height: calc(100vh - 120px);
       }
       
-      .art-column {
-        height: 100%;
-        overflow-y: auto;
-        position: relative;
-        padding-right: 1rem;
-        /* Firefox scrollbar styling */
-        scrollbar-width: thin;
-        scrollbar-color: rgba(156, 163, 175, 0.5) transparent;
+      /* Hide scrollbar for WebKit browsers */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
       }
       
-      /* Chrome/Safari scrollbar styling */
-      .art-column::-webkit-scrollbar {
-        width: 6px;
+      /* Hide scrollbar for IE, Edge, and Firefox */
+      .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;     /* Firefox */
       }
-      
-      .art-column::-webkit-scrollbar-track {
-        background: transparent;
-      }
-      
-      .art-column::-webkit-scrollbar-thumb {
-        background-color: rgba(156, 163, 175, 0.5);
-        border-radius: 20px;
-      }
-
-
+    }
     </style>
     <article class="flex flex-col">
-        <section class="flex flex-col sm:flex-row sm:space-x-8 art-columns-container">
-            <!-- Gallery column (left) -->
-            <div class="sm:w-1/2 art-column gallery-column">
-                <!-- Desktop Gallery (visible only on desktop) -->
-                <div class="desktop-gallery hidden sm:block">
+        <section class="flex flex-col sm:flex-row sm:space-x-8 sm:art-fixed-height sm:overflow-hidden">
+            <!-- Gallery column (left) with no scrollbar -->
+            <div class="sm:w-1/2 sm:overflow-hidden pr-4">
+                <!-- Desktop Gallery (visible only on desktop, with scrollbar) -->
+                <div class="desktop-gallery hidden sm:block sm:h-full sm:overflow-y-auto sm:no-scrollbar pr-1">
                     <!-- Main image first -->
                     {{ with .Resources.GetMatch .Params.mainImage }}
                         <div class="mb-4">
@@ -89,8 +74,8 @@
                 {{ partial "art-works/mobile-gallery.html" . }}
             </div>
 
-            <!-- Info column (right) -->
-            <div class="sm:w-1/2 art-column info-column">
+            <!-- Info column (right) with scrollbar and sticky positioning -->
+            <div class="sm:w-1/2 sm:h-full sm:overflow-y-auto sm:sticky sm:top-0 pl-4">
                 <h1 class="text-4xl font-bold pb-2 text-tiger-300">{{ .Title }}</h1>
                 {{ if and (lt 1 .Params.Price) .Params.inStock }}
                     <div class="text-2xl font-bold">€&nbsp{{ lang.FormatNumberCustom 2 .Params.Price }}</div>
