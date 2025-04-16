@@ -7,10 +7,14 @@
 document.addEventListener('DOMContentLoaded', function() {
   // Only run on desktop
   if (window.innerWidth >= 640) {
-    const galleryColumn = document.querySelector('.gallery-column');
-    const infoColumn = document.querySelector('.info-column');
+    // Get the gallery wrapper (left column) and the scrollable content inside it
+    // Use simpler selectors based on position rather than class names with colons
+    const columnsContainer = document.querySelector('section.flex-col.sm\\:flex-row');
+    const galleryWrapper = columnsContainer.querySelector('div:first-child');
+    const galleryContent = galleryWrapper.querySelector('.desktop-gallery');
+    const infoColumn = columnsContainer.querySelector('div:last-child');
     
-    if (!galleryColumn || !infoColumn) return;
+    if (!galleryWrapper || !infoColumn || !galleryContent) return;
     
     let galleryScrolled = false;
     let infoScrolled = false;
@@ -32,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (isProcessingScroll) return;
       isProcessingScroll = true;
       
-      const galleryRect = galleryColumn.getBoundingClientRect();
+      const galleryRect = galleryWrapper.getBoundingClientRect();
       const infoRect = infoColumn.getBoundingClientRect();
       
       // Determine which column the cursor is over
@@ -45,19 +49,27 @@ document.addEventListener('DOMContentLoaded', function() {
       if (isOverGallery) {
         // Scrolling down
         if (e.deltaY > 0) {
-          if (isAtBottom(galleryColumn)) {
-            // Gallery column is at bottom, scroll info column
+          if (isAtBottom(galleryContent)) {
+            // Gallery reached bottom, scroll info column
             e.preventDefault();
             infoColumn.scrollBy({ top: e.deltaY, behavior: 'auto' });
             galleryScrolled = true;
+          } else {
+            // Scroll gallery normally
+            e.preventDefault();
+            galleryContent.scrollBy({ top: e.deltaY, behavior: 'auto' });
           }
         } 
         // Scrolling up
         else if (e.deltaY < 0) {
-          if (isAtTop(galleryColumn) && !isAtTop(infoColumn)) {
-            // Gallery column is at top, scroll info column from bottom
+          if (isAtTop(galleryContent) && !isAtTop(infoColumn)) {
+            // Gallery at top, scroll info column instead
             e.preventDefault();
             infoColumn.scrollBy({ top: e.deltaY, behavior: 'auto' });
+          } else {
+            // Scroll gallery normally
+            e.preventDefault();
+            galleryContent.scrollBy({ top: e.deltaY, behavior: 'auto' });
           }
         }
       } 
@@ -65,22 +77,30 @@ document.addEventListener('DOMContentLoaded', function() {
         // Scrolling down
         if (e.deltaY > 0) {
           if (isAtBottom(infoColumn)) {
-            // Info column is at bottom, both columns are scrolled
+            // Info column at bottom
             infoScrolled = true;
             
             // Both columns at bottom, allow page to scroll
             if (galleryScrolled && infoScrolled) {
               // Do nothing, let the page scroll naturally
             }
+          } else {
+            // Scroll info column normally
+            e.preventDefault();
+            infoColumn.scrollBy({ top: e.deltaY, behavior: 'auto' });
           }
         } 
         // Scrolling up
         else if (e.deltaY < 0) {
           if (isAtTop(infoColumn)) {
-            // Info column is at top, scroll gallery column
+            // Info column at top, scroll gallery instead
             e.preventDefault();
-            galleryColumn.scrollBy({ top: e.deltaY, behavior: 'auto' });
+            galleryContent.scrollBy({ top: e.deltaY, behavior: 'auto' });
             infoScrolled = false;
+          } else {
+            // Scroll info column normally
+            e.preventDefault();
+            infoColumn.scrollBy({ top: e.deltaY, behavior: 'auto' });
           }
         }
       }
@@ -91,12 +111,12 @@ document.addEventListener('DOMContentLoaded', function() {
       }, 10);
     }, { passive: false });
     
-    // Update indicators when gallery column scrolls
-    galleryColumn.addEventListener('scroll', function() {
+    // Update indicators when gallery reaches bottom
+    galleryContent.addEventListener('scroll', function() {
       galleryScrolled = isAtBottom(this);
     });
     
-    // Update indicators when info column scrolls
+    // Update indicators when info column reaches bottom
     infoColumn.addEventListener('scroll', function() {
       infoScrolled = isAtBottom(this);
     });
