@@ -113,15 +113,31 @@ async def language_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -
     else:
         await update.message.reply_text(f"Language preference set to: {lang_code.upper()}")
 
-async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    """Echoes the user message."""
+async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Handles text messages by sending them to Gemini and returning the response."""
     if update.message and update.message.text:
-        logger.info(f"Received message from {update.effective_chat.id}: {update.message.text}")
-        # Simple dummy response: send the same text back
-        await update.message.reply_text(update.message.text)
+        user = update.effective_user
+        chat_id = update.effective_chat.id
+        logger.info(f"Received text message from {chat_id}: {update.message.text}")
+        
+        # Get the message text
+        prompt = update.message.text
+        
+        # Show typing indicator
+        await update.message.chat.send_action(action="typing")
+        
+        # Get Gemini response
+        try:
+            gemini_response = gemini_generate_response(prompt)
+        except Exception as e:
+            logger.error(f"Gemini API error: {e}")
+            gemini_response = "[Error: Could not get response from Gemini]"
+        
+        # Send response
+        await update.message.reply_text(gemini_response)
     else:
-        logger.info(f"Received non-text message from {update.effective_chat.id}")
-        await update.message.reply_text("I can only echo text messages right now.")
+        logger.info(f"Received empty text message from {update.effective_chat.id}")
+        await update.message.reply_text("Please send a non-empty text message.")
 
 
 # --- Main Execution ---
@@ -140,7 +156,7 @@ def main() -> None:
     application.add_handler(CommandHandler("language", language_command))
 
     # Register message handler for text messages (but not commands)
-    application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, echo))
+    application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_text))
 
     # Register handler for voice messages
     application.add_handler(MessageHandler(filters.VOICE, handle_voice))
