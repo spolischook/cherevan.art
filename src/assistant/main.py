@@ -1,5 +1,6 @@
 import logging
 import os
+import asyncio
 from dotenv import load_dotenv
 
 from telegram import Update
@@ -123,17 +124,32 @@ async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
         # Get the message text
         prompt = update.message.text
         
+        # Status message to show processing
+        status_msg = await update.message.reply_text("🧠 Thinking about your message...")
+        
         # Show typing indicator
         await update.message.chat.send_action(action="typing")
         
         # Get Gemini response
         try:
+            # Update status to show we're communicating with AI
+            await status_msg.edit_text("🤖 Consulting the AI oracle...")
+            
             gemini_response = gemini_generate_response(prompt)
+            
+            # Update status with a fun message before showing the answer
+            await status_msg.edit_text("✨ Crafting a brilliant response...")
         except Exception as e:
             logger.error(f"Gemini API error: {e}")
             gemini_response = "[Error: Could not get response from Gemini]"
         
-        # Send response
+        # Short delay to show the last status message
+        await asyncio.sleep(0.5)
+        
+        # Delete the status message
+        await status_msg.delete()
+        
+        # Send the real response
         await update.message.reply_text(gemini_response)
     else:
         logger.info(f"Received empty text message from {update.effective_chat.id}")
