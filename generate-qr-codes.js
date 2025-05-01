@@ -15,17 +15,32 @@ const sharp = require('sharp');
 // Configuration
 const QR_SIZE = 500; // Size of QR code in pixels
 const QR_CODES_DIR = path.join(__dirname, 'static', 'qr-codes');
-const LOGO_PATH = path.join(__dirname, 'static', 'images', 'qr-logo.png');
 const LOGO_SIZE_PERCENTAGE = 0.17; // Logo size as a percentage of QR code size
+const USE_LOGO = true; // Set to false to disable the logo in the center of QR codes
+const QR_CODES_JSON = path.join(QR_CODES_DIR, 'qr-codes.json');
 
-const LINKS = [
-  { name: 'website', url: 'https://www.cherevan.art' },
-  { name: 'instagram', url: 'https://www.instagram.com/tetianacherevan/' },
-  { name: 'shibari-artkingdom', url: 'https://www.instagram.com/shibari.artkingdom' },
-  { name: 'art-finder', url: 'https://www.artfinder.com/artist/tetiana-cherevan/' },
-  { name: 'etsy', url: 'https://www.etsy.com/shop/CherevanArtGallery' },
-  { name: 'artsy', url: 'https://www.artsy.net/artist/tetiana-cherevan' }
+// Load QR code data from JSON file if it exists
+let qrCodesData = [];
+if (fs.existsSync(QR_CODES_JSON)) {
+  try {
+    qrCodesData = JSON.parse(fs.readFileSync(QR_CODES_JSON, 'utf8'));
+  } catch (error) {
+    console.error('Error reading QR codes JSON file:', error);
+  }
+}
+
+// Define links if no JSON data is available
+const DEFAULT_LINKS = [
+  { name: 'tetiana-cherevan-website', url: 'https://www.cherevan.art' },
+  { name: 'tetiana-cherevan-instagram', url: 'https://www.instagram.com/tetianacherevan/' },
+  { name: 'tetiana-cherevan-shibari-artkingdom-instagram', url: 'https://www.instagram.com/shibari.artkingdom' },
+  { name: 'tetiana-cherevan-art-finder', url: 'https://www.artfinder.com/artist/tetiana-cherevan/' },
+  { name: 'tetiana-cherevan-etsy', url: 'https://www.etsy.com/shop/CherevanArtGallery' },
+  { name: 'tetiana-cherevan-artsy', url: 'https://www.artsy.net/artist/tetiana-cherevan' }
 ];
+
+// Use data from JSON file if available, otherwise use default links
+const LINKS = qrCodesData.length > 0 ? qrCodesData : DEFAULT_LINKS;
 
 // Ensure the QR codes directory exists
 if (!fs.existsSync(QR_CODES_DIR)) {
@@ -37,8 +52,9 @@ if (!fs.existsSync(QR_CODES_DIR)) {
  * Generate an artistic QR code with rounded dots
  * @param {string} url - The URL to encode in the QR code
  * @param {string} outputPath - Path to save the QR code image
+ * @param {string} logoSvg - Optional SVG logo to place in the center of the QR code
  */
-async function generateArtisticQRCode(url, outputPath) {
+async function generateArtisticQRCode(url, outputPath, logoSvg) {
   try {
     // Create temporary file paths
     const tempSvgPath = `${outputPath}.svg`;
@@ -64,10 +80,16 @@ async function generateArtisticQRCode(url, outputPath) {
     const cellSize = Math.floor(QR_SIZE / (size + 8)); // Add margin
     const margin = Math.floor((QR_SIZE - (size * cellSize)) / 2);
     
-    // Calculate the center region to leave empty for the logo
-    const logoSizeInModules = Math.ceil(size * LOGO_SIZE_PERCENTAGE * 2); // Double the percentage for better visibility
-    const logoStartModule = Math.floor((size - logoSizeInModules) / 2);
-    const logoEndModule = logoStartModule + logoSizeInModules;
+    // Calculate the center region to leave empty for the logo (if enabled)
+    let logoSizeInModules = 0;
+    let logoStartModule = 0;
+    let logoEndModule = 0;
+    
+    if (USE_LOGO) {
+      logoSizeInModules = Math.ceil(size * LOGO_SIZE_PERCENTAGE * 2); // Double the percentage for better visibility
+      logoStartModule = Math.floor((size - logoSizeInModules) / 2);
+      logoEndModule = logoStartModule + logoSizeInModules;
+    }
     
     // Create SVG with circles instead of rectangles for truly rounded dots
     let svgContent = `<svg xmlns="http://www.w3.org/2000/svg" width="${QR_SIZE}" height="${QR_SIZE}" viewBox="0 0 ${QR_SIZE} ${QR_SIZE}">
@@ -78,8 +100,8 @@ async function generateArtisticQRCode(url, outputPath) {
     // Add circles for each dark module in the QR code
     for (let row = 0; row < size; row++) {
       for (let col = 0; col < size; col++) {
-        // Skip the center area where the logo will be placed
-        if (row >= logoStartModule && row < logoEndModule && 
+        // Skip the center area where the logo will be placed (if logo is enabled)
+        if (USE_LOGO && row >= logoStartModule && row < logoEndModule && 
             col >= logoStartModule && col < logoEndModule) {
           continue;
         }
@@ -107,31 +129,41 @@ async function generateArtisticQRCode(url, outputPath) {
       .png()
       .toFile(tempQrPngPath);
     
-    // Calculate logo size and position
-    const logoSize = Math.round(QR_SIZE * LOGO_SIZE_PERCENTAGE);
-    const logoPosition = Math.round((QR_SIZE - logoSize) / 2);
-    
-    // Create a temporary resized logo
-    const tempLogoPath = `${outputPath}.logo.png`;
-    
-    // Resize the logo first
-    await sharp(LOGO_PATH)
-      .resize(logoSize, logoSize)
-      .toFile(tempLogoPath);
-    
-    // Composite the resized logo onto the QR code
-    await sharp(tempQrPngPath)
-      .composite([
-        {
-          input: tempLogoPath,
-          top: logoPosition,
-          left: logoPosition
-        }
-      ])
-      .toFile(outputPath);
+    if (USE_LOGO && logoSvg) {
+      // Calculate logo size and position
+      const logoSize = Math.round(QR_SIZE * LOGO_SIZE_PERCENTAGE);
+      const logoPosition = Math.round((QR_SIZE - logoSize) / 2);
       
-    // Remove the temporary logo file
-    fs.unlinkSync(tempLogoPath);
+      // Create temporary files for the logo
+      const tempLogoSvgPath = `${outputPath}.logo.svg`;
+      const tempLogoPngPath = `${outputPath}.logo.png`;
+      
+      // Write the SVG logo to a temporary file
+      fs.writeFileSync(tempLogoSvgPath, logoSvg);
+      
+      // Convert SVG logo to PNG and resize
+      await sharp(tempLogoSvgPath)
+        .resize(logoSize, logoSize)
+        .toFile(tempLogoPngPath);
+      
+      // Composite the logo onto the QR code
+      await sharp(tempQrPngPath)
+        .composite([
+          {
+            input: tempLogoPngPath,
+            top: logoPosition,
+            left: logoPosition
+          }
+        ])
+        .toFile(outputPath);
+        
+      // Remove the temporary logo files
+      fs.unlinkSync(tempLogoSvgPath);
+      fs.unlinkSync(tempLogoPngPath);
+    } else {
+      // If no logo is used, just rename the temp file to the output file
+      fs.renameSync(tempQrPngPath, outputPath);
+    }
     
     // Remove temporary files
     fs.unlinkSync(tempSvgPath);
@@ -156,11 +188,15 @@ async function generateAllQRCodes() {
   for (const link of LINKS) {
     const outputPath = path.join(QR_CODES_DIR, `${link.name}.png`);
     try {
-      await generateArtisticQRCode(link.url, outputPath);
+      // Get logo SVG from the link data if available
+      const logoSvg = link.logo || null;
+      
+      await generateArtisticQRCode(link.url, outputPath, logoSvg);
       results.push({
         name: link.name,
         url: link.url,
-        qrPath: `/qr-codes/${link.name}.png`
+        qrPath: `/qr-codes/${link.name}.png`,
+        logo: link.logo || ''
       });
     } catch (error) {
       console.error(`Failed to generate QR code for ${link.name}:`, error);
