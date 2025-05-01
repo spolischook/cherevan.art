@@ -19,9 +19,11 @@ const LOGO_SIZE_PERCENTAGE = 0.17; // Logo size as a percentage of QR code size
 const USE_LOGO = true; // Set to false to disable the logo in the center of QR codes
 const QR_CODES_JSON = path.join(QR_CODES_DIR, 'qr-codes.json');
 const BORDER_WIDTH = 5; // Width of the border in pixels
-const BORDER_PADDING = 30; // Padding between QR code and border in pixels
+const BORDER_PADDING = 10; // Padding between QR code and border in pixels
 const BORDER_RADIUS = 40; // Radius of the rounded corners in pixels
 const BORDER_COLOR = '#000000'; // Border color (black)
+const QR_MARGIN = 2; // Margin size for QR code (smaller value = less white space)
+const QR_ERROR_CORRECTION = 'H'; // Error correction level (L, M, Q, H)
 
 // Load QR code data from JSON file if it exists
 let qrCodesData = [];
@@ -71,8 +73,8 @@ async function generateArtisticQRCode(url, outputPath, logoSvg) {
       const ErrorCorrectLevel = require('qrcode/lib/core/error-correction-level');
       
       try {
-        // Create QR code with high error correction
-        const qrcode = qr.create(url, { errorCorrectionLevel: ErrorCorrectLevel.H });
+        // Create QR code with configured error correction
+        const qrcode = qr.create(url, { errorCorrectionLevel: ErrorCorrectLevel[QR_ERROR_CORRECTION] });
         resolve(qrcode.modules);
       } catch (error) {
         reject(error);
@@ -81,7 +83,7 @@ async function generateArtisticQRCode(url, outputPath, logoSvg) {
     
     // Get QR code size (number of modules)
     const size = qrData.size;
-    const cellSize = Math.floor(QR_SIZE / (size + 8)); // Add margin
+    const cellSize = Math.floor(QR_SIZE / (size + QR_MARGIN)); // Use margin from configuration
     const margin = Math.floor((QR_SIZE - (size * cellSize)) / 2);
     
     // Calculate the center region to leave empty for the logo (if enabled)
