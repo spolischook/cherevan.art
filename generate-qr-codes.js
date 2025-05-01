@@ -18,6 +18,10 @@ const QR_CODES_DIR = path.join(__dirname, 'static', 'qr-codes');
 const LOGO_SIZE_PERCENTAGE = 0.17; // Logo size as a percentage of QR code size
 const USE_LOGO = true; // Set to false to disable the logo in the center of QR codes
 const QR_CODES_JSON = path.join(QR_CODES_DIR, 'qr-codes.json');
+const BORDER_WIDTH = 5; // Width of the border in pixels
+const BORDER_PADDING = 30; // Padding between QR code and border in pixels
+const BORDER_RADIUS = 40; // Radius of the rounded corners in pixels
+const BORDER_COLOR = '#000000'; // Border color (black)
 
 // Load QR code data from JSON file if it exists
 let qrCodesData = [];
@@ -146,13 +150,36 @@ async function generateArtisticQRCode(url, outputPath, logoSvg) {
         .resize(logoSize, logoSize)
         .toFile(tempLogoPngPath);
       
-      // Composite the logo onto the QR code
-      await sharp(tempQrPngPath)
+      // Create a QR code with logo
+      const qrWithLogo = await sharp(tempQrPngPath)
         .composite([
           {
             input: tempLogoPngPath,
             top: logoPosition,
             left: logoPosition
+          }
+        ])
+        .toBuffer();
+        
+      // Create a new image with border and padding
+      const totalPadding = BORDER_PADDING * 2; // Padding on all sides
+      const finalSize = QR_SIZE + totalPadding + (BORDER_WIDTH * 2);
+      const innerSize = QR_SIZE + totalPadding;
+      
+      const finalImage = Buffer.from(
+        `<svg width="${finalSize}" height="${finalSize}" viewBox="0 0 ${finalSize} ${finalSize}" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0" y="0" width="${finalSize}" height="${finalSize}" rx="${BORDER_RADIUS}" ry="${BORDER_RADIUS}" fill="${BORDER_COLOR}"/>
+          <rect x="${BORDER_WIDTH}" y="${BORDER_WIDTH}" width="${innerSize}" height="${innerSize}" rx="${BORDER_RADIUS - BORDER_WIDTH}" ry="${BORDER_RADIUS - BORDER_WIDTH}" fill="white"/>
+        </svg>`
+      );
+      
+      // Composite the QR code with logo onto the bordered background
+      await sharp(finalImage)
+        .composite([
+          {
+            input: qrWithLogo,
+            top: BORDER_WIDTH + BORDER_PADDING,
+            left: BORDER_WIDTH + BORDER_PADDING
           }
         ])
         .toFile(outputPath);
@@ -161,8 +188,29 @@ async function generateArtisticQRCode(url, outputPath, logoSvg) {
       fs.unlinkSync(tempLogoSvgPath);
       fs.unlinkSync(tempLogoPngPath);
     } else {
-      // If no logo is used, just rename the temp file to the output file
-      fs.renameSync(tempQrPngPath, outputPath);
+      // If no logo is used, add a border to the QR code
+      // Create a new image with border and padding
+      const totalPadding = BORDER_PADDING * 2; // Padding on all sides
+      const finalSize = QR_SIZE + totalPadding + (BORDER_WIDTH * 2);
+      const innerSize = QR_SIZE + totalPadding;
+      
+      const finalImage = Buffer.from(
+        `<svg width="${finalSize}" height="${finalSize}" viewBox="0 0 ${finalSize} ${finalSize}" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0" y="0" width="${finalSize}" height="${finalSize}" rx="${BORDER_RADIUS}" ry="${BORDER_RADIUS}" fill="${BORDER_COLOR}"/>
+          <rect x="${BORDER_WIDTH}" y="${BORDER_WIDTH}" width="${innerSize}" height="${innerSize}" rx="${BORDER_RADIUS - BORDER_WIDTH}" ry="${BORDER_RADIUS - BORDER_WIDTH}" fill="white"/>
+        </svg>`
+      );
+      
+      // Composite the QR code onto the bordered background
+      await sharp(finalImage)
+        .composite([
+          {
+            input: tempQrPngPath,
+            top: BORDER_WIDTH + BORDER_PADDING,
+            left: BORDER_WIDTH + BORDER_PADDING
+          }
+        ])
+        .toFile(outputPath);
     }
     
     // Remove temporary files
