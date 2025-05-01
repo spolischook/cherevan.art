@@ -1,0 +1,32 @@
+[
+  {
+    "name": "website",
+    "url": "https://www.cherevan.art",
+    "qrPath": "/qr-codes/website.png"
+  },
+  {
+    "name": "instagram",
+    "url": "https://www.instagram.com/tetianacherevan/",
+    "qrPath": "/qr-codes/instagram.png"
+  },
+  {
+    "name": "shibari-artkingdom",
+    "url": "https://www.instagram.com/shibari.artkingdom",
+    "qrPath": "/qr-codes/shibari-artkingdom.png"
+  },
+  {
+    "name": "art-finder",
+    "url": "https://www.artfinder.com/artist/tetiana-cherevan/",
+    "qrPath": "/qr-codes/art-finder.png"
+  },
+  {
+    "name": "etsy",
+    "url": "https://www.etsy.com/shop/CherevanArtGallery",
+    "qrPath": "/qr-codes/etsy.png"
+  },
+  {
+    "name": "artsy",
+    "url": "https://www.artsy.net/artist/tetiana-cherevan",
+    "qrPath": "/qr-codes/artsy.png"
+  }
+]
