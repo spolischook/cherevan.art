@@ -13,7 +13,7 @@ const QRCode = require('qrcode');
 const sharp = require('sharp');
 
 // Configuration
-const QR_SIZE = 500; // Size of QR code in pixels
+const QR_SIZE = 700; // Size of QR code in pixels
 const QR_CODES_DIR = path.join(__dirname, 'static', 'qr-codes');
 const LOGO_SIZE_PERCENTAGE = 0.17; // Logo size as a percentage of QR code size
 const USE_LOGO = true; // Set to false to disable the logo in the center of QR codes
@@ -24,6 +24,9 @@ const BORDER_RADIUS = 40; // Radius of the rounded corners in pixels
 const BORDER_COLOR = '#000000'; // Border color (black)
 const QR_MARGIN = 2; // Margin size for QR code (smaller value = less white space)
 const QR_ERROR_CORRECTION = 'H'; // Error correction level (L, M, Q, H)
+const TITLE_FONT_SIZE = 35; // Font size for title text
+const TITLE_MARGIN_TOP = 40; // Margin between QR code border and title
+const TITLE_COLOR = '#000000'; // Title text color
 
 // Load QR code data from JSON file if it exists
 let qrCodesData = [];
@@ -59,8 +62,9 @@ if (!fs.existsSync(QR_CODES_DIR)) {
  * @param {string} url - The URL to encode in the QR code
  * @param {string} outputPath - Path to save the QR code image
  * @param {string} logoSvg - Optional SVG logo to place in the center of the QR code
+ * @param {string} title - Optional title to display below the QR code
  */
-async function generateArtisticQRCode(url, outputPath, logoSvg) {
+async function generateArtisticQRCode(url, outputPath, logoSvg, title) {
   try {
     // Create temporary file paths
     const tempSvgPath = `${outputPath}.svg`;
@@ -163,17 +167,27 @@ async function generateArtisticQRCode(url, outputPath, logoSvg) {
         ])
         .toBuffer();
         
-      // Create a new image with border and padding
+      // Create a new image with border, padding, and title (if provided)
       const totalPadding = BORDER_PADDING * 2; // Padding on all sides
-      const finalSize = QR_SIZE + totalPadding + (BORDER_WIDTH * 2);
+      const titleHeight = title ? TITLE_FONT_SIZE + TITLE_MARGIN_TOP : 0;
+      const finalWidth = QR_SIZE + totalPadding + (BORDER_WIDTH * 2);
+      const finalHeight = finalWidth + titleHeight;
       const innerSize = QR_SIZE + totalPadding;
       
-      const finalImage = Buffer.from(
-        `<svg width="${finalSize}" height="${finalSize}" viewBox="0 0 ${finalSize} ${finalSize}" xmlns="http://www.w3.org/2000/svg">
-          <rect x="0" y="0" width="${finalSize}" height="${finalSize}" rx="${BORDER_RADIUS}" ry="${BORDER_RADIUS}" fill="${BORDER_COLOR}"/>
-          <rect x="${BORDER_WIDTH}" y="${BORDER_WIDTH}" width="${innerSize}" height="${innerSize}" rx="${BORDER_RADIUS - BORDER_WIDTH}" ry="${BORDER_RADIUS - BORDER_WIDTH}" fill="white"/>
-        </svg>`
-      );
+      let svgContent = `<svg width="${finalWidth}" height="${finalHeight}" viewBox="0 0 ${finalWidth} ${finalHeight}" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0" y="0" width="${finalWidth}" height="${finalWidth}" rx="${BORDER_RADIUS}" ry="${BORDER_RADIUS}" fill="${BORDER_COLOR}"/>
+        <rect x="${BORDER_WIDTH}" y="${BORDER_WIDTH}" width="${innerSize}" height="${innerSize}" rx="${BORDER_RADIUS - BORDER_WIDTH}" ry="${BORDER_RADIUS - BORDER_WIDTH}" fill="white"/>`;
+      
+      // Add title if provided
+      if (title) {
+        svgContent += `
+        <text x="${finalWidth / 2}" y="${finalWidth + TITLE_MARGIN_TOP}" font-family="Arial, sans-serif" font-size="${TITLE_FONT_SIZE}" text-anchor="middle" fill="${TITLE_COLOR}">${title}</text>`;
+      }
+      
+      svgContent += `
+      </svg>`;
+      
+      const finalImage = Buffer.from(svgContent);
       
       // Composite the QR code with logo onto the bordered background
       await sharp(finalImage)
@@ -191,17 +205,27 @@ async function generateArtisticQRCode(url, outputPath, logoSvg) {
       fs.unlinkSync(tempLogoPngPath);
     } else {
       // If no logo is used, add a border to the QR code
-      // Create a new image with border and padding
+      // Create a new image with border, padding, and title (if provided)
       const totalPadding = BORDER_PADDING * 2; // Padding on all sides
-      const finalSize = QR_SIZE + totalPadding + (BORDER_WIDTH * 2);
+      const titleHeight = title ? TITLE_FONT_SIZE + TITLE_MARGIN_TOP : 0;
+      const finalWidth = QR_SIZE + totalPadding + (BORDER_WIDTH * 2);
+      const finalHeight = finalWidth + titleHeight;
       const innerSize = QR_SIZE + totalPadding;
       
-      const finalImage = Buffer.from(
-        `<svg width="${finalSize}" height="${finalSize}" viewBox="0 0 ${finalSize} ${finalSize}" xmlns="http://www.w3.org/2000/svg">
-          <rect x="0" y="0" width="${finalSize}" height="${finalSize}" rx="${BORDER_RADIUS}" ry="${BORDER_RADIUS}" fill="${BORDER_COLOR}"/>
-          <rect x="${BORDER_WIDTH}" y="${BORDER_WIDTH}" width="${innerSize}" height="${innerSize}" rx="${BORDER_RADIUS - BORDER_WIDTH}" ry="${BORDER_RADIUS - BORDER_WIDTH}" fill="white"/>
-        </svg>`
-      );
+      let svgContent = `<svg width="${finalWidth}" height="${finalHeight}" viewBox="0 0 ${finalWidth} ${finalHeight}" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0" y="0" width="${finalWidth}" height="${finalWidth}" rx="${BORDER_RADIUS}" ry="${BORDER_RADIUS}" fill="${BORDER_COLOR}"/>
+        <rect x="${BORDER_WIDTH}" y="${BORDER_WIDTH}" width="${innerSize}" height="${innerSize}" rx="${BORDER_RADIUS - BORDER_WIDTH}" ry="${BORDER_RADIUS - BORDER_WIDTH}" fill="white"/>`;
+      
+      // Add title if provided
+      if (title) {
+        svgContent += `
+        <text x="${finalWidth / 2}" y="${finalWidth + TITLE_MARGIN_TOP}" font-family="Arial, sans-serif" font-size="${TITLE_FONT_SIZE}" text-anchor="middle" fill="${TITLE_COLOR}">${title}</text>`;
+      }
+      
+      svgContent += `
+      </svg>`;
+      
+      const finalImage = Buffer.from(svgContent);
       
       // Composite the QR code onto the bordered background
       await sharp(finalImage)
@@ -233,30 +257,17 @@ async function generateArtisticQRCode(url, outputPath, logoSvg) {
 async function generateAllQRCodes() {
   console.log('Starting QR code generation...');
   
-  const results = [];
-  
   for (const link of LINKS) {
-    const outputPath = path.join(QR_CODES_DIR, `${link.name}.png`);
+    const { name, url, logo, title } = link;
+    const outputPath = path.join(QR_CODES_DIR, `${name}.png`);
+    console.log(`Generating QR code for ${url} as ${outputPath}`);
+    
     try {
-      // Get logo SVG from the link data if available
-      const logoSvg = link.logo || null;
-      
-      await generateArtisticQRCode(link.url, outputPath, logoSvg);
-      results.push({
-        name: link.name,
-        url: link.url,
-        qrPath: `/qr-codes/${link.name}.png`,
-        logo: link.logo || ''
-      });
+      await generateArtisticQRCode(url, outputPath, logo, title);
     } catch (error) {
-      console.error(`Failed to generate QR code for ${link.name}:`, error);
+      console.error(`Failed to generate QR code for ${name}:`, error);
     }
   }
-  
-  // Save a JSON file with information about all generated QR codes
-  const jsonOutputPath = path.join(QR_CODES_DIR, 'qr-codes.json');
-  fs.writeFileSync(jsonOutputPath, JSON.stringify(results, null, 2));
-  console.log(`QR code information saved to ${jsonOutputPath}`);
   
   console.log('QR code generation completed!');
 }
