@@ -10,10 +10,14 @@
 const fs = require('fs');
 const path = require('path');
 const QRCode = require('qrcode');
+const sharp = require('sharp');
 
 // Configuration
-const QR_SIZE = 1024; // Size of QR code in pixels
-const OUTPUT_DIR = path.join(__dirname, 'static', 'qr-codes');
+const QR_SIZE = 500; // Size of QR code in pixels
+const QR_CODES_DIR = path.join(__dirname, 'static', 'qr-codes');
+const LOGO_PATH = path.join(__dirname, 'static', 'images', 'qr-logo.png');
+const LOGO_SIZE_PERCENTAGE = 0.17; // Logo size as a percentage of QR code size
+
 const LINKS = [
   { name: 'website', url: 'https://www.cherevan.art' },
   { name: 'instagram', url: 'https://www.instagram.com/tetianacherevan/' },
@@ -23,10 +27,10 @@ const LINKS = [
   { name: 'artsy', url: 'https://www.artsy.net/artist/tetiana-cherevan' }
 ];
 
-// Create output directory if it doesn't exist
-if (!fs.existsSync(OUTPUT_DIR)) {
-  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
-  console.log(`Created directory: ${OUTPUT_DIR}`);
+// Ensure the QR codes directory exists
+if (!fs.existsSync(QR_CODES_DIR)) {
+  fs.mkdirSync(QR_CODES_DIR, { recursive: true });
+  console.log(`Created directory: ${QR_CODES_DIR}`);
 }
 
 /**
@@ -36,8 +40,9 @@ if (!fs.existsSync(OUTPUT_DIR)) {
  */
 async function generateArtisticQRCode(url, outputPath) {
   try {
-    // Create a temporary SVG file path
+    // Create temporary file paths
     const tempSvgPath = `${outputPath}.svg`;
+    const tempQrPngPath = `${outputPath}.temp.png`;
     
     // First, generate the QR code matrix data
     const qrData = await new Promise((resolve, reject) => {
@@ -59,6 +64,11 @@ async function generateArtisticQRCode(url, outputPath) {
     const cellSize = Math.floor(QR_SIZE / (size + 8)); // Add margin
     const margin = Math.floor((QR_SIZE - (size * cellSize)) / 2);
     
+    // Calculate the center region to leave empty for the logo
+    const logoSizeInModules = Math.ceil(size * LOGO_SIZE_PERCENTAGE * 2); // Double the percentage for better visibility
+    const logoStartModule = Math.floor((size - logoSizeInModules) / 2);
+    const logoEndModule = logoStartModule + logoSizeInModules;
+    
     // Create SVG with circles instead of rectangles for truly rounded dots
     let svgContent = `<svg xmlns="http://www.w3.org/2000/svg" width="${QR_SIZE}" height="${QR_SIZE}" viewBox="0 0 ${QR_SIZE} ${QR_SIZE}">
 `;
@@ -68,6 +78,12 @@ async function generateArtisticQRCode(url, outputPath) {
     // Add circles for each dark module in the QR code
     for (let row = 0; row < size; row++) {
       for (let col = 0; col < size; col++) {
+        // Skip the center area where the logo will be placed
+        if (row >= logoStartModule && row < logoEndModule && 
+            col >= logoStartModule && col < logoEndModule) {
+          continue;
+        }
+        
         // Check if this module is dark (true)
         if (qrData.data[row * size + col]) {
           const x = margin + col * cellSize + cellSize / 2;
@@ -85,14 +101,41 @@ async function generateArtisticQRCode(url, outputPath) {
     // Write the SVG to a temporary file
     fs.writeFileSync(tempSvgPath, svgContent);
     
-    // Convert SVG to PNG using sharp
-    await require('sharp')(tempSvgPath)
+    // Convert SVG to PNG
+    await sharp(tempSvgPath)
       .resize(QR_SIZE, QR_SIZE)
       .png()
-      .toFile(outputPath);
+      .toFile(tempQrPngPath);
     
-    // Remove the temporary SVG file
+    // Calculate logo size and position
+    const logoSize = Math.round(QR_SIZE * LOGO_SIZE_PERCENTAGE);
+    const logoPosition = Math.round((QR_SIZE - logoSize) / 2);
+    
+    // Create a temporary resized logo
+    const tempLogoPath = `${outputPath}.logo.png`;
+    
+    // Resize the logo first
+    await sharp(LOGO_PATH)
+      .resize(logoSize, logoSize)
+      .toFile(tempLogoPath);
+    
+    // Composite the resized logo onto the QR code
+    await sharp(tempQrPngPath)
+      .composite([
+        {
+          input: tempLogoPath,
+          top: logoPosition,
+          left: logoPosition
+        }
+      ])
+      .toFile(outputPath);
+      
+    // Remove the temporary logo file
+    fs.unlinkSync(tempLogoPath);
+    
+    // Remove temporary files
     fs.unlinkSync(tempSvgPath);
+    fs.unlinkSync(tempQrPngPath);
 
     console.log(`Generated QR code for ${url} at ${outputPath}`);
     return outputPath;
@@ -111,7 +154,7 @@ async function generateAllQRCodes() {
   const results = [];
   
   for (const link of LINKS) {
-    const outputPath = path.join(OUTPUT_DIR, `${link.name}.png`);
+    const outputPath = path.join(QR_CODES_DIR, `${link.name}.png`);
     try {
       await generateArtisticQRCode(link.url, outputPath);
       results.push({
@@ -125,7 +168,7 @@ async function generateAllQRCodes() {
   }
   
   // Save a JSON file with information about all generated QR codes
-  const jsonOutputPath = path.join(OUTPUT_DIR, 'qr-codes.json');
+  const jsonOutputPath = path.join(QR_CODES_DIR, 'qr-codes.json');
   fs.writeFileSync(jsonOutputPath, JSON.stringify(results, null, 2));
   console.log(`QR code information saved to ${jsonOutputPath}`);
   
