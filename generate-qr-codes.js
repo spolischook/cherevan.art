@@ -13,10 +13,11 @@ const QRCode = require('qrcode');
 const sharp = require('sharp');
 
 // Configuration
-const QR_SIZE = 700; // Size of QR code in pixels
+const QR_SIZE = 500; // Size of QR code in pixels
 const QR_CODES_DIR = path.join(__dirname, 'static', 'qr-codes');
-const LOGO_SIZE_PERCENTAGE = 0.17; // Logo size as a percentage of QR code size
+const LOGO_SIZE_PERCENTAGE = 0.13; // Logo size as a percentage of QR code size
 const USE_LOGO = true; // Set to false to disable the logo in the center of QR codes
+const USE_ROUNDED_DOTS = false; // Set to true for rounded dots, false for traditional square dots
 const QR_CODES_JSON = path.join(QR_CODES_DIR, 'qr-codes.json');
 const BORDER_WIDTH = 5; // Width of the border in pixels
 const BORDER_PADDING = 10; // Padding between QR code and border in pixels
@@ -96,34 +97,47 @@ async function generateArtisticQRCode(url, outputPath, logoSvg, title) {
     let logoEndModule = 0;
     
     if (USE_LOGO) {
-      logoSizeInModules = Math.ceil(size * LOGO_SIZE_PERCENTAGE * 2); // Double the percentage for better visibility
+      logoSizeInModules = Math.ceil(size * LOGO_SIZE_PERCENTAGE * 1.5); // Adjusted for better visibility with less whitespace
       logoStartModule = Math.floor((size - logoSizeInModules) / 2);
       logoEndModule = logoStartModule + logoSizeInModules;
     }
     
-    // Create SVG with circles instead of rectangles for truly rounded dots
+    // Create SVG with either circles (rounded dots) or rectangles (square dots) based on configuration
     let svgContent = `<svg xmlns="http://www.w3.org/2000/svg" width="${QR_SIZE}" height="${QR_SIZE}" viewBox="0 0 ${QR_SIZE} ${QR_SIZE}">
 `;
     svgContent += `  <rect width="${QR_SIZE}" height="${QR_SIZE}" fill="#FFFFFF"/>
 `;
     
-    // Add circles for each dark module in the QR code
-    for (let row = 0; row < size; row++) {
-      for (let col = 0; col < size; col++) {
-        // Skip the center area where the logo will be placed (if logo is enabled)
-        if (USE_LOGO && row >= logoStartModule && row < logoEndModule && 
-            col >= logoStartModule && col < logoEndModule) {
+    // Draw each dot as either a circle (rounded) or rectangle (square) based on configuration
+    for (let y = 0; y < size; y++) {
+      for (let x = 0; x < size; x++) {
+        // Skip the center region if a logo will be placed there
+        if (USE_LOGO && 
+            x >= logoStartModule && x <= logoEndModule && 
+            y >= logoStartModule && y <= logoEndModule) {
           continue;
         }
         
-        // Check if this module is dark (true)
-        if (qrData.data[row * size + col]) {
-          const x = margin + col * cellSize + cellSize / 2;
-          const y = margin + row * cellSize + cellSize / 2;
-          const radius = cellSize / 2 * 0.9; // Slightly smaller than half cell size for spacing
-          
-          svgContent += `  <circle cx="${x}" cy="${y}" r="${radius}" fill="#000000"/>
+        // Check if this module is dark (1) or light (0)
+        if (qrData.get(x, y) === 1) {
+          if (USE_ROUNDED_DOTS) {
+            // Draw as circle for rounded dots
+            const cx = margin + (x * cellSize) + (cellSize / 2);
+            const cy = margin + (y * cellSize) + (cellSize / 2);
+            const radius = cellSize / 2 * 0.85; // Slightly smaller than half cell size for spacing
+            
+            svgContent += `  <circle cx="${cx}" cy="${cy}" r="${radius}" fill="#000000"/>
 `;
+          } else {
+            // Draw as rectangle for traditional square dots
+            const rectX = margin + (x * cellSize);
+            const rectY = margin + (y * cellSize);
+            const rectSize = cellSize * 0.9; // Slightly smaller than cell size for spacing
+            const rectOffset = (cellSize - rectSize) / 2;
+            
+            svgContent += `  <rect x="${rectX + rectOffset}" y="${rectY + rectOffset}" width="${rectSize}" height="${rectSize}" fill="#000000"/>
+`;
+          }
         }
       }
     }
@@ -141,7 +155,7 @@ async function generateArtisticQRCode(url, outputPath, logoSvg, title) {
     
     if (USE_LOGO && logoSvg) {
       // Calculate logo size and position
-      const logoSize = Math.round(QR_SIZE * LOGO_SIZE_PERCENTAGE);
+      const logoSize = Math.round(QR_SIZE * LOGO_SIZE_PERCENTAGE * 1.2);
       const logoPosition = Math.round((QR_SIZE - logoSize) / 2);
       
       // Create temporary files for the logo
