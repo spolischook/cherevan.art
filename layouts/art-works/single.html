@@ -162,12 +162,17 @@
     </article>
 {{ end }}
 {{ define "scripts" }}
+    <script>
+        window.shopifyConfig = {
+            shopifyDomain: '{{ .Site.Params.shopifyDomain }}', // e.g. your-shop.myshopify.com
+            storefrontAccessToken: '{{ .Site.Params.shopifyStorefrontToken }}' // Storefront API token
+        };
+    </script>
     <script src="{{ "js/shopify.js" | relURL }}"></script>
     <script>
         setupShopifyBuyButton(
-            '{{ (printf "gid://shopify/Product/%d" .Params.shopifyId) | base64Encode }}',
-            '{{ (printf "gid://shopify/ProductVariant/%d" .Params.shopifyOptionId) | base64Encode }}',
-            {{ .Params.inStock }},
+            'gid://shopify/Product/{{ .Params.shopifyId }}',
+            'gid://shopify/ProductVariant/{{ .Params.shopifyOptionId }}'
         );
     </script>
 {{ end }}
