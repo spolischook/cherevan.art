@@ -1,7 +1,9 @@
 {{ define "main" }}
+    {{/* $redirectUrl := "/art-works/?tag=essential&inStock=true&all=true" */}}
+    {{ $redirectUrl := "/link-tree/" }}
     <script type="text/javascript">
-        window.location.replace("/art-works/?tag=essential&inStock=true&all=true");
+        window.location.replace("{{ $redirectUrl }}");
     </script>
 
-    <p>If you are not redirected in five seconds, <a href="/art-works/?tag=essential&inStock=true&all=true">click here</a>.</p>
+    <p>If you are not redirected in five seconds, <a href="{{ $redirectUrl }}">click here</a>.</p>
 {{ end }}
