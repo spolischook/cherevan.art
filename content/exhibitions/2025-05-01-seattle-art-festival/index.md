@@ -21,3 +21,5 @@ It is a **great honor for me to represent Ukraine** at this powerful event and t
 In my works, I often use materials such as **oil, acrylic, and gold leaf**, exploring themes that reflect the depth of emotions and sensuality. My piece "Soul's Touch," for example, uses oil, acrylic, and gold leaf on canvas.
 
 I invite you to immerse yourselves in the world of erotic art and visit the festival!
+
+{{< gallery match="opening/*" sortOrder="asc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
