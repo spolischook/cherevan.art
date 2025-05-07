@@ -2,9 +2,9 @@
 {{ $caption := .Get "caption" }}
 {{ $alt := .Get "alt" | default $caption }}
 
-<figure class="my-8">
+<div class="item my-8">
   <img src="{{ $src }}" alt="{{ $alt }}" class="w-full rounded-lg shadow-md">
   {{ with $caption }}
-  <figcaption class="text-center text-gray-600 mt-2">{{ . }}</figcaption>
+  <div class="text-center text-gray-600 mt-2">{{ . }}</div>
   {{ end }}
-</figure>
+</div>

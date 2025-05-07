@@ -38,6 +38,12 @@ Exactly. These aren’t models — they’re real people having real experiences
 
 It is. And it’s not just about the experience. It’s the only way people get to see themselves in that kind of moment. A mirror can’t show you what you look like when you’re lost in connection with someone. A photograph can.
 
+{{< flexgallery >}}
+  {{< figure src="images/IMG_3704.JPEG" caption="Examples from David's portfolio showing his approach to capturing authentic moments between couples" >}}
+  {{< figure src="images/IMG_3705.JPEG" caption="David's work focuses on the natural connection and intimacy between his subjects" >}}
+  {{< figure src="images/IMG_3706.JPEG" caption="The photographs reveal the trust that develops during David's non-directive photographic sessions" >}}
+{{< /flexgallery >}}
+
 **Let’s talk about your books. How many have you published so far?**
 
 The only one I’ve published myself is Divas of San Francisco. But before I even began photographing couples, I had published an earlier photo book — Erotic by Nature. That was about ten years before I ever picked up a camera seriously. It was that book that caught the attention of Cupido magazine in Norway. They said, “Oh, you know the kind of photographers we’re looking for. Would you represent us?” So I became their U.S. photo representative. Instead of dealing with hundreds of photographers, they just worked with me — and that was enough to pay the bills.
