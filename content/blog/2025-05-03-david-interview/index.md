@@ -16,6 +16,8 @@ At the 2025 Seattle Erotic Art Festival (SEAF), we had the pleasure of speaking 
 
 Every year, I submit ten photographs to the SEAF jury. If they select one, that becomes my piece in the exhibition. But sometimes, none are chosen — like this year. Before I made a final decision, Sophia reached out and said that she and Andrew really liked a particular photo. She asked, “Would you consider making this your master's picture?” I looked at it again in the morning and thought, “Okay.” I could’ve chosen another one — sometimes I second-guess that — but I’m ultimately happy with the choice.
 
+{{< figure src="images/IMG_3643.JPEG" caption="David Steinberg's photograph selected for the SEAF 2025 exhibition." >}}
+
 **Do you remember the moment you took that photo?**
 
 Absolutely. It was with a couple named Ginger and John. John didn’t want to use his real name, which I respected. Ginger had been part of a burlesque troupe in San Francisco — big, beautiful women doing bold, empowering performances. Someone in their community told them about my work, and they invited me over to their apartment to photograph them together.
