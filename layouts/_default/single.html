@@ -1,3 +1,33 @@
+{{ define "meta" }}
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="{{ .Title | default .Site.Title }}" />
+    {{ $description := .Description | default (.Summary | plainify | truncate 160) }}
+    {{ if not $description }}{{ $description = .Site.Params.description }}{{ end }}
+    <meta property="og:description" content="{{ $description }}" />
+    <meta name="description" content="{{ $description }}" />
+
+    {{ $ogImage := "" }}
+    {{ if .Params.image }}
+        {{/* If 'image' front matter is set, use it */}}
+        {{ $ogImage = absURL .Params.image }}
+    {{ else if .Params.images }}
+        {{/* If 'images' (plural) front matter is set (e.g., for galleries), use the first one */}}
+        {{ with index .Params.images 0 }}
+            {{ $ogImage = absURL . }}
+        {{ end }}
+    {{ end }}
+    {{ if not $ogImage }}
+        {{/* Fallback to site's default OG image if no specific image found */}}
+        {{ with .Site.Params.defaultOgImage }}
+             {{ $ogImage = absURL . }}
+        {{ else }}
+            {{/* Absolute fallback to your profile picture if no defaultOgImage is set in config */}}
+            {{ $ogImage = absURL "/images/profile-picture.jpg" }}
+        {{ end }}
+    {{ end }}
+    <meta property="og:image" content="{{ $ogImage }}" />
+{{ end }}
+
 {{ define "main" }}
 <article class="prose">
     <h1>{{ .Title }}</h1>
@@ -11,7 +41,7 @@
             <svg class="octicon octicon-calendar" viewBox="0 0 14 16" version="1.1" width="14" height="16"
                 aria-hidden="true">
                 <path fill-rule="evenodd"
-                    d="M13 2h-1v1.5c0 .28-.22.5-.5.5h-2c-.28 0-.5-.22-.5-.5V2H6v1.5c0 .28-.22.5-.5.5h-2c-.28 0-.5-.22-.5-.5V2H2c-.55 0-1 .45-1 1v11c0 .55.45 1 1 1h11c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 12H2V5h11v9zM5 3H4V1h1v2zm6 0h-1V1h1v2zM6 7H5V6h1v1zm2 0H7V6h1v1zm2 0H9V6h1v1zm2 0h-1V6h1v1zM4 9H3V8h1v1zm2 0H5V8h1v1zm2 0H7V8h1v1zm2 0H9V8h1v1zm2 0h-1V8h1v1zm-8 2H3v-1h1v1zm2 0H5v-1h1v1zm2 0H7v-1h1v1zm2 0H9v-1h1v1zm2 0h-1v-1h1v1zm-8 2H3v-1h1v1zm2 0H5v-1h1v1zm2 0H7v-1h1v1zm2 0H9v-1h1v1z">
+                    d="M13 2h-1v1.5c0 .28-.22.5-.5.5h-2c-.28 0-.5-.22-.5-.5V2H6v1.5c0 .28-.22.5-.5.5h-2c-.28 0-.5-.22-.5-.5V2H2c-.55 0-1 .45-1 1v11c0 .55.45 1 1 1h11c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 12H2V5h11v9zM5 3H4V1h1v2zm6 0h-1V1h1v2zM6 7H5V6h1v1zm2 0H7V6h1v1zm2 0H9V6h1v1zm2 0h-1V6h1v1zM4 9H3V8h1v1zm2 0H5V8h1v1zm2 0H7V8h1v1zm2 0H9V8h1v1zm2 0h-1V8h1v1zm-8 2H3v-1h1v1zm2 0H5v-1h1v1zm2 0H7v-1h1v1zm2 0H9v-1h1v1z">
                 </path>
             </svg>
             <div>{{ .Date.Format "Jan 02, 2006" }}</div>
