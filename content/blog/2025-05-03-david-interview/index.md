@@ -2,13 +2,13 @@
 title: "Capturing Connection: An Interview with David Steinberg at SEAF 2025"
 date: 2025-05-03
 description: "A conversation with David Steinberg about his journey into erotic photography, his process of capturing intimacy between couples, and the stories behind his iconic images."
-tags: [interview, photography, david steinberg, seaf-2025, seaf]
+tags: [interview, seaf-2025, seaf]
 drafts: false
 ---
 
 ## Introduction
 
-At the 2025 Seattle Erotic Art Festival (SEAF), we had the pleasure of speaking with David Steinberg — writer, photographer, and long-time documentarian of intimacy. Best known for his work with Cupido magazine and his evocative portraits of real-life couples, David offered us an open conversation about process, ethics, memory, and the healing power of erotic photography.
+At the 2025 Seattle Erotic Art Festival (SEAF), we had the pleasure of speaking with David Steinberg — writer, photographer, and long-time documentarian of intimacy. Having graduated as a "Master of erotic art" at SEAF, David now enjoys the privilege of having his work automatically included in the exhibition each year, regardless of the jury selection process. Best known for his work with Cupido magazine and his evocative portraits of real-life couples, David offered us an open conversation about process, ethics, memory, and the healing power of erotic photography.
 
 ---
 **David, thank you for meeting with us. Could you start by telling us how you choose which photos to submit to SEAF each year?**
