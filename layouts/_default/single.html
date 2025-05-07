@@ -7,17 +7,37 @@
     <meta name="description" content="{{ $description }}" />
 
     {{ $ogImage := "" }}
+    {{ $page := . }} {{/* Explicit page context */}}
+
+    {{ $imageSource := "" }}
     {{ if .Params.image }}
-        {{/* If 'image' front matter is set, use it */}}
-        {{ $ogImage = absURL .Params.image }}
+        {{ $imageSource = .Params.image }}
     {{ else if .Params.images }}
-        {{/* If 'images' (plural) front matter is set (e.g., for galleries), use the first one */}}
-        {{ with index .Params.images 0 }}
-            {{ $ogImage = absURL . }}
+        {{/* If 'images' (plural) front matter is set, use the first one */}}
+        {{ with index .Params.images 0 }}{{ $imageSource = . }}{{ end }}
+    {{ end }}
+
+    {{ if $imageSource }}
+        {{ if or (hasPrefix $imageSource "http://") (hasPrefix $imageSource "https://") }}
+            {{/* It's a full external URL */}}
+            {{ $ogImage = $imageSource }}
+        {{ else if (hasPrefix $imageSource "/") }}
+            {{/* It's a path relative to the static directory or content root (starts with /) */}}
+            {{ $ogImage = absURL $imageSource }}
+        {{ else }}
+            {{/* It's a relative path, assume it's a Page Resource */}}
+            {{ $resource := $page.Resources.GetMatch $imageSource }}
+            {{ if $resource }}
+                {{ $ogImage = $resource.Permalink }} {{/* Use .Permalink for the absolute URL */}}
+            {{ else }}
+                {{/* If $resource is nil (e.g., path typo or file missing), $ogImage remains empty.
+                     This will then correctly fall through to the site's default OG image. */}}
+            {{ end }}
         {{ end }}
     {{ end }}
+
+    {{/* Fallback to site's default OG image if no specific image found above */}}
     {{ if not $ogImage }}
-        {{/* Fallback to site's default OG image if no specific image found */}}
         {{ with .Site.Params.defaultOgImage }}
              {{ $ogImage = absURL . }}
         {{ else }}
