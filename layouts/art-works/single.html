@@ -9,7 +9,13 @@
         {{ $image := .Resources.GetMatch .Params.mainImage }}
         <meta property="og:image"              content="{{ $.Site.BaseURL }}/{{$image.RelPermalink}}" />
     {{ end }}
-    <meta property="description"           content="{{ delimit .Params.materials ", " }} |  {{.Params.Width}}X{{.Params.Height}}cm | {{dateFormat "2006" .Params.date}}">
+    {{ if .Params.description }}
+        <meta property="og:description"        content="{{ .Params.description }}" />
+        <meta property="description"           content="{{ .Params.description }}">
+    {{ else }}
+        <meta property="og:description"        content="{{ delimit .Params.materials ", " }} |  {{.Params.Width}}X{{.Params.Height}}cm | {{dateFormat "2006" .Params.date}}" />
+        <meta property="description"           content="{{ delimit .Params.materials ", " }} |  {{.Params.Width}}X{{.Params.Height}}cm | {{dateFormat "2006" .Params.date}}">
+    {{ end }}
 {{ end }}
 
 {{ define "main" }}
