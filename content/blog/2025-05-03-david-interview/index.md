@@ -39,9 +39,9 @@ Exactly. These aren’t models — they’re real people having real experiences
 It is. And it’s not just about the experience. It’s the only way people get to see themselves in that kind of moment. A mirror can’t show you what you look like when you’re lost in connection with someone. A photograph can.
 
 {{< flexgallery >}}
-  {{< figure src="images/IMG_3704.JPEG" caption="Examples from David's portfolio showing his approach to capturing authentic moments between couples" >}}
-  {{< figure src="images/IMG_3705.JPEG" caption="David's work focuses on the natural connection and intimacy between his subjects" >}}
-  {{< figure src="images/IMG_3706.JPEG" caption="The photographs reveal the trust that develops during David's non-directive photographic sessions" >}}
+  {{< figure src="images/IMG_3704.JPEG" caption="Erotic by Nature A CELEBRATION OF LIFE, OF LOVE, AND OF OUR WONDERFUL BODIES Edited by David Steinberg" >}}
+  {{< figure src="images/IMG_3705.JPEG" caption="PHOTO SEX FINE ART SEXUAL PHOTOGRAPHY COMES OF AGE Edited by David Steinberg" >}}
+  {{< figure src="images/IMG_3706.JPEG" caption="DIVAS OF SAN FRANCISCO Portraits of Transsexual Women by David Steinberg" >}}
 {{< /flexgallery >}}
 
 **Let’s talk about your books. How many have you published so far?**
