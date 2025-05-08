@@ -1,4 +1,7 @@
+{{ define "title_tag" }}<title>{{ .Title }} | {{ .Site.Title }}</title>{{ end }}
+
 {{ define "meta" }}
+    <meta property="og:site_name" content="{{ .Site.Title }}" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="{{ .Title | default .Site.Title }}" />
     {{ $description := .Description | default (.Summary | plainify | truncate 160) }}
@@ -28,7 +31,7 @@
             {{/* It's a relative path, assume it's a Page Resource */}}
             {{ $resource := $page.Resources.GetMatch $imageSource }}
             {{ if $resource }}
-                {{ $ogImage = $resource.Permalink }} {{/* Use .Permalink for the absolute URL */}}
+                {{ $ogImage = absURL $resource.RelPermalink }} {{/* Use absURL with RelPermalink */}}
             {{ else }}
                 {{/* If $resource is nil (e.g., path typo or file missing), $ogImage remains empty.
                      This will then correctly fall through to the site's default OG image. */}}

@@ -19,7 +19,7 @@
     {{/* MailChimp */}}
     {{ partial "mailChimp.html" }}
     <meta charset="UTF-8">
-    <title>Tetiana Cherevan | Ukrainian painter</title>
+    {{ block "title_tag" . }}<title>Tetiana Cherevan | Ukrainian painter</title>{{ end }}
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel="apple-touch-icon" href="/images/touch-icon-iphone.png">
     <link rel="apple-touch-icon" sizes="152x152" href="/images/touch-icon-ipad-2.png">

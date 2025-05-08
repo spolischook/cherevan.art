@@ -1,5 +1,8 @@
 {{/*  layouts/art-works/single.html  */}}
+{{ define "title_tag" }}<title>{{ .Title }} | {{ .Site.Title }}</title>{{ end }}
+
 {{ define "meta" }}
+    <meta property="og:site_name" content="{{ .Site.Title }}" />
     <meta property="og:type"               content="article" />
     <meta property="og:title"              content="{{.Title}}" />
     {{ if .Params.mainImage }}
