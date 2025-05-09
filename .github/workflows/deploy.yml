@@ -8,6 +8,9 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: 'read'
+      id-token: 'write'
 
     steps:
     - name: Checkout repository
@@ -40,10 +43,18 @@ jobs:
     - name: Build Hugo site
       run: hugo --minify --baseURL="https://www.cherevan.art"
 
-    - name: Install Firebase CLI
-      run: npm install -g firebase-tools
+    - name: Authenticate to Google Cloud
+      uses: 'google-github-actions/auth@v2'
+      with:
+        workload_identity_provider: 'projects/769799666531/locations/global/workloadIdentityPools/github-actions-pool'
+        service_account: 'github-actions-firebase-deploy@cherevan-art-workspace.iam.gserviceaccount.com'
 
     - name: Deploy to Firebase Hosting
+      uses: firebase-tools/action-hosting-deploy@v0
+      with:
+        repoToken: '${{ secrets.GITHUB_TOKEN }}' # Optional: Used for GitHub deployment environments
+        firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_KEY_JSON }}' # This will be ignored if google-github-actions/auth is used and successful, but good to have for fallback or other contexts
+        channelId: live # Optional: deploy to a specific channel (e.g., live, preview)
+        projectId: cherevan-art-workspace
       env:
-        FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-      run: firebase deploy --only hosting --token "${{ secrets.FIREBASE_TOKEN }}"
+        FIREBASE_CLI_PREVIEWS: hostingchannels # Optional: if you use hosting channels
