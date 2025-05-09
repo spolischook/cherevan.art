@@ -50,11 +50,10 @@ jobs:
         service_account: 'github-actions-firebase-deploy@cherevan-art-workspace.iam.gserviceaccount.com'
 
     - name: Deploy to Firebase Hosting
-      uses: firebase-tools/action-hosting-deploy@v0
+      uses: firebase-tools/action-hosting-deploy@v0.9.1
       with:
-        repoToken: '${{ secrets.GITHUB_TOKEN }}' # Optional: Used for GitHub deployment environments
-        firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_KEY_JSON }}' # This will be ignored if google-github-actions/auth is used and successful, but good to have for fallback or other contexts
-        channelId: live # Optional: deploy to a specific channel (e.g., live, preview)
+        repoToken: '${{ secrets.GITHUB_TOKEN }}'
+        channelId: live
         projectId: cherevan-art-workspace
       env:
-        FIREBASE_CLI_PREVIEWS: hostingchannels # Optional: if you use hosting channels
+        FIREBASE_CLI_PREVIEWS: hostingchannels
