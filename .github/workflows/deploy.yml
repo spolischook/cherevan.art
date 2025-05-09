@@ -1,9 +1,9 @@
-name: Deploy to S3
+name: Deploy to Firebase Hosting
 
 on:
   push:
     branches:
-      - main  # Trigger the workflow on push or pull request to the main branch
+      - main
 
 jobs:
   deploy:
@@ -11,15 +11,15 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
+      with:
+        submodules: 'recursive'
 
     - name: Set up Node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3
       with:
         node-version: 18
-
-    - name: Install submodules
-      run: git submodule update --init --recursive
+        cache: 'npm'
 
     - name: Install dependencies
       run: npm ci
@@ -30,30 +30,18 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.118.2'  # Use the version of Hugo you are using
+        hugo-version: '0.118.2'
 
     - name: Process images
       run: node ./images_process.js
 
-    - name: Build Hugo
+    - name: Build Hugo site
       run: hugo --minify --baseURL="https://www.cherevan.art"
 
-#    - name: Deploy to S3
-#      uses: jakejarvis/s3-sync-action@master
-#      with:
-#        args: --acl public-read --follow-symlinks --delete
-#      env:
-#        AWS_S3_BUCKET: cherevan-art-website
-#        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-#        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-#        AWS_REGION: 'eu-central-1'
-#        SOURCE_DIR: 'public'
-#
-#    - name: Invalidate CloudFront distribution
-#      run: |
-#        aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
-#      env:
-#        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-#        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-#        AWS_REGION: 'eu-central-1'
-#        CLOUDFRONT_DISTRIBUTION_ID: EREI1NSZ6N902
+    - name: Install Firebase CLI
+      run: npm install -g firebase-tools
+
+    - name: Deploy to Firebase Hosting
+      env:
+        FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+      run: firebase deploy --only hosting --token "${{ secrets.FIREBASE_TOKEN }}"
