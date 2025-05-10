@@ -44,9 +44,10 @@ jobs:
       run: hugo --minify --baseURL="https://www.cherevan.art"
 
     - name: Authenticate to Google Cloud
+      id: auth # Give an id to this step to reference its outputs if needed
       uses: 'google-github-actions/auth@v2'
       with:
-        workload_identity_provider: 'projects/769799666531/locations/global/workloadIdentityPools/github-actions-pool'
+        workload_identity_provider: 'projects/769799666531/locations/global/workloadIdentityPools/github-actions-pool/providers/github-provider'
         service_account: 'github-actions-firebase-deploy@cherevan-art-workspace.iam.gserviceaccount.com'
 
     - name: Install Firebase CLI
