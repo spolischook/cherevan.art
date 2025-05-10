@@ -2,7 +2,7 @@
 id: 625
 shopifyId: 9631304941898
 shopifyOptionId: 49792017432906
-order: 4
+order: 6
 title: ' Fusion of worlds'
 slug: -fusion-of-worlds
 url: art-works/-fusion-of-worlds

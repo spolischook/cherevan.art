@@ -2,7 +2,7 @@
 id: 607
 shopifyId: 9374221238602
 shopifyOptionId: 48828490154314
-order: 15
+order: 17
 title: Guardian of secrets
 slug: guardian-of-secrets
 url: art-works/guardian-of-secrets

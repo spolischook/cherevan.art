@@ -2,7 +2,7 @@
 id: 602
 shopifyId: 9372524183882
 shopifyOptionId: 48820652441930
-order: 18
+order: 20
 title: 'Angel and Poet '
 slug: angel-and-poet-
 url: art-works/angel-and-poet-

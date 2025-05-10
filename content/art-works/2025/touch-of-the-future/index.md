@@ -2,7 +2,7 @@
 id: 629
 shopifyId: 0
 shopifyOptionId: 0
-order: 1
+order: 3
 title: Touch of the future
 slug: touch-of-the-future
 url: art-works/touch-of-the-future

@@ -2,7 +2,7 @@
 id: 574
 shopifyId: 8723274334538
 shopifyOptionId: 47772455371082
-order: 75
+order: 77
 title: Blossom
 slug: blossom
 url: art-works/blossom
@@ -19,6 +19,6 @@ materials:
 - ink
 - ' gold leaf'
 - ' paper'
-price: 450
+price: 700
 mainImage: blossom.jpg
 ---

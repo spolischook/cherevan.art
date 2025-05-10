@@ -2,7 +2,7 @@
 id: 369
 shopifyId: 9999667953994
 shopifyOptionId: 50053877858634
-order: 222
+order: 225
 title: Tightrope
 slug: tightrope
 url: art-works/tightrope

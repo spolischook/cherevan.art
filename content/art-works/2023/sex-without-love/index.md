@@ -2,7 +2,7 @@
 id: 533
 shopifyId: 0
 shopifyOptionId: 0
-order: 52
+order: 54
 title: Sex without love
 slug: sex-without-love
 url: art-works/sex-without-love

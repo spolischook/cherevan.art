@@ -2,7 +2,7 @@
 id: 598
 shopifyId: 8769892778314
 shopifyOptionId: 47923801096522
-order: 22
+order: 24
 title: Enveloped in darkness
 slug: enveloped-in-darkness
 url: art-works/enveloped-in-darkness
@@ -20,6 +20,6 @@ materials:
 - oil
 - ' acrylic'
 - ' canvas'
-price: 8000
+price: 5000
 mainImage: Enveloped_in_darkness.JPG
 ---

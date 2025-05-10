@@ -2,7 +2,7 @@
 id: 478
 shopifyId: 9999663694154
 shopifyOptionId: 50053864063306
-order: 114
+order: 117
 title: We become ideal puzzles
 slug: we-become-ideal-puzzles
 url: art-works/we-become-ideal-puzzles

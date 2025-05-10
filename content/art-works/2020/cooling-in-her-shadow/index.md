@@ -2,7 +2,7 @@
 id: 408
 shopifyId: 8723261129034
 shopifyOptionId: 47772422275402
-order: 181
+order: 184
 title: Cooling in her shadow
 slug: cooling-in-her-shadow
 url: art-works/cooling-in-her-shadow
@@ -18,6 +18,6 @@ date: 2020-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 4500
+price: 3500
 mainImage: cooling_in_her_shadow.jpg
 ---

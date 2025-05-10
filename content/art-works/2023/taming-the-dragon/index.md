@@ -2,7 +2,7 @@
 id: 542
 shopifyId: 8723262341450
 shopifyOptionId: 47772424601930
-order: 42
+order: 44
 title: Taming the dragon
 slug: taming-the-dragon
 url: art-works/taming-the-dragon

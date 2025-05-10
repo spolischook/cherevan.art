@@ -2,7 +2,7 @@
 id: 33
 shopifyId: 0
 shopifyOptionId: 0
-order: 586
+order: 588
 title: Tomato Wu
 slug: tomato-wu
 url: art-works/tomato-wu

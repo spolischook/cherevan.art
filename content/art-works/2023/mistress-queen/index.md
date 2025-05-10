@@ -2,7 +2,7 @@
 id: 525
 shopifyId: 8723272630602
 shopifyOptionId: 47772451307850
-order: 68
+order: 70
 title: Mistress Queen
 slug: mistress-queen
 url: art-works/mistress-queen
@@ -19,6 +19,6 @@ materials:
 - ink
 - ' gold leaf'
 - ' paper'
-price: 500
+price: 750
 mainImage: mistress_queen.jpg
 ---

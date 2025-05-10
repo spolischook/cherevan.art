@@ -2,7 +2,7 @@
 id: 537
 shopifyId: 8723273482570
 shopifyOptionId: 47772453142858
-order: 47
+order: 49
 title: Raised angel
 slug: raised-angel
 url: art-works/raised-angel

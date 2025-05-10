@@ -2,7 +2,7 @@
 id: 523
 shopifyId: 9999663530314
 shopifyOptionId: 50053863670090
-order: 73
+order: 75
 title: Two birds in the Garden of Eden
 slug: two-birds-in-the-garden-of-eden
 url: art-works/two-birds-in-the-garden-of-eden
@@ -11,7 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
-location: Palma de Mallorca
+location: Spain
 height: 70
 width: 150
 date: 2021-01-01T00:00:00Z

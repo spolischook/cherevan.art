@@ -1,8 +1,8 @@
 ---
 id: 365
-shopifyId: 9999664152906
-shopifyOptionId: 50053864587594
-order: 226
+shopifyId: 0
+shopifyOptionId: 0
+order: 229
 title: Trouble in paradise 3
 slug: trouble-in-paradise-3
 url: art-works/trouble-in-paradise-3
@@ -11,7 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
-location: Ukraine/PrintPro
+location: Ukraine/mama
 height: 50
 width: 50
 date: 2019-01-01T00:00:00Z

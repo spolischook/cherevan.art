@@ -2,7 +2,7 @@
 id: 454
 shopifyId: 0
 shopifyOptionId: 0
-order: 138
+order: 141
 title: My Centaur
 slug: my-centaur
 url: art-works/my-centaur

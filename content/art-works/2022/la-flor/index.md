@@ -2,7 +2,7 @@
 id: 630
 shopifyId: 0
 shopifyOptionId: 0
-order: 2
+order: 4
 title: La flor
 slug: la-flor
 url: art-works/la-flor

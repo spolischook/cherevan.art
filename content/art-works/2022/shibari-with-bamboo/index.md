@@ -2,7 +2,7 @@
 id: 570
 shopifyId: 9631300092234
 shopifyOptionId: 49791992103242
-order: 56
+order: 58
 title: Shibari with bamboo
 slug: shibari-with-bamboo
 url: art-works/shibari-with-bamboo
@@ -19,6 +19,6 @@ date: 2022-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 1200
+price: 1500
 mainImage: Shibari_with_bamboo.JPG
 ---

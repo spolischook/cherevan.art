@@ -2,14 +2,14 @@
 id: 247
 shopifyId: 8723265061194
 shopifyOptionId: 47772432335178
-order: 340
+order: 343
 title: The girl who collects lotus
 slug: the-girl-who-collects-lotus
 url: art-works/the-girl-who-collects-lotus
 aliases: []
 categories:
 - painting
-inStock: false
+inStock: true
 isVisible: true
 location: Ukraine/Home
 height: 60

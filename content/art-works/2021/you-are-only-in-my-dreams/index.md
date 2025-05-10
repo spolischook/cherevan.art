@@ -2,7 +2,7 @@
 id: 476
 shopifyId: 9999667331402
 shopifyOptionId: 50053874680138
-order: 116
+order: 119
 title: You are only in my dreams
 slug: you-are-only-in-my-dreams
 url: art-works/you-are-only-in-my-dreams
@@ -11,7 +11,7 @@ categories:
 - painting
 inStock: true
 isVisible: true
-location: Ukraine/ Print Pro
+location: Ukraine/ mama home
 height: 150
 width: 70
 date: 2021-01-01T00:00:00Z

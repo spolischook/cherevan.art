@@ -2,7 +2,7 @@
 id: 628
 shopifyId: 0
 shopifyOptionId: 0
-order: 49
+order: 51
 title: Delta
 slug: delta
 url: art-works/delta

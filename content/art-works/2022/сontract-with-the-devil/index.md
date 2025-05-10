@@ -2,7 +2,7 @@
 id: 530
 shopifyId: 9999665529162
 shopifyOptionId: 50053869470026
-order: 62
+order: 64
 title: Сontract with the devil
 slug: сontract-with-the-devil
 url: art-works/сontract-with-the-devil
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - shibari
 - graphics
-inStock: true
+inStock: false
 isVisible: true
 location: Spain
 height: 56

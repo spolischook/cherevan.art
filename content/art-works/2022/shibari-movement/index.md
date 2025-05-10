@@ -2,7 +2,7 @@
 id: 569
 shopifyId: 8723275284810
 shopifyOptionId: 47772456812874
-order: 55
+order: 57
 title: Shibari movement
 slug: shibari-movement
 url: art-works/shibari-movement
@@ -19,6 +19,6 @@ date: 2022-01-01T00:00:00Z
 materials:
 - acrylic
 - canvas
-price: 1200
+price: 1500
 mainImage: shibari_movement.JPG
 ---

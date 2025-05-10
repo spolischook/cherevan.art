@@ -2,7 +2,7 @@
 id: 335
 shopifyId: 9631300026698
 shopifyOptionId: 49791991873866
-order: 254
+order: 257
 title: Monroe
 slug: monroe
 url: art-works/monroe

@@ -2,7 +2,7 @@
 id: 632
 shopifyId: 0
 shopifyOptionId: 0
-order: 476
+order: 477
 title: 'Series: Totem. Keeper of Wisdom'
 slug: series-totem-keeper-of-wisdom
 url: art-works/series-totem-keeper-of-wisdom

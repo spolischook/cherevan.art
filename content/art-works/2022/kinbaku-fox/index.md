@@ -2,7 +2,7 @@
 id: 534
 shopifyId: 8723263488330
 shopifyOptionId: 47772428173642
-order: 51
+order: 53
 title: Kinbaku fox
 slug: kinbaku-fox
 url: art-works/kinbaku-fox
@@ -10,7 +10,7 @@ aliases: []
 categories:
 - shibari
 - graphics
-inStock: true
+inStock: false
 isVisible: true
 location: Spain
 height: 30

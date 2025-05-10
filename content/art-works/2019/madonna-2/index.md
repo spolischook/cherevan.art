@@ -2,7 +2,7 @@
 id: 331
 shopifyId: 9631304745290
 shopifyOptionId: 49792017203530
-order: 257
+order: 260
 title: Madonna 2
 slug: madonna-2
 url: art-works/madonna-2

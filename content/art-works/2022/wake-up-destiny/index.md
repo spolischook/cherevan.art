@@ -2,7 +2,7 @@
 id: 572
 shopifyId: 0
 shopifyOptionId: 0
-order: 71
+order: 73
 title: Wake up destiny
 slug: wake-up-destiny
 url: art-works/wake-up-destiny

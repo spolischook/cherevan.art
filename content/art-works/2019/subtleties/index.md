@@ -2,7 +2,7 @@
 id: 363
 shopifyId: 0
 shopifyOptionId: 0
-order: 228
+order: 231
 title: Subtleties
 slug: subtleties
 url: art-works/subtleties
