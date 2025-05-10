@@ -1,7 +1,7 @@
 ---
 id: 630
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 10177413448010
+shopifyOptionId: 50836658159946
 order: 4
 title: La flor
 slug: la-flor

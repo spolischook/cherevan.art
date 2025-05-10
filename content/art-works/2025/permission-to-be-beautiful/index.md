@@ -1,7 +1,7 @@
 ---
 id: 634
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 10177409122634
+shopifyOptionId: 50836653048138
 order: 2
 title: Permission to Be Beautiful
 slug: permission-to-be-beautiful

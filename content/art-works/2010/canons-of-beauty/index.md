@@ -1,7 +1,7 @@
 ---
 id: 635
-shopifyId: 0
-shopifyOptionId: 0
+shopifyId: 10177411514698
+shopifyOptionId: 50836656030026
 order: 512
 title: Canons of beauty
 slug: canons-of-beauty

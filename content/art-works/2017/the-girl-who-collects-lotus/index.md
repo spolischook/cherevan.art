@@ -1,7 +1,7 @@
 ---
 id: 247
-shopifyId: 8723265061194
-shopifyOptionId: 47772432335178
+shopifyId: 10177411842378
+shopifyOptionId: 50836656357706
 order: 343
 title: The girl who collects lotus
 slug: the-girl-who-collects-lotus
