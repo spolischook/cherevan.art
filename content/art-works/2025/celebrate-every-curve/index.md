@@ -1,7 +1,7 @@
 ---
 id: 633
 shopifyId: 10177412464970
-shopifyOptionId: 50836656980298
+shopifyOptionId: 50836657111370
 order: 1
 title: Celebrate Every Curve
 slug: celebrate-every-curve
