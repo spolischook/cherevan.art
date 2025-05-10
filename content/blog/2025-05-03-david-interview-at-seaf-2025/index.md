@@ -3,7 +3,7 @@ title: "Capturing Connection: An Interview with David Steinberg at SEAF 2025"
 date: 2025-05-03
 description: "A conversation with David Steinberg about his journey into erotic photography, his process of capturing intimacy between couples, and the stories behind his iconic images."
 tags: [interview, seaf-2025, seaf]
-drafts: false
+draft: false
 image: "images/82646AFE-F596-4A45-9A99-A4094E9F6C0A_1_102_a.jpeg"
 ---
 
