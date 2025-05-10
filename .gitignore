@@ -34,6 +34,7 @@ _gen
 
 # Local Netlify folder
 .netlify
+.firebase/*.cache
 
 google_secret.json
 google_token.json
